@@ -145,6 +145,12 @@ input[type=button] {
   margin: 0 auto;
 }
 
+.logo__text {
+  font: 24px/1 "Disket Mono", Arial, sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+
 .content-wrapper:not(:first-child) {
   margin-top: 55px;
 }
@@ -198,9 +204,6 @@ input[type=button] {
   -ms-flex-align: center;
   align-items: center;
   position: relative;
-}
-
-.header-block:last-child {
   margin-left: auto;
 }
 
@@ -248,12 +251,6 @@ input[type=button] {
   font-size: 15px;
 }
 
-.page-title {
-  font: 24px/1 "Disket Mono", Arial, sans-serif;
-  text-transform: uppercase;
-  color: #fff;
-}
-
 .section-title {
   margin-bottom: 30px;
   font-size: 36px;
@@ -269,10 +266,18 @@ input[type=button] {
   fill: #0472AF;
 }
 
-.content-title__text {
+.content-title__link {
   font-size: 30px;
   font-weight: 600;
   vertical-align: middle;
+  color: #434343;
+  -webkit-transition: color 0.1s;
+  -o-transition: color 0.1s;
+  transition: color 0.1s;
+}
+
+.content-title__link:hover {
+  color: #0472AF;
 }
 
 .btn {
@@ -470,8 +475,8 @@ input[type=button] {
 
 .mobile-menu-search__btn {
   position: absolute;
+  top: 7px;
   right: 5px;
-  bottom: 5px;
   padding: 0;
   background: transparent;
 }
@@ -482,6 +487,12 @@ input[type=button] {
   fill: none;
   stroke-width: 2;
   stroke: #0472AF;
+}
+
+.mobile-menu-search__matches {
+  margin-top: 5px;
+  border-radius: 15px;
+  overflow: hidden;
 }
 
 .nav {
@@ -625,17 +636,23 @@ input[type=button] {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   padding-right: 10px;
+  position: relative;
 }
 
 .preview-slider__item.hide {
   display: none !important;
+}
+
+.preview-slider__link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .preview-slider__content {
@@ -645,7 +662,7 @@ input[type=button] {
 }
 
 .preview-slider__img {
-  max-width: 100px;
+  width: 95px;
   margin-right: 20px;
   -webkit-box-flex: 0;
   -ms-flex: none;
@@ -661,8 +678,9 @@ input[type=button] {
   font-size: 18px;
 }
 
-.preview-slider__link {
+.preview-slider__text {
   font-size: 18px;
+  color: #0472AF;
 }
 
 .preview-slider__btn {
@@ -789,8 +807,8 @@ input[type=button] {
 
 .search-form__btn {
   position: absolute;
+  top: 30px;
   right: 20px;
-  bottom: 20px;
   background: transparent;
 }
 
@@ -810,6 +828,12 @@ input[type=button] {
   fill: none;
   stroke: #0472AF;
   stroke-width: 2;
+}
+
+.search-form-matches__link {
+  background: #fff;
+  display: block;
+  padding: 5px;
 }
 
 @keyframes openMenu {
@@ -898,6 +922,7 @@ input[type=button] {
 
 .car-model__year {
   font-size: 18px;
+  line-height: 1.78;
   display: none;
   -webkit-transition: color 0.3s;
   -o-transition: color 0.3s;
@@ -1006,7 +1031,6 @@ input[type=button] {
 }
 
 .shop-cars__link {
-  margin-top: auto;
   font-size: 22px;
   font-weight: 600;
 }
@@ -1046,18 +1070,19 @@ input[type=button] {
   top: 50%;
   margin-top: -12px;
   padding: 0;
-  width: 24px;
-  height: 24px;
+  width: 36px;
+  height: 36px;
   background: rgba(255, 255, 255, 0.45);
   border-radius: 50%;
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: -webkit-transform 0.3s;
-  -o-transition: transform 0.3s;
-  transition: transform 0.3s;
-  transition: transform 0.3s, -webkit-transform 0.3s;
+  -webkit-transition: background 0.3s, -webkit-transform 0.3s;
+  transition: background 0.3s, -webkit-transform 0.3s;
+  -o-transition: transform 0.3s, background 0.3s;
+  transition: transform 0.3s, background 0.3s;
+  transition: transform 0.3s, background 0.3s, -webkit-transform 0.3s;
 }
 
 .modified-cars-slider__btn:hover {
+  background: rgba(255, 255, 255, 0.7);
   -webkit-transform: scale(1.3);
   -ms-transform: scale(1.3);
   transform: scale(1.3);
@@ -1078,8 +1103,8 @@ input[type=button] {
 }
 
 .modified-cars-slider__arrow {
-  width: 16px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
   fill: none;
   stroke: #0472AF;
   stroke-width: 2;
@@ -1115,9 +1140,21 @@ input[type=button] {
   font-size: 20px;
 }
 
+.articles__title-link {
+  color: #434343;
+  -webkit-transition: color 0.1s;
+  -o-transition: color 0.1s;
+  transition: color 0.1s;
+}
+
+.articles__title-link:hover {
+  color: #0472AF;
+}
+
 .articles__date {
   display: block;
   margin-bottom: 5px;
+  color: #0472AF;
 }
 
 .articles__text {
@@ -1144,6 +1181,10 @@ input[type=button] {
     max-width: 100%;
     margin-right: 0;
     margin-bottom: 10px;
+  }
+
+  .shop-cars__link {
+    margin-top: auto;
   }
 
 @supports (-webkit-appearance:none) {
@@ -1220,7 +1261,7 @@ input[type=button] {
     padding: 10px 0;
   }
 
-  .header-block:last-child {
+  .header-block {
     display: none;
   }
 
@@ -1308,6 +1349,10 @@ input[type=button] {
 }
 
 @media (max-width: 576px) {
+  .logo__text {
+    font-size: 22px;
+  }
+
   .footer__item {
     width: 100%;
   }
@@ -1334,10 +1379,6 @@ input[type=button] {
   .footer__links {
     display: none;
     margin-bottom: 20px;
-  }
-
-  .page-title {
-    font-size: 22px;
   }
 
   .car-model__container {
