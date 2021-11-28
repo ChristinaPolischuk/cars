@@ -1,0 +1,21 @@
+section.modified-cars(style="background-color: #F4F2F2")
+    .container
+        h3.content-title
+            +icon("modify", "content-title__icon")
+            span.content-title__text Modified Cars
+        .modified-cars-slider
+            .js-modified-cars-slider
+                a.modified-cars-slider__item(href="#")
+                    img.modified-cars-slider__img(src="img/content/modified-cars/modified-cars-1.png" alt="Car 1")
+                a.modified-cars-slider__item(href="#")
+                    img.modified-cars-slider__img(src="img/content/modified-cars/modified-cars-2.png" alt="Car 2")
+                a.modified-cars-slider__item(href="#")
+                    img.modified-cars-slider__img(src="img/content/modified-cars/modified-cars-3.png" alt="Car 3")
+                a.modified-cars-slider__item(href="#")
+                    img.modified-cars-slider__img(src="img/content/modified-cars/modified-cars-4.png" alt="Car 4")
+            .modified-cars-slider__nav
+                button.modified-cars-slider__btn.modified-cars-slider__btn--prev
+                    +icon("arrow-left", "modified-cars-slider__arrow")
+                button.modified-cars-slider__btn.modified-cars-slider__btn--next
+                    +icon("arrow-right", "modified-cars-slider__arrow")
+        p.modified-cars__text See all <a href="#" class="link-bordered">75 custom car builds</a> or <a href="#" class="link-bordered">add your</a> car for free

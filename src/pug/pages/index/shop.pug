@@ -1,0 +1,39 @@
+mixin shopSliderItem(src, alt, title, href, link)
+    .preview-slider__item
+        .preview-slider__img
+            img(src=src alt=alt)
+        .preview-slider__content
+            span.preview-slider__title=title
+            a.preview-slider__link(href=href)=link
+
+section.shop#shop
+    .container
+        h2.section-title Shop
+        h3.content-title
+            +icon("specs", "content-title__icon")
+            span.content-title__text Specs
+        .preview-slider
+            .js-preview-slider
+                +shopSliderItem("img/content/specs/specs-slide-1.png", "Slide-1", "Towing Capacity", "#", "4500-7800 lbs")
+                +shopSliderItem("img/content/specs/specs-slide-2.png", "Slide-2", "Towing Capacity", "#", "4500-7800 lbs")
+                +shopSliderItem("img/content/specs/specs-slide-3.png", "Slide-3", "0-60 Times", "#", "4.5-7.8 sec")
+                +shopSliderItem("img/content/specs/specs-slide-4.png", "Slide-4", "Engine type", "#", "gasoline")
+                +shopSliderItem("img/content/specs/specs-slide-1.png", "Slide-1", "Towing Capacity", "#", "4500-7800 lbs")
+                +shopSliderItem("img/content/specs/specs-slide-2.png", "Slide-2", "Towing Capacity", "#", "4500-7800 lbs")
+                +shopSliderItem("img/content/specs/specs-slide-3.png", "Slide-3", "0-60 Times", "#", "4.5-7.8 sec")
+                +shopSliderItem("img/content/specs/specs-slide-4.png", "Slide-4", "Engine type", "#", "gasoline")
+            .preview-slider__navigation
+                button.preview-slider__btn.preview-slider__btn--prev
+                    +icon("arrow-left", "preview-slider__arrow")
+                button.preview-slider__btn.preview-slider__btn--next
+                    +icon("arrow-right", "preview-slider__arrow")
+            span.show-more.js-show-slides Show more
+        .shop-cars
+            .shop-cars__item(style="background-color: #F4F2F2")
+                .shop-cars__img
+                    img(src="img/content/specs/new-cars.png" alt="New Cars")
+                a.shop-cars__link(href="#") New cars for Sale
+            .shop-cars__item(style="background-color: #F4F2F2")
+                .shop-cars__img
+                    img(src="img/content/specs/used-cars.png" alt="Used Cars")
+                a.shop-cars__link(href="#") Used cars for Sale

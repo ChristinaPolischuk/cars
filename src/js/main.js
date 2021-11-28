@@ -1,0 +1,24 @@
+import movingBar from "./module/movingBar";
+import pageNavigation from "./module/pageNavigation";
+import smoothScroll from "./module/smoothScroll";
+import searchForm from "./module/searchForm";
+import previewSlider from "./module/previewSlider";
+import hidePreviewSlides from "./module/showPreviewSlides";
+import modifiedCarsSlider from "./module/modifiedCarsSlider";
+import showBlocks from "./module/showBlocks";
+import mobileMenu from "./module/mobileMenu";
+import showYears from "./module/showYears";
+import footerLinks from "./module/footerLinks";
+
+svg4everybody({});
+pageNavigation();
+smoothScroll();
+movingBar();
+searchForm();
+previewSlider();
+hidePreviewSlides();
+modifiedCarsSlider();
+showBlocks();
+mobileMenu();
+showYears();
+footerLinks();

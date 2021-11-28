@@ -1,0 +1,13 @@
+section.car-model
+    .car-model__container.container
+        .car-model__content
+            h1.car-model__title
+                span Cadillac
+                span Escalade
+            .car-model__years
+                - for (var year = 1977; year <= 2021; year++)
+                    a.car-model__year(href="#")= year
+                button.car-model__btn.js-show-years
+                    +icon("arrow-right", "car-model__icon")
+        .car-model__img
+            img(src="img/content/car-model/cadillac.png" alt="Cadillac")

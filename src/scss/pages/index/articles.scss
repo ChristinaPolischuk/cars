@@ -1,0 +1,39 @@
+.articles {
+  padding: 45px 0 35px;
+  @include media-sm {
+    padding: 20px 0;
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &__item {
+    width: 32%;
+    margin-bottom: 55px;
+    display: none;
+    @include media-md {
+      width: 49%;
+    }
+    @include media-sm {
+      width: 100%;
+    }
+    &.always-show {
+      display: block;
+    }
+  }
+  &__title {
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+  &__date {
+    display: block;
+    margin-bottom: 5px;
+  }
+  &__text {
+    font-size: 14px;
+    &:last-child {
+      margin-top: 50px;
+    }
+  }
+}

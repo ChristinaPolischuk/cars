@@ -1,0 +1,23 @@
+.header {
+  position: relative;
+  padding-top: 15px;
+  color: $white_color;
+  @include media-md {
+    padding: 10px 0;
+  }
+  &-container {
+    display: flex;
+    align-items: center;
+  }
+  &-block {
+    display: flex;
+    align-items: center;
+    position: relative;
+    &:last-child {
+      margin-left: auto;
+      @include media-md {
+        display: none;
+      }
+    }
+  }
+}

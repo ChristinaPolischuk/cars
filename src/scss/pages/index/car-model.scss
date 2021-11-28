@@ -1,0 +1,98 @@
+.car-model {
+  padding: 80px 0 115px;
+  @include media-md {
+    padding: 50px 0 100px;
+  }
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include media-sm {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  &__content {
+    margin-right: 30px;
+    position: relative;
+    @include media-sm {
+      order: 2;
+    }
+  }
+  &__title {
+    display: inline-flex;
+    flex-direction: column;
+    font-size:  48px;
+    @include media-md {
+      font-size: 34px;
+    }
+    @include media-sm {
+      display: block;
+    }
+    &::after {
+      content: "";
+      display: block;
+      height: 3px;
+      background-color: $accent_color;
+    }
+    span:not(:last-child) {
+      margin-right: 5px;
+    }
+  }
+  &__img {
+    max-width: 730px;
+    @include media-md {
+      max-width: 60%;
+    }
+    @include media-sm {
+      order: 1;
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+    img {
+      max-width: 100%;
+    }
+  }
+  &__years {
+    @include position(absolute, $top: 100%, $left: 0);
+    z-index: 10;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 15px 10px;
+    width: 65vw;
+    @include media-xl {
+      width: 90vw;
+    }
+    &.active {
+      background-color: $grey_color_light;
+      box-shadow: 0px 0px 4px rgba(#000, 0.25);
+    }
+  }
+  &__year {
+    font-size: 18px;
+    display: none;
+    transition: color .3s;
+    &:not(:last-of-type) {
+      &::after {
+        content: "...";
+        display: inline;
+        margin: 0 2px;
+      }
+    }
+    &.always-show {
+      display: inline;
+    }
+  }
+  &__btn {
+    padding: 0;
+    margin-left: 10px;
+    background: transparent;
+  }
+  &__icon {
+    @include size(18px);
+    fill: none;
+    stroke: $black_color;
+    stroke-width: 2;
+  }
+}

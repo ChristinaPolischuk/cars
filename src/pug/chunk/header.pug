@@ -1,0 +1,81 @@
+mixin navDropdownItem(src, href="#", title="Innovations")
+    a.nav-dropdown__item(href=href)
+        img.nav-dropdown__img(src=src alt=title)
+        span.nav-dropdown__title=title
+
+mixin navMobileItem(src, href="#", title="Innovations")
+    a.mobile-menu-dropdown__item(href=href)
+        img.mobile-menu-dropdown__img(src=src alt=title)
+        span.mobile-menu-dropdown__title=title
+
+header.header(style="background-color: #0472AF")
+    .header-container.container
+        .mobile-menu
+            #hamburger.hamburger
+                .hamburger__top
+                svg(version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='64px' height='64px' viewBox='0 0 64 64' enable-background='new 0 0 64 64' xml:space='preserve')
+                    path#circle(fill='none' stroke-width='4' stroke-miterlimit='10' d='M16,32h32c0,0,11.723-0.306,10.75-11 c-0.25-2.75-1.644-4.971-2.869-7.151C50.728,7.08,42.767,2.569,33.733,2.054C33.159,2.033,32.599,2,32,2C15.432,2,2,15.432,2,32 c0,16.566,13.432,30,30,30c16.566,0,30-13.434,30-30C62,15.5,48.5,2,32,2S1.875,15.5,1.875,32')
+                .hamburger__bottom
+            nav#mobile-nav.mobile-menu__nav
+                .mobile-menu__item
+                    a.mobile-menu__link(href="#") Vehicle
+                .mobile-menu__item
+                    a.mobile-menu__link(href="#") Shop
+                .mobile-menu__item
+                    a.mobile-menu__link#show-dropdown(href="#")
+                        | Our story
+                        +icon("arrow-down", "nav__link-icon")
+                    .mobile-menu-dropdown
+                        .mobile-menu-dropdown__content
+                            +navMobileItem("img/content/our_story/item-1.png")
+                            +navMobileItem("img/content/our_story/item-2.png")
+                            +navMobileItem("img/content/our_story/item-3.png")
+                            +navMobileItem("img/content/our_story/item-4.png")
+                            +navMobileItem("img/content/our_story/item-5.png")
+                            +navMobileItem("img/content/our_story/item-6.png")
+                            +navMobileItem("img/content/our_story/item-7.png")
+                            +navMobileItem("img/content/our_story/item-8.png")
+                .mobile-menu__item
+                    a.mobile-menu__link(href="#") About
+                .mobile-menu__item
+                    a.mobile-menu__link(href="#") Contacts
+                form.mobile-menu-search
+                    input.mobile-menu-search__field(type="text")
+                    button.mobile-menu-search__btn
+                        +icon("search", "mobile-menu-search__icon")
+        .header-block
+            a.logo(href="index.html")
+                img(src="img/general/cadillac-logo.png" alt="Cadillac")
+            span.page-title NameOfPage
+        .header-block
+            nav.nav
+                .nav__item
+                    a.nav__link(href="#") Vehicle
+                .nav__item
+                    a.nav__link(href="#") Shop
+                .nav__item
+                    a.nav__link(href="#")
+                        | Our story
+                        +icon("arrow-down", "nav__link-icon")
+                    .nav-dropdown
+                        +navDropdownItem("img/content/our_story/item-1.png")
+                        +navDropdownItem("img/content/our_story/item-2.png")
+                        +navDropdownItem("img/content/our_story/item-3.png")
+                        +navDropdownItem("img/content/our_story/item-4.png")
+                        +navDropdownItem("img/content/our_story/item-5.png")
+                        +navDropdownItem("img/content/our_story/item-6.png")
+                        +navDropdownItem("img/content/our_story/item-7.png")
+                        +navDropdownItem("img/content/our_story/item-8.png")
+
+                .nav__item
+                    a.nav__link(href="#") About
+                .nav__item
+                    a.nav__link(href="#") Contacts
+                span.nav__link-hover
+            .search
+                +icon("search", "search-icon js-show-search-form")
+                form.search-form
+                    +icon("close", "search-form__close js-hide-search-form")
+                    input.search-form__field
+                    button.search-form__btn
+                        +icon("search", "search-form__loupe")

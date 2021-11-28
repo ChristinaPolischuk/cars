@@ -1,0 +1,132 @@
+mixin apartsSliderItem(src, alt, title)
+    .preview-slider__item
+        .preview-slider__img
+            img(src=src alt=alt)
+        .preview-slider__content
+            span.preview-slider__title=title
+
+section.shop#parts
+    .container
+        h2.section-title Aparts &amp; Accessories
+        .content-wrapper
+            h3.content-title
+                +icon("wheel", "content-title__icon")
+                span.content-title__text Wheel’s &amp; Tires
+            .preview-slider
+                .js-preview-slider
+                    +apartsSliderItem("img/content/aparts/aparts-slide-1.png", "Slide-1", "Tires for sale")
+                    +apartsSliderItem("img/content/aparts/aparts-slide-2.png", "Slide-2", "Rim size")
+                    +apartsSliderItem("img/content/aparts/aparts-slide-3.png", "Slide-3", "Bold pattern Size")
+                    +apartsSliderItem("img/content/aparts/aparts-slide-1.png", "Slide-1", "Tires for sale")
+                    +apartsSliderItem("img/content/aparts/aparts-slide-2.png", "Slide-2", "Rim size")
+                    +apartsSliderItem("img/content/aparts/aparts-slide-3.png", "Slide-3", "Bold pattern Size")
+                .preview-slider__navigation
+                    button.preview-slider__btn.preview-slider__btn--prev
+                        +icon("arrow-left", "preview-slider__arrow")
+                    button.preview-slider__btn.preview-slider__btn--next
+                        +icon("arrow-right", "preview-slider__arrow")
+                span.show-more.js-show-slides Show more
+        .content-wrapper
+            h3.content-title
+                +icon("lighting", "content-title__icon")
+                span.content-title__text Lighting
+            p.content-subtitle By Bulb type
+            .preview-slider
+                .js-preview-slider
+                    +apartsSliderItem("img/content/lighting/lighting-bulb/lighting-bulb-slide-1.png", "Slide-1", "LED Bulbs")
+                    +apartsSliderItem("img/content/lighting/lighting-bulb/lighting-bulb-slide-2.png", "Slide-2", "HID Bulbs")
+                    +apartsSliderItem("img/content/lighting/lighting-bulb/lighting-bulb-slide-3.png", "Slide-3", "Halogen Bulbs")
+                    +apartsSliderItem("img/content/lighting/lighting-bulb/lighting-bulb-slide-1.png", "Slide-1", "LED Bulbs")
+                    +apartsSliderItem("img/content/lighting/lighting-bulb/lighting-bulb-slide-2.png", "Slide-2", "HID Bulbs")
+                    +apartsSliderItem("img/content/lighting/lighting-bulb/lighting-bulb-slide-3.png", "Slide-3", "Halogen Bulbs")
+                .preview-slider__navigation
+                    button.preview-slider__btn.preview-slider__btn--prev
+                        +icon("arrow-left", "preview-slider__arrow")
+                    button.preview-slider__btn.preview-slider__btn--next
+                        +icon("arrow-right", "preview-slider__arrow")
+                span.show-more.js-show-slides Show more
+            p.content-subtitle By position
+                .preview-slider
+                    .js-preview-slider
+                        +apartsSliderItem("img/content/lighting/lighting-position/lighting-position-slide-1.png", "Slide-1", "Headlights")
+                        +apartsSliderItem("img/content/lighting/lighting-position/lighting-position-slide-2.png", "Slide-2", "Tail lights")
+                        +apartsSliderItem("img/content/lighting/lighting-position/lighting-position-slide-3.png", "Slide-3", "Interior lights")
+                        +apartsSliderItem("img/content/lighting/lighting-position/lighting-position-slide-1.png", "Slide-1", "Headlights")
+                        +apartsSliderItem("img/content/lighting/lighting-position/lighting-position-slide-2.png", "Slide-2", "Tail lights")
+                        +apartsSliderItem("img/content/lighting/lighting-position/lighting-position-slide-3.png", "Slide-3", "Interior lights")
+                    .preview-slider__navigation
+                        button.preview-slider__btn.preview-slider__btn--prev
+                            +icon("arrow-left", "preview-slider__arrow")
+                        button.preview-slider__btn.preview-slider__btn--next
+                            +icon("arrow-right", "preview-slider__arrow")
+                    span.show-more.js-show-slides Show more
+        .content-wrapper
+            h3.content-title
+                +icon("wheel", "content-title__icon")
+                span.content-title__text Wheel’s &amp; Tires
+            .preview-slider
+                .js-preview-slider
+                    +apartsSliderItem("img/content/aparts/aparts-slide-1.png", "Slide-1", "Tires for sale")
+                    +apartsSliderItem("img/content/aparts/aparts-slide-2.png", "Slide-2", "Rim size")
+                    +apartsSliderItem("img/content/aparts/aparts-slide-3.png", "Slide-3", "Bold pattern Size")
+                    +apartsSliderItem("img/content/aparts/aparts-slide-1.png", "Slide-1", "Tires for sale")
+                    +apartsSliderItem("img/content/aparts/aparts-slide-2.png", "Slide-2", "Rim size")
+                    +apartsSliderItem("img/content/aparts/aparts-slide-3.png", "Slide-3", "Bold pattern Size")
+                .preview-slider__navigation
+                    button.preview-slider__btn.preview-slider__btn--prev
+                        +icon("arrow-left", "preview-slider__arrow")
+                    button.preview-slider__btn.preview-slider__btn--next
+                        +icon("arrow-right", "preview-slider__arrow")
+                span.show-more.js-show-slides Show more
+        .content-wrapper
+            h3.content-title
+                +icon("lighting", "content-title__icon")
+                span.content-title__text Lighting
+            p.content-subtitle By Bulb type
+            .preview-slider
+                .js-preview-slider
+                    +apartsSliderItem("img/content/lighting/lighting-bulb/lighting-bulb-slide-1.png", "Slide-1", "LED Bulbs")
+                    +apartsSliderItem("img/content/lighting/lighting-bulb/lighting-bulb-slide-2.png", "Slide-2", "HID Bulbs")
+                    +apartsSliderItem("img/content/lighting/lighting-bulb/lighting-bulb-slide-3.png", "Slide-3", "Halogen Bulbs")
+                    +apartsSliderItem("img/content/lighting/lighting-bulb/lighting-bulb-slide-1.png", "Slide-1", "LED Bulbs")
+                    +apartsSliderItem("img/content/lighting/lighting-bulb/lighting-bulb-slide-2.png", "Slide-2", "HID Bulbs")
+                    +apartsSliderItem("img/content/lighting/lighting-bulb/lighting-bulb-slide-3.png", "Slide-3", "Halogen Bulbs")
+                .preview-slider__navigation
+                    button.preview-slider__btn.preview-slider__btn--prev
+                        +icon("arrow-left", "preview-slider__arrow")
+                    button.preview-slider__btn.preview-slider__btn--next
+                        +icon("arrow-right", "preview-slider__arrow")
+                span.show-more.js-show-slides Show more
+            p.content-subtitle By position
+                .preview-slider
+                    .js-preview-slider
+                        +apartsSliderItem("img/content/lighting/lighting-position/lighting-position-slide-1.png", "Slide-1", "Headlights")
+                        +apartsSliderItem("img/content/lighting/lighting-position/lighting-position-slide-2.png", "Slide-2", "Tail lights")
+                        +apartsSliderItem("img/content/lighting/lighting-position/lighting-position-slide-3.png", "Slide-3", "Interior lights")
+                        +apartsSliderItem("img/content/lighting/lighting-position/lighting-position-slide-1.png", "Slide-1", "Headlights")
+                        +apartsSliderItem("img/content/lighting/lighting-position/lighting-position-slide-2.png", "Slide-2", "Tail lights")
+                        +apartsSliderItem("img/content/lighting/lighting-position/lighting-position-slide-3.png", "Slide-3", "Interior lights")
+                    .preview-slider__navigation
+                        button.preview-slider__btn.preview-slider__btn--prev
+                            +icon("arrow-left", "preview-slider__arrow")
+                        button.preview-slider__btn.preview-slider__btn--next
+                            +icon("arrow-right", "preview-slider__arrow")
+                    span.show-more.js-show-slides Show more
+        .content-wrapper
+            h3.content-title
+                +icon("wheel", "content-title__icon")
+                span.content-title__text Wheel’s &amp; Tires
+            .preview-slider
+                .js-preview-slider
+                    +apartsSliderItem("img/content/aparts/aparts-slide-1.png", "Slide-1", "Tires for sale")
+                    +apartsSliderItem("img/content/aparts/aparts-slide-2.png", "Slide-2", "Rim size")
+                    +apartsSliderItem("img/content/aparts/aparts-slide-3.png", "Slide-3", "Bold pattern Size")
+                    +apartsSliderItem("img/content/aparts/aparts-slide-1.png", "Slide-1", "Tires for sale")
+                    +apartsSliderItem("img/content/aparts/aparts-slide-2.png", "Slide-2", "Rim size")
+                    +apartsSliderItem("img/content/aparts/aparts-slide-3.png", "Slide-3", "Bold pattern Size")
+                .preview-slider__navigation
+                    button.preview-slider__btn.preview-slider__btn--prev
+                        +icon("arrow-left", "preview-slider__arrow")
+                    button.preview-slider__btn.preview-slider__btn--next
+                        +icon("arrow-right", "preview-slider__arrow")
+                span.show-more.js-show-slides Show more

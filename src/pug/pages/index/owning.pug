@@ -1,0 +1,35 @@
+mixin owningSliderItem(src, alt, title)
+    .preview-slider__item
+        .preview-slider__img
+            img(src=src alt=alt)
+        .preview-slider__content
+            span.preview-slider__title=title
+
+mixin previewSliderItem(src, alt, title, href, link)
+    .preview-slider__item
+        .preview-slider__img
+            img(src=src alt=alt)
+        .preview-slider__content
+            span.preview-slider__title=title
+            a.preview-slider__link(href=href)=link
+
+section.shop#owning
+    .container
+        h2.section-title Owning
+        h3.content-title
+            +icon("manuals", "content-title__icon")
+            span.content-title__text Owner’s manuals
+        .preview-slider
+            .js-preview-slider
+                +owningSliderItem("img/content/owning/owner-slide-1.png", "Slide-1", "Fuses")
+                +owningSliderItem("img/content/owning/owner-slide-2.png", "Slide-2", "Bulbs List")
+                +owningSliderItem("img/content/owning/owner-slide-3.png", "Slide-3", "Tire Size")
+                +owningSliderItem("img/content/owning/owner-slide-1.png", "Slide-1", "Fuses")
+                +owningSliderItem("img/content/owning/owner-slide-2.png", "Slide-2", "Bulbs List")
+                +owningSliderItem("img/content/owning/owner-slide-3.png", "Slide-3", "Tire Size")
+            .preview-slider__navigation
+                button.preview-slider__btn.preview-slider__btn--prev
+                    +icon("arrow-left", "preview-slider__arrow")
+                button.preview-slider__btn.preview-slider__btn--next
+                    +icon("arrow-right", "preview-slider__arrow")
+            span.show-more.js-show-slides Show more
