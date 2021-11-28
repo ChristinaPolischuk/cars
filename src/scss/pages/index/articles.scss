@@ -25,10 +25,18 @@
   &__title {
     margin-bottom: 5px;
     font-size: 20px;
+    &-link {
+      color: $black_color;
+      transition: color .1s;
+      &:hover {
+        color: $accent_color;
+      }
+    }
   }
   &__date {
     display: block;
     margin-bottom: 5px;
+    color: $accent_color;
   }
   &__text {
     font-size: 14px;

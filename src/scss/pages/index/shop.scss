@@ -46,9 +46,11 @@
       }
     }
     &__link {
-      margin-top: auto;
       font-size: 22px;
       font-weight: 600;
+      @include media-xxl {
+        margin-top: auto;
+      }
     }
   }
 }

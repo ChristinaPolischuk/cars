@@ -15,7 +15,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cars_v2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../publicet.org" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -41,7 +41,7 @@
       <workItem from="1637999062060" duration="25958000" />
       <workItem from="1638086276061" duration="16730000" />
       <workItem from="1638106319538" duration="787000" />
-      <workItem from="1638107383182" duration="1516000" />
+      <workItem from="1638107383182" duration="12378000" />
     </task>
     <servers />
   </component>
@@ -49,21 +49,21 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="438" y="191" key="EditFileWatcherDialog" timestamp="1637912977702">
+    <state x="438" y="191" key="EditFileWatcherDialog" timestamp="1638131322727">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="438" y="191" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1637912977702" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1638106360197">
+    <state x="438" y="191" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1638131322727" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1638130020883">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1638106360197" />
-    <state x="451" y="154" width="578" height="534" key="find.popup" timestamp="1638026106476">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1638130020883" />
+    <state x="451" y="154" width="578" height="534" key="find.popup" timestamp="1638138515071">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="451" y="154" width="578" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1638026106476" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1638107494800">
+    <state x="451" y="154" width="578" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1638138515071" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1638138552602">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1638107494800" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1638138552602" />
   </component>
 </project>

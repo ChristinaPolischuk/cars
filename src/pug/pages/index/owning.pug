@@ -1,24 +1,26 @@
 mixin owningSliderItem(src, alt, title)
     .preview-slider__item
+        a.preview-slider__link(href="#")
         .preview-slider__img
             img(src=src alt=alt)
         .preview-slider__content
             span.preview-slider__title=title
 
-mixin previewSliderItem(src, alt, title, href, link)
+mixin previewSliderItem(src, alt, title, href, text)
     .preview-slider__item
+        a.preview-slider__link(href=href)
         .preview-slider__img
             img(src=src alt=alt)
         .preview-slider__content
             span.preview-slider__title=title
-            a.preview-slider__link(href=href)=link
+            span.preview-slider__text=text
 
 section.shop#owning
     .container
         h2.section-title Owning
         h3.content-title
             +icon("manuals", "content-title__icon")
-            span.content-title__text Owner’s manuals
+            a.content-title__link(href="#") Owner’s manuals
         .preview-slider
             .js-preview-slider
                 +owningSliderItem("img/content/owning/owner-slide-1.png", "Slide-1", "Fuses")

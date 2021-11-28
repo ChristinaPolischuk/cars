@@ -40,13 +40,13 @@ header.header(style="background-color: #0472AF")
                 .mobile-menu__item
                     a.mobile-menu__link(href="#") Contacts
                 form.mobile-menu-search
-                    input.mobile-menu-search__field(type="text")
+                    input.search-form__field.js-search-matches(type="text", autocomplete="off", data-url="/match-titles/" data-list="js-search-mobile-list")
+                    .mobile-menu-search__matches.js-search-mobile-list
                     button.mobile-menu-search__btn
                         +icon("search", "mobile-menu-search__icon")
-        .header-block
-            a.logo(href="index.html")
-                img(src="img/general/cadillac-logo.png" alt="Cadillac")
-            span.page-title NameOfPage
+        a.logo(href="index.html")
+            img.logo__img(src="img/general/cadillac-logo.png" alt="Cadillac")
+            span.logo__text NameOfPage
         .header-block
             nav.nav
                 .nav__item
@@ -76,6 +76,7 @@ header.header(style="background-color: #0472AF")
                 +icon("search", "search-icon js-show-search-form")
                 form.search-form
                     +icon("close", "search-form__close js-hide-search-form")
-                    input.search-form__field
+                    input.search-form__field.js-search-matches(type="text", autocomplete="off", data-url="/match-titles/" data-list="js-search-mathes-list")
+                    .search-form-matches.js-search-mathes-list
                     button.search-form__btn
                         +icon("search", "search-form__loupe")

@@ -37,7 +37,7 @@
       border-radius: 15px;
     }
     &__btn {
-      @include position(absolute, $bottom: 20px, $right: 20px);
+      @include position(absolute, $top: 30px, $right: 20px);
       background: transparent;
     }
     &__close {
@@ -51,6 +51,13 @@
       fill: none;
       stroke: $accent_color;
       stroke-width: 2;
+    }
+    &-matches {
+      &__link {
+        display: block;
+        padding: 5px;
+        background-color: $white_color;
+      }
     }
   }
 }

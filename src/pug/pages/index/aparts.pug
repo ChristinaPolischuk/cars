@@ -1,5 +1,6 @@
 mixin apartsSliderItem(src, alt, title)
     .preview-slider__item
+        a.preview-slider__link(href="#")
         .preview-slider__img
             img(src=src alt=alt)
         .preview-slider__content
@@ -11,7 +12,7 @@ section.shop#parts
         .content-wrapper
             h3.content-title
                 +icon("wheel", "content-title__icon")
-                span.content-title__text Wheel’s &amp; Tires
+                a.content-title__link(href="#") Wheel’s &amp; Tires
             .preview-slider
                 .js-preview-slider
                     +apartsSliderItem("img/content/aparts/aparts-slide-1.png", "Slide-1", "Tires for sale")
@@ -29,7 +30,7 @@ section.shop#parts
         .content-wrapper
             h3.content-title
                 +icon("lighting", "content-title__icon")
-                span.content-title__text Lighting
+                a.content-title__link(href="#") Lighting
             p.content-subtitle By Bulb type
             .preview-slider
                 .js-preview-slider
@@ -63,7 +64,7 @@ section.shop#parts
         .content-wrapper
             h3.content-title
                 +icon("wheel", "content-title__icon")
-                span.content-title__text Wheel’s &amp; Tires
+                a.content-title__link(href="#") Wheel’s &amp; Tires
             .preview-slider
                 .js-preview-slider
                     +apartsSliderItem("img/content/aparts/aparts-slide-1.png", "Slide-1", "Tires for sale")
@@ -81,7 +82,7 @@ section.shop#parts
         .content-wrapper
             h3.content-title
                 +icon("lighting", "content-title__icon")
-                span.content-title__text Lighting
+                a.content-title__link(href="#") Lighting
             p.content-subtitle By Bulb type
             .preview-slider
                 .js-preview-slider
@@ -115,7 +116,7 @@ section.shop#parts
         .content-wrapper
             h3.content-title
                 +icon("wheel", "content-title__icon")
-                span.content-title__text Wheel’s &amp; Tires
+                a.content-title__link(href="#") Wheel’s &amp; Tires
             .preview-slider
                 .js-preview-slider
                     +apartsSliderItem("img/content/aparts/aparts-slide-1.png", "Slide-1", "Tires for sale")

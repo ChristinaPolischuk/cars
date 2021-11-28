@@ -71,6 +71,7 @@
   }
   &__year {
     font-size: 18px;
+    line-height: 1.78;
     display: none;
     transition: color .3s;
     &:not(:last-of-type) {

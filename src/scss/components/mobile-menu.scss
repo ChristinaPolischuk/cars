@@ -113,7 +113,7 @@
     border: none;
   }
   &__btn {
-    @include position(absolute, $right: 5px, $bottom: 5px);
+    @include position(absolute, $right: 5px, $top: 7px);
     padding: 0;
     background: transparent;
   }
@@ -122,5 +122,10 @@
     fill: none;
     stroke-width: 2;
     stroke: $accent_color;
+  }
+  &__matches {
+    margin-top: 5px;
+    border-radius: 15px;
+    overflow: hidden;
   }
 }

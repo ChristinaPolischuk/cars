@@ -1,17 +1,18 @@
-mixin shopSliderItem(src, alt, title, href, link)
+mixin shopSliderItem(src, alt, title, href, text)
     .preview-slider__item
+        a.preview-slider__link(href=href)
         .preview-slider__img
             img(src=src alt=alt)
         .preview-slider__content
             span.preview-slider__title=title
-            a.preview-slider__link(href=href)=link
+            span.preview-slider__text=text
 
 section.shop#shop
     .container
         h2.section-title Shop
         h3.content-title
             +icon("specs", "content-title__icon")
-            span.content-title__text Specs
+            a.content-title__link(href="#") Specs
         .preview-slider
             .js-preview-slider
                 +shopSliderItem("img/content/specs/specs-slide-1.png", "Slide-1", "Towing Capacity", "#", "4500-7800 lbs")

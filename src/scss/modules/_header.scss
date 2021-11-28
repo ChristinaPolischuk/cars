@@ -13,11 +13,9 @@
     display: flex;
     align-items: center;
     position: relative;
-    &:last-child {
-      margin-left: auto;
-      @include media-md {
-        display: none;
-      }
+    margin-left: auto;
+    @include media-md {
+      display: none;
     }
   }
 }
