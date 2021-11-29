@@ -1185,10 +1185,11 @@ input[type=button] {
   transition: color 0.3s;
 }
 
-.car-model__year:not(:last-of-type)::after {
+.car-model__year:not(:last-child)::after {
   content: "...";
   display: inline;
   margin: 0 2px;
+  color: #434343;
 }
 
 .car-model__year.always-show {
