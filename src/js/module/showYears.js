@@ -1,6 +1,6 @@
 module.exports = () => {
     if ($(".car-model__year").length > 3) {
-        let carModelYear = $($(".car-model__year").get().reverse());
+        let carModelYear = $($(".js-car-model-year").get().reverse());
         carModelYear.each((index, el) => {
             if (index < 3) {
                 $(el).addClass("always-show");

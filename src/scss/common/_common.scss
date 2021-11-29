@@ -78,6 +78,19 @@ button, input[type="button"] {
   margin: 0 auto;
 }
 
+.section {
+  padding: 80px 0 115px;
+  @include media-md {
+    padding: 50px 0 100px;
+  }
+  &-top {
+    padding-top: 80px;
+    @include media-md {
+      padding-top: 50px;
+    }
+  }
+}
+
 .logo__text {
   font-family: $page_font_family;
   font-size: 24px;

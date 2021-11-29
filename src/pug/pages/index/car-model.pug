@@ -1,4 +1,4 @@
-section.car-model
+section.car-model.section
     .car-model__container.container
         .car-model__content
             h1.car-model__title
@@ -6,7 +6,7 @@ section.car-model
                 span Escalade
             .car-model__years
                 - for (var year = 1977; year <= 2021; year++)
-                    a.car-model__year(href="#")= year
+                    a.car-model__year.js-car-model-year(href="#")= year
                 button.car-model__btn.js-show-years
                     +icon("arrow-right", "car-model__icon")
         .car-model__img
