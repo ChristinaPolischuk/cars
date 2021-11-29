@@ -145,6 +145,14 @@ input[type=button] {
   margin: 0 auto;
 }
 
+.section {
+  padding: 80px 0 115px;
+}
+
+.section-top {
+  padding-top: 80px;
+}
+
 .logo__text {
   font: 24px/1 "Disket Mono", Arial, sans-serif;
   text-transform: uppercase;
@@ -848,10 +856,6 @@ input[type=button] {
   }
 }
 
-.car-model {
-  padding: 80px 0 115px;
-}
-
 .car-model__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -862,6 +866,18 @@ input[type=button] {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.car-model__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .car-model__content {
@@ -920,6 +936,21 @@ input[type=button] {
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
 }
 
+.car-model__select-year {
+  margin-top: 70px;
+  padding: 30px 45px 50px;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.car-model__select-years {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
 .car-model__year {
   font-size: 18px;
   line-height: 1.78;
@@ -939,6 +970,11 @@ input[type=button] {
   display: inline;
 }
 
+.car-model__year.active {
+  font-weight: 700;
+  color: #434343;
+}
+
 .car-model__btn {
   padding: 0;
   margin-left: 10px;
@@ -951,6 +987,14 @@ input[type=button] {
   fill: none;
   stroke: #434343;
   stroke-width: 2;
+}
+
+.car-model__info {
+  margin: 45px 0 35px;
+}
+
+.car-model__text:not(:last-child) {
+  margin-bottom: 15px;
 }
 
 .page-navigation {
@@ -1257,6 +1301,14 @@ input[type=button] {
 }
 
 @media (max-width: 768px) {
+  .section {
+    padding: 50px 0 100px;
+  }
+
+  .section-top {
+    padding-top: 50px;
+  }
+
   .header {
     padding: 10px 0;
   }
@@ -1273,10 +1325,6 @@ input[type=button] {
 
   .mobile-menu {
     display: block;
-  }
-
-  .car-model {
-    padding: 50px 0 100px;
   }
 
   .car-model__title {
@@ -1391,6 +1439,16 @@ input[type=button] {
     align-items: flex-start;
   }
 
+  .car-model__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
   .car-model__content {
     -webkit-box-ordinal-group: 3;
     -ms-flex-order: 2;
@@ -1407,6 +1465,10 @@ input[type=button] {
     order: 1;
     max-width: 100%;
     margin-bottom: 20px;
+  }
+
+  .car-model__select-year {
+    padding: 20px;
   }
 
   .page-navigation {
