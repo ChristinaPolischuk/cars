@@ -112,8 +112,7 @@
     &.always-show {
       display: inline;
     }
-    &.active {
-      font-weight: 700;
+    &:hover {
       color: $black_color;
     }
   }
