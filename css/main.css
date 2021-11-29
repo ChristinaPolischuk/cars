@@ -1195,8 +1195,7 @@ input[type=button] {
   display: inline;
 }
 
-.car-model__year.active {
-  font-weight: 700;
+.car-model__year:hover {
   color: #434343;
 }
 
