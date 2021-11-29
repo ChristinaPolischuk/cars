@@ -12,6 +12,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 80px;
+    @include media-md {
+      padding-top: 50px;
+    }
     @include media-sm {
       flex-direction: column;
       align-items: flex-start;
@@ -28,13 +32,13 @@
     display: inline-flex;
     flex-direction: column;
     font-size:  48px;
-    @include media-md {
+    @include media-lg {
       font-size: 34px;
     }
     @include media-sm {
       display: block;
     }
-    &::after {
+    &.bordered::after {
       content: "";
       display: block;
       height: 3px;
@@ -44,19 +48,24 @@
       margin-right: 5px;
     }
   }
-  &__img {
-    max-width: 730px;
+  &__img, &__img-small {
+    img {
+      max-width: 100%;
+    }
     @include media-md {
-      max-width: 60%;
+      max-width: 50%;
     }
     @include media-sm {
       order: 1;
       max-width: 100%;
       margin-bottom: 20px;
     }
-    img {
-      max-width: 100%;
-    }
+  }
+  &__img {
+    max-width: 730px;
+  }
+  &__img-small {
+    max-width: 468px;
   }
   &__years {
     @include position(absolute, $top: 100%, $left: 0);

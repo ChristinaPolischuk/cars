@@ -9,6 +9,7 @@ import modifiedCarsSlider from "./module/modifiedCarsSlider";
 import showBlocks from "./module/showBlocks";
 import mobileMenu from "./module/mobileMenu";
 import showYears from "./module/showYears";
+import accordion from "./module/accordion";
 import footerLinks from "./module/footerLinks";
 
 svg4everybody({});
@@ -23,4 +24,5 @@ modifiedCarsSlider();
 showBlocks();
 mobileMenu();
 showYears();
+accordion();
 footerLinks();
