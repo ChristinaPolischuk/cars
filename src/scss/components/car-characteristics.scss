@@ -1,44 +1,75 @@
 .car-characteristics {
   padding: 40px 0;
+
   &__wrap {
     display: flex;
-    margin-bottom: 110px;
+    margin-bottom: 65px;
     @include media-mds {
       display: block;
       margin-bottom: 40px;
     }
   }
+
   &__list {
     flex: 1;
+
     &:not(:first-child) {
       @include media-mds {
         margin-top: 40px;
       }
     }
   }
+
   &__item {
     display: flex;
     align-items: center;
+
     &:not(:last-child) {
       margin-bottom: 40px;
     }
   }
+
   &__img {
-    width: 95px;
     margin-right: 20px;
     text-align: center;
+    flex: none;
+
+    &--small {
+      width: 50px;
+    }
+
+    &--middle {
+      width: 95px;
+    }
+
+    &--big {
+      width: 125px;
+    }
+
     img {
       max-width: 100%;
     }
   }
-  &__title {
-    font-size: 18px;
-    font-weight: 600;
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & > *:not(:last-child) {
+      margin-right: 15px;
+    }
   }
+
   &__title {
     display: block;
+    flex: none;
+    font-size: 18px;
+    font-weight: 600;
+
   }
-  &__text {
+
+  &__text-blue {
     color: $accent_color;
   }
 }
