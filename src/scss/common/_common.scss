@@ -84,6 +84,27 @@ button, input[type="button"] {
   @include media-md {
     padding: 50px 0 100px;
   }
+  &-top {
+    padding-top: 80px;
+    @include media-md {
+      padding-top: 50px;
+    }
+  }
+  &-middle {
+    padding: 35px 0;
+  }
+  &-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    &__title {
+      margin: 0 10px 0 0;
+      font-size: 36px;
+      font-weight: 400;
+    }
+  }
 }
 
 .logo__text {

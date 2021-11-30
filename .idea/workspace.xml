@@ -20,6 +20,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12551245-ff4c-4832-8ed5-ce85df42a7e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/img/content/18_wheels/18_wheels-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/18_wheels/18_wheels-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/18_wheels/18_wheels-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/18_wheels/18_wheels-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/18_wheels/18_wheels-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/18_wheels/18_wheels-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/18_wheels/18_wheels-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/18_wheels/18_wheels-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/19_wheels/19_wheels-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/19_wheels/19_wheels-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/19_wheels/19_wheels-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/19_wheels/19_wheels-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/car-characteristics/car-characteristics-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/car-characteristics/car-characteristics-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/car-characteristics/car-characteristics-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/car-characteristics/car-characteristics-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/popular/popular-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/popular/popular-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/popular/popular-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/popular/popular-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/popular/popular-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/popular/popular-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/popular/popular-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/popular/popular-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/trending/trending-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/trending/trending-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/trending/trending-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/trending/trending-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/trending/trending-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/trending/trending-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/trending/trending-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/content/trending/trending-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/module/cardsShow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/modified.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/modified/18-wheels.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/modified/19-wheels.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/modified/car-model.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/modified/popular.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/modified/trending.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/specs.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/specs/car-characteristics.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/specs/car-model.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/car-characteristics.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/cards.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.min.css" afterDir="false" />
@@ -60,7 +104,11 @@
       <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/manuals.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/manuals.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/owners-manuals-year.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/owners-manuals-year.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/manuals/car-model.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/manuals/car-model.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/module/showBlocks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/module/showBlocks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/common/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/common/_common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/pages/index/car-model.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/index/car-model.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,21 +128,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pug/pages/manuals" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pug/pages/modified" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\#Work\cars\src\pug\pages\owners-manuals-year" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\#Work\cars\src\pug\pages\modified" />
+      <recent name="D:\#Work\cars\src\img\content" />
+      <recent name="D:\#Work\cars\src\pug\pages\specs" />
+      <recent name="D:\#Work\cars\src\img\content\car-characteristics" />
       <recent name="D:\#Work\cars\src\pug\pages" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\#Work\cars\src\pug\pages\manuals" />
-      <recent name="D:\#Work\cars\src\scss\pages\manuals" />
-      <recent name="D:\#Work\cars\src\pug\pages\index" />
-      <recent name="D:\#Work\cars\src\js\module" />
-      <recent name="D:\#Work\cars\src\img\content" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\#Work\cars\src\pug\pages" />
+      <recent name="D:\#Work\cars\src\pug\pages\owners-manuals-year" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -111,7 +159,8 @@
       <workItem from="1638086276061" duration="16730000" />
       <workItem from="1638106319538" duration="787000" />
       <workItem from="1638107383182" duration="15239000" />
-      <workItem from="1638196074733" duration="20055000" />
+      <workItem from="1638196074733" duration="20985000" />
+      <workItem from="1638282674179" duration="14425000" />
     </task>
     <servers />
   </component>
@@ -128,6 +177,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="438" y="191" key="EditFileWatcherDialog" timestamp="1638131322727">
@@ -142,9 +192,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="451" y="154" width="578" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1638214526501" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1638221681621">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1638294977507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1638221681621" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1638294977507" />
   </component>
 </project>

@@ -48,10 +48,7 @@
       margin-right: 5px;
     }
   }
-  &__img, &__img-small {
-    img {
-      max-width: 100%;
-    }
+  &__img, &__img-small, &__img-medium {
     @include media-md {
       max-width: 50%;
     }
@@ -60,9 +57,15 @@
       max-width: 100%;
       margin-bottom: 20px;
     }
+    img {
+      max-width: 100%;
+    }
   }
   &__img {
     max-width: 730px;
+  }
+  &__img-medium {
+    max-width: 548px;
   }
   &__img-small {
     max-width: 468px;

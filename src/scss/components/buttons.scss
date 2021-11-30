@@ -15,4 +15,8 @@
     background-color: darken($accent_color, 5%);
     transform: scale(.9);
   }
+  &--small {
+    min-width: 190px;
+    margin: 0;
+  }
 }

@@ -22,7 +22,6 @@ module.exports = () => {
 
     $('.js-show-more').on('click', function () {
         $(this).toggleText('Show more', 'Hide');
-        console.log($(this));
         let articlesItems = $(this).closest('.articles').find(".articles__item");
         articlesItems.each(function (index, el) {
             if (!$(el).hasClass('always-show')) {
