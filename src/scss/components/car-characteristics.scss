@@ -3,19 +3,19 @@
 
   &__wrap {
     display: flex;
-    margin-bottom: 65px;
+    margin-bottom: 45px;
     @include media-mds {
       display: block;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
     }
   }
   &__container {
     max-width: 680px;
     display: flex;
-    margin-bottom: 65px;
+    margin-bottom: 45px;
     @include media-mds {
       display: block;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
     }
   }
 
@@ -34,7 +34,54 @@
     align-items: center;
 
     &:not(:last-child) {
-      margin-bottom: 40px;
+      margin-bottom: 25px;
+    }
+  }
+
+  &__table {
+    max-width: 680px;
+    margin: 35px 0;
+  }
+  &__row {
+    display: flex;
+    @include media-sm {
+      flex-wrap: wrap;
+    }
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  }
+  &__col {
+    display: flex;
+    align-items: center;
+    &:first-child {
+      width: 60%;
+      @include media-md {
+        width: 50%;
+      }
+      @include media-sm {
+        position: relative;
+        padding-left: 60px;
+        width: 100%;
+        .car-characteristics__img {
+          @include position(absolute, $top: 0, $left: 0);
+        }
+      }
+    }
+    &:not(:first-child) {
+      flex: 1;
+      @include media-sm {
+        flex: none;
+      }
+    }
+    & > *:not(:last-child) {
+      margin-right: 10px;
+    }
+    &:nth-child(2) {
+      @include media-sm {
+        padding-left: 60px;
+        margin-right: 10px;
+      }
     }
   }
 

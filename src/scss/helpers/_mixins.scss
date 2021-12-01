@@ -111,3 +111,9 @@
     @content;
   }
 }
+
+@mixin media-xs {
+  @media (max-width: 480px) {
+    @content;
+  }
+}
