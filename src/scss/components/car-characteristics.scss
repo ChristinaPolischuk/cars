@@ -9,6 +9,15 @@
       margin-bottom: 40px;
     }
   }
+  &__container {
+    max-width: 680px;
+    display: flex;
+    margin-bottom: 65px;
+    @include media-mds {
+      display: block;
+      margin-bottom: 40px;
+    }
+  }
 
   &__list {
     flex: 1;
@@ -31,7 +40,9 @@
 
   &__img {
     margin-right: 20px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex: none;
 
     &--small {
@@ -40,6 +51,7 @@
 
     &--middle {
       width: 95px;
+      min-height: 60px;
     }
 
     &--big {
@@ -67,6 +79,13 @@
     font-size: 18px;
     font-weight: 600;
 
+  }
+  &__title-blue {
+    display: block;
+    flex: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: $accent_color;
   }
 
   &__text-blue {
