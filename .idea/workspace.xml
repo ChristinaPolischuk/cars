@@ -21,27 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="12551245-ff4c-4832-8ed5-ce85df42a7e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bolt-pattern.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/bolt-pattern.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/project-modified.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/project-modified.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/specs.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/specs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/wheels-and-tires.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/wheels-and-tires.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/year-bolt-pattern.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/year-bolt-pattern.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/module/smoothScroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/module/smoothScroll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/bolt-pattern/car-characteristics.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/bolt-pattern/car-characteristics.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/index/page-navigation.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index/page-navigation.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/project-modified/car-characteristics.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/project-modified/car-characteristics.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/specs/car-characteristics.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/specs/car-characteristics.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/wheels-and-tires/car-characteristics.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/wheels-and-tires/car-characteristics.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/year-bolt-pattern/car-characteristics.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/year-bolt-pattern/car-characteristics.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/year-bolt-pattern/change-bolt-pattern.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/year-bolt-pattern/change-bolt-pattern.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/year-bolt-pattern/see-more.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/year-bolt-pattern/see-more.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/year-bolt-pattern/wheel-adapters.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/year-bolt-pattern/wheel-adapters.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/common/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/common/_common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/car-characteristics.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/car-characteristics.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
