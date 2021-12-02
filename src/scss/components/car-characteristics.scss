@@ -30,12 +30,16 @@
   }
 
   &__item {
+    position: relative;
     display: flex;
     align-items: center;
 
     &:not(:last-child) {
       margin-bottom: 25px;
     }
+  }
+  &__linkblock {
+    @include position(absolute, $top: 0, $right: 0, $bottom: 0, $left: 0)
   }
 
   &__table {
@@ -135,7 +139,7 @@
     color: $accent_color;
   }
 
-  &__text-blue {
+  &__link {
     color: $accent_color;
   }
 }
