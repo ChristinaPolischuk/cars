@@ -1,0 +1,17 @@
+.pagination
+    button.pagination__btn.pagination__btn-first.disabled
+        +icon("arrow-first-page", "pagination__btn-icon")
+    button.pagination__btn.pagination__btn-prev.disabled
+        +icon("arrow-prev-page", "pagination__btn-icon")
+    .pagination__links
+        a.pagination__link(href='') 1
+        a.pagination__link(href='') 2
+        a.pagination__link(href='') 3
+        a.pagination__link(href='') 4
+        a.pagination__link.active(href='') 5
+        a.pagination__link(href='') 6
+        a.pagination__link(href='') 7
+    button.pagination__btn.pagination__btn-next
+        +icon("arrow-next-page", "pagination__btn-icon")
+    button.pagination__btn.pagination__btn-last
+        +icon("arrow-last-page", "pagination__btn-icon")
