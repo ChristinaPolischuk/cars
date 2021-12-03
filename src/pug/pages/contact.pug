@@ -5,11 +5,12 @@ block styles
 block page
     .wrapper
         include ../chunk/header
-        include manuals/car-model
-        include manuals/select-year
+        include contact/car-model
+        include contact/contact-form
         include ../chunk/footer
 
 block script
+    script(src="https://www.google.com/recaptcha/api.js")
     script(src="js/libs/jquery.min.js")
     script(src="js/libs/libs.min.js")
     script(src="js/main.js")

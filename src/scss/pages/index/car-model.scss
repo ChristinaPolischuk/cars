@@ -7,6 +7,12 @@
       flex-direction: column;
       align-items: flex-start;
     }
+    &:not(.years) {
+      @include media-xs {
+        align-items: center;
+      }
+    }
+
   }
   &__row {
     display: flex;
@@ -26,6 +32,7 @@
     position: relative;
     @include media-sm {
       order: 2;
+      margin-right: 0;
     }
   }
   &__title {
@@ -38,6 +45,9 @@
     @include media-sm {
       display: block;
     }
+    @include media-xs {
+      text-align: center;
+    }
     &.bordered::after {
       content: "";
       display: block;
@@ -46,6 +56,13 @@
     }
     span:not(:last-child) {
       margin-right: 5px;
+    }
+  }
+  &__subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    @include media-xs {
+      text-align: center;
     }
   }
   &__img, &__img-small, &__img-medium {
@@ -88,11 +105,12 @@
   }
   &__select {
     &-year {
-      margin-top: 70px;
+      margin-top: 35px;
       padding: 30px 45px 50px;
       box-shadow: 0px 0px 4px rgba(#000, 0.25);
       @include media-sm {
         padding: 20px;
+        margin-top: 0;
       }
     }
     &-years {

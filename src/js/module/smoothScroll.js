@@ -2,7 +2,7 @@ module.exports = () => {
     $('a[href*="#"]')
         .not('[href="#"]')
         .not('[href="#0"]')
-        .click(function(event) {
+        .click(function (event) {
             if (
                 location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
                 &&
@@ -14,15 +14,15 @@ module.exports = () => {
                     event.preventDefault();
                     $('html, body').animate({
                         scrollTop: target.offset().top
-                    }, 1000, function() {
+                    }, 1000, function () {
                         let $target = $(target);
                         $target.focus();
                         if ($target.is(":focus")) {
                             return false;
                         } else {
-                            $target.attr('tabindex','-1');
+                            $target.attr('tabindex', '-1');
                             $target.focus();
-                        };
+                        }
                     });
                 }
             }
