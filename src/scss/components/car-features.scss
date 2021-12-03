@@ -1,0 +1,96 @@
+.car-features {
+  margin-top: 30px;
+  &-header {
+    display: flex;
+    justify-content: flex-end;
+    @include media-md {
+      display: none;
+    }
+    &__descr {
+      display: flex;
+      align-items: center;
+      padding: 0 10px;
+      &:not(:last-child) {
+        margin-right: 30px;
+        @include media-xl {
+          margin-right: 10px;
+        }
+      }
+    }
+    &__text {
+      font-size: 18px;
+      margin-right: 5px;
+    }
+    &__icon {
+      @include size(10px, 5px);
+      fill: $accent_color;
+    }
+  }
+  &-table {
+    &__row {
+      display: flex;
+      align-items: center;
+      @include media-md {
+        display: block;
+      }
+      &:not(:last-child) {
+        margin-bottom: 40px;
+      }
+    }
+    &__col {
+      &:not(:last-child) {
+        margin-right: 30px;
+        @include media-xl {
+          margin-right: 10px;
+        }
+        @include media-md {
+          margin-bottom: 10px;
+        }
+      }
+      &.img {
+        width: 245px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: none;
+        @include media-md {
+          width: auto;
+          justify-content: flex-start;
+        }
+        img {
+          max-width: 100%;
+        }
+      }
+      &.descr {
+        flex: 1;
+      }
+      &.number {
+        @include media-md {
+          display: inline-flex;
+          flex-direction: column;
+        }
+      }
+    }
+    &__title {
+      margin-bottom: 10px;
+      font-size: 20px;
+      color: #000000;
+    }
+    &__info {
+      display: none;
+      @include media-md {
+        display: block;
+      }
+    }
+    &__number {
+      color: #000000;
+      font-weight: 700;
+      font-size: 20px;
+      text-transform: uppercase;
+      span {
+        font-size: 36px;
+        margin-right: 5px;
+      }
+    }
+  }
+}
