@@ -7,13 +7,25 @@ mixin blogsItem(src, title="Vehicle user guide - if equipped", date="march 21, 2
             span.blogs__date=date
             p.blogs__text=text
 
-section
+section.section-middle
     .container
-        .page-separator
-        h3.page-title-small Same articles
+        .breadcrumbs
+            a.breadcrumbs-link(href="#") Owner’s manual
+            a.breadcrumbs-link(href="#") Custom box
+            a.breadcrumbs-link(href="#") Info
         .blogs
             +blogsItem("img/content/blog/blog-img-1.png")
             +blogsItem("img/content/blog/blog-img-2.png")
             +blogsItem("img/content/blog/blog-img-3.png")
             +blogsItem("img/content/blog/blog-img-4.png")
-        button.blogs__btn.btn Show more
+            +blogsItem("img/content/blog/blog-img-1.png")
+            +blogsItem("img/content/blog/blog-img-5.png")
+            +blogsItem("img/content/blog/blog-img-6.png")
+            +blogsItem("img/content/blog/blog-img-7.png")
+            +blogsItem("img/content/blog/blog-img-1.png")
+            +blogsItem("img/content/blog/blog-img-2.png")
+            +blogsItem("img/content/blog/blog-img-3.png")
+            +blogsItem("img/content/blog/blog-img-4.png")
+            +blogsItem("img/content/blog/blog-img-1.png")
+            +blogsItem("img/content/blog/blog-img-5.png")
+        include ../../chunk/pagination
