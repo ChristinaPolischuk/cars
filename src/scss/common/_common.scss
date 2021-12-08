@@ -151,6 +151,10 @@ button, input[type="button"] {
   display: block;
 }
 
+.beige-bg {
+  background-color: $grey_color_light;
+}
+
 .show-more {
   color: $accent_color;
   font-size: 22px;

@@ -1,5 +1,6 @@
 .articles {
   padding: 45px 0 35px;
+  background-color: $grey_color_light;
   @include media-sm {
     padding: 20px 0;
   }

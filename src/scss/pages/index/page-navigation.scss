@@ -1,5 +1,6 @@
 .page-navigation {
   padding: 40px 0;
+  background-color: $grey_color_light;
   @include media-sm {
     padding: 40px 0 20px;
   }

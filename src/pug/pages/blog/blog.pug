@@ -1,19 +1,32 @@
 mixin blogsItem(src, title="Vehicle user guide - if equipped", date="march 21, 2001", text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.")
     .blogs__item
         .blogs__img(style=`background-image: url(${src})`)
-        .blogs__content(style="background-color: #F4F2F2")
+        .blogs__content
             h6.blogs__title
                 a(href="#")=title
             span.blogs__date=date
             p.blogs__text=text
 
-section
+section.section-middle
     .container
-        .page-separator
-        h3.page-title-small Same articles
+        .breadcrumbs
+            a.breadcrumbs-link(href="#") Owner’s manual
+            a.breadcrumbs-link(href="#") Custom box
+            a.breadcrumbs-link(href="#") Info
         .blogs
             +blogsItem("img/content/blog/blog-img-1.png")
             +blogsItem("img/content/blog/blog-img-2.png")
             +blogsItem("img/content/blog/blog-img-3.png")
             +blogsItem("img/content/blog/blog-img-4.png")
-        button.blogs__btn.btn Show more
+            +blogsItem("img/content/blog/blog-img-1.png")
+            +blogsItem("img/content/blog/blog-img-5.png")
+            +blogsItem("img/content/blog/blog-img-6.png")
+            +blogsItem("img/content/blog/blog-img-7.png")
+            +blogsItem("img/content/blog/blog-img-1.png")
+            +blogsItem("img/content/blog/blog-img-2.png")
+            +blogsItem("img/content/blog/blog-img-3.png")
+            +blogsItem("img/content/blog/blog-img-4.png")
+            +blogsItem("img/content/blog/blog-img-1.png")
+            +blogsItem("img/content/blog/blog-img-5.png")
+        .page-separator
+        include ../../chunk/pagination

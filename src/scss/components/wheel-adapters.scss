@@ -27,8 +27,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    @include media-sm {}
-    width: auto;
+    @include media-sm {
+      width: auto;
+    }
     img {
       max-width: 100%;
     }
@@ -36,6 +37,7 @@
   &__descr {
     flex: auto;
     padding: 20px 40px;
+    background-color: $grey_color_light;
     @include media-sm {
       padding: 10px;
     }

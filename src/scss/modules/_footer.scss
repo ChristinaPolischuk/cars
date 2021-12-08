@@ -1,6 +1,7 @@
 .footer {
   padding: 25px 0;
   margin-top: auto;
+  background-color: $accent_color;
   &__container {
     display: flex;
     @include media-xl {

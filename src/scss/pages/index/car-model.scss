@@ -107,6 +107,7 @@
     &-year {
       margin-top: 35px;
       padding: 30px 45px 50px;
+      background-color: $grey_color_light;
       box-shadow: 0px 0px 4px rgba(#000, 0.25);
       @include media-sm {
         padding: 20px;

@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12551245-ff4c-4832-8ed5-ce85df42a7e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pug/pages/owners-manuals-start.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/pages/owners-manuals-start/car-model.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/pages/owners-manuals-start/select-year.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/pages/owners-manuals-start/site-content.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/components/site-content.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/pages/modified.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/blog-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog-post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog.html" afterDir="false" />
@@ -148,16 +144,46 @@
       <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/manuals.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/manuals.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/modified.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/modified.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/owners-manuals-start.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/owners-manuals-start.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/owners-manuals-year.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/owners-manuals-year.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/project-modified.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/project-modified.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/specs.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/specs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/wheels-and-tires.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/wheels-and-tires.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/year-bolt-pattern.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/year-bolt-pattern.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/year-towing-capacity.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/year-towing-capacity.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/chunk/sidebar.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/chunk/sidebar.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sprite/Бланк_Кварт_Счетчик_112021.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/chunk/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/chunk/footer.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/chunk/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/chunk/header.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/blog-post.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/blog-post.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/blog-post/blog.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/blog-post/blog.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/blog/blog.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/blog/blog.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/contact/contact-form.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/contact/contact-form.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/index/articles.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index/articles.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/index/modified-cars.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index/modified-cars.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/index/page-navigation.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index/page-navigation.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/index/shop.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index/shop.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/manuals/select-year.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/manuals/select-year.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/modified/trending.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/modified/trending.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/owners-manuals-start/select-year.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/owners-manuals-start/select-year.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/owners-manuals-year/page.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/owners-manuals-year/page.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/project-modified/car-model.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/project-modified/car-model.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/year-bolt-pattern/wheel-adapters.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/year-bolt-pattern/wheel-adapters.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/year-towing-capacity/car-features.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/year-towing-capacity/car-features.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/common/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/common/_common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/sidebar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/common/page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/common/page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/blog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/car-features.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/car-features.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/contact-form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/contact-form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/wheel-adapters.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/wheel-adapters.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/helpers/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/helpers/_vars.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/modules/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/modules/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/modules/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/modules/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/pages/index/articles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/index/articles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/pages/index/car-model.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/index/car-model.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/pages/index/modified-cars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/index/modified-cars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/pages/index/page-navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/index/page-navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/pages/index/shop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/index/shop.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +202,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pug/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -215,7 +241,14 @@
       <workItem from="1638462636674" duration="8694000" />
       <workItem from="1638538821463" duration="9174000" />
       <workItem from="1638631568207" duration="6691000" />
-      <workItem from="1638719531672" duration="7567000" />
+      <workItem from="1638719531672" duration="8320000" />
+      <workItem from="1638787702123" duration="2021000" />
+      <workItem from="1638790315918" duration="854000" />
+      <workItem from="1638791583273" duration="594000" />
+      <workItem from="1638885979608" duration="48000" />
+      <workItem from="1638892791964" duration="6457000" />
+      <workItem from="1638909406122" duration="1197000" />
+      <workItem from="1638995377179" duration="1725000" />
     </task>
     <servers />
   </component>
@@ -235,29 +268,33 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1638895913690">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1638895913690" />
     <state x="438" y="191" key="EditFileWatcherDialog" timestamp="1638131322727">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="438" y="191" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1638131322727" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1638558575369">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1638915420555">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1638558575369" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1638915420555" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1638308885558">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1638308885558" />
-    <state x="451" y="154" width="578" height="534" key="find.popup" timestamp="1638553751440">
+    <state x="451" y="154" width="578" height="534" key="find.popup" timestamp="1638995991517">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="451" y="154" width="578" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1638553751440" />
+    <state x="451" y="154" width="578" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1638995991517" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1638561351913">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1638561351913" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1638726204782">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1638996002724">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1638726204782" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1638996002724" />
   </component>
 </project>
