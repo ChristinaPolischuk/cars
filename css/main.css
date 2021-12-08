@@ -72,7 +72,7 @@ body {
   font: 16px/1.36 Nunito, Arial, sans-serif;
   margin: 0;
   min-height: 100%;
-  color: #434343;
+  color: #000000;
   overflow-x: hidden;
 }
 
@@ -101,7 +101,7 @@ p {
 
 a {
   text-decoration: none;
-  color: #0472AF;
+  color: #CC0001;
 }
 
 audio,
@@ -198,7 +198,7 @@ input[type=button] {
 }
 
 .link-bordered {
-  border-bottom: 1px solid #0472AF;
+  border-bottom: 1px solid #CC0001;
   -webkit-transition: border-bottom-color 0.3s;
   -o-transition: border-bottom-color 0.3s;
   transition: border-bottom-color 0.3s;
@@ -212,11 +212,15 @@ input[type=button] {
   display: block;
 }
 
+.beige-bg {
+  background: #EDEDED;
+}
+
 .show-more {
-  color: #0472AF;
+  color: #CC0001;
   font-size: 22px;
   font-weight: 600;
-  border-bottom: 1px solid #0472AF;
+  border-bottom: 1px solid #CC0001;
   display: none;
   margin: 0 auto;
 }
@@ -288,7 +292,7 @@ input[type=button] {
 }
 
 .page-list__item::before {
-  background: #0472AF;
+  background: #CC0001;
   content: "";
   position: absolute;
   top: 5px;
@@ -303,13 +307,10 @@ input[type=button] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
 }
 
 .page-nav__link {
-  background: #0472AF;
+  background: #CC0001;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -332,12 +333,20 @@ input[type=button] {
   transition: background-color 0.3s, transform 0.3s, -webkit-transform 0.3s;
 }
 
+.page-nav__link--prev {
+  margin-right: auto;
+}
+
+.page-nav__link--next {
+  margin-left: auto;
+}
+
 .page-nav__link:hover {
-  background: #0592e1;
+  background: #ff0001;
 }
 
 .page-nav__link:active {
-  background: #036296;
+  background: #b30001;
   -webkit-transform: scale(0.9);
   -ms-transform: scale(0.9);
   transform: scale(0.9);
@@ -349,14 +358,14 @@ input[type=button] {
 
 .breadcrumbs-link {
   font-size: 15px;
-  color: #434343;
+  color: #000000;
   -webkit-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s;
 }
 
 .breadcrumbs-link:hover {
-  color: #0472AF;
+  color: #CC0001;
 }
 
 .breadcrumbs-link:last-child {
@@ -411,7 +420,7 @@ input[type=button] {
 .pagination__btn-icon {
   width: 20px;
   height: 10px;
-  fill: #0472AF;
+  fill: #CC0001;
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
   -o-transition: transform 0.3s;
@@ -428,7 +437,7 @@ input[type=button] {
 }
 
 .pagination__link {
-  color: #434343;
+  color: #000000;
   font-size: 15px;
   line-height: 1;
   -webkit-transition: color 0.3s;
@@ -441,12 +450,12 @@ input[type=button] {
   display: inline-block;
   margin: 0 5px;
   font-weight: 400;
-  color: #434343;
+  color: #000000;
 }
 
 .pagination__link:hover,
 .pagination__link.active {
-  color: #0472AF;
+  color: #CC0001;
 }
 
 .pagination__link.active {
@@ -454,6 +463,7 @@ input[type=button] {
 }
 
 .header {
+  background: #CC0001;
   position: relative;
   padding-top: 15px;
   color: #fff;
@@ -480,6 +490,7 @@ input[type=button] {
 }
 
 .footer {
+  background: #CC0001;
   padding: 25px 0;
   margin-top: auto;
 }
@@ -535,25 +546,25 @@ input[type=button] {
   width: 36px;
   height: 36px;
   margin-right: 15px;
-  fill: #0472AF;
+  fill: #CC0001;
 }
 
 .content-title__link {
   font-size: 30px;
   font-weight: 600;
   vertical-align: middle;
-  color: #434343;
+  color: #000000;
   -webkit-transition: color 0.1s;
   -o-transition: color 0.1s;
   transition: color 0.1s;
 }
 
 .content-title__link:hover {
-  color: #0472AF;
+  color: #CC0001;
 }
 
 .btn {
-  background: #0472AF;
+  background: #CC0001;
   display: block;
   margin: 0 auto;
   min-width: 220px;
@@ -569,11 +580,11 @@ input[type=button] {
 }
 
 .btn:hover {
-  background: #0592e1;
+  background: #ff0001;
 }
 
 .btn:active {
-  background: #036296;
+  background: #b30001;
   -webkit-transform: scale(0.9);
   -ms-transform: scale(0.9);
   transform: scale(0.9);
@@ -608,7 +619,7 @@ input[type=button] {
 }
 
 .site-content__item.bordered::after {
-  background: #F4F2F2;
+  background: #EDEDED;
   content: "";
   display: block;
   height: 20px;
@@ -622,7 +633,7 @@ input[type=button] {
 }
 
 .site-content__header {
-  background: #F4F2F2;
+  background: #EDEDED;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -664,7 +675,7 @@ input[type=button] {
   flex: none;
   width: 10px;
   height: 5px;
-  fill: #0472AF;
+  fill: #CC0001;
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
   -o-transition: transform 0.3s;
@@ -682,14 +693,14 @@ input[type=button] {
 
 .site-content__link {
   display: block;
-  color: #434343;
+  color: #000000;
   -webkit-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s;
 }
 
 .site-content__link:hover {
-  color: #0472AF;
+  color: #CC0001;
 }
 
 .site-content__link.active {
@@ -708,7 +719,7 @@ input[type=button] {
 }
 
 .mobile-menu__nav {
-  background: #0472AF;
+  background: #CC0001;
   position: absolute;
   z-index: 100;
   top: calc(100% + 10px);
@@ -880,7 +891,7 @@ input[type=button] {
   height: 28px;
   fill: none;
   stroke-width: 2;
-  stroke: #0472AF;
+  stroke: #CC0001;
 }
 
 .mobile-menu-search__matches {
@@ -993,7 +1004,7 @@ input[type=button] {
 
 .nav-dropdown__title {
   display: block;
-  color: #434343;
+  color: #000000;
 }
 
 @-webkit-keyframes openMenu {
@@ -1074,7 +1085,7 @@ input[type=button] {
 
 .preview-slider__text {
   font-size: 18px;
-  color: #0472AF;
+  color: #CC0001;
 }
 
 .preview-slider__btn {
@@ -1111,7 +1122,7 @@ input[type=button] {
   width: 24px;
   height: 24px;
   fill: none;
-  stroke: #0472AF;
+  stroke: #CC0001;
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -1213,14 +1224,14 @@ input[type=button] {
   right: 5px;
   width: 14px;
   height: 14px;
-  fill: #434343;
+  fill: #000000;
 }
 
 .search-form__loupe {
   width: 28px;
   height: 28px;
   fill: none;
-  stroke: #0472AF;
+  stroke: #CC0001;
   stroke-width: 2;
 }
 
@@ -1392,11 +1403,11 @@ input[type=button] {
   flex: none;
   font-size: 18px;
   font-weight: 600;
-  color: #0472AF;
+  color: #CC0001;
 }
 
 .car-characteristics__link {
-  color: #0472AF;
+  color: #CC0001;
 }
 
 .cards {
@@ -1415,7 +1426,7 @@ input[type=button] {
   width: 100%;
   text-align: center;
   font-size: 18px;
-  color: #0472AF;
+  color: #CC0001;
 }
 
 .card {
@@ -1444,7 +1455,7 @@ input[type=button] {
 }
 
 .tooltip__question {
-  background: #0472AF;
+  background: #CC0001;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1481,7 +1492,7 @@ input[type=button] {
   padding: 10px;
   visibility: hidden;
   opacity: 0;
-  background: #0472AF;
+  background: #CC0001;
   border-radius: 5px;
   -webkit-transition: all 0.25s cubic-bezier(0, 0, 0.2, 1);
   -o-transition: all 0.25s cubic-bezier(0, 0, 0.2, 1);
@@ -1493,7 +1504,7 @@ input[type=button] {
 }
 
 .tooltip__info::before {
-  background: #0472AF;
+  background: #CC0001;
   content: "";
   position: absolute;
   z-index: 1;
@@ -1557,7 +1568,6 @@ input[type=button] {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: auto;
 }
 
 .wheel-adapters-info__img img {
@@ -1565,6 +1575,7 @@ input[type=button] {
 }
 
 .wheel-adapters-info__descr {
+  background: #EDEDED;
   -webkit-box-flex: 1;
   -ms-flex: auto;
   flex: auto;
@@ -1601,7 +1612,7 @@ input[type=button] {
   margin-right: 5px;
   width: 12px;
   height: 12px;
-  fill: #0472AF;
+  fill: #CC0001;
 }
 
 .wheel-adapters-list {
@@ -1614,7 +1625,7 @@ input[type=button] {
 }
 
 .wheel-adapters-list__link {
-  background: #0472AF;
+  background: #CC0001;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -1639,18 +1650,18 @@ input[type=button] {
 }
 
 .wheel-adapters-list__link:hover {
-  background: #0592e1;
+  background: #ff0001;
 }
 
 .wheel-adapters-list__link:active {
-  background: #036296;
+  background: #b30001;
   -webkit-transform: scale(0.9);
   -ms-transform: scale(0.9);
   transform: scale(0.9);
 }
 
 .car-features {
-  margin-top: 30px;
+  margin: 30px 0;
 }
 
 .car-features-header {
@@ -1684,7 +1695,7 @@ input[type=button] {
 .car-features-header__icon {
   width: 10px;
   height: 5px;
-  fill: #0472AF;
+  fill: #CC0001;
 }
 
 .car-features-table__row {
@@ -1762,6 +1773,7 @@ input[type=button] {
 }
 
 .contact-form {
+  background: #EDEDED;
   margin-top: 45px;
   padding: 25px 32px;
   border-radius: 5px;
@@ -1782,7 +1794,7 @@ input[type=button] {
 
 .contact-form__field:focus,
 .contact-form__message:focus {
-  border-color: #0472AF;
+  border-color: #CC0001;
 }
 
 .contact-form__field.error,
@@ -1842,6 +1854,7 @@ input[type=button] {
 }
 
 .blogs__content {
+  background: #EDEDED;
   padding: 20px 30px;
 }
 
@@ -1851,19 +1864,19 @@ input[type=button] {
 }
 
 .blogs__title a {
-  color: #434343;
+  color: #000000;
   -webkit-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s;
 }
 
 .blogs__title a:hover {
-  color: #0472AF;
+  color: #CC0001;
 }
 
 .blogs__date {
   font-size: 15px;
-  color: #0472AF;
+  color: #CC0001;
 }
 
 .blogs__text {
@@ -1916,7 +1929,7 @@ input[type=button] {
 }
 
 .car-model__title.bordered::after {
-  background: #0472AF;
+  background: #CC0001;
   content: "";
   display: block;
   height: 3px;
@@ -1965,12 +1978,13 @@ input[type=button] {
 }
 
 .car-model__years.active {
-  background: #F4F2F2;
+  background: #EDEDED;
   -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
 }
 
 .car-model__select-year {
+  background: #EDEDED;
   margin-top: 35px;
   padding: 30px 45px 50px;
   -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
@@ -1998,7 +2012,7 @@ input[type=button] {
   content: "...";
   display: inline;
   margin: 0 2px;
-  color: #434343;
+  color: #000000;
 }
 
 .car-model__year.always-show {
@@ -2006,7 +2020,7 @@ input[type=button] {
 }
 
 .car-model__year:hover {
-  color: #434343;
+  color: #000000;
 }
 
 .car-model__btn {
@@ -2019,7 +2033,7 @@ input[type=button] {
   width: 18px;
   height: 18px;
   fill: none;
-  stroke: #434343;
+  stroke: #000000;
   stroke-width: 2;
 }
 
@@ -2032,6 +2046,7 @@ input[type=button] {
 }
 
 .page-navigation {
+  background: #EDEDED;
   padding: 40px 0;
   text-align: center;
 }
@@ -2049,7 +2064,7 @@ input[type=button] {
   display: inline-flex;
   font-size: 22px;
   font-weight: 600;
-  color: #434343;
+  color: #000000;
 }
 
 .page-navigation__link:not(:last-of-type) {
@@ -2083,6 +2098,7 @@ input[type=button] {
 }
 
 .shop-cars__item {
+  background: #EDEDED;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2114,6 +2130,7 @@ input[type=button] {
 }
 
 .modified-cars {
+  background: #EDEDED;
   padding: 50px 0 40px;
 }
 
@@ -2184,11 +2201,12 @@ input[type=button] {
   width: 18px;
   height: 18px;
   fill: none;
-  stroke: #0472AF;
+  stroke: #CC0001;
   stroke-width: 2;
 }
 
 .articles {
+  background: #EDEDED;
   padding: 45px 0 35px;
 }
 
@@ -2219,20 +2237,20 @@ input[type=button] {
 }
 
 .articles__title-link {
-  color: #434343;
+  color: #000000;
   -webkit-transition: color 0.1s;
   -o-transition: color 0.1s;
   transition: color 0.1s;
 }
 
 .articles__title-link:hover {
-  color: #0472AF;
+  color: #CC0001;
 }
 
 .articles__date {
   display: block;
   margin-bottom: 5px;
-  color: #0472AF;
+  color: #CC0001;
 }
 
 .articles__text {
@@ -2241,6 +2259,10 @@ input[type=button] {
 
 .articles__text:last-child {
   margin-top: 50px;
+}
+
+.trending {
+  background: #EDEDED;
 }
 
 @supports (-webkit-appearance:none) {
@@ -2639,6 +2661,10 @@ input[type=button] {
 
   .wheel-adapters-info {
     display: block;
+  }
+
+  .wheel-adapters-info__img {
+    width: auto;
   }
 
   .wheel-adapters-info__descr {
