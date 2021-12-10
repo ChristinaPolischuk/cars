@@ -5,7 +5,6 @@
   }
   &-icon {
     cursor: pointer;
-    @include size(28px);
     fill: none;
     stroke: $white_color;
     stroke-width: 2;

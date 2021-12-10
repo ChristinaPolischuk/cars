@@ -1,8 +1,10 @@
-mixin shopSliderItem(src, alt, title, href, text)
+mixin shopSliderItem(srcWebp, src, alt, title, href, text)
     .preview-slider__item
         a.preview-slider__link(href=href)
         .preview-slider__img
-            img(src=src alt=alt)
+            picture
+                source(srcset=srcWebp, type="image/webp")
+                img(src=src, alt=alt)
         .preview-slider__content
             span.preview-slider__title=title
             span.preview-slider__text=text
@@ -15,14 +17,14 @@ section.shop#shop
             a.content-title__link(href="#") Specs
         .preview-slider
             .js-preview-slider
-                +shopSliderItem("img/content/specs/specs-slide-1.png", "Slide-1", "Towing Capacity", "#", "4500-7800 lbs")
-                +shopSliderItem("img/content/specs/specs-slide-2.png", "Slide-2", "Towing Capacity", "#", "4500-7800 lbs")
-                +shopSliderItem("img/content/specs/specs-slide-3.png", "Slide-3", "0-60 Times", "#", "4.5-7.8 sec")
-                +shopSliderItem("img/content/specs/specs-slide-4.png", "Slide-4", "Engine type", "#", "gasoline")
-                +shopSliderItem("img/content/specs/specs-slide-1.png", "Slide-1", "Towing Capacity", "#", "4500-7800 lbs")
-                +shopSliderItem("img/content/specs/specs-slide-2.png", "Slide-2", "Towing Capacity", "#", "4500-7800 lbs")
-                +shopSliderItem("img/content/specs/specs-slide-3.png", "Slide-3", "0-60 Times", "#", "4.5-7.8 sec")
-                +shopSliderItem("img/content/specs/specs-slide-4.png", "Slide-4", "Engine type", "#", "gasoline")
+                +shopSliderItem("img/content/specs/specs-slide-1.webp","img/content/specs/specs-slide-1.png", "Slide-1", "Towing Capacity", "#", "4500-7800 lbs")
+                +shopSliderItem("img/content/specs/specs-slide-2.webp","img/content/specs/specs-slide-2.png", "Slide-2", "Towing Capacity", "#", "4500-7800 lbs")
+                +shopSliderItem("img/content/specs/specs-slide-3.webp","img/content/specs/specs-slide-3.png", "Slide-3", "0-60 Times", "#", "4.5-7.8 sec")
+                +shopSliderItem("img/content/specs/specs-slide-4.webp","img/content/specs/specs-slide-4.png", "Slide-4", "Engine type", "#", "gasoline")
+                +shopSliderItem("img/content/specs/specs-slide-1.webp","img/content/specs/specs-slide-1.png", "Slide-1", "Towing Capacity", "#", "4500-7800 lbs")
+                +shopSliderItem("img/content/specs/specs-slide-2.webp","img/content/specs/specs-slide-2.png", "Slide-2", "Towing Capacity", "#", "4500-7800 lbs")
+                +shopSliderItem("img/content/specs/specs-slide-3.webp","img/content/specs/specs-slide-3.png", "Slide-3", "0-60 Times", "#", "4.5-7.8 sec")
+                +shopSliderItem("img/content/specs/specs-slide-4.webp","img/content/specs/specs-slide-4.png", "Slide-4", "Engine type", "#", "gasoline")
             .preview-slider__navigation
                 button.preview-slider__btn.preview-slider__btn--prev
                     +icon("arrow-left", "preview-slider__arrow")
@@ -32,9 +34,13 @@ section.shop#shop
         .shop-cars
             .shop-cars__item
                 .shop-cars__img
-                    img(src="img/content/specs/new-cars.png" alt="New Cars")
+                    picture
+                        source(srcset="img/content/specs/new-cars.webp", type="image/webp")
+                        img(src="img/content/specs/new-cars.png" alt="New Cars")
                 a.shop-cars__link(href="#") New cars for Sale
             .shop-cars__item
                 .shop-cars__img
-                    img(src="img/content/specs/used-cars.png" alt="Used Cars")
+                    picture
+                        source(srcset="img/content/specs/used-cars.webp", type="image/webp")
+                        img(src="img/content/specs/used-cars.png" alt="Used Cars")
                 a.shop-cars__link(href="#") Used cars for Sale

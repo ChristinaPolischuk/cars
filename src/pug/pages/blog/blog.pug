@@ -1,6 +1,6 @@
 mixin blogsItem(src, title="Vehicle user guide - if equipped", date="march 21, 2001", text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.")
     .blogs__item
-        .blogs__img(style=`background-image: url(${src})`)
+        .blogs__img(style=`background-image: url(${src}.webp)`, data-bg=`${src}.png`, data-bg-webp=`${src}.webp`)
         .blogs__content
             h6.blogs__title
                 a(href="#")=title
@@ -14,19 +14,19 @@ section.section-middle
             a.breadcrumbs-link(href="#") Custom box
             a.breadcrumbs-link(href="#") Info
         .blogs
-            +blogsItem("img/content/blog/blog-img-1.png")
-            +blogsItem("img/content/blog/blog-img-2.png")
-            +blogsItem("img/content/blog/blog-img-3.png")
-            +blogsItem("img/content/blog/blog-img-4.png")
-            +blogsItem("img/content/blog/blog-img-1.png")
-            +blogsItem("img/content/blog/blog-img-5.png")
-            +blogsItem("img/content/blog/blog-img-6.png")
-            +blogsItem("img/content/blog/blog-img-7.png")
-            +blogsItem("img/content/blog/blog-img-1.png")
-            +blogsItem("img/content/blog/blog-img-2.png")
-            +blogsItem("img/content/blog/blog-img-3.png")
-            +blogsItem("img/content/blog/blog-img-4.png")
-            +blogsItem("img/content/blog/blog-img-1.png")
-            +blogsItem("img/content/blog/blog-img-5.png")
+            +blogsItem("img/content/blog/blog-img-1")
+            +blogsItem("img/content/blog/blog-img-2")
+            +blogsItem("img/content/blog/blog-img-3")
+            +blogsItem("img/content/blog/blog-img-4")
+            +blogsItem("img/content/blog/blog-img-1")
+            +blogsItem("img/content/blog/blog-img-5")
+            +blogsItem("img/content/blog/blog-img-6")
+            +blogsItem("img/content/blog/blog-img-7")
+            +blogsItem("img/content/blog/blog-img-1")
+            +blogsItem("img/content/blog/blog-img-2")
+            +blogsItem("img/content/blog/blog-img-3")
+            +blogsItem("img/content/blog/blog-img-4")
+            +blogsItem("img/content/blog/blog-img-1")
+            +blogsItem("img/content/blog/blog-img-5")
         .page-separator
         include ../../chunk/pagination

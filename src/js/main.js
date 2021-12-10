@@ -1,5 +1,6 @@
 import movingBar from "./module/movingBar";
 import pageNavigation from "./module/pageNavigation";
+import canUseWebp from "./module/canUseWebp";
 import smoothScroll from "./module/smoothScroll";
 import searchForm from "./module/searchForm";
 import searchMatches from "./module/searchMatches";
@@ -15,6 +16,7 @@ import footerLinks from "./module/footerLinks";
 
 svg4everybody({});
 pageNavigation();
+canUseWebp();
 smoothScroll();
 movingBar();
 searchForm();

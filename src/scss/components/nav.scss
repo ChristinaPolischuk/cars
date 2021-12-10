@@ -18,7 +18,7 @@
     position: relative;
     z-index: 5;
     display: block;
-    padding: 15px 15px 25px;
+    padding: 15px 15px 30px;
     color: $white_color;
     @include media-lg {
       padding: 10px 10px 20px;
@@ -31,7 +31,6 @@
       border-radius: 20px 20px 0 0;
     }
     &-icon {
-      @include size(10px, 5px);
       fill: $white_color;
       transition: transform .3s;
     }
@@ -40,7 +39,6 @@
   &-dropdown {
     @include position(absolute, $right: 0, $top: 100%);
     z-index: 5;
-    display: none;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 15px 30px;

@@ -10,4 +10,6 @@ section.car-model.section
                 button.car-model__btn.js-show-years
                     +icon("arrow-right", "car-model__icon")
         .car-model__img
-            img(src="img/content/car-model/cadillac.png" alt="Cadillac")
+            picture
+                source(srcset="img/content/car-model/cadillac.webp", type="image/webp")
+                img(src="img/content/car-model/cadillac.png", alt="Cadillac")

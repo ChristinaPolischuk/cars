@@ -18,8 +18,9 @@ export default {
         watch: pathSrc + "/css/**/*.css",
         dest: pathDest + "/css"
     },
-    cssLibs: {
-        dest: pathDest + "/css/libs"
+    criticalCss: {
+        src: pathSrc + "/scss/common/critical.scss",
+        dest: pathDest + "/css"
     },
     scss: {
         src: pathSrc + "/scss/*.{sass,scss}",

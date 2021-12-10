@@ -67,5 +67,8 @@
     "svg4everybody": "^2.1.9",
     "webpack": "^5.64.2",
     "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "prettier": "^2.5.1"
   }
 }

@@ -26,177 +26,6 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: "Nunito";
-  src: local("Nunito-Regular"), url(../fonts/Nunito-Regular.woff) format("woff"), url(../fonts/Nunito-Regular.woff2) format("woff2"), url(../fonts/Nunito-Regular.ttf) format("ttf"), url(../fonts/Nunito-Regular.eot) format("eot");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Nunito";
-  src: local("Nunito-SemiBold"), url(../fonts/Nunito-SemiBold.woff) format("woff"), url(../fonts/Nunito-SemiBold.woff2) format("woff2"), url(../fonts/Nunito-SemiBold.ttf) format("ttf"), url(../fonts/Nunito-SemiBold.eot) format("eot");
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Nunito";
-  src: local("Nunito-Bold"), url(../fonts/Nunito-Bold.woff) format("woff"), url(../fonts/Nunito-Bold.woff2) format("woff2"), url(../fonts/Nunito-Bold.ttf) format("ttf"), url(../fonts/Nunito-Bold.eot) format("eot");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Disket Mono";
-  src: local("Disket-Mono-Regular"), url(../fonts/Disket-Mono-Regular.woff) format("woff"), url(../fonts/Disket-Mono-Regular.woff2) format("woff2"), url(../fonts/Disket-Mono-Regular.ttf) format("ttf"), url(../fonts/Disket-Mono-Regular.eot) format("eot");
-  font-weight: 700;
-  font-style: normal;
-}
-
-*,
-*::before,
-*::after {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-html {
-  line-height: 1;
-  font-size: 16px;
-  min-height: 100%;
-  overflow-x: hidden;
-}
-
-body {
-  font: 16px/1.36 Nunito, Arial, sans-serif;
-  margin: 0;
-  min-height: 100%;
-  color: #000000;
-  overflow-x: hidden;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
-ul,
-li {
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  list-style: none;
-}
-
-p {
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-  color: #CC0001;
-}
-
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-  vertical-align: middle;
-}
-
-textarea {
-  resize: none;
-}
-
-input,
-select,
-button,
-textarea {
-  outline: none;
-}
-
-button,
-input[type=button] {
-  cursor: pointer;
-  border: none;
-}
-
-.wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  min-height: 100%;
-}
-
-.container {
-  max-width: 1140px;
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.section {
-  padding: 80px 0 115px;
-}
-
-.section-top {
-  padding-top: 80px;
-}
-
-.section-middle {
-  padding: 35px 0;
-}
-
-.section-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-bottom: 40px;
-}
-
-.section-header__title {
-  margin: 0 10px 0 0;
-  font-size: 36px;
-  font-weight: 400;
-}
-
-.logo__text {
-  font: 24px/1 "Disket Mono", Arial, sans-serif;
-  text-transform: uppercase;
-  color: #fff;
-}
-
-.content-wrapper:not(:first-child) {
-  margin-top: 55px;
-}
-
-.content-subtitle {
-  margin: 40px 0;
-  font-size: 26px;
-  font-weight: 600;
-}
-
 .link-bordered {
   border-bottom: 1px solid #CC0001;
   -webkit-transition: border-bottom-color 0.3s;
@@ -225,248 +54,16 @@ input[type=button] {
   margin: 0 auto;
 }
 
-.sidebar {
-  width: 255px;
-  margin-right: 30px;
-  -webkit-box-flex: 0;
-  -ms-flex: none;
-  flex: none;
-}
-
-.page {
-  padding: 30px 0;
-}
-
-.page-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.page-separator {
-  background: #fff;
-  margin: 30px 0;
-  height: 1px;
-  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-}
-
-.page-main-title {
-  margin-bottom: 45px;
-}
-
-.page-title {
-  font-size: 36px;
-  font-weight: 400;
-  margin-bottom: 20px;
-}
-
-.page-title-small {
-  font-size: 30px;
-  font-weight: 400;
-  margin-bottom: 10px;
-}
-
-.page-text {
-  margin-bottom: 20px;
-}
-
-.page-img-left {
-  margin-right: 35px;
-  width: 45%;
-  float: left;
-}
-
-.page-img-full {
-  width: 100%;
-  margin: 20px 0;
-}
-
-.page-list {
-  margin-bottom: 25px;
-}
-
-.page-list__item {
-  position: relative;
-  padding-left: 15px;
-}
-
-.page-list__item::before {
-  background: #CC0001;
-  content: "";
-  position: absolute;
-  top: 5px;
-  left: 0;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-}
-
-.page-nav {
-  margin-top: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.page-nav__link {
-  background: #CC0001;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  width: 190px;
-  height: 46px;
-  font-size: 16px;
-  text-transform: uppercase;
-  color: #fff;
-  border-radius: 20px;
-  -webkit-transition: background-color 0.3s, -webkit-transform 0.3s;
-  transition: background-color 0.3s, -webkit-transform 0.3s;
-  -o-transition: background-color 0.3s, transform 0.3s;
-  transition: background-color 0.3s, transform 0.3s;
-  transition: background-color 0.3s, transform 0.3s, -webkit-transform 0.3s;
-}
-
-.page-nav__link--prev {
-  margin-right: auto;
-}
-
-.page-nav__link--next {
-  margin-left: auto;
-}
-
-.page-nav__link:hover {
-  background: #ff0001;
-}
-
-.page-nav__link:active {
-  background: #b30001;
-  -webkit-transform: scale(0.9);
-  -ms-transform: scale(0.9);
-  transform: scale(0.9);
-}
-
-.breadcrumbs {
-  margin-bottom: 30px;
-}
-
-.breadcrumbs-link {
-  font-size: 15px;
-  color: #000000;
-  -webkit-transition: color 0.3s;
-  -o-transition: color 0.3s;
-  transition: color 0.3s;
-}
-
-.breadcrumbs-link:hover {
-  color: #CC0001;
-}
-
-.breadcrumbs-link:last-child {
-  pointer-events: none;
-}
-
-.breadcrumbs-link:not(:last-child)::after {
-  content: "|";
-  display: inline-block;
-  margin: 0 5px;
-}
-
-.pagination {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  position: relative;
-}
-
-.pagination__btn {
-  background: transparent;
-  padding: 0;
-  border: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.pagination__btn:hover .pagination__btn-icon,
-.pagination__btn:focus .pagination__btn-icon {
-  -webkit-transform: scale(1.3);
-  -ms-transform: scale(1.3);
-  transform: scale(1.3);
-}
-
-.pagination__btn.disabled {
-  pointer-events: none;
-}
-
-.pagination__btn-icon {
-  width: 20px;
-  height: 10px;
-  fill: #CC0001;
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: -webkit-transform 0.3s;
-  -o-transition: transform 0.3s;
-  transition: transform 0.3s;
-  transition: transform 0.3s, -webkit-transform 0.3s;
-}
-
-.pagination__links {
-  margin: 0 15px;
-  font-size: 14px;
-  line-height: 1;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-.pagination__link {
-  color: #000000;
-  font-size: 15px;
-  line-height: 1;
-  -webkit-transition: color 0.3s;
-  -o-transition: color 0.3s;
-  transition: color 0.3s;
-}
-
-.pagination__link:not(:last-child)::after {
-  content: "...";
-  display: inline-block;
-  margin: 0 5px;
-  font-weight: 400;
-  color: #000000;
-}
-
-.pagination__link:hover,
-.pagination__link.active {
-  color: #CC0001;
-}
-
-.pagination__link.active {
-  font-weight: 700;
-}
-
 .header {
   background: #CC0001;
   position: relative;
   padding-top: 15px;
   color: #fff;
+}
+
+.header .logo {
+  position: relative;
+  top: -5px;
 }
 
 .header-container {
@@ -713,7 +310,6 @@ input[type=button] {
 }
 
 .mobile-menu {
-  display: none;
   margin-right: auto;
   margin-left: -10px;
 }
@@ -926,7 +522,7 @@ input[type=button] {
   position: relative;
   z-index: 5;
   display: block;
-  padding: 15px 15px 25px;
+  padding: 15px 15px 30px;
   color: #fff;
 }
 
@@ -943,8 +539,6 @@ input[type=button] {
 }
 
 .nav__link-icon {
-  width: 10px;
-  height: 5px;
   fill: #fff;
   -webkit-transition: -webkit-transform 0.3s;
   transition: -webkit-transform 0.3s;
@@ -958,7 +552,6 @@ input[type=button] {
   top: 100%;
   right: 0;
   z-index: 5;
-  display: none;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-pack: justify;
@@ -1156,8 +749,6 @@ input[type=button] {
 
 .search-icon {
   cursor: pointer;
-  width: 28px;
-  height: 28px;
   fill: none;
   stroke: #fff;
   stroke-width: 2;
@@ -1912,22 +1503,6 @@ input[type=button] {
   padding-top: 80px;
 }
 
-.car-model__content {
-  margin-right: 30px;
-  position: relative;
-}
-
-.car-model__title {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  font-size: 48px;
-}
-
 .car-model__title.bordered::after {
   background: #CC0001;
   content: "";
@@ -1962,21 +1537,6 @@ input[type=button] {
   max-width: 468px;
 }
 
-.car-model__years {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 10;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-top: 20px;
-  padding: 15px 10px;
-  width: 65vw;
-}
-
 .car-model__years.active {
   background: #EDEDED;
   -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
@@ -2002,7 +1562,6 @@ input[type=button] {
 .car-model__year {
   font-size: 18px;
   line-height: 1.78;
-  display: none;
   -webkit-transition: color 0.3s;
   -o-transition: color 0.3s;
   transition: color 0.3s;
@@ -2030,8 +1589,6 @@ input[type=button] {
 }
 
 .car-model__icon {
-  width: 18px;
-  height: 18px;
   fill: none;
   stroke: #000000;
   stroke-width: 2;
@@ -2337,24 +1894,12 @@ input[type=button] {
     margin-right: 10px;
   }
 
-  .car-model__years {
-    width: 90vw;
-  }
-
 @supports (-webkit-appearance:none) {
 
 }
 }
 
 @media (max-width: 992px) {
-  .page-main-title {
-    margin-bottom: 15px;
-  }
-
-  .page-img-left {
-    margin-right: 15px;
-  }
-
   .nav__item {
     margin-right: 5px;
   }
@@ -2367,43 +1912,18 @@ input[type=button] {
     margin-left: 15px;
   }
 
-  .car-model__title {
-    font-size: 34px;
-  }
-
 @supports (-webkit-appearance:none) {
 
 }
 }
 
 @media (max-width: 768px) {
-  .section {
-    padding: 50px 0 100px;
-  }
-
-  .section-top {
-    padding-top: 50px;
-  }
-
-  .sidebar {
-    width: auto;
-    margin-right: 0;
-  }
-
-  .page-container {
-    display: block;
-  }
-
-  .page-nav__link {
-    width: 130px;
-  }
-
-  .breadcrumbs {
-    margin-top: 60px;
-  }
-
   .header {
     padding: 10px 0;
+  }
+
+  .header .logo {
+    top: 0;
   }
 
   .header-block {
@@ -2418,10 +1938,6 @@ input[type=button] {
 
   .site-content__header::after {
     width: 95%;
-  }
-
-  .mobile-menu {
-    display: block;
   }
 
   .car-characteristics__col:first-child {
@@ -2587,18 +2103,6 @@ input[type=button] {
 }
 
 @media (max-width: 576px) {
-  .logo__text {
-    font-size: 22px;
-  }
-
-  .page-img-left {
-    float: none;
-    margin-right: 0;
-    margin-bottom: 20px;
-    display: block;
-    width: 100%;
-  }
-
   .footer__item {
     width: 100%;
   }
@@ -2695,17 +2199,6 @@ input[type=button] {
     align-items: flex-start;
   }
 
-  .car-model__content {
-    -webkit-box-ordinal-group: 3;
-    -ms-flex-order: 2;
-    order: 2;
-    margin-right: 0;
-  }
-
-  .car-model__title {
-    display: block;
-  }
-
   .car-model__img,
   .car-model__img-small,
   .car-model__img-medium {
@@ -2756,17 +2249,6 @@ input[type=button] {
 }
 
 @media (max-width: 480px) {
-  .pagination {
-    margin-top: 30px;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
-
-  .pagination__links {
-    margin: 0 10px;
-  }
-
   .wheel-adapters-list {
     max-width: 100%;
     margin: 0;
@@ -2787,10 +2269,6 @@ input[type=button] {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-  }
-
-  .car-model__title {
-    text-align: center;
   }
 
   .car-model__subtitle {

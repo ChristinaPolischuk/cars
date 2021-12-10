@@ -20,12 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12551245-ff4c-4832-8ed5-ce85df42a7e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/scss/pages/modified.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/general/logos/bmw_logo_black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/general/logos/bmw_logo_white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/general/logos/dodge_logo_black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/general/logos/dodge_logo_white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/general/logos/jeep_logo_black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/general/logos/jeep_logo_white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/general/logos/ram_logo_black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/general/logos/ram_logo_white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/module/canUseWebp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/common/critical.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.babel.js/config/path.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.babel.js/config/path.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.babel.js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.babel.js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.babel.js/task/libsCss.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.babel.js/task/criticalCss.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.babel.js/task/pug.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.babel.js/task/pug.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/blog-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog-post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/bolt-pattern.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/bolt-pattern.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/libs/libs.min.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/img/content/18_wheels/18_wheels-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/content/18_wheels/18_wheels-1.png" afterDir="false" />
@@ -151,39 +167,69 @@
       <change beforePath="$PROJECT_DIR$/public/wheels-and-tires.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/wheels-and-tires.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/year-bolt-pattern.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/year-bolt-pattern.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/year-towing-capacity.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/year-towing-capacity.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/sprite/Бланк_Кварт_Счетчик_112021.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/module/movingBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/module/movingBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/module/pageNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/module/pageNavigation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/chunk/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/chunk/footer.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/chunk/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/chunk/header.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/layout/app.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/layout/app.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/blog-post.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/blog-post.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/blog-post/blog-post.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/blog-post/blog-post.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/blog-post/blog.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/blog-post/blog.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/blog.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/blog.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/blog/blog.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/blog/blog.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/blog/car-model.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/blog/car-model.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/bolt-pattern.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/bolt-pattern.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/bolt-pattern/car-characteristics.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/bolt-pattern/car-characteristics.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/bolt-pattern/car-model.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/bolt-pattern/car-model.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/contact.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/contact.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/contact/car-model.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/contact/car-model.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/contact/contact-form.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/contact/contact-form.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/index/articles.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index/articles.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/index/aparts.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index/aparts.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/index/car-model.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index/car-model.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/index/modified-cars.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index/modified-cars.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/index/page-navigation.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index/page-navigation.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/index/owning.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index/owning.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/index/products.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index/products.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/index/shop.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/index/shop.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/manuals/select-year.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/manuals/select-year.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/manuals.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/manuals.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/manuals/car-model.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/manuals/car-model.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/modified.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/modified.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/modified/18-wheels.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/modified/18-wheels.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/modified/19-wheels.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/modified/19-wheels.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/modified/car-model.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/modified/car-model.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/modified/popular.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/modified/popular.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/modified/trending.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/modified/trending.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/owners-manuals-start/select-year.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/owners-manuals-start/select-year.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/owners-manuals-start.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/owners-manuals-start.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/owners-manuals-start/car-model.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/owners-manuals-start/car-model.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/owners-manuals-year.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/owners-manuals-year.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/owners-manuals-year/page.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/owners-manuals-year/page.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/project-modified.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/project-modified.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/project-modified/car-characteristics.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/project-modified/car-characteristics.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/project-modified/car-model.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/project-modified/car-model.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/project-modified/see-more.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/project-modified/see-more.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/specs.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/specs.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/specs/car-characteristics.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/specs/car-characteristics.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/specs/car-model.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/specs/car-model.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/wheels-and-tires.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/wheels-and-tires.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/wheels-and-tires/car-characteristics.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/wheels-and-tires/car-characteristics.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/wheels-and-tires/car-model.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/wheels-and-tires/car-model.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/year-bolt-pattern.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/year-bolt-pattern.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/year-bolt-pattern/car-characteristics.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/year-bolt-pattern/car-characteristics.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/year-bolt-pattern/car-model.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/year-bolt-pattern/car-model.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/year-bolt-pattern/change-bolt-pattern.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/year-bolt-pattern/change-bolt-pattern.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/year-bolt-pattern/see-more.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/year-bolt-pattern/see-more.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/year-bolt-pattern/wheel-adapters.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/year-bolt-pattern/wheel-adapters.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/year-towing-capacity.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/year-towing-capacity.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/pages/year-towing-capacity/car-features.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/year-towing-capacity/car-features.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/year-towing-capacity/car-model.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/year-towing-capacity/car-model.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/common/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/common/_common.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/common/page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/common/page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/blog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/car-features.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/car-features.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/contact-form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/contact-form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/wheel-adapters.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/wheel-adapters.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/helpers/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/helpers/_vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/modules/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/modules/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/mobile-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/mobile-menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/search.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/search.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/modules/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/modules/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/pages/index/articles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/index/articles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/pages/index/car-model.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/index/car-model.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/pages/index/modified-cars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/index/modified-cars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/pages/index/page-navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/index/page-navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/pages/index/shop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/index/shop.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,18 +248,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../towingcap.com" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="D:\#Work\cars\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\#Work\cars\src\img\general\logos" />
       <recent name="D:\#Work\cars\src\pug\pages" />
       <recent name="D:\#Work\cars\src\img\content\blogpost" />
       <recent name="D:\#Work\cars\src\img\content" />
       <recent name="D:\#Work\cars\src\pug\pages\contact" />
-      <recent name="D:\#Work\cars\src\img\content\bulbs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\#Work\cars\src\pug\pages" />
@@ -249,6 +296,10 @@
       <workItem from="1638892791964" duration="6457000" />
       <workItem from="1638909406122" duration="1197000" />
       <workItem from="1638995377179" duration="1725000" />
+      <workItem from="1639003752382" duration="48000" />
+      <workItem from="1639046360853" duration="11668000" />
+      <workItem from="1639124447610" duration="16230000" />
+      <workItem from="1639159808296" duration="11366000" />
     </task>
     <servers />
   </component>
@@ -268,6 +319,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="510" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1639064847080">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="510" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1639064847080" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1638895913690">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -276,25 +331,29 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="438" y="191" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1638131322727" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1638915420555">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1639134721520">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1638915420555" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1638308885558">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1639134721520" />
+    <state x="277" y="57" width="1184" height="709" key="SettingsEditor" timestamp="1639161975002">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1638308885558" />
-    <state x="451" y="154" width="578" height="534" key="find.popup" timestamp="1638995991517">
+    <state x="277" y="57" width="1184" height="709" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1639161975002" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1639125373886">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="451" y="154" width="578" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1638995991517" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1638561351913">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1639125373886" />
+    <state x="451" y="154" width="578" height="534" key="find.popup" timestamp="1639151314150">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1638561351913" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1638996002724">
+    <state x="451" y="154" width="578" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1639151314150" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1639069484963">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1638996002724" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1639069484963" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1639150196884">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1639150196884" />
   </component>
 </project>

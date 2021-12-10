@@ -27,27 +27,7 @@
       align-items: flex-start;
     }
   }
-  &__content {
-    margin-right: 30px;
-    position: relative;
-    @include media-sm {
-      order: 2;
-      margin-right: 0;
-    }
-  }
   &__title {
-    display: inline-flex;
-    flex-direction: column;
-    font-size:  48px;
-    @include media-lg {
-      font-size: 34px;
-    }
-    @include media-sm {
-      display: block;
-    }
-    @include media-xs {
-      text-align: center;
-    }
     &.bordered::after {
       content: "";
       display: block;
@@ -88,16 +68,6 @@
     max-width: 468px;
   }
   &__years {
-    @include position(absolute, $top: 100%, $left: 0);
-    z-index: 10;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 20px;
-    padding: 15px 10px;
-    width: 65vw;
-    @include media-xl {
-      width: 90vw;
-    }
     &.active {
       background-color: $grey_color_light;
       box-shadow: 0px 0px 4px rgba(#000, 0.25);
@@ -122,7 +92,6 @@
   &__year {
     font-size: 18px;
     line-height: 1.78;
-    display: none;
     transition: color .3s;
     &:not(:last-child) {
       &::after {
@@ -145,7 +114,6 @@
     background: transparent;
   }
   &__icon {
-    @include size(18px);
     fill: none;
     stroke: $black_color;
     stroke-width: 2;

@@ -1,16 +1,20 @@
-mixin owningSliderItem(src, alt, title)
+mixin owningSliderItem(srcWebp, src, alt, title)
     .preview-slider__item
         a.preview-slider__link(href="#")
         .preview-slider__img
-            img(src=src alt=alt)
+            picture
+                source(srcset=srcWebp, type="image/webp")
+                img(src=src alt=alt)
         .preview-slider__content
             span.preview-slider__title=title
 
-mixin previewSliderItem(src, alt, title, href, text)
+mixin previewSliderItem(srcWebp, src, alt, title, href, text)
     .preview-slider__item
         a.preview-slider__link(href=href)
         .preview-slider__img
-            img(src=src alt=alt)
+            picture
+                source(srcset=srcWebp, type="image/webp")
+                img(src=src alt=alt)
         .preview-slider__content
             span.preview-slider__title=title
             span.preview-slider__text=text
@@ -23,12 +27,12 @@ section.shop#owning
             a.content-title__link(href="#") Owner’s manuals
         .preview-slider
             .js-preview-slider
-                +owningSliderItem("img/content/owning/owner-slide-1.png", "Slide-1", "Fuses")
-                +owningSliderItem("img/content/owning/owner-slide-2.png", "Slide-2", "Bulbs List")
-                +owningSliderItem("img/content/owning/owner-slide-3.png", "Slide-3", "Tire Size")
-                +owningSliderItem("img/content/owning/owner-slide-1.png", "Slide-1", "Fuses")
-                +owningSliderItem("img/content/owning/owner-slide-2.png", "Slide-2", "Bulbs List")
-                +owningSliderItem("img/content/owning/owner-slide-3.png", "Slide-3", "Tire Size")
+                +owningSliderItem("img/content/owning/owner-slide-1.webp","img/content/owning/owner-slide-1.png", "Slide-1", "Fuses")
+                +owningSliderItem("img/content/owning/owner-slide-2.webp","img/content/owning/owner-slide-2.png", "Slide-2", "Bulbs List")
+                +owningSliderItem("img/content/owning/owner-slide-3.webp","img/content/owning/owner-slide-3.png", "Slide-3", "Tire Size")
+                +owningSliderItem("img/content/owning/owner-slide-1.webp","img/content/owning/owner-slide-1.png", "Slide-1", "Fuses")
+                +owningSliderItem("img/content/owning/owner-slide-2.webp","img/content/owning/owner-slide-2.png", "Slide-2", "Bulbs List")
+                +owningSliderItem("img/content/owning/owner-slide-3.webp","img/content/owning/owner-slide-3.png", "Slide-3", "Tire Size")
             .preview-slider__navigation
                 button.preview-slider__btn.preview-slider__btn--prev
                     +icon("arrow-left", "preview-slider__arrow")

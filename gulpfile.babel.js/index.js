@@ -9,13 +9,14 @@ import app from "./config/app.js";
 import clear from "./task/clear.js";
 import pug from "./task/pug.js";
 import scss from "./task/scss.js";
-import libsCss from "./task/libsCss.js";
+import libsCss from "./task/criticalCss.js";
 import js from "./task/js";
 import libsJs from "./task/libsJs";
 import copyJQuery from "./task/copyJQuery";
 import img from "./task/img.js";
 import svg from "./task/svg.js";
 import font from "./task/font";
+import criticalCss from "./task/criticalCss.js";
 
 //server
 const server = () => {
@@ -38,7 +39,7 @@ const watcher = () => {
 
 const build = gulp.series(
     clear,
-    gulp.parallel(pug, scss, libsCss, font, img, svg, js, libsJs, copyJQuery)
+    gulp.parallel(pug, scss, criticalCss, font, img, svg, js, libsJs, copyJQuery)
 );
 
 const dev = gulp.series(
@@ -49,7 +50,7 @@ const dev = gulp.series(
 //tasks
 export {pug};
 export {scss};
-export {libsCss};
+export {criticalCss};
 export {js};
 export {libsJs};
 export {copyJQuery};

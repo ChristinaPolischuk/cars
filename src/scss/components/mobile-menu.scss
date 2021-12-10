@@ -1,10 +1,7 @@
 .mobile-menu {
-  display: none;
   margin-right: auto;
   margin-left: -10px;
-  @include media-md {
-    display: block;
-  }
+
 }
 .mobile-menu__nav {
   position: absolute;
