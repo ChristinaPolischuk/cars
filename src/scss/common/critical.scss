@@ -515,7 +515,8 @@ button, input[type=button] {
 
 .shop-cars__img {
   max-width: 190px;
-  margin-right: 20px
+  margin-right: 20px;
+  aspect-ratio: 190/77;
 }
 
 .shop-cars__link {
