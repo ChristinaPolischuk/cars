@@ -1,7 +1,5 @@
 .nav {
-  display: flex;
   &__item {
-    margin-right: 10px;
     &:hover {
       .nav__link-icon {
         transform: rotate(180deg);
@@ -15,40 +13,12 @@
     }
   }
   &__link {
-    position: relative;
-    z-index: 5;
-    display: block;
-    padding: 15px 15px 30px;
-    color: $white_color;
     @include media-lg {
       padding: 10px 10px 20px;
-    }
-    &-hover {
-      @include position(absolute, $top: 0, $left: 0);
-      display: block;
-      background-color: rgba($white_color, .3);
-      transition: opacity .5s, left .5s, width .5s, height .5s;
-      border-radius: 20px 20px 0 0;
-    }
-    &-icon {
-      fill: $white_color;
-      transition: transform .3s;
     }
   }
 
   &-dropdown {
-    @include position(absolute, $right: 0, $top: 100%);
-    z-index: 5;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 15px 30px;
-    min-width: 705px;
-    width: 100%;
-    background: $white_color;
-    box-shadow: 0px 0px 4px rgba(#000, 0.25);
-    transform-origin: top center;
-    animation-name: openMenu;
-    animation-duration: 0.6s;
     &__item {
       margin: 15px 30px;
       text-align: center;

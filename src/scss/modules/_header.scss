@@ -1,27 +1,13 @@
 .header {
-  position: relative;
-  padding-top: 15px;
-  color: $white_color;
-  background-color: $accent_color;
   @include media-md {
     padding: 10px 0;
   }
   .logo {
-    position: relative;
-    top: -5px;
     @include media-md {
       top: 0;
     }
   }
-  &-container {
-    display: flex;
-    align-items: center;
-  }
   &-block {
-    display: flex;
-    align-items: center;
-    position: relative;
-    margin-left: auto;
     @include media-md {
       display: none;
     }

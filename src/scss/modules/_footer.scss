@@ -1,15 +1,10 @@
 .footer {
-  padding: 25px 0;
-  margin-top: auto;
-  background-color: $accent_color;
   &__container {
-    display: flex;
     @include media-xl {
       flex-wrap: wrap;
     }
   }
   &__item {
-    flex: 1;
     @include media-md {
       flex: auto;
     }
@@ -17,7 +12,6 @@
       width: 100%;
     }
     &:not(:last-child) {
-      margin-right: 30px;
       @include media-sm {
         margin-right: 0;
       }
@@ -49,20 +43,11 @@
     }
   }
   &__title {
-    margin-bottom: 15px;
-    color: $white_color;
-    font-size: 18px;
-    text-transform: uppercase;
     @include media-sm {
       display: flex;
       justify-content: space-between;
     }
     &-icon {
-      @include size(14px, 7px);
-      stroke: $white_color;
-      stroke-width: 2;
-      fill: none;
-      display: none;
       @include media-sm {
         display: inline-flex;
       }
@@ -73,11 +58,5 @@
       display: none;
       margin-bottom: 20px;
     }
-  }
-  &__link {
-    display: block;
-    margin-bottom: 5px;
-    color: $white_color;
-    font-size: 15px;
   }
 }
