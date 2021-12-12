@@ -158,7 +158,7 @@ button, input[type=button] {
   background: $accent_color;
   position: relative;
   padding-top: 15px;
-  color:$white_color;
+  color: $white_color;
 }
 
 .header .logo {
@@ -259,6 +259,10 @@ button, input[type=button] {
   max-width: 100%
 }
 
+.car-model__img img {
+  aspect-ratio: 727 / 314;
+}
+
 .nav {
   display: flex
 }
@@ -326,7 +330,8 @@ button, input[type=button] {
 
 .preview-slider__img {
   width: 95px;
-  margin-right: 20px
+  margin-right: 20px;
+  aspect-ratio: 95/65;
 }
 
 .preview-slider__title {
@@ -536,7 +541,8 @@ button, input[type=button] {
 }
 
 .modified-cars-slider__img {
-  max-width: 100%
+  max-width: 100%;
+  aspect-ratio: 1;
 }
 
 .modified-cars-slider__btn {
