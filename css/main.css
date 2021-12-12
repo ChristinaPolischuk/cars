@@ -3,6 +3,7 @@
   src: local("Nunito-Regular"), url(../fonts/Nunito-Regular.woff) format("woff"), url(../fonts/Nunito-Regular.woff2) format("woff2"), url(../fonts/Nunito-Regular.ttf) format("ttf"), url(../fonts/Nunito-Regular.eot) format("eot");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -10,6 +11,7 @@
   src: local("Nunito-SemiBold"), url(../fonts/Nunito-SemiBold.woff) format("woff"), url(../fonts/Nunito-SemiBold.woff2) format("woff2"), url(../fonts/Nunito-SemiBold.ttf) format("ttf"), url(../fonts/Nunito-SemiBold.eot) format("eot");
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -17,6 +19,7 @@
   src: local("Nunito-Bold"), url(../fonts/Nunito-Bold.woff) format("woff"), url(../fonts/Nunito-Bold.woff2) format("woff2"), url(../fonts/Nunito-Bold.ttf) format("ttf"), url(../fonts/Nunito-Bold.eot) format("eot");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -24,6 +27,7 @@
   src: local("Disket-Mono-Regular"), url(../fonts/Disket-Mono-Regular.woff) format("woff"), url(../fonts/Disket-Mono-Regular.woff2) format("woff2"), url(../fonts/Disket-Mono-Regular.ttf) format("ttf"), url(../fonts/Disket-Mono-Regular.eot) format("eot");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 .link-bordered {
