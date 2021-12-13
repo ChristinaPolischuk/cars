@@ -41,10 +41,6 @@ audio, canvas, iframe, img, svg, video {
   vertical-align: middle
 }
 
-img {
-  aspect-ratio: attr(width)/attr(height)
-}
-
 button, input, select, textarea {
   outline: 0
 }
