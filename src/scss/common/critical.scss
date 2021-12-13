@@ -271,7 +271,7 @@ button, input[type=button] {
   aspect-ratio: 1;
 }
 
-.car-model__img img {
+.car-model__img img, .car-model__img-medium img, .car-model__img-small img {
   aspect-ratio: 727 / 314;
 }
 
