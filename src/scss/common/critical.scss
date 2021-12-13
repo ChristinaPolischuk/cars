@@ -111,6 +111,13 @@ button, input[type=button] {
   display: none
 }
 
+.car-model {
+  aspect-ratio: 1520/509;
+  @include media-sm {
+    aspect-ratio: 576/455;
+  }
+}
+
 .car-model__title {
   display: inline-flex;
   flex-direction: column;
@@ -174,6 +181,10 @@ button, input[type=button] {
 .header-block {
   position: relative;
   margin-left: auto
+}
+
+.header-container {
+  aspect-ratio: 1140/67;
 }
 
 .footer {
@@ -463,7 +474,11 @@ button, input[type=button] {
 }
 
 .page-navigation__links {
-  position: relative
+  position: relative;
+  aspect-ratio: 1110/50;
+  @include media-sm {
+    aspect-ratio: 546/200;
+  }
 }
 
 .page-navigation__link {
@@ -473,7 +488,7 @@ button, input[type=button] {
   display: inline-flex;
   font-size: 22px;
   font-weight: 600;
-  color: $black_color
+  color: $black_color;
 }
 
 .page-navigation__link:not(:last-of-type) {
