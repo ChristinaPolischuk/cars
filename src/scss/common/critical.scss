@@ -111,13 +111,6 @@ button, input[type=button] {
   display: none
 }
 
-.car-model {
-  aspect-ratio: 1520/509;
-  @include media-sm {
-    aspect-ratio: 576/455;
-  }
-}
-
 .car-model__title {
   display: inline-flex;
   flex-direction: column;
@@ -126,7 +119,11 @@ button, input[type=button] {
 
 .car-model__content {
   margin-right: 30px;
-  position: relative
+  position: relative;
+  aspect-ratio: 327 / 139;
+  @include media-sm {
+    aspect-ratio: 546 / 93;
+  }
 }
 
 .car-model__years {
@@ -270,8 +267,20 @@ button, input[type=button] {
   max-width: 100%
 }
 
+.car-characteristics__img {
+  aspect-ratio: 125/79;
+}
+
+.car-characteristics__img--small, .wheel-adapters-info__img img {
+  aspect-ratio: 1;
+}
+
 .car-model__img img {
   aspect-ratio: 727 / 314;
+}
+
+.car-features-table__col.img {
+  aspect-ratio: 245/122;
 }
 
 .nav {
@@ -558,8 +567,16 @@ button, input[type=button] {
 
 .modified-cars-slider__img {
   max-width: 100%;
+}
+
+.card-img, .modified-cars-slider__img {
   aspect-ratio: 1;
 }
+
+.page-img-big {
+  aspect-ratio: 1121/631;
+}
+
 
 .modified-cars-slider__btn {
   @include position(absolute, $top: 50%);
@@ -601,4 +618,8 @@ button, input[type=button] {
   width: 32%;
   margin-bottom: 55px;
   display: none
+}
+
+.contact {
+  aspect-ratio: 1487/604;
 }

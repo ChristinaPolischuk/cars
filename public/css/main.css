@@ -96,6 +96,211 @@ ul li::before {
   background: #EDEDED;
 }
 
+.page {
+  padding: 30px 0;
+}
+
+.page-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-separator {
+  background: #fff;
+  margin: 30px 0;
+  height: 1px;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.page-main-title {
+  margin-bottom: 45px;
+}
+
+.page-title {
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.page-title-small {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.page-img-left {
+  margin-right: 35px;
+  width: 45%;
+  float: left;
+}
+
+.page-img-full {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.page-nav {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-nav__link {
+  background: #CC0001;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 190px;
+  height: 46px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 20px;
+  -webkit-transition: background-color 0.3s, -webkit-transform 0.3s;
+  transition: background-color 0.3s, -webkit-transform 0.3s;
+  -o-transition: background-color 0.3s, transform 0.3s;
+  transition: background-color 0.3s, transform 0.3s;
+  transition: background-color 0.3s, transform 0.3s, -webkit-transform 0.3s;
+}
+
+.page-nav__link--prev {
+  margin-right: auto;
+}
+
+.page-nav__link--next {
+  margin-left: auto;
+}
+
+.page-nav__link:hover {
+  background: #ff0001;
+}
+
+.page-nav__link:active {
+  background: #b30001;
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.breadcrumbs {
+  margin-bottom: 30px;
+}
+
+.breadcrumbs-link {
+  font-size: 15px;
+  color: #000000;
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.breadcrumbs-link:hover {
+  color: #CC0001;
+}
+
+.breadcrumbs-link:last-child {
+  pointer-events: none;
+}
+
+.breadcrumbs-link:not(:last-child)::after {
+  content: "|";
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.pagination__btn {
+  background: transparent;
+  padding: 0;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.pagination__btn:hover .pagination__btn-icon,
+.pagination__btn:focus .pagination__btn-icon {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.pagination__btn.disabled {
+  pointer-events: none;
+}
+
+.pagination__btn-icon {
+  width: 20px;
+  height: 10px;
+  fill: #CC0001;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  -o-transition: transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.pagination__links {
+  margin: 0 15px;
+  font-size: 14px;
+  line-height: 1;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.pagination__link {
+  color: #000000;
+  font-size: 15px;
+  line-height: 1;
+  -webkit-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.pagination__link:not(:last-child)::after {
+  content: "...";
+  display: inline-block;
+  margin: 0 5px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.pagination__link:hover,
+.pagination__link.active {
+  color: #CC0001;
+}
+
+.pagination__link.active {
+  font-weight: 700;
+}
+
 .content-title__link:hover {
   color: #CC0001;
 }
@@ -1380,6 +1585,14 @@ ul li::before {
     font-size: 34px;
   }
 
+  .page-main-title {
+    margin-bottom: 15px;
+  }
+
+  .page-img-left {
+    margin-right: 15px;
+  }
+
   .nav__item {
     margin-right: 5px;
   }
@@ -1413,6 +1626,18 @@ ul li::before {
 
   .mobile-menu {
     display: block;
+  }
+
+  .page-container {
+    display: block;
+  }
+
+  .page-nav__link {
+    width: 130px;
+  }
+
+  .breadcrumbs {
+    margin-top: 60px;
   }
 
   .header {
@@ -1615,6 +1840,14 @@ ul li::before {
     margin-right: 0;
   }
 
+  .page-img-left {
+    float: none;
+    margin-right: 0;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+  }
+
   .footer__item {
     width: 100%;
   }
@@ -1763,6 +1996,17 @@ ul li::before {
 @media (max-width: 480px) {
   .car-model__title {
     text-align: center;
+  }
+
+  .pagination {
+    margin-top: 30px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .pagination__links {
+    margin: 0 10px;
   }
 
   .wheel-adapters-list {
