@@ -66,6 +66,7 @@ ul {
 }
 
 .logo {
+  flex-wrap: wrap;
   &__text {
     @include media-sm {
       font-size: 22px;

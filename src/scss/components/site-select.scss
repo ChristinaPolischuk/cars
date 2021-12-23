@@ -1,0 +1,43 @@
+.site-select-current {
+  cursor: pointer;
+
+  &.active {
+    .site-select__icon-dropdown {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.site-select__icon-dropdown {
+  transition: transform .3s;
+}
+
+.site-select-dropdown {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #fff;
+
+  &__item {
+    &:not(:last-child) {
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #fff;
+    }
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon {
+    margin-right: 10px;
+    @include size(25px);
+    fill: #fff;
+  }
+
+  &__text {
+    color: #ffffff;
+  }
+}

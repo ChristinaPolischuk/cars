@@ -12,6 +12,7 @@ import cardsShow from "./module/cardsShow";
 import mobileMenu from "./module/mobileMenu";
 import showYears from "./module/showYears";
 import accordion from "./module/accordion";
+import siteSelect from "./module/site-select";
 import footerLinks from "./module/footerLinks";
 
 svg4everybody({});
@@ -29,4 +30,5 @@ cardsShow();
 mobileMenu();
 showYears();
 accordion();
+siteSelect();
 footerLinks();

@@ -85,6 +85,18 @@ button, input[type=button] {
   color: $white_color;
 }
 
+.site-select__icon-dropdown {
+  margin-left: 5px;
+  width: 10px;
+  height: 5px;
+  fill: #fff;
+}
+
+.site-select-dropdown {
+  display: none;
+}
+
+
 .content-wrapper:not(:first-child) {
   margin-top: 55px
 }
@@ -345,6 +357,9 @@ button, input[type=button] {
 }
 
 .preview-slider__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 95px;
   margin-right: 20px;
   aspect-ratio: 95/65;

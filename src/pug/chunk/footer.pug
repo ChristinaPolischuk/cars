@@ -1,9 +1,38 @@
+mixin siteSelectItem(icon, text)
+    .site-select-dropdown__item
+        a.site-select-dropdown__link(href="")
+            +icon(`${icon}`, "site-select-dropdown__icon")
+            span.site-select-dropdown__text=text
+
 footer.footer
     .footer__container.container
         .footer__item
-            a.logo(href="index.html")
-                span.logo__img(style="background-image: url(img/general/logos/honda_logo_white.svg)")
-                span.logo__text Accord
+            .logo.site-select
+                a.logo__img(href="index.html", style="background-image: url(img/general/logos/honda.svg)")
+                .site-select-current.js-site-select
+                    span.logo__text Accord
+                    +icon("arrow-down", "site-select__icon-dropdown")
+                .site-select-dropdown
+                    +siteSelectItem("acura", "Acura")
+                    +siteSelectItem("bmw", "BMW")
+                    +siteSelectItem("cadillac", "Cadillac")
+                    +siteSelectItem("chevrolet", "Chevrolet")
+                    +siteSelectItem("chrysler", "Chrysler")
+                    +siteSelectItem("dodge", "Dodge")
+                    +siteSelectItem("ford", "Ford")
+                    +siteSelectItem("gmc", "GMC")
+                    +siteSelectItem("honda", "Honda")
+                    +siteSelectItem("hyundai", "Hyundai")
+                    +siteSelectItem("infinity", "Infinity")
+                    +siteSelectItem("jeep", "Jeep")
+                    +siteSelectItem("kia", "KIA")
+                    +siteSelectItem("mazda", "Mazda")
+                    +siteSelectItem("mercedes-benz", "Mercedes-benz")
+                    +siteSelectItem("nissan", "Nissan")
+                    +siteSelectItem("ram", "RAM")
+                    +siteSelectItem("toyota", "Toyota")
+                    +siteSelectItem("volkswagen", "Volkswagen")
+                    +siteSelectItem("volvo", "Volvo")
         .footer__item
             h6.footer__title
                 span.footer__title-text Vehicles
