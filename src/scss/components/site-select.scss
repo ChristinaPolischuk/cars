@@ -27,17 +27,6 @@
   }
 
   &__link {
-    display: flex;
-    align-items: center;
-  }
-
-  &__icon {
-    margin-right: 10px;
-    @include size(25px);
-    fill: #fff;
-  }
-
-  &__text {
     color: #ffffff;
   }
 }

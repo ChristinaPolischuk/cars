@@ -26,59 +26,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12551245-ff4c-4832-8ed5-ce85df42a7e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/sprite/acura.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sprite/bmw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sprite/cadillac.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sprite/chevrolet.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sprite/chrysler.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sprite/dodge.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sprite/ford.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sprite/gmc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sprite/honda.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sprite/hyundai.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sprite/infinity.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sprite/jeep.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sprite/kia.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sprite/mazda.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sprite/mercedes-benz.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sprite/nissan.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sprite/ram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sprite/toyota.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sprite/volkswagen.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sprite/volvo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/module/site-select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/components/site-select.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/blog-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog-post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/bolt-pattern.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/bolt-pattern.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/critical.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/critical.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/acura_logo_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/bmw_logo_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/cadillac_logo_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/chevrolet_logo_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/chrysler_logo_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/dodge_logo_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/ford_logo_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/gmc_logo_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/honda_logo_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/hyundai_logo_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/infinity_logo_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/jeep_logo_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/kia_logo_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/mazda_logo_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/mercedes_benz_logo_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/nissan_logo_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/ram_logo_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/toyota_logo_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/volkswagen_logo_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/volvo_logo_white.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/img/sprite/symbol/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/sprite/symbol/sprite.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/manuals.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/manuals.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/modified.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/modified.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/owners-manuals-start.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/owners-manuals-start.html" afterDir="false" />
@@ -88,32 +44,28 @@
       <change beforePath="$PROJECT_DIR$/public/wheels-and-tires.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/wheels-and-tires.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/year-bolt-pattern.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/year-bolt-pattern.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/year-towing-capacity.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/year-towing-capacity.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/general/logos/acura_logo_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/general/logos/acura.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/general/logos/bmw_logo_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/general/logos/bmw.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/general/logos/cadillac_logo_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/general/logos/cadillac.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/general/logos/chevrolet_logo_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/general/logos/chevrolet.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/general/logos/chrysler_logo_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/general/logos/chrysler.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/general/logos/dodge_logo_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/general/logos/dodge.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/general/logos/ford_logo_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/general/logos/ford.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/general/logos/gmc_logo_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/general/logos/gmc.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/general/logos/honda_logo_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/general/logos/honda.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/general/logos/hyundai_logo_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/general/logos/hyundai.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/general/logos/infinity_logo_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/general/logos/infinity.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/general/logos/jeep_logo_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/general/logos/jeep.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/general/logos/kia_logo_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/general/logos/kia.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/general/logos/mazda_logo_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/general/logos/mazda.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/general/logos/mercedes_benz_logo_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/general/logos/mercedes-benz.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/general/logos/nissan_logo_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/general/logos/nissan.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/general/logos/ram_logo_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/general/logos/ram.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/general/logos/toyota_logo_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/general/logos/toyota.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/general/logos/volkswagen_logo_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/general/logos/volkswagen.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/general/logos/volvo_logo_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/general/logos/volvo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sprite/acura.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sprite/bmw.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sprite/cadillac.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sprite/chevrolet.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sprite/chrysler.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sprite/dodge.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sprite/ford.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sprite/gmc.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sprite/honda.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sprite/hyundai.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sprite/infinity.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sprite/jeep.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sprite/kia.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sprite/mazda.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sprite/mercedes-benz.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sprite/nissan.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sprite/ram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sprite/toyota.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sprite/volkswagen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/sprite/volvo.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/chunk/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/chunk/footer.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/chunk/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/chunk/header.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/common/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/common/_common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/common/critical.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/common/critical.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/site-select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/site-select.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +84,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/js/module" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../towingcap.com" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\#Work\cars\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
@@ -189,7 +141,9 @@
       <workItem from="1639507035430" duration="2358000" />
       <workItem from="1639585602650" duration="6411000" />
       <workItem from="1639675610092" duration="658000" />
-      <workItem from="1640258067154" duration="7537000" />
+      <workItem from="1640258067154" duration="11152000" />
+      <workItem from="1640290603605" duration="601000" />
+      <workItem from="1640344015024" duration="951000" />
     </task>
     <servers />
   </component>
@@ -229,18 +183,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1638895913690" />
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1639355162844">
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1640290158358">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1639355162844" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1640290158358" />
     <state x="438" y="191" key="EditFileWatcherDialog" timestamp="1638131322727">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="438" y="191" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1638131322727" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1640282498506">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1640344909516">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1640282498506" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1640344909516" />
     <state x="277" y="57" width="1184" height="709" key="SettingsEditor" timestamp="1639161975002">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -257,9 +211,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1639352981900" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1640282347621">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1640344468656">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1640282347621" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1640344468656" />
   </component>
 </project>
