@@ -69,6 +69,7 @@
     "webpack-stream": "^7.0.0"
   },
   "dependencies": {
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "simplebar": "^5.3.6"
   }
 }

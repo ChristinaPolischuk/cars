@@ -23,7 +23,7 @@ export default () => {
         .pipe(gp.autoprefixer())
         .pipe(gp.shorthand())
         .pipe(gp.groupCssMediaQueries())
-        .pipe(gp.size({title: "main.css"}))
+        .pipe(gp.size({title: "main.scss"}))
         .pipe(gulp.dest(path.css.dest, {sourcemaps: app.isDev}))
         .pipe(gp.rename({suffix: ".min"}))
         .pipe(gp.csso())

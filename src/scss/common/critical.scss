@@ -85,17 +85,10 @@ button, input[type=button] {
   color: $white_color;
 }
 
-.site-select__icon-dropdown {
-  margin-left: 5px;
-  width: 10px;
-  height: 5px;
-  fill: #fff;
-}
-
 .site-select-dropdown {
-  display: none;
+  max-height: 0;
+  overflow: hidden;
 }
-
 
 .content-wrapper:not(:first-child) {
   margin-top: 55px
