@@ -26,18 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12551245-ff4c-4832-8ed5-ce85df42a7e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/scss/libs/simplebar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.babel.js/task/css.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.babel.js/task/css.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.babel.js/task/libsJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.babel.js/task/libsJs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.babel.js/task/scss.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.babel.js/task/scss.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/blog-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog-post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/bolt-pattern.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/bolt-pattern.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/critical.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/critical.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/img/content/18_wheels/18_wheels-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/content/18_wheels/18_wheels-1.png" afterDir="false" />
@@ -193,7 +185,6 @@
       <change beforePath="$PROJECT_DIR$/public/img/general/logos/volvo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/general/logos/volvo.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/img/general/logos/volvo_logo_black.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/general/logos/volvo_logo_black.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/libs/libs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/libs/libs.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/manuals.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/manuals.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/modified.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/modified.html" afterDir="false" />
@@ -204,11 +195,7 @@
       <change beforePath="$PROJECT_DIR$/public/wheels-and-tires.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/wheels-and-tires.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/year-bolt-pattern.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/year-bolt-pattern.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/year-towing-capacity.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/year-towing-capacity.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/module/site-select.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/module/site-select.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/chunk/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/chunk/footer.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/common/critical.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/common/critical.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/site-select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/site-select.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

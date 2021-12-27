@@ -85,6 +85,10 @@ button, input[type=button] {
   color: $white_color;
 }
 
+.site-select .footer__title-icon {
+  display: inline-flex;
+}
+
 .site-select-dropdown {
   max-height: 0;
   overflow: hidden;
