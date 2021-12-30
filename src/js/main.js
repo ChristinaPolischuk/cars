@@ -12,6 +12,7 @@ import cardsShow from "./module/cardsShow";
 import mobileMenu from "./module/mobileMenu";
 import showYears from "./module/showYears";
 import accordion from "./module/accordion";
+import filter from "./module/filter";
 import siteSelect from "./module/site-select";
 import footerLinks from "./module/footerLinks";
 
@@ -30,5 +31,6 @@ cardsShow();
 mobileMenu();
 showYears();
 accordion();
+filter();
 siteSelect();
 footerLinks();

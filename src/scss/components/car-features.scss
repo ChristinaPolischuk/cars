@@ -7,6 +7,7 @@
       display: none;
     }
     &__descr {
+      cursor: pointer;
       display: flex;
       align-items: center;
       padding: 0 10px;
@@ -16,14 +17,18 @@
           margin-right: 10px;
         }
       }
+      &.active {
+        .car-features-header__icon {
+          transform: rotate(180deg);
+        }
+      }
     }
     &__text {
       font-size: 18px;
       margin-right: 5px;
     }
     &__icon {
-      @include size(10px, 5px);
-      fill: $accent_color;
+      transition: transform .3s;
     }
   }
   &-table {

@@ -1415,6 +1415,7 @@ ul li::before {
 }
 
 .car-features-header__descr {
+  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1428,15 +1429,23 @@ ul li::before {
   margin-right: 30px;
 }
 
+.car-features-header__descr.active .car-features-header__icon {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
 .car-features-header__text {
   font-size: 18px;
   margin-right: 5px;
 }
 
 .car-features-header__icon {
-  width: 10px;
-  height: 5px;
-  fill: #A27677;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  -o-transition: transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
 }
 
 .car-features-table__row {

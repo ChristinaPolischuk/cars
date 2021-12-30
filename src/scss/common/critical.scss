@@ -6,17 +6,13 @@
   box-sizing: border-box
 }
 
+html, body{
+  height: 100%;
+}
+
 html {
   line-height: 1;
   font-size: 16px
-}
-
-.wrapper, body, html {
-  min-height: 100%
-}
-
-body, html {
-  overflow-x: hidden
 }
 
 body {
@@ -52,7 +48,10 @@ button, input[type=button] {
 
 .wrapper {
   display: flex;
-  flex-direction: column
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 .container {
@@ -286,6 +285,11 @@ button, input[type=button] {
 
 .car-features-table__col.img {
   aspect-ratio: 245/122;
+}
+
+.car-features-header__icon {
+  @include size(10px, 5px);
+  fill: $accent_color;
 }
 
 .nav {
