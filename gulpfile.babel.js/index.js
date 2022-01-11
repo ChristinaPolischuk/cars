@@ -31,6 +31,7 @@ const server = () => {
 const watcher = () => {
     gulp.watch(path.pug.watch, pug).on("all", browserSync.reload);
     gulp.watch(path.scss.watch, scss).on("all", browserSync.reload);
+    gulp.watch(path.criticalCss.watch, criticalCss).on("all", browserSync.reload);
     gulp.watch(path.js.watch, js).on("all", browserSync.reload);
     gulp.watch(path.img.watch, img).on("all", browserSync.reload);
     gulp.watch(path.svg.watch, svg).on("all", browserSync.reload);

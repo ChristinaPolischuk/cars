@@ -20,6 +20,7 @@ export default {
     },
     criticalCss: {
         src: pathSrc + "/scss/common/critical.scss",
+        watch: pathSrc + "/scss/common/critical.scss",
         dest: pathDest + "/css"
     },
     scss: {

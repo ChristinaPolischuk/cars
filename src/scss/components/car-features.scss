@@ -9,8 +9,9 @@
     &__descr {
       cursor: pointer;
       display: flex;
-      align-items: center;
+      align-items: baseline;
       padding: 0 10px;
+      width: 145px;
       &:not(:last-child) {
         margin-right: 30px;
         @include media-xl {
@@ -67,7 +68,9 @@
         flex: 1;
       }
       &.number {
+        width: 145px;
         @include media-md {
+          width: auto;
           display: inline-flex;
           flex-direction: column;
         }

@@ -14,7 +14,8 @@ export default () => {
         .pipe(gp.autoprefixer())
         .pipe(gp.shorthand())
         .pipe(gp.groupCssMediaQueries())
-        .pipe(gp.csso())
-        .pipe(gp.concat("critical.min.css"))
+        // .pipe(gp.csso())
+        // .pipe(gp.concat("critical.min.css"))
+        .pipe(gp.concat("critical.css"))
         .pipe(gulp.dest(path.criticalCss.dest))
 }

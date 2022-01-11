@@ -285,11 +285,15 @@ button, input[type=button] {
 
 .car-features-table__col.img {
   aspect-ratio: 245/122;
+  @include media-md {
+    aspect-ratio: auto;
+  }
 }
 
 .car-features-header__icon {
   @include size(10px, 5px);
   fill: $accent_color;
+  flex: none;
 }
 
 .nav {
