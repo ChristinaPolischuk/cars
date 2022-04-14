@@ -1,0 +1,22 @@
+section.car-model
+    .container
+        .breadcrumbs
+            a.breadcrumbs-link(href="#") Vehicle
+            a.breadcrumbs-link(href="#") Info
+            a.breadcrumbs-link(href="#") Bulb Sizes
+            a.breadcrumbs-link(href="#") 2021
+        .car-model__container.years
+            .car-model__content
+                h1.car-model__title.bordered
+                    span.block-mobile 2021 Cadillac Escalade
+                    span.block-mobile Bulbs - 2021
+                .car-model__years
+                    - for (var year = 1977; year <= 2021; year++)
+                        a.car-model__year.js-car-model-year(href="#")= year
+                    button.car-model__btn.js-show-years
+                        +icon("arrow-right", "car-model__icon")
+            .car-model__img-small
+                picture
+                    source(srcset="img/content/car-model/cadillac.webp", type="image/webp")
+                    img(src="img/content/car-model/cadillac.png" alt="Cadillac")
+        p.car-model__text.pt-50 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.

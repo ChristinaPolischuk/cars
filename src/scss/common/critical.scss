@@ -65,6 +65,10 @@ button, input[type=button] {
   padding: 80px 0 115px
 }
 
+.pt-50 {
+  padding-top: 50px;
+}
+
 .logo {
   display: inline-flex;
   align-items: center
@@ -124,10 +128,6 @@ button, input[type=button] {
 .car-model__content {
   margin-right: 30px;
   position: relative;
-  aspect-ratio: 327 / 139;
-  @include media-sm {
-    aspect-ratio: 546 / 93;
-  }
 }
 
 .car-model__years {
@@ -256,6 +256,8 @@ button, input[type=button] {
   margin: 0 auto;
   min-width: 220px;
   height: 46px;
+  line-height: 46px;
+  text-align: center;
   color: $white_color;
   border-radius: 20px;
   font-size: 16px;
@@ -477,7 +479,7 @@ button, input[type=button] {
 }
 
 .car-model__text {
-  margin-top: 30px;
+  margin-top: 45px;
 }
 
 .car-model__year {

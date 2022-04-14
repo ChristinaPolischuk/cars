@@ -1,0 +1,42 @@
+mixin productsListItem(src)
+    .products-list__item
+        .products-list__img
+            picture
+                source(srcset=`img/content/products/${src}.webp`, type="image/webp")
+                img(src="img/content/products/${src}.png" alt="Cadillac")
+        .products-list__info
+            .products-list__header
+                .products-list__img-mobile
+                    picture
+                        source(srcset=`img/content/products/${src}.webp`, type="image/webp")
+                        img(src="img/content/products/${src}.png" alt="Cadillac")
+                h4.products-list__title Standard Model: <a href="">921</a>
+            p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+            a.btn.btn--small(href="") Check price
+
+section.section-middle
+    .container
+        .products
+            h2.products-title Back Up Light
+            .products-list
+                +productsListItem("back-up-light-1")
+                +productsListItem("back-up-light-2")
+                +productsListItem("back-up-light-1")
+                +productsListItem("back-up-light-2")
+            button.products-show-more Show more
+        .products
+            h2.products-title Brake Light
+            .products-list
+                +productsListItem("break-light-1")
+                +productsListItem("break-light-2")
+                +productsListItem("break-light-1")
+                +productsListItem("break-light-2")
+            button.products-show-more Show more
+        .products
+            h2.products-title Dome Light
+            .products-list
+                +productsListItem("dome-light-1")
+                +productsListItem("dome-light-2")
+                +productsListItem("dome-light-1")
+                +productsListItem("dome-light-2")
+            button.products-show-more Show more
