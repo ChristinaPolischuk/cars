@@ -2,6 +2,7 @@
   @include media-sm {
     padding: 20px 0;
   }
+
   &__item {
     @include media-md {
       width: 49%;
@@ -9,30 +10,51 @@
     @include media-sm {
       width: 100%;
     }
+
     &.always-show {
       display: block;
     }
   }
+
+  &__block {
+    width: 32%;
+    padding: 20px;
+    margin-bottom: 25px;
+    background-color: $grey_color_light;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    @include media-md {
+      width: 48%;
+    }
+    @include media-sm {
+      width: 100%;
+      padding: 15px;
+    }
+  }
+
   &__title {
     margin-bottom: 5px;
     font-size: 20px;
+
     &-link {
-      color: $black_color;
-      transition: color .1s;
+      transition: text-decoration .1s;
+
       &:hover {
-        color: $accent_color;
+        text-decoration: underline;
       }
     }
   }
+
   &__date {
     display: block;
     margin-bottom: 5px;
-    color: $accent_color;
   }
+
   &__text {
-    font-size: 14px;
-    &:last-child {
-      margin-top: 50px;
+    margin-top: 15px;
+    font-size: 16px;
+
+     &:last-child {
+      margin-top: 25px;
     }
   }
 }

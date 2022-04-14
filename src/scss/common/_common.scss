@@ -38,6 +38,10 @@ ul {
     padding: 50px 0 100px;
   }
 
+  &-top-25 {
+    padding-top: 25px;
+  }
+
   &-top {
     padding-top: 80px;
     @include media-md {
@@ -135,6 +139,12 @@ ul {
 
 .block {
   display: block;
+}
+
+.block-mobile {
+  @include media-xs {
+    display: block;
+  }
 }
 
 .beige-bg {

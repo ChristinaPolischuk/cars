@@ -1,0 +1,14 @@
+extends ../layout/app
+
+block page
+    .wrapper
+        include ../chunk/header
+        include fuses/car-model
+        include fuses/blog
+        include fuses/_section-text
+        include ../chunk/footer
+
+block script
+    script(src="js/libs/jquery.min.js")
+    script(src="js/libs/libs.min.js")
+    script(src="js/main.js")

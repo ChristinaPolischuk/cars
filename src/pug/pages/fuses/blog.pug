@@ -1,0 +1,21 @@
+mixin articlesBlock(link="Vehicle user guide - if equipped", date="March 21, 2021", text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s")
+    .articles__block
+        h5.articles__title
+            a.articles__title-link(href="#")=link
+        span.articles__date=date
+        p.articles__text=text
+
+section.section-middle
+    .container
+        .articles__content
+            +articlesBlock()
+            +articlesBlock()
+            +articlesBlock()
+            +articlesBlock()
+            +articlesBlock()
+            +articlesBlock()
+            +articlesBlock()
+            +articlesBlock()
+            +articlesBlock()
+        .page-separator
+        include ../../chunk/pagination

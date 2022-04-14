@@ -279,8 +279,16 @@ button, input[type=button] {
   aspect-ratio: 1;
 }
 
-.car-model__img img, .car-model__img-medium img, .car-model__img-small img {
+.car-model__img {
   aspect-ratio: 727 / 314;
+}
+
+.car-model__img-medium {
+  aspect-ratio: 548 / 346;
+}
+
+.car-model__img-small {
+  aspect-ratio: 476 / 206;
 }
 
 .car-features-table__col.img {
@@ -452,15 +460,24 @@ button, input[type=button] {
   background: $accent_color;
   content: "";
   display: block;
-  height: 3px
+  margin-top: 25px;
+  width: 193px;
+  height: 3px;
+  @include media-xs {
+    content: none;
+  }
 }
 
-.car-model__title span:not(:last-child) {
-  margin-right: 5px
+.car-model__title span:not(:first-child) {
+  margin-left: 5px
 }
 
 .car-model__img {
   max-width: 730px
+}
+
+.car-model__text {
+  margin-top: 30px;
 }
 
 .car-model__year {
