@@ -559,6 +559,10 @@ input[type=button] {
   padding: 80px 0 115px;
 }
 
+.pt-50 {
+  padding-top: 50px;
+}
+
 .logo {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -633,7 +637,6 @@ input[type=button] {
 .car-model__content {
   margin-right: 30px;
   position: relative;
-  aspect-ratio: 327/139;
 }
 
 .car-model__years {
@@ -783,6 +786,8 @@ input[type=button] {
   margin: 0 auto;
   min-width: 220px;
   height: 46px;
+  line-height: 46px;
+  text-align: center;
   color: #fff;
   border-radius: 20px;
   font-size: 16px;
@@ -1081,7 +1086,7 @@ input[type=button] {
 }
 
 .car-model__text {
-  margin-top: 30px;
+  margin-top: 45px;
 }
 
 .car-model__year {
@@ -1298,10 +1303,6 @@ input[type=button] {
 }
 
 @media (max-width: 576px) {
-  .car-model__content {
-    aspect-ratio: 546/93;
-  }
-
   .page-navigation__links {
     aspect-ratio: 546/200;
   }
