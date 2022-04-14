@@ -1,0 +1,10 @@
+section.section-middle
+    .container
+        .car-model__select-year
+            h2.section-title Select year
+            .car-model__select-years
+                - for (var year = 1977; year <= 2021; year++)
+                    if year == 1980
+                        span.car-model__year.always-show= year
+                    else
+                        a.car-model__year.always-show(href="#")= year
