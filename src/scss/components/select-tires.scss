@@ -1,0 +1,99 @@
+.select-tires {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: $grey_color_light;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  @include media-lg {
+    flex-direction: column;
+  }
+  &__group {
+    margin-right: 30px;
+    @include media-lg {
+      margin-right: 0;
+      margin-bottom: 20px;
+      min-width: 286px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  &__label {
+    font-weight: 600;
+    margin-right: 10px;
+    flex: none;
+  }
+  .custom-select {
+    @include media-lg {
+      width: 210px;
+    }
+  }
+
+  .btn {
+    @include media-lg {
+      min-width: 165px;
+    }
+  }
+}
+
+.select-tires-list {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  &__item {
+    width: 45%;
+    margin-bottom: 45px;
+    display: flex;
+    align-items: center;
+    @include media-sm {
+      width: 100%;
+    }
+  }
+  &__img {
+    flex: none;
+    aspect-ratio: 95/125;
+    margin-right: 20px;
+    img {
+      max-width: 100%;
+    }
+  }
+  &__link {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+
+.tire-size-table {
+  margin-top: 45px;
+  &__row {
+    padding: 30px 20px;
+    background-color: $grey_color_light;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+  &__title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &__item {
+    width: 30%;
+    margin-bottom: 5px;
+    @include media-md {
+      width: 48%;
+    }
+    @include media-sm {
+      width: 100%;
+    }
+  }
+}

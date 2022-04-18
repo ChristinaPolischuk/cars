@@ -13,8 +13,9 @@ import mobileMenu from "./module/mobileMenu";
 import showYears from "./module/showYears";
 import accordion from "./module/accordion";
 import filter from "./module/filter";
-import siteSelect from "./module/site-select";
+import siteSelect from "./module/siteSelect";
 import footerLinks from "./module/footerLinks";
+import customSelect from "./module/customSelect";
 
 svg4everybody({});
 pageNavigation();
@@ -34,3 +35,4 @@ accordion();
 filter();
 siteSelect();
 footerLinks();
+customSelect();

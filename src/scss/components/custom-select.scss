@@ -1,0 +1,85 @@
+.custom-select {
+  position: relative;
+  min-width: 126px;
+  display: inline-flex;
+  &.is-active {
+    .custom-select__header::after {
+      transform: rotate(180deg);
+    }
+    .custom-select__body {
+      visibility: visible;
+      max-height: 150px;
+    }
+  }
+  &__header {
+    cursor: pointer;
+    position: relative;
+    padding: 10px 30px 10px 10px;
+    width: 100%;
+    font-size: 14px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    &::after {
+      content: '';
+      margin-top: -2px;
+      @include position(absolute, $top: 50%, $right: 10px);
+      @include size(0);
+      border-top: 5px solid $accent_color;
+      border-right: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      border-left: 5px solid transparent;
+      pointer-events: none;
+      transition: transform .3s;
+    }
+  }
+  &__body {
+    position: absolute;
+    z-index: 10;
+    top: calc(100% + 5px);
+    left: 0;
+    right: 0;
+    max-height: 0;
+    will-change: max-height, visibility;
+    visibility: hidden;
+    background-color: #ffffff;
+    border: 1px solid $accent_color;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: visibility .7s, max-height .7s;
+    .scroll {
+      max-height: 150px;
+      padding: 0 10px;
+      .simplebar-scrollbar {
+        margin-right: 2px;
+        &::before {
+          background-color: $accent_color;
+        }
+      }
+    }
+  }
+  &__item {
+    position: relative;
+    cursor: pointer;
+    padding: 5px 0;
+    &:hover:not(:last-child)::after {
+      width: 100%;
+    }
+    &:not(:last-child)::before,
+    &:not(:last-child)::after {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 0;
+      height: 0.5px;
+    }
+    &:not(:last-child)::before {
+      width: 100%;
+      background-color: #d0d0d0;
+    }
+    &:not(:last-child)::after {
+      width: 0;
+      background-color: #2d7caa;
+      transition: width .6s;
+    }
+  }
+}
