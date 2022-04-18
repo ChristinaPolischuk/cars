@@ -1,0 +1,17 @@
+extends ../layout/app
+
+block page
+    .wrapper
+        include ../chunk/header
+        include tire-size-year/car-model
+        include tire-size-year/_car-model-year
+        include tire-size-year/_tire-size-year
+        include tire-size-year/_stock-tire-sizes
+        include tire-size-year/tire-size-table
+        include tire-size-year/_section-text
+        include ../chunk/footer
+
+block script
+    script(src="js/libs/jquery.min.js")
+    script(src="js/libs/libs.min.js")
+    script(src="js/main.js")

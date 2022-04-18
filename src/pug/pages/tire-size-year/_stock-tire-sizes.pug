@@ -1,0 +1,13 @@
+mixin tireSizeTableItem(descr)
+    .tire-size-table__row
+        h5.tire-size-table__title
+            a(href="#") 225/50 R17 – low profile
+        p.tire-size-table__descr=descr
+
+section.section-middle
+    .container
+        h3.page-title-small Stock Tire Sizes
+        .tire-size-table
+            +tireSizeTableItem("Diameter 25.86\" | Sidewall height 4.43\"")
+            +tireSizeTableItem("Diameter 25.86\" | Sidewall height 4.43\" | Rim width 18x7.5, 18x8.0, 18x8.5, 18x9.0")
+            +tireSizeTableItem("Diameter 25.86\" | Sidewall height 4.43\" | Rim width 18x7.5, 18x8.0, 18x8.5, 18x9.0")

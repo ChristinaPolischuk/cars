@@ -1,0 +1,30 @@
+mixin customTireSizesRow
+    .custom-tire-sizes__row
+        .custom-tire-sizes__img
+            picture
+                source(srcset="img/content/car-model/honda-accord.webp", type="image/webp")
+                img(src="img/content/car-model/honda-accord.png" alt="Honda Accords")
+        .custom-tire-sizes__col
+            a(href="") 215/40 R17 / 235/40 R17
+        .custom-tire-sizes__col
+            span 23.8"
+
+section.section-middle
+    .container
+        h3.page-title-small Custom Tire Sizes for Honda Accord All Years
+        .custom-tire-sizes
+            .custom-tire-sizes__header
+                .custom-tire-sizes__col
+                    span.custom-tire-sizes__title Photo
+                .custom-tire-sizes__col
+                    span.custom-tire-sizes__title Tire size
+                .custom-tire-sizes__col
+                    span.custom-tire-sizes__title Wheel Diameter
+            +customTireSizesRow
+            +customTireSizesRow
+            +customTireSizesRow
+            +customTireSizesRow
+            +customTireSizesRow
+            +customTireSizesRow
+        .page-separator
+        include ../../chunk/pagination
