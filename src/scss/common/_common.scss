@@ -157,5 +157,15 @@ ul {
   }
 }
 
+.read-more {
+  cursor: pointer;
+  margin-left: 15px;
+  color: $accent_color;
+  font-weight: 600;
+}
+.add-text {
+  display: none;
+}
+
 @import "page";
 @import "pagination";

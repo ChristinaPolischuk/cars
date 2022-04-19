@@ -16,6 +16,7 @@ import filter from "./module/filter";
 import siteSelect from "./module/siteSelect";
 import footerLinks from "./module/footerLinks";
 import customSelect from "./module/customSelect";
+import hideText from "./module/hideText";
 
 svg4everybody({});
 pageNavigation();
@@ -36,3 +37,4 @@ filter();
 siteSelect();
 footerLinks();
 customSelect();
+hideText();

@@ -1,0 +1,14 @@
+extends ../layout/app
+
+block page
+    .wrapper
+        include ../chunk/header
+        include wheel-size-year/car-model
+        include wheel-size-year/wheel-size-list
+        include wheel-size-year/_car-model-year
+        include ../chunk/footer
+
+block script
+    script(src="js/libs/jquery.min.js")
+    script(src="js/libs/libs.min.js")
+    script(src="js/main.js")
