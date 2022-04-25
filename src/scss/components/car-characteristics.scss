@@ -30,9 +30,9 @@
     &.flex {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-between;
       .car-characteristics__item {
         margin-bottom: 25px;
+        margin-right: 10px;
         max-width: 266px;
         width: 100%;
       }
