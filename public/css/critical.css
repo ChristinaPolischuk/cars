@@ -491,7 +491,7 @@ html {
 
 body {
   font: 16px/1.36 Nunito, Arial, sans-serif;
-  color: #434343;
+  color: #000000;
 }
 
 body,
@@ -510,7 +510,7 @@ p {
 
 a {
   text-decoration: none;
-  color: #0472AF;
+  color: #E10F21;
 }
 
 audio,
@@ -664,23 +664,23 @@ input[type=button] {
 }
 
 .link-bordered {
-  border-bottom: 1px solid #0472AF;
+  border-bottom: 1px solid #E10F21;
   -webkit-transition: border-bottom-color 0.3s;
   -o-transition: border-bottom-color 0.3s;
   transition: border-bottom-color 0.3s;
 }
 
 .show-more {
-  color: #0472AF;
+  color: #E10F21;
   font-size: 22px;
   font-weight: 600;
-  border-bottom: 1px solid #0472AF;
+  border-bottom: 1px solid #E10F21;
   display: none;
   margin: 0 auto;
 }
 
 .header {
-  background: #0472AF;
+  background: #E10F21;
   position: relative;
   padding-top: 15px;
   color: #fff;
@@ -711,7 +711,7 @@ input[type=button] {
 }
 
 .footer {
-  background: #0472AF;
+  background: #E10F21;
   padding: 25px 0;
   margin-top: auto;
 }
@@ -767,21 +767,21 @@ input[type=button] {
   width: 36px;
   height: 36px;
   margin-right: 15px;
-  fill: #0472AF;
+  fill: #E10F21;
 }
 
 .content-title__link {
   font-size: 30px;
   font-weight: 600;
   vertical-align: middle;
-  color: #434343;
+  color: #000000;
   -webkit-transition: color 0.1s;
   -o-transition: color 0.1s;
   transition: color 0.1s;
 }
 
 .btn {
-  background: #0472AF;
+  background: #E10F21;
   display: block;
   margin: 0 auto;
   min-width: 220px;
@@ -843,7 +843,7 @@ input[type=button] {
 .car-features-header__icon {
   width: 10px;
   height: 5px;
-  fill: #0472AF;
+  fill: #E10F21;
   -webkit-box-flex: 0;
   -ms-flex: none;
   flex: none;
@@ -967,7 +967,7 @@ input[type=button] {
 
 .preview-slider__text {
   font-size: 18px;
-  color: #0472AF;
+  color: #E10F21;
 }
 
 .preview-slider__btn {
@@ -992,7 +992,7 @@ input[type=button] {
   width: 24px;
   height: 24px;
   fill: none;
-  stroke: #0472AF;
+  stroke: #E10F21;
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -1069,7 +1069,7 @@ input[type=button] {
 }
 
 .car-model__title.bordered::after {
-  background: #0472AF;
+  background: #E10F21;
   content: "";
   display: block;
   margin-top: 25px;
@@ -1101,7 +1101,7 @@ input[type=button] {
   content: "...";
   display: inline;
   margin: 0 2px;
-  color: #434343;
+  color: #000000;
 }
 
 .car-model__year.always-show {
@@ -1116,12 +1116,12 @@ input[type=button] {
 
 .car-model__icon {
   fill: none;
-  stroke: #434343;
+  stroke: #000000;
   stroke-width: 2;
 }
 
 .page-navigation {
-  background: #F4F2F2;
+  background: #FED1D5;
   padding: 40px 0;
   text-align: center;
 }
@@ -1140,7 +1140,7 @@ input[type=button] {
   display: inline-flex;
   font-size: 22px;
   font-weight: 600;
-  color: #434343;
+  color: #000000;
 }
 
 .page-navigation__link:not(:last-of-type) {
@@ -1178,7 +1178,7 @@ input[type=button] {
 }
 
 .shop-cars__item {
-  background: #F4F2F2;
+  background: #FED1D5;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -1204,7 +1204,7 @@ input[type=button] {
 }
 
 .modified-cars {
-  background: #F4F2F2;
+  background: #FED1D5;
   padding: 50px 0 40px;
 }
 
@@ -1266,12 +1266,12 @@ input[type=button] {
   width: 18px;
   height: 18px;
   fill: none;
-  stroke: #0472AF;
+  stroke: #E10F21;
   stroke-width: 2;
 }
 
 .articles {
-  background: #F4F2F2;
+  background: #FED1D5;
   padding: 45px 0 35px;
 }
 
