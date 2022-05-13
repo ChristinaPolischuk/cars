@@ -1215,8 +1215,8 @@ ul li::before {
 .cards-show-more {
   margin: 0 auto;
   font-size: 18px;
-  cursor: pointer;
   color: #E10F21;
+  cursor: pointer;
 }
 
 .card {
