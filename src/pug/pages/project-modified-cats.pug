@@ -1,0 +1,15 @@
+extends ../layout/app
+
+block page
+    .wrapper
+        include ../chunk/header
+        include project-modified-cats/car-model
+        include project-modified-cats/car-characteristics
+        include project-modified-cats/faq
+        include project-modified-cats/see-more
+        include ../chunk/footer
+
+block script
+    script(src="js/libs/jquery.min.js")
+    script(src="js/libs/libs.min.js")
+    script(src="js/main.js")

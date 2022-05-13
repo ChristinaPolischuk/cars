@@ -41,7 +41,7 @@
 
   &__header {
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
 
   &__item {
@@ -51,6 +51,16 @@
 
     &:not(:last-child) {
       margin-bottom: 25px;
+    }
+  }
+  &__halfitem {
+    display: flex;
+    width: 48%;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    @include media-mds {
+      width: 100%;
+      margin-right: 0;
     }
   }
   &__linkblock {

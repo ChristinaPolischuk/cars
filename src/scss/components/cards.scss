@@ -3,14 +3,10 @@
   flex-wrap: wrap;
   justify-content: space-between;
   &-show-more {
-    display: none;
-    width: 100%;
-    text-align: center;
+    margin: 0 auto;
     font-size: 18px;
     color: $accent_color;
-    @include media-md {
-      display: block;
-    }
+    cursor: pointer;
   }
 }
 

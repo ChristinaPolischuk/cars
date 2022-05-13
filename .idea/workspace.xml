@@ -26,17 +26,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12551245-ff4c-4832-8ed5-ce85df42a7e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pug/pages/bulbs-year/text-section.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/project-modified-cats.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/project-modified-cats/car-characteristics.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/project-modified-cats/car-model.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/project-modified-cats/faq.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pug/pages/project-modified-cats/see-more.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bulbs-year.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/bulbs-year.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/bulbs-year.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/bulbs-year.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/bulbs-year/car-model.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/bulbs-year/car-model.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/bulbs-year/products.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/bulbs-year/products.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/common/critical.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/common/critical.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/helpers/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/helpers/_vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/modified.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/modified.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/project-modified.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/project-modified.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/module/cardsShow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/modified/18-wheels.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/modified/18-wheels.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/modified/popular.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/modified/popular.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/modified/trending.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/modified/trending.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/project-modified/car-characteristics.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/project-modified/car-characteristics.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/project-modified/see-more.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/project-modified/see-more.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/car-characteristics.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/car-characteristics.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/cards.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,23 +64,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../towingcap.com" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\#Work\cars\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\#Work\cars\src\pug\pages" />
-      <recent name="D:\#Work\cars\src\js\module" />
-      <recent name="D:\#Work\cars\src\pug\pages\fuses" />
-      <recent name="D:\#Work\cars\src\scss\libs" />
-      <recent name="D:\#Work\cars\src\img\sprite" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\#Work\cars\src\pug\pages" />
       <recent name="D:\#Work\cars\src\pug\pages\owners-manuals-year" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\#Work\cars\src\pug\pages" />
+      <recent name="D:\#Work\cars\src\pug" />
+      <recent name="D:\#Work\cars\src\js\module" />
+      <recent name="D:\#Work\cars\src\pug\pages\fuses" />
+      <recent name="D:\#Work\cars\src\scss\libs" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -146,7 +155,9 @@
       <workItem from="1650707255658" duration="12190000" />
       <workItem from="1650798460293" duration="218000" />
       <workItem from="1650878037206" duration="831000" />
-      <workItem from="1650966222406" duration="735000" />
+      <workItem from="1650966222406" duration="1712000" />
+      <workItem from="1651475615644" duration="596000" />
+      <workItem from="1652432931564" duration="10908000" />
     </task>
     <servers />
   </component>
@@ -178,21 +189,25 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1650918117002">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1652442215527">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1650918117002" />
-    <state x="451" y="154" width="578" height="534" key="find.popup" timestamp="1650966846776">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1652442215527" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1652437843361">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="451" y="154" width="578" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1650966846776" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1652437843361" />
+    <state x="451" y="154" width="578" height="534" key="find.popup" timestamp="1652442121749">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="451" y="154" width="578" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1652442121749" />
     <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1650363961049">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1650363961049" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1650896934671">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1652442672029">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1650896934671" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1652442672029" />
   </component>
 </project>
