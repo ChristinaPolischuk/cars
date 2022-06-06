@@ -8,7 +8,7 @@
   min-height: 100vh;
   color: #fff;
   font-size: 18px;
-  background-color: $accent_color;
+  background-color: $color-accent;
   transform: translateX(calc(-100vw + 20px));
   transition: transform .3s;
 }
@@ -110,7 +110,7 @@
     @include size(28px);
     fill: none;
     stroke-width: 2;
-    stroke: $accent_color;
+    stroke: $color-accent;
   }
   &__matches {
     margin-top: 5px;

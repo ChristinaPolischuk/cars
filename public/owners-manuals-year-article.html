@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/mazda-critical.css">
+    <noscript class="loadLater">
+      <link rel="stylesheet" href="css/mazda.css">
+    </noscript><script type="application/javascript">document.addEventListener("DOMContentLoaded", function(event){var loadLater = document.querySelector('.loadLater');var head = document.querySelector('head');if(loadLater && head){head.insertAdjacentHTML('beforeend', loadLater.innerHTML);}});</script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header-container container">
+          <div class="mobile-menu">
+            <div class="hamburger" id="hamburger">
+              <div class="hamburger__top"></div>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                <path id="circle" fill="none" stroke-width="4" stroke-miterlimit="10" d="M16,32h32c0,0,11.723-0.306,10.75-11 c-0.25-2.75-1.644-4.971-2.869-7.151C50.728,7.08,42.767,2.569,33.733,2.054C33.159,2.033,32.599,2,32,2C15.432,2,2,15.432,2,32 c0,16.566,13.432,30,30,30c16.566,0,30-13.434,30-30C62,15.5,48.5,2,32,2S1.875,15.5,1.875,32"></path>
+              </svg>
+              <div class="hamburger__bottom"></div>
+            </div>
+            <nav class="mobile-menu__nav" id="mobile-nav">
+              <div class="mobile-menu__item"><a class="mobile-menu__link" href="#">Vehicle</a></div>
+              <div class="mobile-menu__item"><a class="mobile-menu__link" href="#">Shop</a></div>
+              <div class="mobile-menu__item"><a class="mobile-menu__link" id="show-dropdown" href="#">Our story
+                  <svg class="icon icon-arrow-down nav__link-icon">
+                    <use xlink:href="img/sprite/symbol/sprite.svg#arrow-down"></use>
+                  </svg></a>
+                <div class="mobile-menu-dropdown">
+                  <div class="mobile-menu-dropdown__content"><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/our_story/item-1.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/our_story/item-1.png" alt="Innovations">
+                            </picture><span class="mobile-menu-dropdown__title">Innovations</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/our_story/item-2.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/our_story/item-2.png" alt="Innovations">
+                            </picture><span class="mobile-menu-dropdown__title">Innovations</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/our_story/item-3.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/our_story/item-3.png" alt="Innovations">
+                            </picture><span class="mobile-menu-dropdown__title">Innovations</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/our_story/item-4.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/our_story/item-4.png" alt="Innovations">
+                            </picture><span class="mobile-menu-dropdown__title">Innovations</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/our_story/item-5.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/our_story/item-5.png" alt="Innovations">
+                            </picture><span class="mobile-menu-dropdown__title">Innovations</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/our_story/item-6.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/our_story/item-6.png" alt="Innovations">
+                            </picture><span class="mobile-menu-dropdown__title">Innovations</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/our_story/item-7.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/our_story/item-7.png" alt="Innovations">
+                            </picture><span class="mobile-menu-dropdown__title">Innovations</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/our_story/item-8.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/our_story/item-8.png" alt="Innovations">
+                            </picture><span class="mobile-menu-dropdown__title">Innovations</span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="mobile-menu__item"><a class="mobile-menu__link" href="#">About</a></div>
+              <div class="mobile-menu__item"><a class="mobile-menu__link" href="#">Contacts</a></div>
+              <form class="mobile-menu-search">
+                <input class="search-form__field js-search-matches" type="text" autocomplete="off" data-url="/match-titles/" data-list="js-search-mobile-list">
+                <div class="mobile-menu-search__matches js-search-mobile-list"></div>
+                <button class="mobile-menu-search__btn">
+                  <svg class="icon icon-search mobile-menu-search__icon">
+                    <use xlink:href="img/sprite/symbol/sprite.svg#search"></use>
+                  </svg>
+                </button>
+              </form>
+            </nav>
+          </div><a class="logo" href="index.html"><span class="logo__img" style="background-image: url(img/general/logos/mazda.svg)"></span><span class="logo__text">Mazda</span></a>
+          <div class="header-block">
+            <nav class="nav">
+              <div class="nav__item"><a class="nav__link" href="#">Vehicle</a></div>
+              <div class="nav__item"><a class="nav__link" href="#">Shop</a></div>
+              <div class="nav__item"><a class="nav__link" href="#">Our story
+                  <svg class="icon icon-arrow-down nav__link-icon">
+                    <use xlink:href="img/sprite/symbol/sprite.svg#arrow-down"></use>
+                  </svg></a>
+                <div class="nav-dropdown"><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/our_story/item-1.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/our_story/item-1.png" alt="Innovations">
+                          </picture><span class="nav-dropdown__title">Innovations</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/our_story/item-2.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/our_story/item-2.png" alt="Innovations">
+                          </picture><span class="nav-dropdown__title">Innovations</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/our_story/item-3.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/our_story/item-3.png" alt="Innovations">
+                          </picture><span class="nav-dropdown__title">Innovations</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/our_story/item-4.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/our_story/item-4.png" alt="Innovations">
+                          </picture><span class="nav-dropdown__title">Innovations</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/our_story/item-5.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/our_story/item-5.png" alt="Innovations">
+                          </picture><span class="nav-dropdown__title">Innovations</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/our_story/item-6.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/our_story/item-6.png" alt="Innovations">
+                          </picture><span class="nav-dropdown__title">Innovations</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/our_story/item-7.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/our_story/item-7.png" alt="Innovations">
+                          </picture><span class="nav-dropdown__title">Innovations</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/our_story/item-8.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/our_story/item-8.png" alt="Innovations">
+                          </picture><span class="nav-dropdown__title">Innovations</span></a>
+                </div>
+              </div>
+              <div class="nav__item"><a class="nav__link" href="#">About</a></div>
+              <div class="nav__item"><a class="nav__link" href="#">Contacts</a></div><span class="nav__link-hover"></span>
+            </nav>
+            <div class="search">
+              <svg class="icon icon-search search-icon js-show-search-form">
+                <use xlink:href="img/sprite/symbol/sprite.svg#search"></use>
+              </svg>
+              <form class="search-form">
+                <svg class="icon icon-close search-form__close js-hide-search-form">
+                  <use xlink:href="img/sprite/symbol/sprite.svg#close"></use>
+                </svg>
+                <input class="search-form__field js-search-matches" type="text" autocomplete="off" data-url="/match-titles/" data-list="js-search-mathes-list">
+                <div class="search-form-matches js-search-mathes-list"></div>
+                <button class="search-form__btn">
+                  <svg class="icon icon-search search-form__loupe">
+                    <use xlink:href="img/sprite/symbol/sprite.svg#search"></use>
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="car-model__row container">
+        <div class="car-model__content">
+          <h1 class="car-model__title"><span>2017 Ford F-150</span><span>Owner’s Manual</span></h1>
+        </div>
+        <div class="car-model__img-small">
+          <picture>
+            <source srcset="img/content/car-model/cadillac.webp" type="image/webp"><img src="img/content/car-model/cadillac.png" alt="Cadillac">
+          </picture>
+        </div>
+      </div>
+      <section class="page">
+        <div class="page-container container">
+          <aside class="sidebar">
+            <div class="site-content">
+              <div class="site-content__item">
+                <div class="site-content__header js-accordion"><span class="site-content__title">Child Safety</span>
+                  <svg class="icon icon-arrow-down site-content__arrow">
+                    <use xlink:href="img/sprite/symbol/sprite.svg#arrow-down"></use>
+                  </svg>
+                </div>
+                <div class="site-content__body accordion-body"><a class="site-content__link" href="#">General Information</a><a class="site-content__link" href="#">Installing Child Restraints</a></div>
+              </div>
+              <div class="site-content__item">
+                <div class="site-content__header js-accordion"><span class="site-content__title">Getting To Know Your Vehicle</span>
+                  <svg class="icon icon-arrow-down site-content__arrow">
+                    <use xlink:href="img/sprite/symbol/sprite.svg#arrow-down"></use>
+                  </svg>
+                </div>
+                <div class="site-content__body accordion-body"><a class="site-content__link" href="#">Introduction</a><a class="site-content__link" href="#">How To Use This Manual</a><a class="site-content__link" href="#">Warnings and Cautions</a><a class="site-content__link" href="#">Vehicle Modifications / Alterations</a></div>
+              </div>
+              <div class="site-content__item">
+                <div class="site-content__header js-accordion"><span class="site-content__title">Getting To Know Your Instrument Panel</span>
+                  <svg class="icon icon-arrow-down site-content__arrow">
+                    <use xlink:href="img/sprite/symbol/sprite.svg#arrow-down"></use>
+                  </svg>
+                </div>
+                <div class="site-content__body accordion-body"><a class="site-content__link" href="#">Introduction</a><a class="site-content__link" href="#">How To Use This Manual</a><a class="site-content__link" href="#">Warnings and Cautions</a><a class="site-content__link" href="#">Vehicle Modifications / Alterations</a></div>
+              </div>
+              <div class="site-content__item">
+                <div class="site-content__header js-accordion"><span class="site-content__title">Safety</span>
+                  <svg class="icon icon-arrow-down site-content__arrow">
+                    <use xlink:href="img/sprite/symbol/sprite.svg#arrow-down"></use>
+                  </svg>
+                </div>
+                <div class="site-content__body accordion-body"><a class="site-content__link" href="#">Introduction</a><a class="site-content__link" href="#">How To Use This Manual</a><a class="site-content__link" href="#">Warnings and Cautions</a><a class="site-content__link" href="#">Vehicle Modifications / Alterations</a></div>
+              </div>
+              <div class="site-content__item">
+                <div class="site-content__header js-accordion"><span class="site-content__title">Starting and Operating</span>
+                  <svg class="icon icon-arrow-down site-content__arrow">
+                    <use xlink:href="img/sprite/symbol/sprite.svg#arrow-down"></use>
+                  </svg>
+                </div>
+                <div class="site-content__body accordion-body"><a class="site-content__link" href="#">Introduction</a><a class="site-content__link" href="#">How To Use This Manual</a><a class="site-content__link" href="#">Warnings and Cautions</a><a class="site-content__link" href="#">Vehicle Modifications / Alterations</a></div>
+              </div>
+              <div class="site-content__item">
+                <div class="site-content__header js-accordion"><span class="site-content__title">In Case of Emergency</span>
+                  <svg class="icon icon-arrow-down site-content__arrow">
+                    <use xlink:href="img/sprite/symbol/sprite.svg#arrow-down"></use>
+                  </svg>
+                </div>
+                <div class="site-content__body accordion-body"><a class="site-content__link" href="#">Introduction</a><a class="site-content__link" href="#">How To Use This Manual</a><a class="site-content__link" href="#">Warnings and Cautions</a><a class="site-content__link" href="#">Vehicle Modifications / Alterations</a></div>
+              </div>
+              <div class="site-content__item">
+                <div class="site-content__header js-accordion"><span class="site-content__title">Servicing and Maintenance</span>
+                  <svg class="icon icon-arrow-down site-content__arrow">
+                    <use xlink:href="img/sprite/symbol/sprite.svg#arrow-down"></use>
+                  </svg>
+                </div>
+                <div class="site-content__body accordion-body"><a class="site-content__link" href="#">Introduction</a><a class="site-content__link" href="#">How To Use This Manual</a><a class="site-content__link" href="#">Warnings and Cautions</a><a class="site-content__link" href="#">Vehicle Modifications / Alterations</a></div>
+              </div>
+              <div class="site-content__item">
+                <div class="site-content__header js-accordion"><span class="site-content__title">Technical Specifications</span>
+                  <svg class="icon icon-arrow-down site-content__arrow">
+                    <use xlink:href="img/sprite/symbol/sprite.svg#arrow-down"></use>
+                  </svg>
+                </div>
+                <div class="site-content__body accordion-body"><a class="site-content__link" href="#">Introduction</a><a class="site-content__link" href="#">How To Use This Manual</a><a class="site-content__link" href="#">Warnings and Cautions</a><a class="site-content__link" href="#">Vehicle Modifications / Alterations</a></div>
+              </div>
+              <div class="site-content__item">
+                <div class="site-content__header js-accordion"><span class="site-content__title">Multimedia</span>
+                  <svg class="icon icon-arrow-down site-content__arrow">
+                    <use xlink:href="img/sprite/symbol/sprite.svg#arrow-down"></use>
+                  </svg>
+                </div>
+                <div class="site-content__body accordion-body"><a class="site-content__link" href="#">Introduction</a><a class="site-content__link" href="#">How To Use This Manual</a><a class="site-content__link" href="#">Warnings and Cautions</a><a class="site-content__link" href="#">Vehicle Modifications / Alterations</a></div>
+              </div>
+              <div class="site-content__item">
+                <div class="site-content__header js-accordion"><span class="site-content__title">Customer Assistance</span>
+                  <svg class="icon icon-arrow-down site-content__arrow">
+                    <use xlink:href="img/sprite/symbol/sprite.svg#arrow-down"></use>
+                  </svg>
+                </div>
+                <div class="site-content__body accordion-body"><a class="site-content__link" href="#">Introduction</a><a class="site-content__link" href="#">How To Use This Manual</a><a class="site-content__link" href="#">Warnings and Cautions</a><a class="site-content__link" href="#">Vehicle Modifications / Alterations</a></div>
+              </div>
+            </div>
+          </aside>
+          <div class="content">
+            <div class="breadcrumbs"><a class="breadcrumbs-link" href="#">Owner’s manuals</a><a class="breadcrumbs-link" href="#">2017</a><a class="breadcrumbs-link" href="#">Recommended Towing Weights</a></div>
+            <h2 class="page-title">Recommended Towing Weights</h2>
+            <p><span class="block">Note:</span><span>Do not exceed a trailer weight of 2,313 kg when towing with, or by, bumper only.</span></p>
+            <p><span class="block">Note:</span><span>For vehicles equipped with a 3.5 L TiVCT engine without a Heavy Duty Trailer Towing Package, do not exceed a trailer weight of 2,313 kg.</span></p>
+            <p><span class="block">Note:</span><span>Make sure to take into consideration trailer frontal area. Vehicles not equipped with the Trailer Tow Package or the Heavy Duty Payload Package should not exceed 36.6 feet<sup>2</sup> (3.4 meters<sup>2</sup>) trailer frontal area. Vehicles equipped with the Trailer Tow Package or the Heavy Duty Payload Package should not exceed 60 feet<sup>2</sup> (5.6 meters<sup>2</sup>) trailer frontal area.</span></p>
+            <p><span class="block">Note:</span><span>Exceeding this limitation may significantly reduce the performance of your towing vehicle. Selecting a trailer with a low aerodynamic drag and rounded front design helps optimize performance and fuel economy.</span></p>
+            <p><span class="block">Note:</span><span>Exceeding this limitation may significantly reduce the performance of your towing vehicle. Selecting a trailer with a low aerodynamic drag and rounded front design helps optimize performance and fuel economy.</span></p>
+            <p><span class="block">Note:</span><span>For high altitude operation, reduce the gross combined weight by 2% per 305 m starting at the 305 m elevation point.</span></p>
+            <p><span class="block">Note:</span><span>Certain states require electric trailer brakes for trailers over a specified weight. Be sure to check state regulations for this specified weight. The maximum trailer weights listed may be limited to this specified weight, as your vehicle's electrical system may not include the wiring connector needed to use electric trailer brakes.</span></p>
+            <p><span class="block">Note:</span><span>Your vehicle may tow a trailer provided the maximum trailer weight is less than or equal to the maximum trailer weight listed for your vehicle configuration on the following charts.</span></p>
+            <div class="scroll" data-simplebar data-simplebar-auto-hide="false">
+              <table class="page-table">
+                <thead>
+                  <tr>
+                    <th colspan="4"><span class="page-table__title">Driveline &ndash; 4x2<sup>1</sup></span></th>
+                  </tr>
+                  <tr>
+                    <th><span class="page-table__title">Cab &ndash; wheelbase (inches)</span></th>
+                    <th><span class="page-table__title">Engine</span></th>
+                    <th><span class="page-table__title">Axle ratio</span></th>
+                    <th><span class="page-table__title">Maximum GCWR<sup>2, 3</sup></span></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td rowspan="6">Regular cab &ndash; 122</td>
+                    <td rowspan="2">3.5L TiVCT</td>
+                    <td>3.55</td>
+                    <td>9400 lb (4264 kg)<sup>4</sup></td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>12000 lb (5443 kg)</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">2.7L GTDI</td>
+                    <td>3.15, 3.31</td>
+                    <td>12200 lb (5533 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>13100 lb (5942 kg)</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">5.0L TiVCT</td>
+                    <td>3.31</td>
+                    <td>13000 lb (5897 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.55</td>
+                    <td>13800 lb (6260 kg)</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="10">Regular cab &ndash; 141</td>
+                    <td rowspan="2">3.5L TiVCT</td>
+                    <td>3.55</td>
+                    <td>9500 lb (4309 kg)<sup>4</sup></td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>12100 lb (5488 kg)</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="3">2.7L GTDI</td>
+                    <td>3.15, 3.31</td>
+                    <td>12300 lb (5579 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>13100 lb (5942 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>13300 lb (6032 kg)<sup>5</sup></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="3">5.0L TiVCT</td>
+                    <td>3.31</td>
+                    <td>13900 lb (6305 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.55</td>
+                    <td>14900 lb (6758 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>16000 lb (7257 kg)<sup>6</sup></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="3">3.5L GTDI</td>
+                    <td>3.15</td>
+                    <td>15500 lb (7030 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.55</td>
+                    <td>17100 lb (7756 kg)<sup>7</sup></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>3.73</td>
+                    <td>17100 lb (7756 kg)<sup>6, 7</sup></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="10">Super Cab &ndash; 145</td>
+                    <td rowspan="2">3.5L TiVCT</td>
+                    <td>3.55</td>
+                    <td>9800 lb (4445 kg)<sup>4</sup></td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>12200 lb (5534 kg)</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="3">2.7L GTDI</td>
+                    <td>3.15, 3.31</td>
+                    <td>12500 lb (5670 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>13100 lb (5942 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>13300 lb (6032 kg)<sup>5</sup></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="4">5.0L TiVCT</td>
+                    <td rowspan="2">3.31</td>
+                    <td>13000 lb (5897 kg)<sup>8</sup></td>
+                  </tr>
+                  <tr>
+                    <td>14200 lb (6441 kg)</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">3.55</td>
+                    <td>14000 lb (6350 kg)<sup>8</sup></td>
+                  </tr>
+                  <tr>
+                    <td>15200 lb (6895 kg)</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">3.5L GTDI</td>
+                    <td>3.15</td>
+                    <td>15800 lb (7167 kg)</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>3.55</td>
+                    <td>17100 lb (7756 kg)<sup>7</sup></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="9">Super Cab &ndash; 163</td>
+                    <td rowspan="3">2.7L GTDI</td>
+                    <td>3.15, 3.31</td>
+                    <td>12600 lb (5715 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>13100 lb (5942 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>13300 lb (6032 kg)<sup>5</sup></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="3">5.0L TiVCT</td>
+                    <td>3.31</td>
+                    <td>14300 lb (6486 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.55</td>
+                    <td>15300 lb (6940 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>16200 lb (7348 kg)<sup>6</sup></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="3">3.5L GTDI</td>
+                    <td>3.15</td>
+                    <td>15900 lb (7212 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.55</td>
+                    <td>17100 lb (7756 kg)<sup>7</sup></td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>17100 lb (7756 kg)<sup>6, 7</sup></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="10">Crew cab &ndash; 145</td>
+                    <td rowspan="2">3.5L TiVCT</td>
+                    <td>3.55</td>
+                    <td>9900 lb (4491 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>12200 lb (5534 kg)<sup>3</sup></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="3">2.7L GTDI</td>
+                    <td>3.15, 3.31</td>
+                    <td>12600 lb (5715 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>13100 lb (5942 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>13300 lb (6032 kg)<sup>5</sup></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="4">5.0L TiVCT</td>
+                    <td rowspan="2">3.31</td>
+                    <td>13000 lb (5897 kg)<sup>8</sup></td>
+                  </tr>
+                  <tr>
+                    <td>14200 lb (6441 kg)</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">3.55</td>
+                    <td>14000 lb (6350 kg)<sup>8</sup></td>
+                  </tr>
+                  <tr>
+                    <td>15200 lb (6895 kg)</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">3.5L GTDI</td>
+                    <td>3.15</td>
+                    <td>15800 lb (7167 kg)</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>3.55</td>
+                    <td>17000 lb (7711 kg)<sup>7</sup></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="10">Crew cab &ndash; 157</td>
+                    <td rowspan="3">2.7L GTDI</td>
+                    <td>3.15, 3.31</td>
+                    <td>12600 lb (5715 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>13100 lb (5942 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>13300 lb (6032 kg)<sup>5</sup></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="5">5.0L TiVCT</td>
+                    <td rowspan="2">3.31</td>
+                    <td>13000 lb (5897 kg)<sup>8</sup></td>
+                  </tr>
+                  <tr>
+                    <td>14200 lb (6441 kg)</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">3.55</td>
+                    <td>14000 lb (6350 kg)<sup>8</sup></td>
+                  </tr>
+                  <tr>
+                    <td>15200 lb (6895 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>16200 lb (7348 kg)<sup>6</sup></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="3">3.5L GTDI</td>
+                    <td>3.15</td>
+                    <td>15900 lb (7212 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.55</td>
+                    <td>17100 lb (7756 kg)<sup>7</sup></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>3.73</td>
+                    <td>17100 lb (7756 kg)<sup>6, 7</sup></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="reference">
+              <p><sup>1</sup><span>For vehicles equipped with a 3.5 L TiVCT engine without a Heavy Duty or MAX Trailer Towing Package, do not exceed a trailer weight of 2,313 kg.</span></p>
+              <p><sup>2</sup><span>Calculated with SAE J2807 method.</span></p>
+              <p><sup>3</sup><span>Heavy Duty Trailer Tow Payload Package (unless stated otherwise).</span></p>
+              <p><sup>4</sup><span>Medium Duty Trailer Tow package – 5100 pound (2313 kilogram) maximum trailer weight.</span></p>
+              <p><sup>5</sup><span>2.7L EcoBoost Payload Package.</span></p>
+              <p><sup>6</sup><span>Heavy Duty Payload Package.</span></p>
+              <p><sup>7</sup><span>MAX Trailer Tow Payload Package.</span></p>
+              <p><sup>8</sup><span>Special Edition package.</span></p>
+            </div>
+            <div class="scroll" data-simplebar="" data-simplebar-auto-hide="false">
+              <table class="page-table">
+                <thead>
+                  <tr>
+                    <th colspan="4"><span class="page-table__title">Driveline &ndash; 4x4<sup>1</sup></span></th>
+                  </tr>
+                  <tr>
+                    <th><span class="page-table__title">Cab &ndash; wheelbase (inches)</span></th>
+                    <th><span class="page-table__title">Engine</span></th>
+                    <th><span class="page-table__title">Axle ratio</span></th>
+                    <th><span class="page-table__title">Maximum GCWR<sup>2, 3</sup></span></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td rowspan="6">Regular cab &ndash; 122</td>
+                    <td rowspan="2">3.5L TiVCT</td>
+                    <td>3.55</td>
+                    <td>9700 lb (4400 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>12200 lb (5534 kg)<sup>3</sup></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">2.7L GTDI</td>
+                    <td>3.55</td>
+                    <td>12500 lb (5670 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>13300 lb (6032 kg)</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">5.0L TiVCT</td>
+                    <td>3.31, 3.55</td>
+                    <td>13200 lb (5987 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>14600 lb (6622 kg)</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="8">Regular cab &ndash; 141</td>
+                    <td>3.5L TiVCT</td>
+                    <td>3.73</td>
+                    <td>12200 lb (5534 kg)</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="3">2.7L GTDI</td>
+                    <td>3.55</td>
+                    <td>12500 lb (5670 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>13300 lb (6032 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>13300 lb (6032 kg)<sup>4</sup></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="4">5.0L TiVCT</td>
+                    <td>3.31, 3.55</td>
+                    <td>14100 lb (6396 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>16200 lb (7348 kg)</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">3.73</td>
+                    <td>16100 lb (7303 kg)<sup>5, 8</sup></td>
+                  </tr>
+                  <tr>
+                    <td>16200 lb (7348 kg)<sup>5, 9</sup></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="4"></td>
+                    <td rowspan="4">3.5L GTDI</td>
+                    <td>3.31, 3.55</td>
+                    <td>15800 lb (7167 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.55</td>
+                    <td>17100 lb (7756 kg)<sup>6</sup></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">3.73</td>
+                    <td>17000 lb (7711 kg)<sup>5, 6, 8</sup></td>
+                  </tr>
+                  <tr>
+                    <td>17100 lb (7756 kg)<sup>5, 6, 9</sup></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="10">Super Cab &ndash; 145</td>
+                    <td>3.5L TiVCT</td>
+                    <td>3.73</td>
+                    <td>12200 lb (5534 kg)</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="3">2.7L GTDI</td>
+                    <td>3.55</td>
+                    <td>12700 lb (5761 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>13300 lb (6032 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>13300 lb (6032 kg)<sup>4</sup></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="6">5.0L TiVCT</td>
+                    <td rowspan="2">3.31</td>
+                    <td>13000 lb (5897 kg)<sup>7</sup></td>
+                  </tr>
+                  <tr>
+                    <td>14300 lb (6486 kg)</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">3.55</td>
+                    <td>14000 lb (6350 kg)<sup>7</sup></td>
+                  </tr>
+                  <tr>
+                    <td>14400 lb (6532 kg)</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">3.73</td>
+                    <td>15000 lb (6804 kg)<sup>7</sup></td>
+                  </tr>
+                  <tr>
+                    <td>16200 lb (7348 kg)</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2"></td>
+                    <td rowspan="2">3.5L GTDI</td>
+                    <td>3.31, 3.55</td>
+                    <td>16000 lb (7167 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.55</td>
+                    <td>17100 lb (7756 kg)<sup>6</sup></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="7">Super Cab &ndash; 163</td>
+                    <td rowspan="4">5.0L TiVCT</td>
+                    <td>3.31</td>
+                    <td>14300 lb (6486 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.55</td>
+                    <td>14500 lb (6577 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>16200 lb (7348 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>16200 lb (7348 kg)<sup>5</sup></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="3">3.5L GTDI</td>
+                    <td>3.31, 3.55</td>
+                    <td>16200 lb (7348 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.55</td>
+                    <td>17100 lb (7756 kg)<sup>6</sup></td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>17100 lb (7756 kg)<sup>5, 6</sup></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="10">Crew cab &ndash; 145</td>
+                    <td>3.5L TiVCT</td>
+                    <td>3.73</td>
+                    <td>12200 lb (5534 kg)</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="3">2.7L GTDI</td>
+                    <td>3.55</td>
+                    <td>12800 lb (5806 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>13300 lb (6033 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.73</td>
+                    <td>13300 lb (6033 kg)<sup>4</sup></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="6">5.0L TiVCT</td>
+                    <td rowspan="2">3.31</td>
+                    <td>13000 lb (5897 kg)<sup>7</sup></td>
+                  </tr>
+                  <tr>
+                    <td>14300 lb (6486 kg)</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">3.55</td>
+                    <td>14000 lb (6350 kg)<sup>7</sup></td>
+                  </tr>
+                  <tr>
+                    <td>14400 lb (6532 kg)</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">3.73</td>
+                    <td>16200 lb (7348 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>15000 lb (6804 kg)<sup>7</sup></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="3"></td>
+                    <td rowspan="3">3.5L GTDI</td>
+                    <td>3.31, 3.55</td>
+                    <td>16100 lb (7303 kg)</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">3.55</td>
+                    <td>16700 lb (7666 kg)<sup>10</sup></td>
+                  </tr>
+                  <tr>
+                    <td>16900 lb (7666 kg)<sup>6</sup></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="9">Crew cab &ndash; 157</td>
+                    <td rowspan="9">5.0L TiVCT</td>
+                    <td rowspan="2">3.31</td>
+                    <td>13000 lb (5897 kg)<sup>7</sup></td>
+                  </tr>
+                  <tr>
+                    <td>14300 lb (6486 kg)</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">3.55</td>
+                    <td>14000 lb (6350 kg)<sup>7</sup></td>
+                  </tr>
+                  <tr>
+                    <td>14500 lb (6577 kg)</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">3.73</td>
+                    <td>15000 lb (6804 kg)<sup>7</sup></td>
+                  </tr>
+                  <tr>
+                    <td>16200 lb (7348 kg)</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="3">3.73</td>
+                    <td>14000 lb (6350 kg)<sup>7</sup></td>
+                  </tr>
+                  <tr>
+                    <td>16200 lb (7348 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>16200 lb (7348 kg)<sup>5</sup></td>
+                  </tr>
+                  <tr>
+                    <td rowspan="4"></td>
+                    <td rowspan="4">3.5L GTDI</td>
+                    <td>3.31, 3.55</td>
+                    <td>16100 lb (7303 kg)</td>
+                  </tr>
+                  <tr>
+                    <td>3.55</td>
+                    <td>16700 lb (7303 kg)</td>
+                  </tr>
+                  <tr>
+                    <td rowspan="2">3.73</td>
+                    <td>17000 lb (7756 kg)<sup>5, 6, 8</sup></td>
+                  </tr>
+                  <tr>
+                    <td>17100 lb (7756 kg)<sup>5, 6, 9</sup></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="reference">
+              <p><sup>1</sup><span>For vehicles equipped with a 3.5 L TiVCT engine without a Heavy Duty or MAX Trailer Towing Package, do not exceed a trailer weight of 2,313 kg.</span></p>
+              <p><sup>2</sup><span>Calculated with SAE J2807 method.</span></p>
+              <p><sup>3</sup><span>Heavy Duty Trailer Tow Payload Package (unless stated otherwise).</span></p>
+              <p><sup>4</sup><span>2.7L EcoBoost Payload Package.</span></p>
+              <p><sup>5</sup><span>Heavy Duty Payload Package.</span></p>
+              <p><sup>6</sup><span>MAX Trailer Tow Payload Package.</span></p>
+              <p><sup>7</sup><span>Special Edition package.</span></p>
+              <p><sup>8</sup><span>17 inch wheels.</span></p>
+              <p><sup>9</sup><span>18 inch wheels.</span></p>
+              <p><sup>10</sup><span>Limited.</span></p>
+            </div>
+            <p>Calculating the Maximum Loaded Trailer Weight for Your Vehicle</p>
+            <ol>
+              <li>Start with the gross combined weight rating for your vehicle model and axle ratio. See the previous charts.</li>
+              <li>Subtract all of the following that apply to your vehicle:</li>
+            </ol>
+            <ul>
+              <li>Vehicle curb weight.</li>
+              <li>Hitch hardware weight, for example a draw bar, ball, locks or weight distributing hardware.</li>
+              <li>Driver weight.</li>
+              <li>Passenger(s) weight.</li>
+              <li>Payload, cargo and luggage weight.</li>
+              <li>Aftermarket equipment weight.</li>
+            </ul>
+            <p>This equals the maximum loaded trailer weight for this combination.</p>
+            <p><span class="block">Note:</span><span>The trailer tongue load is considered part of the payload for your vehicle. Reduce the total payload by the final trailer tongue weight.</span></p>
+            <p><span class="block">Note:</span><span>Consult an authorized dealer to determine the maximum trailer weight allowed for your vehicle if you are not sure.</span></p>
+            <div class="page-nav"><a class="page-nav__link page-nav__link--prev" href="#">Previous</a><a class="page-nav__link page-nav__link--next" href="#">Next</a></div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__container container">
+          <div class="footer__item">
+            <div class="logo site-select"><a class="logo__img" href="index.html" style="background-image: url(img/general/logos/mazda.svg)"></a>
+              <div class="site-select-current js-site-select"><span class="logo__text">Mazda</span>
+                <svg class="icon icon-caret-down footer__title-icon">
+                  <use xlink:href="img/sprite/symbol/sprite.svg#caret-down"></use>
+                </svg>
+              </div>
+              <div class="site-select-dropdown">
+                <div class="site-select-dropdown__content" data-simplebar data-simplebar-auto-hide="false">
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Acura</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">BMW</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Cadillac</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Chevrolet</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Chrysler</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Dodge</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Ford</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">GMC</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Honda</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Hyundai</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Infinity</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Jeep</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">KIA</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Mazda</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Mercedes-benz</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Nissan</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">RAM</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Toyota</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Volkswagen</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Volvo</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__item">
+            <h6 class="footer__title"><span class="footer__title-text">Vehicles</span>
+              <svg class="icon icon-caret-down footer__title-icon">
+                <use xlink:href="img/sprite/symbol/sprite.svg#caret-down"></use>
+              </svg>
+            </h6>
+            <div class="footer__links"><a class="footer__link" href="#">Suvs</a><a class="footer__link" href="#">Sedans</a><a class="footer__link" href="#">Electric</a><a class="footer__link" href="#">Certified pre-owned</a><a class="footer__link" href="#">Future vehicle</a><a class="footer__link" href="#">Concept vehicles</a><a class="footer__link" href="#">Legacy vehicles</a><a class="footer__link" href="#">Brochures</a></div>
+          </div>
+          <div class="footer__item">
+            <h6 class="footer__title"><span class="footer__title-text">Discover cadillac</span>
+              <svg class="icon icon-caret-down footer__title-icon">
+                <use xlink:href="img/sprite/symbol/sprite.svg#caret-down"></use>
+              </svg>
+            </h6>
+            <div class="footer__links"><a class="footer__link" href="#">Innovation</a><a class="footer__link" href="#">Performance</a><a class="footer__link" href="#">Craftsmanship</a><a class="footer__link" href="#">Super cruise</a><a class="footer__link" href="#">Racing</a><a class="footer__link" href="#">Benefits of cadillac</a><a class="footer__link" href="#">Awards &amp; recognition</a><a class="footer__link" href="#">Equity &amp; justice</a></div>
+          </div>
+          <div class="footer__item">
+            <h6 class="footer__title"><span class="footer__title-text">Assistance</span>
+              <svg class="icon icon-caret-down footer__title-icon">
+                <use xlink:href="img/sprite/symbol/sprite.svg#caret-down"></use>
+              </svg>
+            </h6>
+            <div class="footer__links"><a class="footer__link" href="#">Contact us</a><a class="footer__link" href="#">Recalls</a><a class="footer__link" href="#">My account</a><a class="footer__link" href="#">Support</a><a class="footer__link" href="#">Tutorials</a><a class="footer__link" href="#">Learn about ev life</a></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/libs/libs.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -28,12 +28,12 @@
       cursor: pointer;
       @include position(absolute, $top: 5px, $right: 5px);
       @include size(14px);
-      fill: $black_color;
+      fill: $color-black;
     }
     &__loupe {
       @include size(28px);
       fill: none;
-      stroke: $accent_color;
+      stroke: $color-accent;
       stroke-width: 2;
     }
     &-matches {

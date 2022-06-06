@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   padding: 20px;
-  background-color: $grey_color_light;
+  background-color: $color-grey-light;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
   @include media-lg {
     flex-direction: column;
@@ -71,7 +71,7 @@
   margin-top: 45px;
   &__row {
     padding: 30px 20px;
-    background-color: $grey_color_light;
+    background-color: $color-grey-light;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
     &:not(:last-child) {
       margin-bottom: 20px;

@@ -23,22 +23,22 @@
   }
   &__content {
     padding: 20px 30px;
-    background-color: $grey_color_light;
+    background-color: $color-grey-light;
   }
   &__title {
     margin-bottom: 5px;
     font-size: 20px;
     a {
-      color: $black_color;
+      color: $color-black;
       transition: color .3s;
       &:hover {
-        color: $accent_color;
+        color: $color-accent;
       }
     }
   }
   &__date {
     font-size: 15px;
-    color: $accent_color;
+    color: $color-accent;
   }
   &__text {
     margin-top: 5px;

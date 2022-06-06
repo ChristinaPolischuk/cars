@@ -1,9 +1,9 @@
 .btn {
   &:hover {
-    background-color: lighten($accent_color, 10%);
+    background-color: lighten($color-accent, 10%);
   }
   &:active {
-    background-color: darken($accent_color, 5%);
+    background-color: darken($color-accent, 5%);
     transform: scale(.9);
   }
   &:focus {

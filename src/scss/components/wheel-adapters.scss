@@ -34,7 +34,7 @@
   &__descr {
     flex: auto;
     padding: 20px 40px;
-    background-color: $grey_color_light;
+    background-color: $color-grey-light;
     @include media-sm {
       padding: 10px;
     }
@@ -58,7 +58,7 @@
     flex: none;
     margin-right: 5px;
     @include size(12px);
-    fill: $accent_color;
+    fill: $color-accent;
   }
 }
 
@@ -82,7 +82,7 @@
     align-items: center;
     @include size(190px, 46px);
     margin: 0 20px 15px;
-    background-color: $accent_color;
+    background-color: $color-accent;
     border-radius: 20px;
     color: $white_color;
     font-size: 16px;
@@ -95,10 +95,10 @@
       margin: 0 0 15px;
     }
     &:hover {
-      background-color: lighten($accent_color, 10%);
+      background-color: lighten($color-accent, 10%);
     }
     &:active {
-      background-color: darken($accent_color, 5%);
+      background-color: darken($color-accent, 5%);
       transform: scale(.9);
     }
 

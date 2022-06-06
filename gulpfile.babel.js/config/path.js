@@ -19,8 +19,8 @@ export default {
         dest: pathDest + "/css"
     },
     criticalCss: {
-        src: pathSrc + "/scss/common/critical.scss",
-        watch: pathSrc + "/scss/common/critical.scss",
+        src: pathSrc + "/scss/common/audi-critical.scss",
+        watch: pathSrc + "/scss/common/audi-critical.scss",
         dest: pathDest + "/css"
     },
     scss: {

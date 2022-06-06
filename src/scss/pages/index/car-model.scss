@@ -46,7 +46,7 @@
   }
   &__years {
     &.active {
-      background-color: $grey_color_light;
+      background-color: $color-grey-light;
       box-shadow: 0px 0px 4px rgba(#000, 0.25);
     }
   }
@@ -54,7 +54,7 @@
     &-year {
       margin-top: 35px;
       padding: 30px 45px 50px;
-      background-color: $grey_color_light;
+      background-color: $color-grey-light;
       box-shadow: 0px 0px 4px rgba(#000, 0.25);
       @include media-sm {
         padding: 20px;
@@ -68,7 +68,7 @@
   }
   &__year {
     &:hover {
-      color: $black_color;
+      color: $color-black;
     }
   }
   &__info {

@@ -10,7 +10,7 @@
   margin-top: 45px;
   padding: 25px 32px;
   border-radius: 5px;
-  background-color: $grey_color_light;
+  background-color: $color-grey-light;
   box-shadow: 0px 0px 4px rgba(#000, 0.25);
   @include media-md {
     margin-top: 25px;
@@ -25,7 +25,7 @@
     border: 1px solid transparent;
     transition: border-color .3s;
     &:focus {
-      border-color: $accent_color;
+      border-color: $color-accent;
     }
     &.error {
       border-color: red;

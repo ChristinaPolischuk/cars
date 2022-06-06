@@ -9,14 +9,12 @@ import app from "./config/app.js";
 import clear from "./task/clear.js";
 import pug from "./task/pug.js";
 import scss from "./task/scss.js";
-import libsCss from "./task/criticalCss.js";
 import js from "./task/js";
 import libsJs from "./task/libsJs";
 import copyJQuery from "./task/copyJQuery";
 import img from "./task/img.js";
 import svg from "./task/svg.js";
 import font from "./task/font";
-import criticalCss from "./task/criticalCss.js";
 
 //server
 const server = () => {
@@ -31,7 +29,6 @@ const server = () => {
 const watcher = () => {
     gulp.watch(path.pug.watch, pug).on("all", browserSync.reload);
     gulp.watch(path.scss.watch, scss).on("all", browserSync.reload);
-    gulp.watch(path.criticalCss.watch, criticalCss).on("all", browserSync.reload);
     gulp.watch(path.js.watch, js).on("all", browserSync.reload);
     gulp.watch(path.img.watch, img).on("all", browserSync.reload);
     gulp.watch(path.svg.watch, svg).on("all", browserSync.reload);
@@ -40,7 +37,7 @@ const watcher = () => {
 
 const build = gulp.series(
     clear,
-    gulp.parallel(pug, scss, criticalCss, font, img, svg, js, libsJs, copyJQuery)
+    gulp.parallel(pug, scss, font, img, svg, js, libsJs, copyJQuery)
 );
 
 const dev = gulp.series(
@@ -51,7 +48,6 @@ const dev = gulp.series(
 //tasks
 export {pug};
 export {scss};
-export {criticalCss};
 export {js};
 export {libsJs};
 export {copyJQuery};

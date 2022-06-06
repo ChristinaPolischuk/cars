@@ -60,7 +60,7 @@
   }
 }
 
-@mixin btn_border($border_color: $accent_color) {
+@mixin btn_border($border_color: $color-accent) {
   background-repeat: no-repeat;
   background-image: linear-gradient(to right, $border_color 100%, $border_color 100%),
   linear-gradient(to bottom, $border_color 100%, $border_color 100%),
