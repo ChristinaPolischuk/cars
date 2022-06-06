@@ -49,6 +49,20 @@ ol {
   }
 }
 
+table {
+  margin-bottom: 30px;
+  width: 100%;
+  th, td {
+    padding: 10px;
+    border: 0.5px solid $grey_color_medium;
+  }
+  th {
+    text-align: left;
+    font-size: 18px;
+
+  }
+}
+
 
 .section {
   @include media-md {

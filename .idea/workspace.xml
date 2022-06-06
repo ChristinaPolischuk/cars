@@ -26,459 +26,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12551245-ff4c-4832-8ed5-ce85df42a7e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pug/pages/owners-manuals-year-article.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/pages/owners-manuals-year-article/page.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pug/pages/owners-manuals-year-article/sidebar.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/acura-critical.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/acura.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/audi-critical.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/audi.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/bmw-critical.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/bmw.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/cadillac-critical.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/cadillac.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/chevrolet-critical.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/chevrolet.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/chrysler-critical.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/chrysler.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/acura.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/audi.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/bmw.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/cadillac.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/chevrolet.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/chrysler.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/dodge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/ford.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/gmc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/honda.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/hyundai.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/infinity.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/jeep.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/kia.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/mazda.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/mercedes-benz.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/mini.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/mitsubishi.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/nissan.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/ram.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/subaru.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/toyota.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/volkswagen.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/color-schemes/volvo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/components/components.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/dodge-critical.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/dodge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/ford-critical.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/ford.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/gmc-critical.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/gmc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/honda-critical.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/honda.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/hyundai-critical.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/hyundai.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/infinity-critical.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/infinity.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/jeep-critical.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/jeep.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/kia-critical.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/kia.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/lexus.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/libs/normalize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/mazda-critical.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/mazda.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/mercedes-benz-critical.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/mercedes-benz.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/mini-critical.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/mini.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/mitsubishi-critical.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/mitsubishi.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/nissan-critical.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/nissan.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/pages/pages.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/ram-critical.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/ram.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/subaru-critical.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/subaru.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/toyota-critical.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/toyota.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/volkswagen-critical.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/volkswagen.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/volvo-critical.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/volvo.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.babel.js/config/path.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.babel.js/config/path.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.babel.js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.babel.js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.babel.js/task/css.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.babel.js/task/css.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.babel.js/task/scss.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.babel.js/task/scss.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blog-post.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bolt-pattern.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bulbs-year.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/critical.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Disket-Mono-Regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Disket-Mono-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Disket-Mono-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Disket-Mono-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Nunito-Bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Nunito-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Nunito-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Nunito-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Nunito-Regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Nunito-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Nunito-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Nunito-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Nunito-SemiBold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Nunito-SemiBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Nunito-SemiBold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/Nunito-SemiBold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fuses.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/18_wheels/18_wheels-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/18_wheels/18_wheels-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/18_wheels/18_wheels-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/18_wheels/18_wheels-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/18_wheels/18_wheels-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/18_wheels/18_wheels-3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/18_wheels/18_wheels-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/18_wheels/18_wheels-4.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/18_wheels/18_wheels-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/18_wheels/18_wheels-5.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/18_wheels/18_wheels-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/18_wheels/18_wheels-6.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/18_wheels/18_wheels-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/18_wheels/18_wheels-7.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/18_wheels/18_wheels-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/18_wheels/18_wheels-8.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/19_wheels/19_wheels-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/19_wheels/19_wheels-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/19_wheels/19_wheels-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/19_wheels/19_wheels-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/19_wheels/19_wheels-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/19_wheels/19_wheels-3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/19_wheels/19_wheels-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/19_wheels/19_wheels-4.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/aparts/aparts-slide-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/aparts/aparts-slide-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/aparts/aparts-slide-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/aparts/aparts-slide-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/aparts/aparts-slide-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/aparts/aparts-slide-3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/blog/blog-img-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/blog/blog-img-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/blog/blog-img-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/blog/blog-img-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/blog/blog-img-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/blog/blog-img-3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/blog/blog-img-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/blog/blog-img-4.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/blog/blog-img-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/blog/blog-img-5.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/blog/blog-img-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/blog/blog-img-6.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/blog/blog-img-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/blog/blog-img-7.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/blogpost/blogpost-img-big.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/blogpost/blogpost-img-big.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/blogpost/post-img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/blogpost/post-img.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/bulbs/bulb-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/bulbs/bulb-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/bulbs/bulb-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/bulbs/bulb-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/bulbs/lun_nuts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/bulbs/lun_nuts.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/cadillac-models/cadillac-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/cadillac-models/cadillac-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/cadillac-models/cadillac-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/cadillac-models/cadillac-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/cadillac-models/cadillac-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/cadillac-models/cadillac-3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/car-characteristics/car-characteristics-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/car-characteristics/car-characteristics-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/car-characteristics/car-characteristics-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/car-characteristics/car-characteristics-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/car-characteristics/car-characteristics-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/car-characteristics/car-characteristics-3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/car-characteristics/car-characteristics-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/car-characteristics/car-characteristics-4.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/car-model/cadillac.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/car-model/cadillac.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/car-model/honda-accord.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/car-model/honda-accord.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/car-preview/car-preview-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/car-preview/car-preview-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/car-preview/car-preview-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/car-preview/car-preview-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/car-preview/car-preview-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/car-preview/car-preview-3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/lighting/lighting-bulb/lighting-bulb-slide-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/lighting/lighting-bulb/lighting-bulb-slide-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/lighting/lighting-bulb/lighting-bulb-slide-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/lighting/lighting-bulb/lighting-bulb-slide-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/lighting/lighting-bulb/lighting-bulb-slide-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/lighting/lighting-bulb/lighting-bulb-slide-3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/lighting/lighting-position/lighting-position-slide-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/lighting/lighting-position/lighting-position-slide-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/lighting/lighting-position/lighting-position-slide-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/lighting/lighting-position/lighting-position-slide-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/lighting/lighting-position/lighting-position-slide-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/lighting/lighting-position/lighting-position-slide-3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/lights/headlights.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/lights/headlights.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/lights/tail-lights.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/lights/tail-lights.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/modified-cars/modified-cars-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/modified-cars/modified-cars-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/modified-cars/modified-cars-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/modified-cars/modified-cars-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/modified-cars/modified-cars-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/modified-cars/modified-cars-3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/modified-cars/modified-cars-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/modified-cars/modified-cars-4.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/our_story/item-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/our_story/item-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/our_story/item-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/our_story/item-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/our_story/item-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/our_story/item-3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/our_story/item-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/our_story/item-4.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/our_story/item-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/our_story/item-5.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/our_story/item-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/our_story/item-6.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/our_story/item-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/our_story/item-7.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/our_story/item-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/our_story/item-8.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/owners-manuals-year/post-img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/owners-manuals-year/post-img.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/owning/owner-slide-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/owning/owner-slide-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/owning/owner-slide-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/owning/owner-slide-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/owning/owner-slide-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/owning/owner-slide-3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/popular/popular-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/popular/popular-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/popular/popular-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/popular/popular-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/popular/popular-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/popular/popular-3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/popular/popular-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/popular/popular-4.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/popular/popular-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/popular/popular-5.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/popular/popular-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/popular/popular-6.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/popular/popular-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/popular/popular-7.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/popular/popular-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/popular/popular-8.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/products/back-up-light-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/products/back-up-light-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/products/back-up-light-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/products/back-up-light-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/products/break-light-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/products/break-light-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/products/break-light-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/products/break-light-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/products/dome-light-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/products/dome-light-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/products/dome-light-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/products/dome-light-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/project-modified/image-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/project-modified/image-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/project-modified/image-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/project-modified/image-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/project-modified/image-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/project-modified/image-3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/see-more/see-more-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/see-more/see-more-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/see-more/see-more-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/see-more/see-more-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/see-more/see-more-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/see-more/see-more-3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/see-more/see-more-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/see-more/see-more-4.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/see-more/see-more-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/see-more/see-more-5.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/see-more/see-more-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/see-more/see-more-6.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/see-more/see-more-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/see-more/see-more-7.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/see-more/see-more-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/see-more/see-more-8.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/specs/new-cars.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/specs/new-cars.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/specs/specs-slide-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/specs/specs-slide-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/specs/specs-slide-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/specs/specs-slide-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/specs/specs-slide-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/specs/specs-slide-3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/specs/specs-slide-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/specs/specs-slide-4.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/specs/used-cars.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/specs/used-cars.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/tires/tire.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/tires/tire.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/trending/trending-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/trending/trending-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/trending/trending-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/trending/trending-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/trending/trending-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/trending/trending-3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/trending/trending-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/trending/trending-4.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/trending/trending-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/trending/trending-5.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/trending/trending-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/trending/trending-6.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/trending/trending-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/trending/trending-7.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/trending/trending-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/trending/trending-8.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheel-adapters/wheel-adapter-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheel-adapters/wheel-adapter-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheel-adapters/wheel-adapter-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheel-adapters/wheel-adapter-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-10.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-11.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-12.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-13.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-14.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-15.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-4.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-5.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-6.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-7.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-8.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/content/wheels/wheel-9.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/cadillac-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/cadillac-logo.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/icons/amazon-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/icons/amazon-icon.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/acura.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/acura_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/audi.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/audi_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/bmw.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/bmw_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/cadillac.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/cadillac_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/chevrolet.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/chevrolet_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/chrysler.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/chrysler_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/dodge.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/dodge_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/ford.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/ford_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/gmc.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/gmc_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/honda.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/honda_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/hyundai.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/hyundai_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/infiniti.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/infiniti_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/jeep.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/jeep_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/kia.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/kia_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/lexus.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/lexus_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/mazda.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/mazda_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/mercedes-benz.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/mercedes_benz_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/mini.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/mini_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/mitsubishi.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/mitsubishi_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/nissan.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/nissan_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/ram.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/ram_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/subaru.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/subaru_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/toyota.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/toyota_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/volkswagen.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/volkswagen_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/volvo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/general/logos/volvo_logo_black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/sprite/symbol/sprite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/libs/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/libs/libs.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manuals.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modified.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/owners-manuals-start.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/owners-manuals-year.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/project-modified-cats.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/project-modified.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/specs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tire-size-year.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tire-size.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/wheel-size-year.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/wheels-and-tires.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/year-bolt-pattern.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/year-towing-capacity.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/year.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/chunk/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/chunk/footer.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/chunk/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/chunk/header.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/layout/app.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/layout/app.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/common/_common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/common/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/common/critical.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/lexus-critical.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/common/page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/common/_page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/common/pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/common/_pagination.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/blog.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/car-characteristics.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/car-characteristics.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/contact-form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/contact-form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/custom-select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/custom-select.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/custom-tire-sizes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/custom-tire-sizes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/mobile-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/mobile-menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/products.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/search.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/search.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/select-tires.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/select-tires.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/site-content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/site-content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/titles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/titles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/tooltip.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/wheel-adapters.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/wheel-adapters.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/wheel-size-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/wheel-size-list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/helpers/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/helpers/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/helpers/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/helpers/_vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/pages/index/articles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/index/articles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/pages/index/car-model.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/index/car-model.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/pages/index/modified-cars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/index/modified-cars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/pages/modified.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/pages/modified.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/acura.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/acura.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/acura.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/acura.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/audi.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/audi.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/audi.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/audi.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/bmw.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bmw.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/bmw.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bmw.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/cadillac.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/cadillac.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/cadillac.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/cadillac.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/chevrolet.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/chevrolet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/chevrolet.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/chevrolet.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/chrysler.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/chrysler.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/chrysler.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/chrysler.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/dodge.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/dodge.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/dodge.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/dodge.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/ford.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/ford.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/ford.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/ford.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/gmc.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/gmc.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/gmc.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/gmc.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/honda.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/honda.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/honda.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/honda.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/hyundai.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/hyundai.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/hyundai.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/hyundai.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/infinity.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/infinity.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/infinity.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/infinity.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/jeep.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/jeep.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/jeep.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/jeep.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/kia.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/kia.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/kia.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/kia.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/lexus.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/lexus.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/lexus.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/lexus.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/mazda.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/mazda.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/mazda.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/mazda.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/mercedes-benz.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/mercedes-benz.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/mercedes-benz.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/mercedes-benz.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/mini.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/mini.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/mini.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/mini.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/mitsubishi.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/mitsubishi.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/mitsubishi.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/mitsubishi.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/nissan.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/nissan.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/nissan.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/nissan.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/ram.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/ram.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/ram.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/ram.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/subaru.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/subaru.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/subaru.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/subaru.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/toyota.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/toyota.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/toyota.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/toyota.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/volkswagen.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/volkswagen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/volkswagen.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/volkswagen.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/volvo.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/volvo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/volvo.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/volvo.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/owners-manuals-year-article.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/owners-manuals-year-article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/owners-manuals-year-article/page.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/owners-manuals-year-article/page.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/common/_page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/common/_page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/common/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/common/common.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -497,7 +99,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../parts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\#Work\cars\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
@@ -600,6 +202,7 @@
       <workItem from="1654417259793" duration="1467000" />
       <workItem from="1654437044543" duration="11125000" />
       <workItem from="1654497596509" duration="16429000" />
+      <workItem from="1654551726789" duration="624000" />
     </task>
     <servers />
   </component>
@@ -635,10 +238,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1652442215527" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1654516100377">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1654517851465">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1654516100377" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1654517851465" />
     <state x="451" y="154" width="578" height="592" key="find.popup" timestamp="1654466811536">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -647,9 +250,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1650363961049" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1654510305539">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1654552008468">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1654510305539" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1654552008468" />
   </component>
 </project>
