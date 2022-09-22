@@ -115,7 +115,7 @@
   }
 
   &__img {
-    margin-right: 20px;
+    margin-right: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,15 +123,23 @@
 
     &--small {
       width: 50px;
+      img {
+        max-height: 50px;
+      }
     }
 
     &--middle {
       width: 95px;
-      min-height: 60px;
+      img {
+        max-height: 60px;
+      }
     }
 
     &--big {
       width: 125px;
+      img {
+        max-height: 80px;
+      }
     }
   }
 

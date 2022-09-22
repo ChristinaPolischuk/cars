@@ -3,7 +3,7 @@ module.exports = () => {
     $('.js-preview-slider').each(function (idx) {
         let previewSliderID = 'preview-slider-' + idx;
         this.closest('.preview-slider').id = previewSliderID;
-        $(this).slick({
+        $(this).not('.slick-initialized').slick({
             slidesToShow: 4,
             slidesToScroll: 1,
             prevArrow: '#' + previewSliderID + ' .preview-slider__btn--prev',
@@ -34,7 +34,7 @@ module.exports = () => {
         $('.js-preview-slider').each(function () {
             if( $(window).width() > 680 &&  $(this).not('.slick-initialized')) {
                 let previewSliderID = $(this).closest('.preview-slider').attr("id");
-                $(this).slick({
+                $(this).not('.slick-initialized').slick({
                     slidesToShow: 4,
                     slidesToScroll: 1,
                     prevArrow: '#' + previewSliderID + ' .preview-slider__btn--prev',
