@@ -26,140 +26,115 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12551245-ff4c-4832-8ed5-ce85df42a7e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/content/car-characteristics/car-characteristics-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/content/car-characteristics/car-characteristics-11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/content/car-characteristics/car-characteristics-12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/content/car-characteristics/car-characteristics-13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/content/car-characteristics/car-characteristics-14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/content/car-characteristics/car-characteristics-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/content/car-characteristics/car-characteristics-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/content/car-characteristics/car-characteristics-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/content/car-characteristics/car-characteristics-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/content/car-characteristics/car-characteristics-9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/module/select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/select2-custom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/libs/mCustomScrollbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/libs/select2.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blog-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog-post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bolt-pattern.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/bolt-pattern.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bulbs-year.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/bulbs-year.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/acura-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/acura-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/acura.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/acura.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/acura.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/acura.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/audi-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/audi-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/audi.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/audi.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/audi.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/audi.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bmw-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bmw-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/bmw.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bmw.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/bmw.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bmw.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/buick-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/buick-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/buick.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/buick.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/buick.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/buick.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/cadillac-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/cadillac-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/cadillac.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/cadillac.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/cadillac.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/cadillac.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/chevrolet-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/chevrolet-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/chevrolet.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/chevrolet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/chevrolet.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/chevrolet.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/chrysler-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/chrysler-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/chrysler.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/chrysler.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/chrysler.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/chrysler.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/dodge-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/dodge-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/dodge.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/dodge.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/dodge.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/dodge.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/ford-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/ford-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/ford.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/ford.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/ford.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/ford.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/genesis-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/genesis-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/genesis.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/genesis.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/genesis.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/genesis.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/gmc-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/gmc-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/gmc.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/gmc.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/gmc.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/gmc.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/honda-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/honda-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/honda.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/honda.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/honda.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/honda.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/hyundai-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/hyundai-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/hyundai.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/hyundai.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/hyundai.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/hyundai.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/infinity-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/infinity-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/infinity.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/infinity.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/infinity.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/infinity.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/jeep-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/jeep-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/jeep.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/jeep.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/jeep.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/jeep.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/kia-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/kia-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/kia.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/kia.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/kia.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/kia.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/lamborghini-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/lamborghini-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/lamborghini.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/lamborghini.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/lamborghini.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/lamborghini.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/landrover-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/landrover-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/landrover.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/landrover.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/landrover.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/landrover.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/lexus-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/lexus-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/lexus.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/lexus.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/lexus.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/lexus.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/lincoln-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/lincoln-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/lincoln.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/lincoln.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/lincoln.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/lincoln.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/mazda-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/mazda-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/mazda.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/mazda.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/mazda.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/mazda.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/mercedes-benz-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/mercedes-benz-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/mercedes-benz.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/mercedes-benz.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/mercedes-benz.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/mercedes-benz.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/mini-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/mini-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/mini.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/mini.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/mini.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/mini.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/mitsubishi-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/mitsubishi-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/mitsubishi.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/mitsubishi.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/mitsubishi.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/mitsubishi.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/nissan-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/nissan-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/nissan.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/nissan.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/nissan.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/nissan.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/porsche-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/porsche-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/porsche.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/porsche.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/porsche.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/porsche.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/ram-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/ram-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/ram.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/ram.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/ram.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/ram.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/subaru-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/subaru-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/subaru.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/subaru.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/subaru.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/subaru.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/tesla-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/tesla-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/tesla.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/tesla.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/tesla.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/tesla.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/toyota-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/toyota-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/toyota.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/toyota.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/toyota.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/toyota.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/volkswagen-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/volkswagen-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/volkswagen.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/volkswagen.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/volkswagen.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/volkswagen.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/volvo-critical.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/volvo-critical.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/volvo.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/volvo.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/volvo.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/volvo.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fuses.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/fuses.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manuals.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/manuals.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/modified.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/modified.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/owners-manuals-start.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/owners-manuals-start.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/owners-manuals-year-article.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/owners-manuals-year-article.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/owners-manuals-year.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/owners-manuals-year.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/project-modified-cats.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/project-modified-cats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/project-modified.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/project-modified.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/specs.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/specs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tire-size-year.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tire-size-year.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/tire-size.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tire-size.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/wheel-size-year.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/wheel-size-year.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/wheels-and-tires.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/wheels-and-tires.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/year-bolt-pattern.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/year-bolt-pattern.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/year-towing-capacity.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/year-towing-capacity.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/year.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/year.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/module/previewSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/module/previewSlider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/pages/specs/car-characteristics.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/specs/car-characteristics.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/car-characteristics.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/car-characteristics.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/tire-size.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/tire-size.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/pages/tire-size/_best-tires-for-car-model.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/pages/tire-size/_best-tires-for-car-model.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/acura.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/acura.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/audi.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/audi.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/bmw.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/bmw.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/buick.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/buick.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/cadillac.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/cadillac.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/chevrolet.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/chevrolet.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/chrysler.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/chrysler.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/components.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/components.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/select-tires.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/select-tires.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/dodge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/dodge.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/ford.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/ford.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/genesis.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/genesis.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/gmc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/gmc.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/honda.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/honda.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/hyundai.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/hyundai.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/infinity.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/infinity.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/jeep.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/jeep.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/kia.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/kia.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/lamborghini.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/lamborghini.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/landrover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/landrover.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/lexus.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/lexus.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/lincoln.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/lincoln.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/mazda.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/mazda.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/mercedes-benz.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/mercedes-benz.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/mini.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/mini.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/mitsubishi.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/mitsubishi.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/nissan.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/nissan.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/porsche.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/porsche.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/ram.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/ram.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/subaru.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/subaru.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/tesla.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/tesla.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/toyota.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/toyota.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/volkswagen.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/volkswagen.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/volvo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/volvo.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,6 +143,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -187,9 +165,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Projects/cars/src/img/content/car-characteristics",
+    "last_opened_file_path": "C:/MyFolder/Projects/lightninglab.com",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "C:\\Projects\\cars\\node_modules\\prettier",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.2.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -301,7 +280,13 @@
       <workItem from="1663015613825" duration="97000" />
       <workItem from="1663855664098" duration="601000" />
       <workItem from="1663857677150" duration="14000" />
-      <workItem from="1663858789754" duration="4447000" />
+      <workItem from="1663858789754" duration="5856000" />
+      <workItem from="1664275447659" duration="1145000" />
+      <workItem from="1664282482607" duration="937000" />
+      <workItem from="1664286269978" duration="2531000" />
+      <workItem from="1664296143829" duration="209000" />
+      <workItem from="1664346681802" duration="4131000" />
+      <workItem from="1664397552649" duration="30501000" />
     </task>
     <servers />
   </component>

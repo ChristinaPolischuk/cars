@@ -5,6 +5,5 @@ module.exports = () => {
         $('html,body').animate({
             scrollTop: siteSelect.offset().top + siteSelect.height()
         }, 1000);
-
     });
 }

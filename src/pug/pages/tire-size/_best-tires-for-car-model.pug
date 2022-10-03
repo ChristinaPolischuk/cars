@@ -68,6 +68,12 @@ section
                             .custom-select__item.js-custom-select-item(data-value='standart-touring-m-s') Standart Touring M+s
                             .custom-select__item.js-custom-select-item(data-value='standart-touring-m-s') Standart Touring M+s
             button.btn.btn--xsmall Show
+        form.select-tires
+            .select-tires__group
+                label.select-tires__label Year:
+                select#model_year_id.select2
+                    - for (var year = 2022; year >= 2007; year--)
+                        option= year
         .select-tires-list
             .select-tires-list__item
                 a.select-tires-list__img(href="")
