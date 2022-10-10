@@ -152,7 +152,7 @@ table {
       margin-right: 0;
     }
   }
-  &__years {
+  &__years.active {
     @include media-xl {
       width: 90vw;
     }

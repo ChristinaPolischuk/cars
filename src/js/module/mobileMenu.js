@@ -2,7 +2,7 @@ module.exports = () => {
     let trigger = $("#hamburger");
     let mobileNav = $("#mobile-nav")
     let isClosed = true;
-    let showDropdown =$("#show-dropdown")
+    let showDropdown =$(".js-show-dropdown")
 
     trigger.on("click", () => {
         if (isClosed == true) {

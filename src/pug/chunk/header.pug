@@ -1,15 +1,15 @@
-mixin navDropdownItem(srcWebp, src, href="#", title="Innovations")
+mixin navDropdownItem(src, title, href="#")
     a.nav-dropdown__item(href=href)
         picture
-            source(srcset=srcWebp, type="image/webp")
-            img.nav-dropdown__img(src=src, alt=title)
+            source(srcset=`${src}.webp`, type="image/webp")
+            img.nav-dropdown__img(src=`${src}.png`, alt=title)
         span.nav-dropdown__title=title
 
-mixin navMobileItem(srcWebp, src, href="#", title="Innovations")
+mixin navMobileItem(src, title, href="#")
     a.mobile-menu-dropdown__item(href=href)
         picture
-            source(srcset=srcWebp, type="image/webp")
-            img.mobile-menu-dropdown__img(src=src alt=title)
+            source(srcset=`${src}.webp`, type="image/webp")
+            img.mobile-menu-dropdown__img(src=`${src}.png` alt=title)
         span.mobile-menu-dropdown__title=title
 
 header.header
@@ -24,22 +24,36 @@ header.header
                 .mobile-menu__item
                     a.mobile-menu__link(href="#") Vehicle
                 .mobile-menu__item
-                    a.mobile-menu__link(href="#") Shop
+                    a.mobile-menu__link.js-show-dropdown(href="#")
+                        | Shop
+                        +icon("arrow-down", "nav__link-icon")
+                    .mobile-menu-dropdown
+                        .mobile-menu-dropdown__content
+                            +navMobileItem("img/content/shop/towing_capacity", "Towing Capacity")
+                            +navMobileItem("img/content/shop/mpg", "Mpg")
+                            +navMobileItem("img/content/shop/interior", "Interior")
+                            +navMobileItem("img/content/shop/weight", "Weight")
+                            +navMobileItem("img/content/shop/0-60", "0-60")
+                            +navMobileItem("img/content/shop/hp", "Hp")
+                            +navMobileItem("img/content/shop/engine", "Engine")
+                            +navMobileItem("img/content/shop/dimensions", "Dimensions")
+                            +navMobileItem("img/content/shop/gas_tank", "Gas Tank")
+                            +navMobileItem("img/content/shop/ground_clearance", "Ground Clearance")
                 .mobile-menu__item
-                    a.mobile-menu__link#show-dropdown(href="#")
+                    a.mobile-menu__link.js-show-dropdown(href="#")
                         | Our story
                         +icon("arrow-down", "nav__link-icon")
                     .mobile-menu-dropdown
                         .mobile-menu-dropdown__content
-                            +navMobileItem("img/content/our_story/item-1.webp", "img/content/our_story/item-1.png")
-                            +navMobileItem("img/content/our_story/item-2.webp", "img/content/our_story/item-2.png")
-                            +navMobileItem("img/content/our_story/item-3.webp", "img/content/our_story/item-3.png")
-                            +navMobileItem("img/content/our_story/item-4.webp", "img/content/our_story/item-4.png")
-                            +navMobileItem("img/content/our_story/item-5.webp", "img/content/our_story/item-5.png")
-                            +navMobileItem("img/content/our_story/item-6.webp", "img/content/our_story/item-6.png")
-                            +navMobileItem("img/content/our_story/item-7.webp", "img/content/our_story/item-7.png")
-                            +navMobileItem("img/content/our_story/item-8.webp", "img/content/our_story/item-8.png")
-
+                            +navMobileItem("img/content/our_story/owners_manual", "Owner's manual")
+                            +navMobileItem("img/content/our_story/fuses", "Fuses")
+                            +navMobileItem("img/content/our_story/bulbs_list", "Bulbs list")
+                            +navMobileItem("img/content/our_story/tire_size", "Tire size")
+                            +navMobileItem("img/content/our_story/wheel_size", "Wheel size")
+                            +navMobileItem("img/content/our_story/oil_capacity", "Oil capacity")
+                            +navMobileItem("img/content/our_story/wiper_sizes", "Wiper sizes")
+                            +navMobileItem("img/content/our_story/steering_wheel_sizes", "Steering wheel sizes")
+                            +navMobileItem("img/content/our_story/mods", "Mods")
                 .mobile-menu__item
                     a.mobile-menu__link(href="#") About
                 .mobile-menu__item
@@ -57,21 +71,34 @@ header.header
                 .nav__item
                     a.nav__link(href="#") Vehicle
                 .nav__item
-                    a.nav__link(href="#") Shop
+                    a.nav__link(href="#")
+                        | Shop
+                        +icon("arrow-down", "nav__link-icon")
+                    .nav-dropdown
+                        +navDropdownItem("img/content/shop/towing_capacity", "Towing Capacity")
+                        +navDropdownItem("img/content/shop/mpg", "Mpg")
+                        +navDropdownItem("img/content/shop/interior", "Interior")
+                        +navDropdownItem("img/content/shop/weight", "Weight")
+                        +navDropdownItem("img/content/shop/0-60", "0-60")
+                        +navDropdownItem("img/content/shop/hp", "Hp")
+                        +navDropdownItem("img/content/shop/engine", "Engine")
+                        +navDropdownItem("img/content/shop/dimensions", "Dimensions")
+                        +navDropdownItem("img/content/shop/gas_tank", "Gas Tank")
+                        +navDropdownItem("img/content/shop/ground_clearance", "Ground Clearance")
                 .nav__item
                     a.nav__link(href="#")
                         | Our story
                         +icon("arrow-down", "nav__link-icon")
                     .nav-dropdown
-                        +navDropdownItem("img/content/our_story/item-1.webp", "img/content/our_story/item-1.png")
-                        +navDropdownItem("img/content/our_story/item-2.webp", "img/content/our_story/item-2.png")
-                        +navDropdownItem("img/content/our_story/item-3.webp", "img/content/our_story/item-3.png")
-                        +navDropdownItem("img/content/our_story/item-4.webp", "img/content/our_story/item-4.png")
-                        +navDropdownItem("img/content/our_story/item-5.webp", "img/content/our_story/item-5.png")
-                        +navDropdownItem("img/content/our_story/item-6.webp", "img/content/our_story/item-6.png")
-                        +navDropdownItem("img/content/our_story/item-7.webp", "img/content/our_story/item-7.png")
-                        +navDropdownItem("img/content/our_story/item-8.webp", "img/content/our_story/item-8.png")
-
+                        +navDropdownItem("img/content/our_story/owners_manual", "Owner's manual")
+                        +navDropdownItem("img/content/our_story/fuses", "Fuses")
+                        +navDropdownItem("img/content/our_story/bulbs_list", "Bulbs list")
+                        +navDropdownItem("img/content/our_story/tire_size", "Tire size")
+                        +navDropdownItem("img/content/our_story/wheel_size", "Wheel size")
+                        +navDropdownItem("img/content/our_story/oil_capacity", "Oil capacity")
+                        +navDropdownItem("img/content/our_story/wiper_sizes", "Wiper sizes")
+                        +navDropdownItem("img/content/our_story/steering_wheel_sizes", "Steering wheel sizes")
+                        +navDropdownItem("img/content/our_story/mods", "Mods")
                 .nav__item
                     a.nav__link(href="#") About
                 .nav__item

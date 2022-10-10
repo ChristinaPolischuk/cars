@@ -137,13 +137,10 @@ button, input[type=button] {
 }
 
 .car-model__years {
-  @include position(absolute, $top: 100%, $left: 0);
-  z-index: 10;
   display: flex;
   flex-wrap: wrap;
   margin-top: 20px;
   padding: 15px 10px;
-  width: 65vw
 }
 
 .car-model__year {
@@ -343,9 +340,8 @@ button, input[type=button] {
 
 .nav-dropdown {
   @include position(absolute, $right: 0, $top: 100%);
-  z-index: 5;
+  z-index: 15;
   flex-wrap: wrap;
-  justify-content: space-between;
   padding: 15px 30px;
   min-width: 705px;
   width: 100%;
@@ -599,11 +595,20 @@ button, input[type=button] {
   position: relative
 }
 
+.modified-cars-slider .slick-slide {
+  margin: 0 5px;
+}
+
 .modified-cars-slider__item {
   filter: drop-shadow(0 0 4px rgba(0, 0, 0, .25));
   transition: filter .3s;
   width: 24%;
   text-align: center
+}
+
+.modified-cars-slider__item span {
+  display: block;
+  margin-top: 10px;
 }
 
 .modified-cars-slider__img {

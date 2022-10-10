@@ -46,6 +46,9 @@
   }
   &__years {
     &.active {
+      @include position(absolute, $top: 100%, $left: 0);
+      z-index: 10;
+      width: 65vw;
       background-color: $color-grey-light;
       box-shadow: 0px 0px 4px rgba(#000, 0.25);
     }
