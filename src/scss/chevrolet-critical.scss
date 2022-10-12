@@ -369,14 +369,11 @@ button, input[type=button] {
   @include position(absolute, $top: 0, $right: 0, $bottom: 0, $left: 0);
 }
 
-.preview-slider__content, .preview-slider__img {
-  flex: none
-}
-
 .preview-slider__img {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex: none;
   width: 95px;
   margin-right: 20px;
   aspect-ratio: 95/65;
