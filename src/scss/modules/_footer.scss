@@ -1,62 +1,62 @@
-.footer {
-  &__container {
-    @include media-xl {
-      flex-wrap: wrap;
-    }
-  }
-  &__item {
-    @include media-md {
-      flex: auto;
-    }
-    @include media-sm {
-      width: 100%;
-    }
-    &:not(:last-child) {
-      @include media-sm {
-        margin-right: 0;
-      }
-    }
-    &:nth-child(1) {
-      @include media-xl {
-        order: 4;
-        width: 100%;
-        flex: auto;
-        margin-right: 0;
-        margin-top: 30px;
-        text-align: right;
-      }
-    }
-    &:nth-child(2) {
-      @include media-xl {
-        order: 1;
-      }
-    }
-    &:nth-child(3) {
-      @include media-xl {
-        order: 2;
-      }
-    }
-    &:nth-child(4) {
-      @include media-xl {
-        order: 3;
-      }
-    }
-  }
-  &__title {
-    @include media-sm {
-      display: flex;
-      justify-content: space-between;
-    }
-    &-icon {
-      @include media-sm {
-        display: inline-flex;
-      }
-    }
-  }
-  &__links {
-    @include media-sm {
-      display: none;
-      margin-bottom: 20px;
-    }
-  }
-}
+// .footer {
+//   &__container {
+//     @include media-xl {
+//       flex-wrap: wrap;
+//     }
+//   }
+//   &__item {
+//     @include media-md {
+//       flex: auto;
+//     }
+//     @include media-sm {
+//       width: 100%;
+//     }
+//     &:not(:last-child) {
+//       @include media-sm {
+//         margin-right: 0;
+//       }
+//     }
+//     &:nth-child(1) {
+//       @include media-xl {
+//         order: 4;
+//         width: 100%;
+//         flex: auto;
+//         margin-right: 0;
+//         margin-top: 30px;
+//         text-align: right;
+//       }
+//     }
+//     &:nth-child(2) {
+//       @include media-xl {
+//         order: 1;
+//       }
+//     }
+//     &:nth-child(3) {
+//       @include media-xl {
+//         order: 2;
+//       }
+//     }
+//     &:nth-child(4) {
+//       @include media-xl {
+//         order: 3;
+//       }
+//     }
+//   }
+//   &__title {
+//     @include media-sm {
+//       display: flex;
+//       justify-content: space-between;
+//     }
+//     &-icon {
+//       @include media-sm {
+//         display: inline-flex;
+//       }
+//     }
+//   }
+//   &__links {
+//     @include media-sm {
+//       display: none;
+//       margin-bottom: 20px;
+//     }
+//   }
+// }

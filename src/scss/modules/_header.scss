@@ -7,9 +7,4 @@
       top: 0;
     }
   }
-  &-block {
-    @include media-md {
-      display: none;
-    }
-  }
 }

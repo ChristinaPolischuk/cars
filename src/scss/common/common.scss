@@ -108,58 +108,8 @@ table {
   }
 }
 
-
-.nav {
-  display: flex;
-}
-
-
 .search-form {
   display: none;
-}
-
-.sidebar {
-  width: 255px;
-  margin-right: 30px;
-  flex: none;
-  @include media-md {
-    width: auto;
-    margin-right: 0;
-  }
-}
-
-.mobile-menu {
-  @include media-md {
-    display: block;
-  }
-}
-
-.car-model {
-  &__title {
-    @include media-lg {
-      font-size: 34px;
-    }
-    @include media-sm {
-      display: block;
-    }
-    @include media-xs {
-      text-align: center;
-    }
-  }
-  &__content {
-    @include media-sm {
-      order: 2;
-      margin-right: 0;
-    }
-  }
-  &__years.active {
-    @include media-xl {
-      width: 90vw;
-    }
-  }
-  &__icon {
-    @include size(18px);
-  }
 }
 
 .link-bordered {
@@ -201,6 +151,4 @@ table {
 .reference {
   margin-top: 30px;
 }
-
-@import "page";
 @import "pagination";

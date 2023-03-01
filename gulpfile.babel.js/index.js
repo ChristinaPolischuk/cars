@@ -59,5 +59,3 @@ export {font};
 export default app.isProd
     ? build
     : dev;
-
-console.log(process.argv);
