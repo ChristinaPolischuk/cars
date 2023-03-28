@@ -226,7 +226,7 @@ eval("module.exports = () => {\r\n    $(document).on(\"click\", \".js-site-selec
   \*************************************/
 /***/ (function(module) {
 
-eval("module.exports = () => {\r\n    new SlimSelect({\r\n        select: '.js-slimselect'\r\n    })\r\n}\n\n//# sourceURL=webpack://gulp-2021/./src/js/module/slimselect.js?");
+eval("module.exports = () => {\r\n    const selects = document.querySelectorAll('.js-slimselect')\r\n    selects.forEach((selectElement) => {\r\n        new SlimSelect({\r\n            select: selectElement\r\n        })\r\n    })\r\n}\n\n//# sourceURL=webpack://gulp-2021/./src/js/module/slimselect.js?");
 
 /***/ }),
 
