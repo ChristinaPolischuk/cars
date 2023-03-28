@@ -12,8 +12,9 @@ export default () => {
         "node_modules/svg4everybody/dist/svg4everybody.js",
         "node_modules/slick-carousel/slick/slick.js",
         "node_modules/simplebar/dist/simplebar.js",
+        "node_modules/slim-select/dist/slimselect.js"
     ])
         .pipe(gp.concat("libs.min.js"))
-        .pipe(gp.uglify())
+        .pipe(gp.terser())
         .pipe(gulp.dest(path.libsJs.dest))
 }

@@ -1,0 +1,9 @@
+.sidebar {
+    width: 255px;
+    margin-right: 30px;
+    flex: none;
+    @include media-md {
+      width: auto;
+      margin-right: 0;
+    }
+}

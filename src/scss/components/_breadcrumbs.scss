@@ -1,0 +1,27 @@
+.breadcrumbs {
+    margin: 30px 0;
+  
+    &-link {
+      font-size: 15px;
+      color: $color-black;
+      transition: color .3s;
+  
+      &:hover {
+        color: $color-accent;
+      }
+  
+      &:last-child {
+        pointer-events: none;
+        color: $color-accent;
+      }
+  
+      &:not(:last-child) {
+        &::after {
+          content: "|";
+          display: inline-block;
+          margin: 0 5px;
+          color: $color-accent;
+        }
+      }
+    }
+  }

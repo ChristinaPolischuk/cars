@@ -1,0 +1,55 @@
+.modified-cars {
+	background: $color-grey-light;
+	padding: 50px 0 40px
+}
+
+.modified-cars-slider {
+	margin: 40px 0;
+	position: relative;
+
+	.slick-slide {
+		margin: 0 5px;
+	}
+
+	&__item {
+		filter: drop-shadow(0 0 4px rgba(0, 0, 0, .25));
+		transition: filter .3s;
+		width: 24%;
+		text-align: center;
+
+		span {
+			display: block;
+			margin-top: 10px;
+		}
+	}
+
+	&__img {
+		max-width: 100%;
+		aspect-ratio: 1;
+	}
+
+	&__btn {
+		@include position(absolute, $top: 50%);
+		margin-top: -12px;
+		padding: 0;
+		@include size(36px);
+		background: rgba(255, 255, 255, .45);
+		border-radius: 50%;
+		transition: transform .3s, background .3s;
+
+		&--prev {
+			left: 0
+		}
+
+		&--next {
+			right: 0
+		}
+	}
+
+	&__arrow {
+		@include size(18px);
+		fill: none;
+		stroke: $color-accent;
+		stroke-width: 2
+	}
+}

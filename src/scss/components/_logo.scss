@@ -1,0 +1,20 @@
+.logo {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    &__img {
+        @include size(67px);
+        margin-right: 5px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center
+    }
+    &__text {
+        font: 24px/1 $page_font_family;
+        text-transform: uppercase;
+        color: $white_color;
+        @include media-sm {
+            font-size: 22px;
+        }
+    }
+}

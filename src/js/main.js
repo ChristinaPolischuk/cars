@@ -16,6 +16,9 @@ import siteSelect from "./module/siteSelect";
 import footerLinks from "./module/footerLinks";
 import customSelect from "./module/customSelect";
 import hideText from "./module/hideText";
+import hideBlock from "./module/hideBlock";
+import addAnswer from "./module/addAnswer";
+import slimselect from "./module/slimselect";
 // import select2 from "./module/select2"
 
 svg4everybody({});
@@ -37,4 +40,7 @@ siteSelect();
 footerLinks();
 customSelect();
 hideText();
+hideBlock();
+addAnswer();
+slimselect();
 // select2();

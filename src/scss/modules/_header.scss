@@ -1,10 +1,30 @@
 .header {
+  background: $color-accent;
+  position: relative;
+  padding-top: 15px;
+  color: $white_color;
   @include media-md {
     padding: 10px 0;
   }
   .logo {
+    position: relative;
+    top: -5px;
     @include media-md {
       top: 0;
     }
+  }
+  &-block, &-container {
+    display: flex;
+    align-items: center
+  }
+  &-block {
+    position: relative;
+    margin-left: auto;
+    @include media-md {
+      display: none;
+    }
+  }
+  &-container {
+    aspect-ratio: 1140/67;
   }
 }

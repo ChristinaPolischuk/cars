@@ -10,7 +10,9 @@ import loadPlugins from "gulp-load-plugins";
 const gp = loadPlugins(app.loadPlugins);
 
 export default () => {
-    return gulp.src(path.scss.src, {sourcemaps: app.isDev})
+    return gulp.src(path.scss.src, 
+        {sourcemaps: app.isDev}
+    )
         .pipe(gp.plumber({
             errorHandler: gp.notify.onError(error => ({
                 title: "SCSS",
@@ -24,9 +26,13 @@ export default () => {
         .pipe(gp.shorthand())
         .pipe(gp.groupCssMediaQueries())
         .pipe(gp.size({title: "audi.scss"}))
-        .pipe(gulp.dest(path.css.dest, {sourcemaps: app.isDev}))
+        .pipe(gulp.dest(path.css.dest, 
+            {sourcemaps: app.isDev}
+            ))
         .pipe(gp.rename({suffix: ".min"}))
         .pipe(gp.csso())
-        .pipe(gp.size({title: "main.min.css"}))
-        .pipe(gulp.dest(path.css.dest, {sourcemaps: app.isDev}))
+        .pipe(gp.size({title: "audi.min.css"}))
+        .pipe(gulp.dest(path.css.dest, 
+            {sourcemaps: app.isDev}
+            ))
 }

@@ -1,0 +1,131 @@
+.page {
+    padding: 30px 0;
+  
+    &-container {
+      display: flex;
+      @include media-md {
+        display: block;
+      }
+    }
+  
+    &-separator {
+      margin: 30px 0;
+      height: 1px;
+      background-color: $white_color;
+      box-shadow: 0px 0px 4px rgba(#000, 0.25);
+    }
+    &-main-title {
+      margin-bottom: 45px;
+      @include media-lg {
+        margin-bottom: 15px;
+      }
+    }
+    &-title {
+      font-size: 36px;
+      font-weight: 400;
+      margin-bottom: 20px;
+    }
+  
+    &-title-small {
+      font-size: 30px;
+      font-weight: 400;
+      margin-bottom: 10px;
+    }
+  
+    &-img-big {
+        aspect-ratio: 1121/631;
+    }
+  
+    &-img-left {
+      margin-right: 35px;
+      width: 45%;
+      float: left;
+      @include media-lg {
+        margin-right: 15px;
+      }
+      @include media-sm {
+        float: none;
+        margin-right: 0;
+        margin-bottom: 20px;
+        display: block;
+        width: 100%;
+      }
+    }
+  
+    &-img-full {
+      width: 100%;
+      margin: 20px 0;
+    }
+  
+    &-nav {
+      margin-top: 30px;
+      display: flex;
+  
+      &__link {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        @include size(190px, 46px);
+        font-size: 16px;
+        text-transform: uppercase;
+        color: $white_color;
+        background-color: $color-accent;
+        border-radius: 20px;
+        transition: background-color .3s, transform .3s;
+        @include media-md {
+          width: 130px;
+        }
+  
+        &--prev {
+          margin-right: auto;
+        }
+  
+        &--next {
+          margin-left: auto;
+        }
+  
+        &:hover {
+          background-color: lighten($color-accent, 10%);
+        }
+  
+  
+        &:active {
+          background-color: darken($color-accent, 5%);
+          transform: scale(.9);
+        }
+      }
+    }
+  }
+
+.page-navigation {
+    background: $color-grey-light;
+    padding: 40px 0;
+    text-align: center;
+    &__links {
+        position: relative;
+        aspect-ratio: 1110/50;
+        @include media-sm {
+          aspect-ratio: 546/200;
+        }
+    }
+    &__link {
+        position: relative;
+        z-index: 5;
+        padding: 10px 30px;
+        display: inline-flex;
+        font-size: 22px;
+        font-weight: 600;
+        color: $color-black;
+        &:not(:last-of-type) {
+            margin-right: 10px
+        }
+    }
+    &__hover {
+        background: $grey_color_medium;
+        @include position(absolute, $top: 0, $left: 0);
+        display: block;
+        border-radius: 20px;
+        transition: opacity .5s, left .5s, width .5s, height .5s
+    }
+}

@@ -1,0 +1,106 @@
+.car-features {
+  margin: 30px 0;
+  &-header {
+    display: flex;
+    justify-content: flex-end;
+    @include media-md {
+      display: none;
+    }
+    &__descr {
+      cursor: pointer;
+      display: flex;
+      align-items: baseline;
+      padding: 0 10px;
+      width: 145px;
+      &:not(:last-child) {
+        margin-right: 30px;
+        @include media-xl {
+          margin-right: 10px;
+        }
+      }
+      &.active {
+        .car-features-header__icon {
+          transform: rotate(180deg);
+        }
+      }
+    }
+    &__text {
+      font-size: 18px;
+      margin-right: 5px;
+    }
+    &__icon {
+      @include size(10px, 5px);
+      fill: $color-accent;
+      flex: none;
+      transition: transform .3s;
+    }
+  }
+  &-table {
+    &__row {
+      display: flex;
+      align-items: center;
+      @include media-md {
+        display: block;
+      }
+      &:not(:last-child) {
+        margin-bottom: 40px;
+      }
+    }
+    &__col {
+      &:not(:last-child) {
+        margin-right: 30px;
+        @include media-xl {
+          margin-right: 10px;
+        }
+        @include media-md {
+          margin-bottom: 10px;
+        }
+      }
+      &.img {
+        width: 245px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: none;
+        aspect-ratio: 245/122;
+        @include media-md {
+          width: auto;
+          justify-content: flex-start;
+          aspect-ratio: auto;
+        }
+      }
+      &.descr {
+        flex: 1;
+      }
+      &.number {
+        width: 145px;
+        @include media-md {
+          width: auto;
+          display: inline-flex;
+          flex-direction: column;
+        }
+      }
+    }
+    &__title {
+      margin-bottom: 10px;
+      font-size: 20px;
+      color: #000000;
+    }
+    &__info {
+      display: none;
+      @include media-md {
+        display: block;
+      }
+    }
+    &__number {
+      color: #000000;
+      font-weight: 700;
+      font-size: 20px;
+      text-transform: uppercase;
+      span {
+        font-size: 36px;
+        margin-right: 5px;
+      }
+    }
+  }
+}

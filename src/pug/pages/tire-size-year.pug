@@ -9,9 +9,11 @@ block page
         include tire-size-year/_stock-tire-sizes
         include tire-size-year/tire-size-table
         include tire-size-year/_section-text
+        include tire-size-year/_comments
         include ../chunk/footer
 
 block script
+    script(src="https://www.google.com/recaptcha/api.js")
     script(src="js/libs/jquery.min.js")
     script(src="js/libs/libs.min.js")
     script(src="js/main.js")
