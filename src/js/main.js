@@ -19,6 +19,7 @@ import hideText from "./module/hideText";
 import hideBlock from "./module/hideBlock";
 import addAnswer from "./module/addAnswer";
 import slimselect from "./module/slimselect";
+import modal from "./module/modal";
 // import select2 from "./module/select2"
 
 svg4everybody({});
@@ -43,4 +44,5 @@ hideText();
 hideBlock();
 addAnswer();
 slimselect();
+modal();
 // select2();

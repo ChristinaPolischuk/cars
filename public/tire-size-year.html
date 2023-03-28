@@ -341,6 +341,7 @@
       <section class="section-middle"> 
         <div class="container">
           <h2 class="section-title">Comments</h2>
+          <button class="btn js-modal-open" data-modal="add-comment">Add comment</button>
           <div class="comments">
             <div class="comments__item">
               <div class="comments__header">
@@ -711,6 +712,71 @@
           </div>
         </div>
       </footer>
+    </div>
+    <div class="modal modal--m" id="add-comment">
+      <div class="modal__inner" data-simplebar data-simplebar-auto-hide="false">
+        <div class="modal__dialog">
+          <btn class="modal__dialog-close-btn js-modal-close"><span>&times;</span></btn>
+          <form class="form">
+            <div class="form__group">
+              <label class="form__label">Name*</label>
+              <input class="form__field error" type="text"><span class="form__error">Error</span>
+            </div>
+            <div class="form__group">
+              <label class="form__label">E-mail*</label>
+              <input class="form__field" type="text"><span class="form__error"></span>
+            </div>
+            <div class="form__group">
+              <label class="form__label">Phone*</label>
+              <input class="form__field error" type="text"><span class="form__error">Error</span>
+            </div>
+            <div class="form__group">
+              <label class="form__label">Subject*</label>
+              <select class="form__select js-slimselect">
+                <option>Choose subject   </option>
+                <option>Subject 1</option>
+                <option>Subject 2</option>
+                <option>Subject 3</option>
+                <option>Subject 4</option>
+                <option>Subject 5</option>
+                <option>Subject 6</option>
+                <option>Subject 7</option>
+                <option>Subject 8</option>
+                <option>Subject 9</option>
+                <option>Subject 10</option>
+                <option>Subject 11</option>
+                <option>Subject 12</option>
+                <option>Subject 13</option>
+                <option>Subject 14</option>
+                <option>Subject 15</option>
+                <option>Subject 16</option>
+                <option>Subject 17</option>
+                <option>Subject 18</option>
+                <option>Subject 19</option>
+                <option>Subject 20</option>
+                <option>Subject 21</option>
+                <option>Subject 22</option>
+                <option>Subject 23</option>
+                <option>Subject 24</option>
+                <option>Subject 25</option>
+                <option>Subject 26</option>
+                <option>Subject 27</option>
+                <option>Subject 28</option>
+                <option>Subject 29</option>
+                <option>Subject 30   </option>
+              </select><span class="form__error"></span>
+            </div>
+            <div class="form__group">
+              <label class="form__label">Comment*</label>
+              <textarea class="form__message error"></textarea><span class="form__error">Error</span>
+            </div>
+            <div class="form__footer">
+              <div class="g-recaptcha" data-sitekey="6KepjAsTFFFFFFMqccY0ZiGqc3TEd3YVxo8cHsGX" style="max-width: 100%"></div>
+              <button class="form__btn btn btn--xsmall js-send-commenz" type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
     <script src="https://www.google.com/recaptcha/api.js"></script>
     <script src="js/libs/jquery.min.js"></script>

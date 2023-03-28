@@ -9,7 +9,6 @@ module.exports = () => {
             showAll.forEach((el) => {
                 const block = el.previousElementSibling;
                 const blockInner = block.querySelector(".js-hide-block-inner");
-                console.log(block.offsetHeight, blockInner.offsetHeight);
                 if (blockInner.offsetHeight > block.offsetHeight) {
                     el.style.display = "block";
                     block.classList.add("hidden");
