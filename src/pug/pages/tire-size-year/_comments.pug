@@ -3,6 +3,12 @@ section.section-middle
         h2.section-title Comments
         button.btn.js-modal-open(data-modal="add-comment") Add comment
         .comments
+            .comments__headline 
+                button.comments__button.js-modal-open(data-modal="add-comment")
+                    +icon("comment")
+                    | Reply
+                span.comments__quantity.accent 999
+                span.comments__quantity 999
             .comments__item
                 .comments__header
                     .comments__avatar.no-pict
@@ -51,6 +57,10 @@ section.section-middle
                             label.form__label Comment*
                             textarea.form__message.error
                             span.form__error Error
+                        .form__group-checkbox
+                            label.form__label-checkbox 
+                                input.form__checkbox(type="checkbox", checked)
+                                span Subscribe on post updates
                         .form__footer
                             .g-recaptcha(data-sitekey="6KepjAsTFFFFFFMqccY0ZiGqc3TEd3YVxo8cHsGX", style="max-width: 100%")
                             button.form__btn.btn.btn--xsmall.js-send-commenz(type="submit") Send
@@ -114,6 +124,10 @@ section.section-middle
                             label.form__label Comment*
                             textarea.form__message.error
                             span.form__error Error
+                        .form__group-checkbox
+                            label.form__label-checkbox 
+                                input.form__checkbox(type="checkbox", checked)
+                                span Subscribe on post updates
                         .form__footer
                             .g-recaptcha(data-sitekey="6KepjAsTFFFFFFMqccY0ZiGqc3TEd3YVxo8cHsGX", style="max-width: 100%")
                             button.form__btn.btn.btn--xsmall.js-send-commenz(type="submit") Send
@@ -207,6 +221,10 @@ section.section-middle
                             label.form__label Comment*
                             textarea.form__message.error
                             span.form__error Error
+                        .form__group-checkbox
+                            label.form__label-checkbox 
+                                input.form__checkbox(type="checkbox", checked)
+                                span Subscribe on post updates
                         .form__footer
                             .g-recaptcha(data-sitekey="6KepjAsTFFFFFFMqccY0ZiGqc3TEd3YVxo8cHsGX", style="max-width: 100%")
                             button.form__btn.btn.btn--xsmall.js-send-commenz(type="submit") Send
@@ -262,6 +280,10 @@ section.section-middle
                 label.form__label Comment*
                 textarea.form__message.error
                 span.form__error Error
+            .form__group-checkbox
+                label.form__label-checkbox 
+                    input.form__checkbox(type="checkbox", checked)
+                    span Subscribe on post updates
             .form__footer
                 .g-recaptcha(data-sitekey="6KepjAsTFFFFFFMqccY0ZiGqc3TEd3YVxo8cHsGX", style="max-width: 100%")
                 button.form__btn.btn.btn--xsmall.js-send-commenz(type="submit") Send

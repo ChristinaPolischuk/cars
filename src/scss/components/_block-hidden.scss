@@ -71,14 +71,10 @@
 .show-block {
     display: none;
     cursor: pointer;
-    color: #3ca9e8;
+    color: $color-accent;
     -webkit-transition: color .3s;
     -moz-transition: color .3s;
     -ms-transition: color .3s;
     -o-transition: color .3s;
     transition: color .3s;
-}
-
-.show-block:hover {
-    color: #2d7caa;
 }

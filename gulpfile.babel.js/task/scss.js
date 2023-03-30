@@ -27,12 +27,12 @@ export default () => {
         .pipe(gp.groupCssMediaQueries())
         .pipe(gp.size({title: "audi.scss"}))
         .pipe(gulp.dest(path.css.dest, 
-            {sourcemaps: app.isDev}
+            // {sourcemaps: app.isDev}
             ))
         .pipe(gp.rename({suffix: ".min"}))
         .pipe(gp.csso())
         .pipe(gp.size({title: "audi.min.css"}))
         .pipe(gulp.dest(path.css.dest, 
-            {sourcemaps: app.isDev}
+            // {sourcemaps: app.isDev}
             ))
 }
