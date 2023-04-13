@@ -20,6 +20,9 @@
         padding: 1% 0;
         position: relative;
         transition: background-color .3s;
+        @include media-lg {
+            background-color: $color-grey-light;
+        }
         &:hover {
             background-color: $color-grey-light;
             .chart-vertical__count {
@@ -45,6 +48,9 @@
         position: relative;
         opacity: 0;
         transition: opacity .3s;
+        @include media-lg {
+            opacity: 1;
+        }
     }
 }
 
