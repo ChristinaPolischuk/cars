@@ -214,6 +214,10 @@ table {
   display: block;
 }
 
+.display_block {
+  display: block;
+}
+
 .block-mobile {
   @include media-xs {
     display: block;
@@ -254,4 +258,5 @@ table {
 .car-characteristics__img--small, .wheel-adapters-info__img img {
   aspect-ratio: 1;
 }
+
 @import "pagination";

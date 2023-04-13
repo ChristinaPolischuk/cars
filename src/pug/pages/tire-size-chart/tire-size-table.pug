@@ -1,0 +1,29 @@
+mixin tireSizeTableItem
+    .tire-size-table__row
+        h5.tire-size-table__title
+            a(href="#") 2022 Honda Accord tire size
+        .tire-size-table__list
+            .tire-size-table__item LX 1.5T 4dr Sedan <a href="">225/50R17</a>
+            .tire-size-table__item Sport 1.5T 4dr Sedan <a href="">235/40R19</a>
+            .tire-size-table__item LX 1.5T 4dr Sedan <a href="">225/50R17</a>
+            .tire-size-table__item Sport 1.5T 4dr Sedan <a href="">235/40R19</a>
+            .tire-size-table__item LX 1.5T 4dr Sedan <a href="">225/50R17</a>
+            .tire-size-table__item Sport 1.5T 4dr Sedan <a href="">235/40R19</a>
+
+section.section-middle
+    .container
+        h3.page-title-small Search tire size by Honda Accord models
+        p By clicking the link below you will be redirected to Amazon website, Tires Department.
+        .tire-size-table
+            +tireSizeTableItem
+            +tireSizeTableItem
+            +tireSizeTableItem
+            +tireSizeTableItem
+            +tireSizeTableItem
+            +tireSizeTableItem
+            +tireSizeTableItem
+            +tireSizeTableItem
+            +tireSizeTableItem
+            +tireSizeTableItem
+        .page-separator
+        include ../../chunk/pagination

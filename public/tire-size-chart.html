@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/acura.min.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header-container container">
+          <div class="mobile-menu">
+            <div class="hamburger" id="hamburger">
+              <div class="hamburger__top"></div>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                <path id="circle" fill="none" stroke-width="4" stroke-miterlimit="10" d="M16,32h32c0,0,11.723-0.306,10.75-11 c-0.25-2.75-1.644-4.971-2.869-7.151C50.728,7.08,42.767,2.569,33.733,2.054C33.159,2.033,32.599,2,32,2C15.432,2,2,15.432,2,32 c0,16.566,13.432,30,30,30c16.566,0,30-13.434,30-30C62,15.5,48.5,2,32,2S1.875,15.5,1.875,32"></path>
+              </svg>
+              <div class="hamburger__bottom"></div>
+            </div>
+            <nav class="mobile-menu__nav" id="mobile-nav">
+              <div class="mobile-menu__item"><a class="mobile-menu__link" href="#">Vehicle</a></div>
+              <div class="mobile-menu__item"><a class="mobile-menu__link mobile-list-dropdown" href="#">Shop
+                  <svg class="icon icon-arrow-down nav__link-icon">
+                    <use xlink:href="img/sprite/symbol/sprite.svg#arrow-down"></use>
+                  </svg></a>
+                <div class="mobile-menu-dropdown">
+                  <div class="mobile-menu-dropdown__content"><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/shop/towing_capacity.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/shop/towing_capacity.png" alt="Towing Capacity">
+                            </picture><span class="mobile-menu-dropdown__title">Towing Capacity</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/shop/mpg.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/shop/mpg.png" alt="Mpg">
+                            </picture><span class="mobile-menu-dropdown__title">Mpg</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/shop/interior.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/shop/interior.png" alt="Interior">
+                            </picture><span class="mobile-menu-dropdown__title">Interior</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/shop/weight.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/shop/weight.png" alt="Weight">
+                            </picture><span class="mobile-menu-dropdown__title">Weight</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/shop/0-60.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/shop/0-60.png" alt="0-60">
+                            </picture><span class="mobile-menu-dropdown__title">0-60</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/shop/hp.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/shop/hp.png" alt="Hp">
+                            </picture><span class="mobile-menu-dropdown__title">Hp</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/shop/engine.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/shop/engine.png" alt="Engine">
+                            </picture><span class="mobile-menu-dropdown__title">Engine</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/shop/dimensions.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/shop/dimensions.png" alt="Dimensions">
+                            </picture><span class="mobile-menu-dropdown__title">Dimensions</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/shop/gas_tank.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/shop/gas_tank.png" alt="Gas Tank">
+                            </picture><span class="mobile-menu-dropdown__title">Gas Tank</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/shop/ground_clearance.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/shop/ground_clearance.png" alt="Ground Clearance">
+                            </picture><span class="mobile-menu-dropdown__title">Ground Clearance</span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="mobile-menu__item"><a class="mobile-menu__link mobile-list-dropdown" href="#">Our story
+                  <svg class="icon icon-arrow-down nav__link-icon">
+                    <use xlink:href="img/sprite/symbol/sprite.svg#arrow-down"></use>
+                  </svg></a>
+                <div class="mobile-menu-dropdown">
+                  <div class="mobile-menu-dropdown__content"><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/our_story/owners_manual.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/our_story/owners_manual.png" alt="Owner's manual">
+                            </picture><span class="mobile-menu-dropdown__title">Owner's manual</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/our_story/fuses.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/our_story/fuses.png" alt="Fuses">
+                            </picture><span class="mobile-menu-dropdown__title">Fuses</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/our_story/bulbs_list.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/our_story/bulbs_list.png" alt="Bulbs list">
+                            </picture><span class="mobile-menu-dropdown__title">Bulbs list</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/our_story/tire_size.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/our_story/tire_size.png" alt="Tire size">
+                            </picture><span class="mobile-menu-dropdown__title">Tire size</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/our_story/wheel_size.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/our_story/wheel_size.png" alt="Wheel size">
+                            </picture><span class="mobile-menu-dropdown__title">Wheel size</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/our_story/oil_capacity.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/our_story/oil_capacity.png" alt="Oil capacity">
+                            </picture><span class="mobile-menu-dropdown__title">Oil capacity</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/our_story/wiper_sizes.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/our_story/wiper_sizes.png" alt="Wiper sizes">
+                            </picture><span class="mobile-menu-dropdown__title">Wiper sizes</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/our_story/steering_wheel_sizes.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/our_story/steering_wheel_sizes.png" alt="Steering wheel sizes">
+                            </picture><span class="mobile-menu-dropdown__title">Steering wheel sizes</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/our_story/mods.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/our_story/mods.png" alt="Mods">
+                            </picture><span class="mobile-menu-dropdown__title">Mods</span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="mobile-menu__item"><a class="mobile-menu__link" href="#">About</a></div>
+              <div class="mobile-menu__item"><a class="mobile-menu__link" href="#">Contacts</a></div>
+              <form class="mobile-menu-search">
+                <input class="search-form__field js-search-matches" type="text" autocomplete="off" data-url="/match-titles/" data-list="js-search-mobile-list">
+                <div class="mobile-menu-search__matches js-search-mobile-list"></div>
+                <button class="mobile-menu-search__btn">
+                  <svg class="icon icon-search mobile-menu-search__icon">
+                    <use xlink:href="img/sprite/symbol/sprite.svg#search"></use>
+                  </svg>
+                </button>
+              </form>
+            </nav>
+          </div><a class="logo" href="index.html"><span class="logo__img" style="background-image: url(img/general/logos/land-rover.svg)"></span><span class="logo__text">Landrover</span></a>
+          <div class="header-block">
+            <nav class="nav">
+              <div class="nav__item"><a class="nav__link" href="#">Vehicle</a></div>
+              <div class="nav__item"><a class="nav__link" href="#">Shop
+                  <svg class="icon icon-arrow-down nav__link-icon">
+                    <use xlink:href="img/sprite/symbol/sprite.svg#arrow-down"></use>
+                  </svg></a>
+                <div class="nav-dropdown"><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/shop/towing_capacity.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/shop/towing_capacity.png" alt="Towing Capacity">
+                          </picture><span class="nav-dropdown__title">Towing Capacity</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/shop/mpg.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/shop/mpg.png" alt="Mpg">
+                          </picture><span class="nav-dropdown__title">Mpg</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/shop/interior.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/shop/interior.png" alt="Interior">
+                          </picture><span class="nav-dropdown__title">Interior</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/shop/weight.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/shop/weight.png" alt="Weight">
+                          </picture><span class="nav-dropdown__title">Weight</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/shop/0-60.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/shop/0-60.png" alt="0-60">
+                          </picture><span class="nav-dropdown__title">0-60</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/shop/hp.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/shop/hp.png" alt="Hp">
+                          </picture><span class="nav-dropdown__title">Hp</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/shop/engine.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/shop/engine.png" alt="Engine">
+                          </picture><span class="nav-dropdown__title">Engine</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/shop/dimensions.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/shop/dimensions.png" alt="Dimensions">
+                          </picture><span class="nav-dropdown__title">Dimensions</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/shop/gas_tank.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/shop/gas_tank.png" alt="Gas Tank">
+                          </picture><span class="nav-dropdown__title">Gas Tank</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/shop/ground_clearance.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/shop/ground_clearance.png" alt="Ground Clearance">
+                          </picture><span class="nav-dropdown__title">Ground Clearance</span></a>
+                </div>
+              </div>
+              <div class="nav__item"><a class="nav__link" href="#">Our story
+                  <svg class="icon icon-arrow-down nav__link-icon">
+                    <use xlink:href="img/sprite/symbol/sprite.svg#arrow-down"></use>
+                  </svg></a>
+                <div class="nav-dropdown"><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/our_story/owners_manual.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/our_story/owners_manual.png" alt="Owner's manual">
+                          </picture><span class="nav-dropdown__title">Owner's manual</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/our_story/fuses.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/our_story/fuses.png" alt="Fuses">
+                          </picture><span class="nav-dropdown__title">Fuses</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/our_story/bulbs_list.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/our_story/bulbs_list.png" alt="Bulbs list">
+                          </picture><span class="nav-dropdown__title">Bulbs list</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/our_story/tire_size.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/our_story/tire_size.png" alt="Tire size">
+                          </picture><span class="nav-dropdown__title">Tire size</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/our_story/wheel_size.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/our_story/wheel_size.png" alt="Wheel size">
+                          </picture><span class="nav-dropdown__title">Wheel size</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/our_story/oil_capacity.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/our_story/oil_capacity.png" alt="Oil capacity">
+                          </picture><span class="nav-dropdown__title">Oil capacity</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/our_story/wiper_sizes.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/our_story/wiper_sizes.png" alt="Wiper sizes">
+                          </picture><span class="nav-dropdown__title">Wiper sizes</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/our_story/steering_wheel_sizes.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/our_story/steering_wheel_sizes.png" alt="Steering wheel sizes">
+                          </picture><span class="nav-dropdown__title">Steering wheel sizes</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/our_story/mods.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/our_story/mods.png" alt="Mods">
+                          </picture><span class="nav-dropdown__title">Mods</span></a>
+                </div>
+              </div>
+              <div class="nav__item"><a class="nav__link" href="#">About</a></div>
+              <div class="nav__item"><a class="nav__link" href="#">Contacts</a></div><span class="nav__link-hover"></span>
+            </nav>
+            <div class="search">
+              <svg class="icon icon-search search-icon js-show-search-form">
+                <use xlink:href="img/sprite/symbol/sprite.svg#search"></use>
+              </svg>
+              <form class="search-form">
+                <svg class="icon icon-close search-form__close js-hide-search-form">
+                  <use xlink:href="img/sprite/symbol/sprite.svg#close"></use>
+                </svg>
+                <input class="search-form__field js-search-matches" type="text" autocomplete="off" data-url="/match-titles/" data-list="js-search-mathes-list">
+                <div class="search-form-matches js-search-mathes-list"></div>
+                <button class="search-form__btn">
+                  <svg class="icon icon-search search-form__loupe">
+                    <use xlink:href="img/sprite/symbol/sprite.svg#search"></use>
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="car-model">
+        <div class="container">
+          <div class="breadcrumbs"><a class="breadcrumbs-link" href="#">Vehicle</a><a class="breadcrumbs-link" href="#">Shop</a><a class="breadcrumbs-link" href="#">Our story</a><a class="breadcrumbs-link" href="#">About</a><a class="breadcrumbs-link" href="#">Contacts</a></div>
+          <div class="car-model__container">
+            <div class="car-model__content">
+              <h1 class="car-model__title bordered"><span class="block-mobile">Cadillac Escalade</span><span class="block-mobile">Towing Capacity</span></h1>
+            </div>
+            <div class="car-model__img-small">
+              <picture>
+                <source srcset="img/content/car-model/cadillac.webp" type="image/webp"><img src="img/content/car-model/cadillac.png" alt="Cadillac">
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-middle">
+        <div class="container">
+          <div class="car-model__select-year">
+            <h2 class="section-title">Select year</h2>
+            <div class="car-model__select-years"><a class="car-model__year always-show" href="#">1977</a><a class="car-model__year always-show" href="#">1978</a><a class="car-model__year always-show" href="#">1979</a><span class="car-model__year always-show">1980</span><a class="car-model__year always-show" href="#">1981</a><a class="car-model__year always-show" href="#">1982</a><a class="car-model__year always-show" href="#">1983</a><a class="car-model__year always-show" href="#">1984</a><a class="car-model__year always-show" href="#">1985</a><a class="car-model__year always-show" href="#">1986</a><a class="car-model__year always-show" href="#">1987</a><a class="car-model__year always-show" href="#">1988</a><a class="car-model__year always-show" href="#">1989</a><a class="car-model__year always-show" href="#">1990</a><a class="car-model__year always-show" href="#">1991</a><a class="car-model__year always-show" href="#">1992</a><a class="car-model__year always-show" href="#">1993</a><a class="car-model__year always-show" href="#">1994</a><a class="car-model__year always-show" href="#">1995</a><a class="car-model__year always-show" href="#">1996</a><a class="car-model__year always-show" href="#">1997</a><a class="car-model__year always-show" href="#">1998</a><a class="car-model__year always-show" href="#">1999</a><a class="car-model__year always-show" href="#">2000</a><a class="car-model__year always-show" href="#">2001</a><a class="car-model__year always-show" href="#">2002</a><a class="car-model__year always-show" href="#">2003</a><a class="car-model__year always-show" href="#">2004</a><a class="car-model__year always-show" href="#">2005</a><a class="car-model__year always-show" href="#">2006</a><a class="car-model__year always-show" href="#">2007</a><a class="car-model__year always-show" href="#">2008</a><a class="car-model__year always-show" href="#">2009</a><a class="car-model__year always-show" href="#">2010</a><a class="car-model__year always-show" href="#">2011</a><a class="car-model__year always-show" href="#">2012</a><a class="car-model__year always-show" href="#">2013</a><a class="car-model__year always-show" href="#">2014</a><a class="car-model__year always-show" href="#">2015</a><a class="car-model__year always-show" href="#">2016</a><a class="car-model__year always-show" href="#">2017</a><a class="car-model__year always-show" href="#">2018</a><a class="car-model__year always-show" href="#">2019</a><a class="car-model__year always-show" href="#">2020</a><a class="car-model__year always-show" href="#">2021</a>
+            </div>
+          </div>
+          <p class="car-model__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <h2 class="page-title">Best Tires for Cadillac Escalade</h2>
+          <form class="select-tires">
+            <div class="select-tires__group">
+              <label class="select-tires__label">Year:</label>
+              <div class="custom-select js-custom-select">
+                <div class="custom-select__header js-custom-select-header">Year</div>
+                <div class="custom-select__body js-custom-select-body">
+                  <div class="scroll" data-simplebar data-simplebar-auto-hide="false">
+                    <div class="custom-select__item js-custom-select-item" data-value="2022">2022</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="2021">2021</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="2020">2020</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="2019">2019</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="2018">2018</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="2017">2017</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="2016">2016</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="2015">2015</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="2014">2014</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="2013">2013</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="2012">2012</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="2011">2011</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="2010">2010</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="2009">2009</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="2008">2008</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="2007">2007</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="select-tires__group">
+              <label class="select-tires__label">Tire size:</label>
+              <div class="custom-select js-custom-select">
+                <div class="custom-select__header js-custom-select-header">225/50 R17</div>
+                <div class="custom-select__body js-custom-select-body">
+                  <div class="scroll" data-simplebar data-simplebar-auto-hide="false">
+                    <div class="custom-select__item js-custom-select-item" data-value="225-50-R17">225/50 R19</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="225-50-R17">225/50 R19</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="225-50-R17">225/50 R19</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="225-50-R17">225/50 R19</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="225-50-R17">225/50 R19</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="225-50-R17">225/50 R19</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="225-50-R17">225/50 R19</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="225-50-R17">225/50 R19</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="225-50-R17">225/50 R19</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="225-50-R17">225/50 R19</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="225-50-R17">225/50 R19</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="225-50-R17">225/50 R19</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="225-50-R17">225/50 R19</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="select-tires__group">
+              <label class="select-tires__label">Type:</label>
+              <div class="custom-select js-custom-select">
+                <div class="custom-select__header js-custom-select-header">Standart Touring M+s</div>
+                <div class="custom-select__body js-custom-select-body">
+                  <div class="scroll" data-simplebar data-simplebar-auto-hide="false">
+                    <div class="custom-select__item js-custom-select-item" data-value="standart-touring-m-s">Standart Touring M+s</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="standart-touring-m-s">Standart Touring M+s</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="standart-touring-m-s">Standart Touring M+s</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="standart-touring-m-s">Standart Touring M+s</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="standart-touring-m-s">Standart Touring M+s</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="standart-touring-m-s">Standart Touring M+s</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="standart-touring-m-s">Standart Touring M+s</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="standart-touring-m-s">Standart Touring M+s</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="standart-touring-m-s">Standart Touring M+s</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="standart-touring-m-s">Standart Touring M+s</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="standart-touring-m-s">Standart Touring M+s</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="standart-touring-m-s">Standart Touring M+s</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="standart-touring-m-s">Standart Touring M+s</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="standart-touring-m-s">Standart Touring M+s</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="standart-touring-m-s">Standart Touring M+s</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="standart-touring-m-s">Standart Touring M+s</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="standart-touring-m-s">Standart Touring M+s</div>
+                    <div class="custom-select__item js-custom-select-item" data-value="standart-touring-m-s">Standart Touring M+s</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="btn btn--xsmall">Show</button>
+          </form>
+          <form class="select-tires">
+            <div class="select-tires__group">
+              <label class="select-tires__label">Year:</label>
+              <select class="select2" id="model_year_id">
+                <option>2022</option>
+                <option>2021</option>
+                <option>2020</option>
+                <option>2019</option>
+                <option>2018</option>
+                <option>2017</option>
+                <option>2016</option>
+                <option>2015</option>
+                <option>2014</option>
+                <option>2013</option>
+                <option>2012</option>
+                <option>2011</option>
+                <option>2010</option>
+                <option>2009</option>
+                <option>2008</option>
+                <option>2007</option>
+              </select>
+            </div>
+          </form>
+          <div class="select-tires-list">
+            <div class="select-tires-list__item"><a class="select-tires-list__img" href="">
+                <picture>
+                  <source srcset="img/content/tires/tire.webp" type="image/webp"><img src="img/content/tires/tire.png" alt="Bridgestone Turanza EL400-02 RFT ">
+                </picture></a>
+              <div class="select-tires-list__links"><a class="select-tires-list__link" href=""><span>Bridgestone</span><span>Turanza EL400-02 RFT</span><span>$150.00</span></a><a class="select-tires-list__link" href="">>></a></div>
+            </div>
+            <div class="select-tires-list__item"><a class="select-tires-list__img" href="">
+                <picture>
+                  <source srcset="img/content/tires/tire.webp" type="image/webp"><img src="img/content/tires/tire.png" alt="Bridgestone Turanza EL400-02 RFT ">
+                </picture></a>
+              <div class="select-tires-list__links"><a class="select-tires-list__link" href=""><span>Bridgestone</span><span>Turanza EL400-02 RFT</span><span>$150.00</span></a><a class="select-tires-list__link" href="">>></a></div>
+            </div>
+            <div class="select-tires-list__item"><a class="select-tires-list__img" href="">
+                <picture>
+                  <source srcset="img/content/tires/tire.webp" type="image/webp"><img src="img/content/tires/tire.png" alt="Bridgestone Turanza EL400-02 RFT ">
+                </picture></a>
+              <div class="select-tires-list__links"><a class="select-tires-list__link" href=""><span>Bridgestone</span><span>Turanza EL400-02 RFT</span><span>$150.00</span></a><a class="select-tires-list__link" href="">>></a></div>
+            </div>
+            <div class="select-tires-list__item"><a class="select-tires-list__img" href="">
+                <picture>
+                  <source srcset="img/content/tires/tire.webp" type="image/webp"><img src="img/content/tires/tire.png" alt="Bridgestone Turanza EL400-02 RFT ">
+                </picture></a>
+              <div class="select-tires-list__links"><a class="select-tires-list__link" href=""><span>Bridgestone</span><span>Turanza EL400-02 RFT</span><span>$150.00</span></a><a class="select-tires-list__link" href="">>></a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-middle">
+        <div class="container">
+          <h3 class="page-title-small">Search tire size by Honda Accord models</h3>
+          <p>By clicking the link below you will be redirected to Amazon website, Tires Department.</p>
+          <div class="tire-size-table">
+                  <div class="tire-size-table__row">
+                    <h5 class="tire-size-table__title"><a href="#">2022 Honda Accord tire size</a></h5>
+                    <div class="tire-size-table__list">
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                    </div>
+                  </div>
+                  <div class="tire-size-table__row">
+                    <h5 class="tire-size-table__title"><a href="#">2022 Honda Accord tire size</a></h5>
+                    <div class="tire-size-table__list">
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                    </div>
+                  </div>
+                  <div class="tire-size-table__row">
+                    <h5 class="tire-size-table__title"><a href="#">2022 Honda Accord tire size</a></h5>
+                    <div class="tire-size-table__list">
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                    </div>
+                  </div>
+                  <div class="tire-size-table__row">
+                    <h5 class="tire-size-table__title"><a href="#">2022 Honda Accord tire size</a></h5>
+                    <div class="tire-size-table__list">
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                    </div>
+                  </div>
+                  <div class="tire-size-table__row">
+                    <h5 class="tire-size-table__title"><a href="#">2022 Honda Accord tire size</a></h5>
+                    <div class="tire-size-table__list">
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                    </div>
+                  </div>
+                  <div class="tire-size-table__row">
+                    <h5 class="tire-size-table__title"><a href="#">2022 Honda Accord tire size</a></h5>
+                    <div class="tire-size-table__list">
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                    </div>
+                  </div>
+                  <div class="tire-size-table__row">
+                    <h5 class="tire-size-table__title"><a href="#">2022 Honda Accord tire size</a></h5>
+                    <div class="tire-size-table__list">
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                    </div>
+                  </div>
+                  <div class="tire-size-table__row">
+                    <h5 class="tire-size-table__title"><a href="#">2022 Honda Accord tire size</a></h5>
+                    <div class="tire-size-table__list">
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                    </div>
+                  </div>
+                  <div class="tire-size-table__row">
+                    <h5 class="tire-size-table__title"><a href="#">2022 Honda Accord tire size</a></h5>
+                    <div class="tire-size-table__list">
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                    </div>
+                  </div>
+                  <div class="tire-size-table__row">
+                    <h5 class="tire-size-table__title"><a href="#">2022 Honda Accord tire size</a></h5>
+                    <div class="tire-size-table__list">
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                      <div class="tire-size-table__item">LX 1.5T 4dr Sedan <a href="">225/50R17</a></div>
+                      <div class="tire-size-table__item">Sport 1.5T 4dr Sedan <a href="">235/40R19</a></div>
+                    </div>
+                  </div>
+          </div>
+          <div class="page-separator"></div>
+          <div class="pagination">
+            <button class="pagination__btn pagination__btn-first disabled">
+              <svg class="icon icon-arrow-first-page pagination__btn-icon">
+                <use xlink:href="img/sprite/symbol/sprite.svg#arrow-first-page"></use>
+              </svg>
+            </button>
+            <button class="pagination__btn pagination__btn-prev disabled">
+              <svg class="icon icon-arrow-prev-page pagination__btn-icon">
+                <use xlink:href="img/sprite/symbol/sprite.svg#arrow-prev-page"></use>
+              </svg>
+            </button>
+            <div class="pagination__links"><a class="pagination__link" href="">1</a><a class="pagination__link" href="">2</a><a class="pagination__link" href="">3</a><a class="pagination__link" href="">4</a><a class="pagination__link active" href="">5</a><a class="pagination__link" href="">6</a><a class="pagination__link" href="">7</a></div>
+            <button class="pagination__btn pagination__btn-next">
+              <svg class="icon icon-arrow-next-page pagination__btn-icon">
+                <use xlink:href="img/sprite/symbol/sprite.svg#arrow-next-page"></use>
+              </svg>
+            </button>
+            <button class="pagination__btn pagination__btn-last">
+              <svg class="icon icon-arrow-last-page pagination__btn-icon">
+                <use xlink:href="img/sprite/symbol/sprite.svg#arrow-last-page"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="section-middle">
+        <div class="container">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+      </section>
+      <section> 
+        <div class="container"> 
+          <h2 class="page-title">Land Rover model year comparison</h2>
+          <div class="mcustom-scrollbar-wrap">
+            <div class="chart-vertical"> <a class="chart-vertical__item" href="" title="2023 Land Rover Problems"><span class="chart-vertical__label">2023</span><span class="chart-vertical__bar" style="height: 1%"></span><span class="chart-vertical__count">1</span></a><span class="chart-vertical__item" title="2022 Land Rover Problems"><span class="chart-vertical__label">2022</span><span class="chart-vertical__bar" style="height: 1%"></span><span class="chart-vertical__count">1</span></span><a class="chart-vertical__item" href="" title="2021 Land Rover Problems"><span class="chart-vertical__label">2021</span><span class="chart-vertical__bar" style="height: 6%"></span><span class="chart-vertical__count">6</span></a><a class="chart-vertical__item" href="" title="2020 Land Rover Problems"><span class="chart-vertical__label">2020</span><span class="chart-vertical__bar" style="height: 40%"></span><span class="chart-vertical__count">40</span></a><span class="chart-vertical__item" title="2019 Land Rover Problems"><span class="chart-vertical__label">2019</span><span class="chart-vertical__bar" style="height: 35%"></span><span class="chart-vertical__count">35</span></span><a class="chart-vertical__item" href="" title="2018 Land Rover Problems"><span class="chart-vertical__label">2018</span><span class="chart-vertical__bar" style="height: 10%"></span><span class="chart-vertical__count">10</span></a><a class="chart-vertical__item" href="" title="2017 Land Rover Problems"><span class="chart-vertical__label">2017</span><span class="chart-vertical__bar" style="height: 100%"></span><span class="chart-vertical__count">100</span></a><span class="chart-vertical__item" title="2016 Land Rover Problems"><span class="chart-vertical__label">2016</span><span class="chart-vertical__bar" style="height: 98%"></span><span class="chart-vertical__count">98</span></span><a class="chart-vertical__item" href="" title="2015 Land Rover Problems"><span class="chart-vertical__label">2015</span><span class="chart-vertical__bar" style="height: 39%"></span><span class="chart-vertical__count">39</span></a><a class="chart-vertical__item" href="" title="2014 Land Rover Problems"><span class="chart-vertical__label">2014</span><span class="chart-vertical__bar" style="height: 65%"></span><span class="chart-vertical__count">65</span></a><span class="chart-vertical__item" title="2013 Land Rover Problems"><span class="chart-vertical__label">2013</span><span class="chart-vertical__bar" style="height: 36%"></span><span class="chart-vertical__count">36</span></span><a class="chart-vertical__item" href="" title="2012 Land Rover Problems"><span class="chart-vertical__label">2012</span><span class="chart-vertical__bar" style="height: 19%"></span><span class="chart-vertical__count">19</span></a><a class="chart-vertical__item" href="" title="2011 Land Rover Problems"><span class="chart-vertical__label">2011</span><span class="chart-vertical__bar" style="height: 20%"></span><span class="chart-vertical__count">20</span></a><span class="chart-vertical__item" title="2010 Land Rover Problems"><span class="chart-vertical__label">2010</span><span class="chart-vertical__bar" style="height: 5%"></span><span class="chart-vertical__count">5</span></span><a class="chart-vertical__item" href="" title="2009 Land Rover Problems"><span class="chart-vertical__label">2009</span><span class="chart-vertical__bar" style="height: 3%"></span><span class="chart-vertical__count">3</span></a><a class="chart-vertical__item" href="" title="2008 Land Rover Problems"><span class="chart-vertical__label">2008</span><span class="chart-vertical__bar" style="height: 48%"></span><span class="chart-vertical__count">48</span></a><span class="chart-vertical__item" title="2007 Land Rover Problems"><span class="chart-vertical__label">2007</span><span class="chart-vertical__bar" style="height: 90%"></span><span class="chart-vertical__count">90</span></span><a class="chart-vertical__item" href="" title="2006 Land Rover Problems"><span class="chart-vertical__label">2006</span><span class="chart-vertical__bar" style="height: 43%"></span><span class="chart-vertical__count">43</span></a><a class="chart-vertical__item" href="" title="2005 Land Rover Problems"><span class="chart-vertical__label">2005</span><span class="chart-vertical__bar" style="height: 10%"></span><span class="chart-vertical__count">10</span></a><span class="chart-vertical__item" title="2004 Land Rover Problems"><span class="chart-vertical__label">2004</span><span class="chart-vertical__bar" style="height: 100%"></span><span class="chart-vertical__count">100</span></span><a class="chart-vertical__item" href="" title="2003 Land Rover Problems"><span class="chart-vertical__label">2003</span><span class="chart-vertical__bar" style="height: 98%"></span><span class="chart-vertical__count">98</span></a><a class="chart-vertical__item" href="" title="2002 Land Rover Problems"><span class="chart-vertical__label">2002</span><span class="chart-vertical__bar" style="height: 39%"></span><span class="chart-vertical__count">39</span></a><span class="chart-vertical__item" title="2001 Land Rover Problems"><span class="chart-vertical__label">2001</span><span class="chart-vertical__bar" style="height: 65%"></span><span class="chart-vertical__count">65</span></span><a class="chart-vertical__item" href="" title="2000 Land Rover Problems"><span class="chart-vertical__label">2000</span><span class="chart-vertical__bar" style="height: 36%"></span><span class="chart-vertical__count">36</span></a>
+            </div>
+          </div>
+          <h2 class="page-title">Land Rover model year comparison</h2>
+          <div class="chart-horizontal"><span class="chart-horizontal__item"><span class="chart-horizontal__label">Cl</span><span class="chart-horizontal__bar" style="width: 1%"></span><span class="chart-horizontal__count">1</span></span><a class="chart-horizontal__item" href=""><span class="chart-horizontal__label">CSX</span><span class="chart-horizontal__bar" style="width: 16%"></span><span class="chart-horizontal__count">16</span></a><a class="chart-horizontal__item" href=""><span class="chart-horizontal__label">EL</span><span class="chart-horizontal__bar" style="width: 40%"></span><span class="chart-horizontal__count">40</span></a><span class="chart-horizontal__item"><span class="chart-horizontal__label">ILX</span><span class="chart-horizontal__bar" style="width: 10%"></span><span class="chart-horizontal__count">10</span></span><a class="chart-horizontal__item" href=""><span class="chart-horizontal__label">ILX Hybrid</span><span class="chart-horizontal__bar" style="width: 100%"></span><span class="chart-horizontal__count">100</span></a><a class="chart-horizontal__item" href=""><span class="chart-horizontal__label">Integra</span><span class="chart-horizontal__bar" style="width: 98%"></span><span class="chart-horizontal__count">98</span></a><span class="chart-horizontal__item"><span class="chart-horizontal__label">Legend</span><span class="chart-horizontal__bar" style="width: 39%"></span><span class="chart-horizontal__count">39</span></span><a class="chart-horizontal__item" href=""><span class="chart-horizontal__label">MDX</span><span class="chart-horizontal__bar" style="width: 65%"></span><span class="chart-horizontal__count">65</span></a><a class="chart-horizontal__item" href=""><span class="chart-horizontal__label">MDX Sport Hybrid</span><span class="chart-horizontal__bar" style="width: 36%"></span><span class="chart-horizontal__count">36</span></a><span class="chart-horizontal__item"><span class="chart-horizontal__label">NSX</span><span class="chart-horizontal__bar" style="width: 19%"></span><span class="chart-horizontal__count">19</span></span><a class="chart-horizontal__item" href=""><span class="chart-horizontal__label">RDX</span><span class="chart-horizontal__bar" style="width: 20%"></span><span class="chart-horizontal__count">20</span></a><a class="chart-horizontal__item" href=""><span class="chart-horizontal__label">RL</span><span class="chart-horizontal__bar" style="width: 5%"></span><span class="chart-horizontal__count">5</span></a><span class="chart-horizontal__item"><span class="chart-horizontal__label">RLX</span><span class="chart-horizontal__bar" style="width: 3%"></span><span class="chart-horizontal__count">3</span></span><a class="chart-horizontal__item" href=""><span class="chart-horizontal__label">RLX Sport Hybrid</span><span class="chart-horizontal__bar" style="width: 48%"></span><span class="chart-horizontal__count">48</span></a><a class="chart-horizontal__item" href=""><span class="chart-horizontal__label">RSX</span><span class="chart-horizontal__bar" style="width: 90%"></span><span class="chart-horizontal__count">90</span></a><span class="chart-horizontal__item"><span class="chart-horizontal__label">SLX</span><span class="chart-horizontal__bar" style="width: 43%"></span><span class="chart-horizontal__count">43</span></span><a class="chart-horizontal__item" href=""><span class="chart-horizontal__label">TL</span><span class="chart-horizontal__bar" style="width: 10%"></span><span class="chart-horizontal__count">10</span></a><a class="chart-horizontal__item" href=""><span class="chart-horizontal__label">TLX</span><span class="chart-horizontal__bar" style="width: 100%"></span><span class="chart-horizontal__count">100</span></a><span class="chart-horizontal__item"><span class="chart-horizontal__label">TSX</span><span class="chart-horizontal__bar" style="width: 35%"></span><span class="chart-horizontal__count">35</span></span><a class="chart-horizontal__item" href=""><span class="chart-horizontal__label">Vigor</span><span class="chart-horizontal__bar" style="width: 98%"></span><span class="chart-horizontal__count">98</span></a><a class="chart-horizontal__item" href=""><span class="chart-horizontal__label">ZDX</span><span class="chart-horizontal__bar" style="width: 39%"></span><span class="chart-horizontal__count">39</span></a>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__container container">
+          <div class="footer__item">
+            <div class="logo site-select"><a class="logo__img" href="index.html" style="background-image: url(img/general/logos/land-rover.svg)"></a>
+              <div class="site-select-current js-site-select"><span class="logo__text">Landrover</span>
+                <svg class="icon icon-caret-down footer__title-icon visible">
+                  <use xlink:href="img/sprite/symbol/sprite.svg#caret-down"></use>
+                </svg>
+              </div>
+              <div class="site-select-dropdown">
+                <div class="site-select-dropdown__content" data-simplebar data-simplebar-auto-hide="false">
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Acura</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">BMW</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Cadillac</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Chevrolet</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Chrysler</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Dodge</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Ford</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">GMC</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Honda</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Hyundai</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Infinity</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Jeep</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">KIA</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Mazda</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Mercedes-benz</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Nissan</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">RAM</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Toyota</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Volkswagen</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Volvo</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__item">
+            <h6 class="footer__title"><span class="footer__title-text">Vehicles</span>
+              <svg class="icon icon-caret-down footer__title-icon">
+                <use xlink:href="img/sprite/symbol/sprite.svg#caret-down"></use>
+              </svg>
+            </h6>
+            <div class="footer__links"><a class="footer__link" href="#">Suvs</a><a class="footer__link" href="#">Sedans</a><a class="footer__link" href="#">Electric</a><a class="footer__link" href="#">Certified pre-owned</a><a class="footer__link" href="#">Future vehicle</a><a class="footer__link" href="#">Concept vehicles</a><a class="footer__link" href="#">Legacy vehicles</a><a class="footer__link" href="#">Brochures</a></div>
+          </div>
+          <div class="footer__item">
+            <h6 class="footer__title"><span class="footer__title-text">Discover cadillac</span>
+              <svg class="icon icon-caret-down footer__title-icon">
+                <use xlink:href="img/sprite/symbol/sprite.svg#caret-down"></use>
+              </svg>
+            </h6>
+            <div class="footer__links"><a class="footer__link" href="#">Innovation</a><a class="footer__link" href="#">Performance</a><a class="footer__link" href="#">Craftsmanship</a><a class="footer__link" href="#">Super cruise</a><a class="footer__link" href="#">Racing</a><a class="footer__link" href="#">Benefits of cadillac</a><a class="footer__link" href="#">Awards &amp; recognition</a><a class="footer__link" href="#">Equity &amp; justice</a></div>
+          </div>
+          <div class="footer__item">
+            <h6 class="footer__title"><span class="footer__title-text">Assistance</span>
+              <svg class="icon icon-caret-down footer__title-icon">
+                <use xlink:href="img/sprite/symbol/sprite.svg#caret-down"></use>
+              </svg>
+            </h6>
+            <div class="footer__links"><a class="footer__link" href="#">Contact us</a><a class="footer__link" href="#">Recalls</a><a class="footer__link" href="#">My account</a><a class="footer__link" href="#">Support</a><a class="footer__link" href="#">Tutorials</a><a class="footer__link" href="#">Learn about ev life</a></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/libs/libs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/js/select2.full.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

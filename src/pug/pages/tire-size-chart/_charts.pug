@@ -1,0 +1,32 @@
+section 
+    .container 
+        h2.page-title Land Rover model year comparison
+        .mcustom-scrollbar-wrap
+            .chart-vertical 
+                - let barPercent = [1, 1, 6, 40, 35, 10, 100, 98, 39, 65, 36, 19, 20, 5, 3, 48, 90, 43, 10, 100, 98, 39, 65, 36]
+                - for (var i=2023, j=0; i>=2000; i--, j++)
+                    if i%3==0
+                        span.chart-vertical__item(title=`${i} Land Rover Problems`)
+                            span.chart-vertical__label=i
+                            span.chart-vertical__bar(style=`height: ${barPercent[j]}%`)
+                            span.chart-vertical__count= barPercent[j]
+                    else 
+                        a.chart-vertical__item(href="", title=`${i} Land Rover Problems`)
+                            span.chart-vertical__label=i
+                            span.chart-vertical__bar(style=`height: ${barPercent[j]}%`)
+                            span.chart-vertical__count= barPercent[j]
+        h2.page-title Land Rover model year comparison
+        .chart-horizontal
+            - let models = [{"model":"Cl","percent":1},{"model":"CSX","percent":16},{"model":"EL","percent":40},{"model":"ILX","percent":10},{"model":"ILX Hybrid","percent":100},{"model":"Integra","percent":98},{"model":"Legend","percent":39},{"model":"MDX","percent":65},{"model":"MDX Sport Hybrid","percent":36},{"model":"NSX","percent":19},{"model":"RDX","percent":20},{"model":"RL","percent":5},{"model":"RLX","percent":3},{"model":"RLX Sport Hybrid","percent":48},{"model":"RSX","percent":90},{"model":"SLX","percent":43},{"model":"TL","percent":10},{"model":"TLX","percent":100},{"model":"TSX","percent":35},{"model":"Vigor","percent":98},{"model":"ZDX","percent":39}]
+            
+            each model, index in models
+                if index % 3 == 0
+                    span.chart-horizontal__item
+                        span.chart-horizontal__label= model.model
+                        span.chart-horizontal__bar(style=`width: ${model.percent}%`)
+                        span.chart-horizontal__count= model.percent
+                else 
+                    a.chart-horizontal__item(href="")
+                        span.chart-horizontal__label= model.model
+                        span.chart-horizontal__bar(style=`width: ${model.percent}%`)
+                        span.chart-horizontal__count= model.percent

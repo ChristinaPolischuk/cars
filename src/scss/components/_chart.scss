@@ -1,0 +1,81 @@
+.chart-vertical {
+    display: flex;
+    margin-bottom: 30px;
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: $grey_color_medium;
+    }
+    &__item {
+        display: flex;
+        justify-content: center;
+        flex: none;
+        width: 53px;
+        height: 142px;
+        margin: 0 0.1em;
+        padding: 1% 0;
+        position: relative;
+        transition: background-color .3s;
+        &:hover {
+            background-color: $color-grey-light;
+            .chart-vertical__count {
+                opacity: 1;
+            }
+        }
+    }
+    &__label {
+        position: absolute;
+        top: calc(100% + 12px);;
+    }
+    &__bar {
+        position: absolute;
+        left: 5px;
+        bottom: 0;
+        right: 5px;
+        background-color: $grey_color_medium;
+    }
+    &__count {
+        color: $color_accent;
+        font-weight: 600;
+        font-size: 14px;
+        position: relative;
+        opacity: 0;
+        transition: opacity .3s;
+    }
+}
+
+.chart-horizontal {
+    columns: 2;
+    margin-bottom: 35px;
+    @include media-sm {
+        columns: 1;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        padding: 10px;
+        margin-bottom: 5px;
+        background-color: $color-grey-light;
+    }
+    &__label {
+        position: relative;
+        z-index: 1;
+        font-weight: 600;
+    }
+    &__bar {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        background-color: $grey_color_medium;
+    }
+    &__count {
+        font-size: 14px;
+    }
+}

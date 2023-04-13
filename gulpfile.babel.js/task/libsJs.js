@@ -9,6 +9,8 @@ const gp = loadPlugins();
 
 export default () => {
     return gulp.src([
+        "node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js",
+        "node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js",
         "node_modules/svg4everybody/dist/svg4everybody.js",
         "node_modules/slick-carousel/slick/slick.js",
         "node_modules/simplebar/dist/simplebar.js",

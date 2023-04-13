@@ -1,0 +1,45 @@
+.mcustom-scrollbar-wrap {
+    margin-bottom: 50px;
+}
+
+.mCS-my-theme.mCSB_scrollTools {
+    .mCSB_draggerContainer::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        margin-top: -2px;
+        height: 4px;
+        width: 100%;
+        background-color: $color-grey-light; 
+    }
+    .mCSB_dragger .mCSB_dragger_bar { 
+        // height: 8px;
+        background-color: $color-accent; 
+        border-radius: 1px;
+    }
+    .mCSB_draggerRail { 
+        background-color: $color-grey-light; 
+        border-radius: 1px;
+    } 
+    .mCSB_buttonLeft, .mCSB_buttonRight {
+        background-image: none;
+        opacity: 1;
+        width: 14px;
+        height: 14px;
+        border-radius: 1px;
+        border-top: 4px solid $color-accent;
+    }
+    .mCSB_buttonLeft {
+        transform: rotate(-45deg);
+        border-left: 4px solid $color-accent;
+        margin-left: 2px;
+    }
+    .mCSB_buttonRight {
+        transform: rotate(45deg);
+        border-right: 4px solid $color-accent;
+        margin-right: 2px;
+    }
+}
+
+
+

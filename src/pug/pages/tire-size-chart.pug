@@ -1,0 +1,18 @@
+extends ../layout/app
+
+block page
+    .wrapper
+        include ../chunk/header
+        include tire-size-chart/car-model
+        include tire-size-chart/_car-model-year
+        include tire-size-chart/_best-tires-for-car-model
+        include tire-size-chart/tire-size-table
+        include tire-size-chart/_section-text
+        include tire-size-chart/_charts
+        include ../chunk/footer
+
+block script
+    script(src="js/libs/jquery.min.js")
+    script(src="js/libs/libs.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/js/select2.full.min.js")
+    script(src="js/main.js")
