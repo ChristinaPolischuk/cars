@@ -6605,6 +6605,14 @@ table th {
     margin-right: 15px;
   }
 
+  .chart-vertical__item {
+    background-color: #EFEFEF;
+  }
+
+  .chart-vertical__count {
+    opacity: 1;
+  }
+
 @supports (-webkit-appearance:none) {
 
 }
@@ -7053,6 +7061,12 @@ table th {
 
   .page-navigation__links {
     aspect-ratio: 546/200;
+  }
+
+  .chart-horizontal {
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    columns: 1;
   }
 
   .footer__item {

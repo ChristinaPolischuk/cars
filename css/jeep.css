@@ -6605,6 +6605,14 @@ table th {
     margin-right: 15px;
   }
 
+  .chart-vertical__item {
+    background-color: #F4F2F2;
+  }
+
+  .chart-vertical__count {
+    opacity: 1;
+  }
+
 @supports (-webkit-appearance:none) {
 
 }
