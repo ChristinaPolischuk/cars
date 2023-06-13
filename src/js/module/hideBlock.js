@@ -32,4 +32,34 @@ module.exports = () => {
     };
     
     hideBlock();
+
+    // jQuery
+    // function showBlock() {
+	// 	if($(".js-show-block").length == 0) return false;
+	// 	$(".js-show-block").each((i, el) => {
+	// 		const block = $(el).prev();
+	// 		const blockInner = block.find(".js-hide-block-inner");
+	// 		if(blockInner.outerHeight() > block.outerHeight()) {
+	// 			$(el).css("display", "block");
+	// 			block.addClass("hidden");
+	// 		} else {
+	// 			$(el).css("display", null);
+	// 			block.removeClass("hidden");
+	// 		}
+	// 		$(el).on("click", function() {
+	// 			if(block.css("max-height")) {
+	// 				block.css("max-height", null);
+	// 				block.addClass("hidden");
+	// 				$(this).text("Read more >");
+	// 			console.log(1111);
+	// 			} else {
+	// 				block.css("max-height", `${block.scrollHeight}px`);
+	// 				// block.style.maxHeight = block.scrollHeight + "px";
+	// 				block.removeClass("hidden");
+	// 				$(this).text("Read less >");
+	// 			console.log(2222);
+	// 			}
+	// 		});
+	// 	});
+	// }
 }

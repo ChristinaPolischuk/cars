@@ -69,6 +69,11 @@
         text-align: center;
       }
     }
+    &__info {
+      font-size: 18px;
+      font-weight: 600;
+      color: $grey-color-medium;
+    }
     &__img, &__img-small, &__img-medium {
       @include media-md {
         max-width: 50%;
