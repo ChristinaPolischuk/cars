@@ -5,7 +5,7 @@ section.section-middle
         h1.car-model__title Search RAV4 Inventory
         .filters-box
           .filters-box__group
-            label.filters-box__label Search Radius
+            label.filters-box__label Search Radius:
             .select__wrap
               +icon("location", "select-icon-location")
               +icon("caret-down", "select-icon-caret-down")
@@ -20,7 +20,10 @@ section.section-middle
                 option 250 Miles
                 option 500 Miles
           .filters-box__group
-            label.filters-box__label Zip Code
+            label.filters-box__label Zip Code:
             input.field(type="number")
       .filters-nav 
+        button.btn.btn__dropdown
+          span.btn__text Vehicles
+          +icon("caret-down", "btn__icon-caret-down")
       .filters-content

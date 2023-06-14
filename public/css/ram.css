@@ -3858,6 +3858,11 @@ table th {
   top: 4px;
 }
 
+.btn__icon-caret-down {
+  width: 14px;
+  height: 7px;
+}
+
 .car-features {
   margin: 30px 0;
 }
@@ -7009,6 +7014,8 @@ table th {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .filters-box {
@@ -7025,16 +7032,47 @@ table th {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  width: 150px;
+}
+
+.filters-box__group:not(:last-child) {
+  margin-right: 15px;
+}
+
+.filters-box__label {
+  margin-bottom: 5px;
+  font-weight: 600;
 }
 
 .select__wrap {
   position: relative;
 }
 
-.select-icon-location {
+.select__wrap .select2-container .select2-selection--single .select2-selection__rendered {
+  padding-left: 30px;
+  line-height: 36px;
+}
+
+.select__wrap .select2-container--default .select2-selection--single {
+  border-color: #D6D6D6;
+  border-radius: 5px;
+}
+
+.select__wrap .select2-dropdown,
+.select__wrap .select2-container--default .select2-search--dropdown .select2-search__field {
+  border-color: #D6D6D6;
+}
+
+.select-icon-location,
+.select-icon-caret-down {
   position: absolute;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.select-icon-location {
   left: 5px;
-  top: 5px;
+  top: 8px;
   width: 22px;
   height: 22px;
   fill: #880D00;
@@ -7042,7 +7080,7 @@ table th {
 
 .select-icon-caret-down {
   position: absolute;
-  top: 5px;
+  top: 16px;
   right: 5px;
   width: 14px;
   height: 7px;
@@ -7051,13 +7089,20 @@ table th {
   stroke-width: 2;
 }
 
+.field {
+  padding: 0 10px;
+  height: 36px;
+  border-radius: 5px;
+  border: 1px solid #D6D6D6;
+}
+
 .catalog__body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  gap: 1%;
+  gap: 2%;
 }
 
 .catalog__product {
@@ -7068,7 +7113,8 @@ table th {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  width: 25%;
+  margin-bottom: 2%;
+  width: 23%;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
   -webkit-transition: -webkit-transform 0.3s, -webkit-box-shadow 0.3s;
@@ -7103,7 +7149,7 @@ table th {
 }
 
 .catalog__product-title {
-  font-size: 0.9375rem;
+  font-size: 0.9rem;
 }
 
 .catalog__product-title span:not(:last-child)::after {
@@ -7546,6 +7592,10 @@ table th {
     opacity: 1;
   }
 
+  .catalog__product {
+    width: 32%;
+  }
+
 @supports (-webkit-appearance:none) {
 
 }
@@ -7661,6 +7711,10 @@ table th {
 
   .page-nav__link {
     width: 130px;
+  }
+
+  .catalog__product {
+    width: 48%;
   }
 
   .footer__item {
@@ -8141,6 +8195,11 @@ table th {
 
   .wheel-adapters-list__link {
     margin: 0 0 15px;
+  }
+
+  .catalog__product {
+    width: 100%;
+    margin-bottom: 30px;
   }
 
 @supports (-webkit-appearance:none) {

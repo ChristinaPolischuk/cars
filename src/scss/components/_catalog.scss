@@ -2,14 +2,25 @@
   &__body {
     display: flex;
     flex-wrap: wrap;
-    gap: 1%;
+    gap: 2%;
   }
   &__product {
     display: flex;
     flex-direction: column;
-    width: calc(100% / 4);
+    margin-bottom: 2%;
+    width: 23%;
     box-shadow: 0 0 4px rgba(0,0,0,.25);
     transition: transform .3s, box-shadow .3s;
+    @include media-lg {
+      width: 32%;
+    }
+    @include media-md {
+      width: 48%;
+    }
+    @include media-xs {
+      width: 100%;
+      margin-bottom: 30px;
+    }
     &:hover {
       transform: translateY(-5px);
       box-shadow: 0 0 2px rgba(0,0,0,.25);
@@ -30,7 +41,7 @@
       line-height: 1.75;
     }
     &-title {
-      font-size: .9375rem;
+      font-size: .9rem;
       span:not(:last-child)::after {
         content: '';
         display: inline-flex;
