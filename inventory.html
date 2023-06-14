@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/acura.min.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header-container container">
+          <div class="mobile-menu">
+            <div class="hamburger" id="hamburger">
+              <div class="hamburger__top"></div>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                <path id="circle" fill="none" stroke-width="4" stroke-miterlimit="10" d="M16,32h32c0,0,11.723-0.306,10.75-11 c-0.25-2.75-1.644-4.971-2.869-7.151C50.728,7.08,42.767,2.569,33.733,2.054C33.159,2.033,32.599,2,32,2C15.432,2,2,15.432,2,32 c0,16.566,13.432,30,30,30c16.566,0,30-13.434,30-30C62,15.5,48.5,2,32,2S1.875,15.5,1.875,32"></path>
+              </svg>
+              <div class="hamburger__bottom"></div>
+            </div>
+            <nav class="mobile-menu__nav" id="mobile-nav">
+              <div class="mobile-menu__item"><a class="mobile-menu__link" href="#">Vehicle</a></div>
+              <div class="mobile-menu__item"><a class="mobile-menu__link mobile-list-dropdown" href="#">Shop
+                  <svg class="icon icon-arrow-down nav__link-icon">
+                    <use xlink:href="img/sprite/symbol/sprite.svg#arrow-down"></use>
+                  </svg></a>
+                <div class="mobile-menu-dropdown">
+                  <div class="mobile-menu-dropdown__content"><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/shop/towing_capacity.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/shop/towing_capacity.png" alt="Towing Capacity">
+                            </picture><span class="mobile-menu-dropdown__title">Towing Capacity</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/shop/mpg.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/shop/mpg.png" alt="Mpg">
+                            </picture><span class="mobile-menu-dropdown__title">Mpg</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/shop/interior.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/shop/interior.png" alt="Interior">
+                            </picture><span class="mobile-menu-dropdown__title">Interior</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/shop/weight.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/shop/weight.png" alt="Weight">
+                            </picture><span class="mobile-menu-dropdown__title">Weight</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/shop/0-60.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/shop/0-60.png" alt="0-60">
+                            </picture><span class="mobile-menu-dropdown__title">0-60</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/shop/hp.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/shop/hp.png" alt="Hp">
+                            </picture><span class="mobile-menu-dropdown__title">Hp</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/shop/engine.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/shop/engine.png" alt="Engine">
+                            </picture><span class="mobile-menu-dropdown__title">Engine</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/shop/dimensions.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/shop/dimensions.png" alt="Dimensions">
+                            </picture><span class="mobile-menu-dropdown__title">Dimensions</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/shop/gas_tank.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/shop/gas_tank.png" alt="Gas Tank">
+                            </picture><span class="mobile-menu-dropdown__title">Gas Tank</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/shop/ground_clearance.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/shop/ground_clearance.png" alt="Ground Clearance">
+                            </picture><span class="mobile-menu-dropdown__title">Ground Clearance</span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="mobile-menu__item"><a class="mobile-menu__link mobile-list-dropdown" href="#">Our story
+                  <svg class="icon icon-arrow-down nav__link-icon">
+                    <use xlink:href="img/sprite/symbol/sprite.svg#arrow-down"></use>
+                  </svg></a>
+                <div class="mobile-menu-dropdown">
+                  <div class="mobile-menu-dropdown__content"><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/our_story/owners_manual.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/our_story/owners_manual.png" alt="Owner's manual">
+                            </picture><span class="mobile-menu-dropdown__title">Owner's manual</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/our_story/fuses.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/our_story/fuses.png" alt="Fuses">
+                            </picture><span class="mobile-menu-dropdown__title">Fuses</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/our_story/bulbs_list.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/our_story/bulbs_list.png" alt="Bulbs list">
+                            </picture><span class="mobile-menu-dropdown__title">Bulbs list</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/our_story/tire_size.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/our_story/tire_size.png" alt="Tire size">
+                            </picture><span class="mobile-menu-dropdown__title">Tire size</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/our_story/wheel_size.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/our_story/wheel_size.png" alt="Wheel size">
+                            </picture><span class="mobile-menu-dropdown__title">Wheel size</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/our_story/oil_capacity.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/our_story/oil_capacity.png" alt="Oil capacity">
+                            </picture><span class="mobile-menu-dropdown__title">Oil capacity</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/our_story/wiper_sizes.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/our_story/wiper_sizes.png" alt="Wiper sizes">
+                            </picture><span class="mobile-menu-dropdown__title">Wiper sizes</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/our_story/steering_wheel_sizes.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/our_story/steering_wheel_sizes.png" alt="Steering wheel sizes">
+                            </picture><span class="mobile-menu-dropdown__title">Steering wheel sizes</span></a><a class="mobile-menu-dropdown__item" href="#">
+                            <picture>
+                              <source srcset="img/content/our_story/mods.webp" type="image/webp"><img class="mobile-menu-dropdown__img" src="img/content/our_story/mods.png" alt="Mods">
+                            </picture><span class="mobile-menu-dropdown__title">Mods</span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="mobile-menu__item"><a class="mobile-menu__link" href="#">About</a></div>
+              <div class="mobile-menu__item"><a class="mobile-menu__link" href="#">Contacts</a></div>
+              <form class="mobile-menu-search">
+                <input class="search-form__field js-search-matches" type="text" autocomplete="off" data-url="/match-titles/" data-list="js-search-mobile-list">
+                <div class="mobile-menu-search__matches js-search-mobile-list"></div>
+                <button class="mobile-menu-search__btn">
+                  <svg class="icon icon-search mobile-menu-search__icon">
+                    <use xlink:href="img/sprite/symbol/sprite.svg#search"></use>
+                  </svg>
+                </button>
+              </form>
+            </nav>
+          </div><a class="logo" href="index.html"><span class="logo__img" style="background-image: url(img/general/logos/land-rover.svg)"></span><span class="logo__text">Landrover</span></a>
+          <div class="header-block">
+            <nav class="nav">
+              <div class="nav__item"><a class="nav__link" href="#">Vehicle</a></div>
+              <div class="nav__item"><a class="nav__link" href="#">Shop
+                  <svg class="icon icon-arrow-down nav__link-icon">
+                    <use xlink:href="img/sprite/symbol/sprite.svg#arrow-down"></use>
+                  </svg></a>
+                <div class="nav-dropdown"><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/shop/towing_capacity.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/shop/towing_capacity.png" alt="Towing Capacity">
+                          </picture><span class="nav-dropdown__title">Towing Capacity</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/shop/mpg.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/shop/mpg.png" alt="Mpg">
+                          </picture><span class="nav-dropdown__title">Mpg</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/shop/interior.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/shop/interior.png" alt="Interior">
+                          </picture><span class="nav-dropdown__title">Interior</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/shop/weight.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/shop/weight.png" alt="Weight">
+                          </picture><span class="nav-dropdown__title">Weight</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/shop/0-60.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/shop/0-60.png" alt="0-60">
+                          </picture><span class="nav-dropdown__title">0-60</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/shop/hp.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/shop/hp.png" alt="Hp">
+                          </picture><span class="nav-dropdown__title">Hp</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/shop/engine.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/shop/engine.png" alt="Engine">
+                          </picture><span class="nav-dropdown__title">Engine</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/shop/dimensions.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/shop/dimensions.png" alt="Dimensions">
+                          </picture><span class="nav-dropdown__title">Dimensions</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/shop/gas_tank.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/shop/gas_tank.png" alt="Gas Tank">
+                          </picture><span class="nav-dropdown__title">Gas Tank</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/shop/ground_clearance.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/shop/ground_clearance.png" alt="Ground Clearance">
+                          </picture><span class="nav-dropdown__title">Ground Clearance</span></a>
+                </div>
+              </div>
+              <div class="nav__item"><a class="nav__link" href="#">Our story
+                  <svg class="icon icon-arrow-down nav__link-icon">
+                    <use xlink:href="img/sprite/symbol/sprite.svg#arrow-down"></use>
+                  </svg></a>
+                <div class="nav-dropdown"><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/our_story/owners_manual.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/our_story/owners_manual.png" alt="Owner's manual">
+                          </picture><span class="nav-dropdown__title">Owner's manual</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/our_story/fuses.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/our_story/fuses.png" alt="Fuses">
+                          </picture><span class="nav-dropdown__title">Fuses</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/our_story/bulbs_list.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/our_story/bulbs_list.png" alt="Bulbs list">
+                          </picture><span class="nav-dropdown__title">Bulbs list</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/our_story/tire_size.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/our_story/tire_size.png" alt="Tire size">
+                          </picture><span class="nav-dropdown__title">Tire size</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/our_story/wheel_size.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/our_story/wheel_size.png" alt="Wheel size">
+                          </picture><span class="nav-dropdown__title">Wheel size</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/our_story/oil_capacity.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/our_story/oil_capacity.png" alt="Oil capacity">
+                          </picture><span class="nav-dropdown__title">Oil capacity</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/our_story/wiper_sizes.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/our_story/wiper_sizes.png" alt="Wiper sizes">
+                          </picture><span class="nav-dropdown__title">Wiper sizes</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/our_story/steering_wheel_sizes.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/our_story/steering_wheel_sizes.png" alt="Steering wheel sizes">
+                          </picture><span class="nav-dropdown__title">Steering wheel sizes</span></a><a class="nav-dropdown__item" href="#">
+                          <picture>
+                            <source srcset="img/content/our_story/mods.webp" type="image/webp"><img class="nav-dropdown__img" src="img/content/our_story/mods.png" alt="Mods">
+                          </picture><span class="nav-dropdown__title">Mods</span></a>
+                </div>
+              </div>
+              <div class="nav__item"><a class="nav__link" href="#">About</a></div>
+              <div class="nav__item"><a class="nav__link" href="#">Contacts</a></div><span class="nav__link-hover"></span>
+            </nav>
+            <div class="search">
+              <svg class="icon icon-search search-icon js-show-search-form">
+                <use xlink:href="img/sprite/symbol/sprite.svg#search"></use>
+              </svg>
+              <form class="search-form">
+                <svg class="icon icon-close search-form__close js-hide-search-form">
+                  <use xlink:href="img/sprite/symbol/sprite.svg#close"></use>
+                </svg>
+                <input class="search-form__field js-search-matches" type="text" autocomplete="off" data-url="/match-titles/" data-list="js-search-mathes-list">
+                <div class="search-form-matches js-search-mathes-list"></div>
+                <button class="search-form__btn">
+                  <svg class="icon icon-search search-form__loupe">
+                    <use xlink:href="img/sprite/symbol/sprite.svg#search"></use>
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="section-middle">
+        <div class="container">
+          <div class="filters">
+            <div class="filters-header">
+              <h1 class="car-model__title">Search RAV4 Inventory</h1>
+              <div class="filters-box">
+                <div class="filters-box__group">
+                  <label class="filters-box__label">Search Radius</label>
+                  <div class="select__wrap">
+                    <svg class="icon icon-location select-icon-location">
+                      <use xlink:href="img/sprite/symbol/sprite.svg#location"></use>
+                    </svg>
+                    <svg class="icon icon-caret-down select-icon-caret-down">
+                      <use xlink:href="img/sprite/symbol/sprite.svg#caret-down"></use>
+                    </svg>
+                    <select class="select select2">
+                      <option>Any</option>
+                      <option>10 Miles</option>
+                      <option>25 Miles</option>
+                      <option>50 Miles</option>
+                      <option>75 Miles</option>
+                      <option>100 Miles</option>
+                      <option>150 Miles</option>
+                      <option>250 Miles</option>
+                      <option>500 Miles</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="filters-box__group">
+                  <label class="filters-box__label">Zip Code</label>
+                  <input class="field" type="number">
+                </div>
+              </div>
+            </div>
+            <div class="filters-nav"> </div>
+            <div class="filters-content"></div>
+          </div>
+        </div>
+      </section>
+      <section class="section-middle"> 
+        <div class="container">
+          <div class="catalog"> 
+            <div class="catalog__header"> </div>
+            <div class="catalog__body"> 
+                    <div class="catalog__product"> <a class="catalog__product-img" href="">
+                        <picture>
+                          <source srcset="img/content/catalog/2017 RAV4 LE AWD.avif" type="image/avif">
+                          <source srcset="img/content/catalog/2017 RAV4 LE AWD.webp" type="image/webp"><img src="img/content/catalog/2017 RAV4 LE AWD.jpg" alt="2017 RAV4 LE AWD">
+                        </picture></a>
+                      <div class="catalog__product-header"> <span class="catalog__product-text">2017 RAV4 LE AWD</span>
+                        <h6 class="catalog__product-title"> <span>$32,598</span><span>25,285 mi</span><span>5.49% APR*</span></h6>
+                      </div>
+                      <div class="catalog__product-body"> 
+                        <div class="catalog__product-info"><span>2.5l</span><span>A25A</span></div>
+                        <div class="catalog__product-list"> 
+                          <div class="catalog__product-list-item"><span class="catalog__product-color" style="background: rgb(0, 0, 0)"></span><span class="catalog__product-text">Ext: BLACK</span></div>
+                          <div class="catalog__product-list-item"> <span class="catalog__product-color" style="background: rgb(0, 0, 0)"></span><span class="catalog__product-text">Ext: BLACK</span></div>
+                          <div class="catalog__product-list-item"> 
+                            <svg class="icon icon-location catalog__product-icon-location">
+                              <use xlink:href="img/sprite/symbol/sprite.svg#location"></use>
+                            </svg><span class="catalog__product-text">Schaumburg Toyota</span>
+                          </div>
+                        </div><a class="btn" href="">View Details</a>
+                      </div>
+                      <div class="catalog__product-footer">
+                        <div class="catalog__product-footer-item">
+                          <button class="catalog__product-btn-contact-dealer">Contact Dealer</button>
+                        </div>
+                        <div class="catalog__product-footer-item"><a class="catalog__product-link-carfax" href=""><img src="img/general/icons/carfaxlogo.svg" alt=""></a></div>
+                        <div class="catalog__product-footer-item">
+                          <button class="catalog__product-btn-favorite">
+                            <svg class="icon icon-favorite catalog__product-icon-favorite">
+                              <use xlink:href="img/sprite/symbol/sprite.svg#favorite"></use>
+                            </svg>Favorite
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="catalog__product"> <a class="catalog__product-img" href="">
+                        <picture>
+                          <source srcset="img/content/catalog/2020 RAV4 XLE AWD.avif" type="image/avif">
+                          <source srcset="img/content/catalog/2020 RAV4 XLE AWD.webp" type="image/webp"><img src="img/content/catalog/2020 RAV4 XLE AWD.jpg" alt="2017 RAV4 LE AWD">
+                        </picture></a>
+                      <div class="catalog__product-header"> <span class="catalog__product-text">2020 RAV4 XLE AWD</span>
+                        <h6 class="catalog__product-title"> <span>$32,598</span><span>25,285 mi</span><span>5.49% APR*</span></h6>
+                      </div>
+                      <div class="catalog__product-body"> 
+                        <div class="catalog__product-info"><span>2.5l</span><span>2AR</span></div>
+                        <div class="catalog__product-list"> 
+                          <div class="catalog__product-list-item"><span class="catalog__product-color" style="background: rgb(38, 160, 222)"></span><span class="catalog__product-text">Ext: CYAN METALLIC</span></div>
+                          <div class="catalog__product-list-item"> <span class="catalog__product-color" style="background: rgb(114, 114, 108)"></span><span class="catalog__product-text">Int: MOONSTONE</span></div>
+                          <div class="catalog__product-list-item"> 
+                            <svg class="icon icon-location catalog__product-icon-location">
+                              <use xlink:href="img/sprite/symbol/sprite.svg#location"></use>
+                            </svg><span class="catalog__product-text">Schaumburg Toyota</span>
+                          </div>
+                        </div><a class="btn" href="">View Details</a>
+                      </div>
+                      <div class="catalog__product-footer">
+                        <div class="catalog__product-footer-item">
+                          <button class="catalog__product-btn-contact-dealer">Contact Dealer</button>
+                        </div>
+                        <div class="catalog__product-footer-item"><a class="catalog__product-link-carfax" href=""><img src="img/general/icons/carfaxlogo.svg" alt=""></a></div>
+                        <div class="catalog__product-footer-item">
+                          <button class="catalog__product-btn-favorite">
+                            <svg class="icon icon-favorite catalog__product-icon-favorite">
+                              <use xlink:href="img/sprite/symbol/sprite.svg#favorite"></use>
+                            </svg>Favorite
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="catalog__product"> <a class="catalog__product-img" href="">
+                        <picture>
+                          <source srcset="img/content/catalog/2021 RAV4 Adventure AWD.avif" type="image/avif">
+                          <source srcset="img/content/catalog/2021 RAV4 Adventure AWD.webp" type="image/webp"><img src="img/content/catalog/2021 RAV4 Adventure AWD.jpg" alt="2021 RAV4 Adventure AWD">
+                        </picture></a>
+                      <div class="catalog__product-header"> <span class="catalog__product-text">2021 RAV4 Adventure AWD</span>
+                        <h6 class="catalog__product-title"> <span>$33,588</span><span>60,131 mi</span><span>5.49% APR*</span></h6>
+                      </div>
+                      <div class="catalog__product-body"> 
+                        <div class="catalog__product-info"><span>2.5l</span><span>A25A</span></div>
+                        <div class="catalog__product-list"> 
+                          <div class="catalog__product-list-item"><span class="catalog__product-color" style="background: rgb(38, 160, 222)"></span><span class="catalog__product-text">Ext: BLUE FLAME</span></div>
+                          <div class="catalog__product-list-item"> <span class="catalog__product-color" style="background: rgb(0, 0, 0)"></span><span class="catalog__product-text">Int: BLACK</span></div>
+                          <div class="catalog__product-list-item"> 
+                            <svg class="icon icon-location catalog__product-icon-location">
+                              <use xlink:href="img/sprite/symbol/sprite.svg#location"></use>
+                            </svg><span class="catalog__product-text">Schaumburg Toyota</span>
+                          </div>
+                        </div><a class="btn" href="">View Details</a>
+                      </div>
+                      <div class="catalog__product-footer">
+                        <div class="catalog__product-footer-item">
+                          <button class="catalog__product-btn-contact-dealer">Contact Dealer</button>
+                        </div>
+                        <div class="catalog__product-footer-item"><a class="catalog__product-link-carfax" href=""><img src="img/general/icons/carfaxlogo.svg" alt=""></a></div>
+                        <div class="catalog__product-footer-item">
+                          <button class="catalog__product-btn-favorite">
+                            <svg class="icon icon-favorite catalog__product-icon-favorite">
+                              <use xlink:href="img/sprite/symbol/sprite.svg#favorite"></use>
+                            </svg>Favorite
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="catalog__product"> <a class="catalog__product-img" href="">
+                        <picture>
+                          <source srcset="img/content/catalog/2019 RAV4 Adventure AWD.avif" type="image/avif">
+                          <source srcset="img/content/catalog/2019 RAV4 Adventure AWD.webp" type="image/webp"><img src="img/content/catalog/2019 RAV4 Adventure AWD.jpg" alt="2019 RAV4 Adventure AWD">
+                        </picture></a>
+                      <div class="catalog__product-header"> <span class="catalog__product-text">2019 RAV4 Adventure AWD</span>
+                        <h6 class="catalog__product-title"> <span>$31,994</span><span>73,068 mi</span><span>5.49% APR*</span></h6>
+                      </div>
+                      <div class="catalog__product-body"> 
+                        <div class="catalog__product-info"><span>2.5l</span><span>A25A</span></div>
+                        <div class="catalog__product-list"> 
+                          <div class="catalog__product-list-item"><span class="catalog__product-color" style="background: rgb(116, 0, 0)"></span><span class="catalog__product-text">Ext: RUBY FLARE PEARL</span></div>
+                          <div class="catalog__product-list-item"> <span class="catalog__product-color" style="background: rgb(0, 0, 0)"></span><span class="catalog__product-text">Int: BLACK</span></div>
+                          <div class="catalog__product-list-item"> 
+                            <svg class="icon icon-location catalog__product-icon-location">
+                              <use xlink:href="img/sprite/symbol/sprite.svg#location"></use>
+                            </svg><span class="catalog__product-text">Schaumburg Toyota</span>
+                          </div>
+                        </div><a class="btn" href="">View Details</a>
+                      </div>
+                      <div class="catalog__product-footer">
+                        <div class="catalog__product-footer-item">
+                          <button class="catalog__product-btn-contact-dealer">Contact Dealer</button>
+                        </div>
+                        <div class="catalog__product-footer-item"><a class="catalog__product-link-carfax" href=""><img src="img/general/icons/carfaxlogo.svg" alt=""></a></div>
+                        <div class="catalog__product-footer-item">
+                          <button class="catalog__product-btn-favorite">
+                            <svg class="icon icon-favorite catalog__product-icon-favorite">
+                              <use xlink:href="img/sprite/symbol/sprite.svg#favorite"></use>
+                            </svg>Favorite
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="catalog__product"> <a class="catalog__product-img" href="">
+                        <picture>
+                          <source srcset="img/content/catalog/2021 RAV4 XLE AWD.avif" type="image/avif">
+                          <source srcset="img/content/catalog/2021 RAV4 XLE AWD.webp" type="image/webp"><img src="img/content/catalog/2021 RAV4 XLE AWD.jpg" alt="2021 RAV4 XLE AWD">
+                        </picture></a>
+                      <div class="catalog__product-header"> <span class="catalog__product-text">2021 RAV4 XLE AWD</span>
+                        <h6 class="catalog__product-title"> <span>$32,774</span><span>60,328 mi</span><span>5.49% APR*</span></h6>
+                      </div>
+                      <div class="catalog__product-body"> 
+                        <div class="catalog__product-info"><span>2.5l</span><span>A25A</span></div>
+                        <div class="catalog__product-list"> 
+                          <div class="catalog__product-list-item"><span class="catalog__product-color" style="background: rgb(17, 17, 17)"></span><span class="catalog__product-text">Ext: MIDNIGHT BLACK METALLIC</span></div>
+                          <div class="catalog__product-list-item"> <span class="catalog__product-color" style="background: rgb(0, 0, 0)"></span><span class="catalog__product-text">Int: BLACK</span></div>
+                          <div class="catalog__product-list-item"> 
+                            <svg class="icon icon-location catalog__product-icon-location">
+                              <use xlink:href="img/sprite/symbol/sprite.svg#location"></use>
+                            </svg><span class="catalog__product-text">Schaumburg Toyota</span>
+                          </div>
+                        </div><a class="btn" href="">View Details</a>
+                      </div>
+                      <div class="catalog__product-footer">
+                        <div class="catalog__product-footer-item">
+                          <button class="catalog__product-btn-contact-dealer">Contact Dealer</button>
+                        </div>
+                        <div class="catalog__product-footer-item"><a class="catalog__product-link-carfax" href=""><img src="img/general/icons/carfaxlogo.svg" alt=""></a></div>
+                        <div class="catalog__product-footer-item">
+                          <button class="catalog__product-btn-favorite">
+                            <svg class="icon icon-favorite catalog__product-icon-favorite">
+                              <use xlink:href="img/sprite/symbol/sprite.svg#favorite"></use>
+                            </svg>Favorite
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="catalog__product"> <a class="catalog__product-img" href="">
+                        <picture>
+                          <source srcset="img/content/catalog/2019 RAV4 XLE.avif" type="image/avif">
+                          <source srcset="img/content/catalog/2019 RAV4 XLE.webp" type="image/webp"><img src="img/content/catalog/2019 RAV4 XLE.jpg" alt="2019 RAV4 XLE">
+                        </picture></a>
+                      <div class="catalog__product-header"> <span class="catalog__product-text">2019 RAV4 XLE</span>
+                        <h6 class="catalog__product-title"> <span>$30,459</span><span>62,501 mi</span><span>5.49% APR*</span></h6>
+                      </div>
+                      <div class="catalog__product-body"> 
+                        <div class="catalog__product-info"><span>2.5l</span><span>A25A</span></div>
+                        <div class="catalog__product-list"> 
+                          <div class="catalog__product-list-item"><span class="catalog__product-color" style="background: rgb(17, 17, 17)"></span><span class="catalog__product-text">Ext: MIDNIGHT BLACK METAL</span></div>
+                          <div class="catalog__product-list-item"> <span class="catalog__product-color" style="background: rgb(0, 0, 0)"></span><span class="catalog__product-text">Int: BLACK</span></div>
+                          <div class="catalog__product-list-item"> 
+                            <svg class="icon icon-location catalog__product-icon-location">
+                              <use xlink:href="img/sprite/symbol/sprite.svg#location"></use>
+                            </svg><span class="catalog__product-text">Schaumburg Toyota</span>
+                          </div>
+                        </div><a class="btn" href="">View Details</a>
+                      </div>
+                      <div class="catalog__product-footer">
+                        <div class="catalog__product-footer-item">
+                          <button class="catalog__product-btn-contact-dealer">Contact Dealer</button>
+                        </div>
+                        <div class="catalog__product-footer-item"><a class="catalog__product-link-carfax" href=""><img src="img/general/icons/carfaxlogo.svg" alt=""></a></div>
+                        <div class="catalog__product-footer-item">
+                          <button class="catalog__product-btn-favorite">
+                            <svg class="icon icon-favorite catalog__product-icon-favorite">
+                              <use xlink:href="img/sprite/symbol/sprite.svg#favorite"></use>
+                            </svg>Favorite
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="catalog__product"> <a class="catalog__product-img" href="">
+                        <picture>
+                          <source srcset="img/content/catalog/2020 RAV4 XLE AWD1.avif" type="image/avif">
+                          <source srcset="img/content/catalog/2020 RAV4 XLE AWD1.webp" type="image/webp"><img src="img/content/catalog/2020 RAV4 XLE AWD1.jpg" alt="2020 RAV4 XLE AWD">
+                        </picture></a>
+                      <div class="catalog__product-header"> <span class="catalog__product-text">2020 RAV4 XLE AWD</span>
+                        <h6 class="catalog__product-title"> <span>$31,259</span><span>52,783 mi</span><span>5.49% APR*</span></h6>
+                      </div>
+                      <div class="catalog__product-body"> 
+                        <div class="catalog__product-info"><span>2.5l</span><span>A25A</span></div>
+                        <div class="catalog__product-list"> 
+                          <div class="catalog__product-list-item"><span class="catalog__product-color" style="background: rgb(190, 205, 188)"></span><span class="catalog__product-text">Ext: LUNAR ROCK</span></div>
+                          <div class="catalog__product-list-item"> <span class="catalog__product-color" style="background: rgb(114, 114, 108)"></span><span class="catalog__product-text">Int: GRAY</span></div>
+                          <div class="catalog__product-list-item"> 
+                            <svg class="icon icon-location catalog__product-icon-location">
+                              <use xlink:href="img/sprite/symbol/sprite.svg#location"></use>
+                            </svg><span class="catalog__product-text">Schaumburg Toyota</span>
+                          </div>
+                        </div><a class="btn" href="">View Details</a>
+                      </div>
+                      <div class="catalog__product-footer">
+                        <div class="catalog__product-footer-item">
+                          <button class="catalog__product-btn-contact-dealer">Contact Dealer</button>
+                        </div>
+                        <div class="catalog__product-footer-item"><a class="catalog__product-link-carfax" href=""><img src="img/general/icons/carfaxlogo.svg" alt=""></a></div>
+                        <div class="catalog__product-footer-item">
+                          <button class="catalog__product-btn-favorite">
+                            <svg class="icon icon-favorite catalog__product-icon-favorite">
+                              <use xlink:href="img/sprite/symbol/sprite.svg#favorite"></use>
+                            </svg>Favorite
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="catalog__product"> <a class="catalog__product-img" href="">
+                        <picture>
+                          <source srcset="img/content/catalog/2021 RAV4 TRD Off-Road AWD.avif" type="image/avif">
+                          <source srcset="img/content/catalog/2021 RAV4 TRD Off-Road AWD.webp" type="image/webp"><img src="img/content/catalog/2021 RAV4 TRD Off-Road AWD.jpg" alt="2021 RAV4 TRD Off-Road AWD">
+                        </picture></a>
+                      <div class="catalog__product-header"> <span class="catalog__product-text">2021 RAV4 TRD Off-Road AWD</span>
+                        <h6 class="catalog__product-title"> <span>$42,500</span><span>25,162 mi</span><span>5.49% APR*</span></h6>
+                      </div>
+                      <div class="catalog__product-body"> 
+                        <div class="catalog__product-info"><span>2.5l</span><span>A25A</span></div>
+                        <div class="catalog__product-list"> 
+                          <div class="catalog__product-list-item"><span class="catalog__product-color" style="background: rgb(255, 255, 255)"></span><span class="catalog__product-text">Ext: SUPER WHITE (Fleet Only E)</span></div>
+                          <div class="catalog__product-list-item"> <span class="catalog__product-color" style="background: rgb(0, 0, 0)"></span><span class="catalog__product-text">Int: BLACK</span></div>
+                          <div class="catalog__product-list-item"> 
+                            <svg class="icon icon-location catalog__product-icon-location">
+                              <use xlink:href="img/sprite/symbol/sprite.svg#location"></use>
+                            </svg><span class="catalog__product-text">Schaumburg Toyota</span>
+                          </div>
+                        </div><a class="btn" href="">View Details</a>
+                      </div>
+                      <div class="catalog__product-footer">
+                        <div class="catalog__product-footer-item">
+                          <button class="catalog__product-btn-contact-dealer">Contact Dealer</button>
+                        </div>
+                        <div class="catalog__product-footer-item"><a class="catalog__product-link-carfax" href=""><img src="img/general/icons/carfaxlogo.svg" alt=""></a></div>
+                        <div class="catalog__product-footer-item">
+                          <button class="catalog__product-btn-favorite">
+                            <svg class="icon icon-favorite catalog__product-icon-favorite">
+                              <use xlink:href="img/sprite/symbol/sprite.svg#favorite"></use>
+                            </svg>Favorite
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="catalog__product"> <a class="catalog__product-img" href="">
+                        <picture>
+                          <source srcset="img/content/catalog/2019 RAV4 XLE Premium.avif" type="image/avif">
+                          <source srcset="img/content/catalog/2019 RAV4 XLE Premium.webp" type="image/webp"><img src="img/content/catalog/2019 RAV4 XLE Premium.jpg" alt="2019 RAV4 XLE Premium">
+                        </picture></a>
+                      <div class="catalog__product-header"> <span class="catalog__product-text">2019 RAV4 XLE Premium</span>
+                        <h6 class="catalog__product-title"> <span>$33,258</span><span>60,925 mi</span><span>5.49% APR*</span></h6>
+                      </div>
+                      <div class="catalog__product-body"> 
+                        <div class="catalog__product-info"><span>2.5l</span><span>A25A</span></div>
+                        <div class="catalog__product-list"> 
+                          <div class="catalog__product-list-item"><span class="catalog__product-color" style="background: rgb(89, 88, 93)"></span><span class="catalog__product-text">Ext: GRAY ME.</span></div>
+                          <div class="catalog__product-list-item"> <span class="catalog__product-color" style="background: rgb(17, 17, 17)"></span><span class="catalog__product-text">Int: BLACK</span></div>
+                          <div class="catalog__product-list-item"> 
+                            <svg class="icon icon-location catalog__product-icon-location">
+                              <use xlink:href="img/sprite/symbol/sprite.svg#location"></use>
+                            </svg><span class="catalog__product-text">Schaumburg Toyota</span>
+                          </div>
+                        </div><a class="btn" href="">View Details</a>
+                      </div>
+                      <div class="catalog__product-footer">
+                        <div class="catalog__product-footer-item">
+                          <button class="catalog__product-btn-contact-dealer">Contact Dealer</button>
+                        </div>
+                        <div class="catalog__product-footer-item"><a class="catalog__product-link-carfax" href=""><img src="img/general/icons/carfaxlogo.svg" alt=""></a></div>
+                        <div class="catalog__product-footer-item">
+                          <button class="catalog__product-btn-favorite">
+                            <svg class="icon icon-favorite catalog__product-icon-favorite">
+                              <use xlink:href="img/sprite/symbol/sprite.svg#favorite"></use>
+                            </svg>Favorite
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="catalog__product"> <a class="catalog__product-img" href="">
+                        <picture>
+                          <source srcset="img/content/catalog/2021 RAV4 XLE AWD2.avif" type="image/avif">
+                          <source srcset="img/content/catalog/2021 RAV4 XLE AWD2.webp" type="image/webp"><img src="img/content/catalog/2021 RAV4 XLE AWD2.jpg" alt="2021 RAV4 XLE AWD">
+                        </picture></a>
+                      <div class="catalog__product-header"> <span class="catalog__product-text">2021 RAV4 XLE AWD</span>
+                        <h6 class="catalog__product-title"> <span>$26,988</span><span>66,589 mi</span><span>5.49% APR*</span></h6>
+                      </div>
+                      <div class="catalog__product-body"> 
+                        <div class="catalog__product-info"><span>2.5l</span><span>A25A</span></div>
+                        <div class="catalog__product-list"> 
+                          <div class="catalog__product-list-item"><span class="catalog__product-color" style="background: rgb(38, 160, 222)"></span><span class="catalog__product-text">Ext: BLUE FLAME</span></div>
+                          <div class="catalog__product-list-item"> <span class="catalog__product-color" style="background: rgb(17, 17, 17)"></span><span class="catalog__product-text">Int: BLACK</span></div>
+                          <div class="catalog__product-list-item"> 
+                            <svg class="icon icon-location catalog__product-icon-location">
+                              <use xlink:href="img/sprite/symbol/sprite.svg#location"></use>
+                            </svg><span class="catalog__product-text">McGrath Elmhurst Toyota</span>
+                          </div>
+                        </div><a class="btn" href="">View Details</a>
+                      </div>
+                      <div class="catalog__product-footer">
+                        <div class="catalog__product-footer-item">
+                          <button class="catalog__product-btn-contact-dealer">Contact Dealer</button>
+                        </div>
+                        <div class="catalog__product-footer-item"><a class="catalog__product-link-carfax" href=""><img src="img/general/icons/carfaxlogo.svg" alt=""></a></div>
+                        <div class="catalog__product-footer-item">
+                          <button class="catalog__product-btn-favorite">
+                            <svg class="icon icon-favorite catalog__product-icon-favorite">
+                              <use xlink:href="img/sprite/symbol/sprite.svg#favorite"></use>
+                            </svg>Favorite
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="catalog__product"> <a class="catalog__product-img" href="">
+                        <picture>
+                          <source srcset="img/content/catalog/2020 RAV4 XLE AWD2.avif" type="image/avif">
+                          <source srcset="img/content/catalog/2020 RAV4 XLE AWD2.webp" type="image/webp"><img src="img/content/catalog/2020 RAV4 XLE AWD2.jpg" alt="2020 RAV4 XLE AWD">
+                        </picture></a>
+                      <div class="catalog__product-header"> <span class="catalog__product-text">2020 RAV4 XLE AWD</span>
+                        <h6 class="catalog__product-title"> <span>$33,988</span><span>27,615 mi</span><span>5.49% APR*</span></h6>
+                      </div>
+                      <div class="catalog__product-body"> 
+                        <div class="catalog__product-info"><span>2.5l</span><span>A25A</span></div>
+                        <div class="catalog__product-list"> 
+                          <div class="catalog__product-list-item"><span class="catalog__product-color" style="background: rgb(89, 88, 93)"></span><span class="catalog__product-text">Ext: MAGNETIC GRAY MET.</span></div>
+                          <div class="catalog__product-list-item"> <span class="catalog__product-color" style="background: rgb(17, 17, 17)"></span><span class="catalog__product-text">Int: S/D BLACK</span></div>
+                          <div class="catalog__product-list-item"> 
+                            <svg class="icon icon-location catalog__product-icon-location">
+                              <use xlink:href="img/sprite/symbol/sprite.svg#location"></use>
+                            </svg><span class="catalog__product-text">McGrath Elmhurst Toyota</span>
+                          </div>
+                        </div><a class="btn" href="">View Details</a>
+                      </div>
+                      <div class="catalog__product-footer">
+                        <div class="catalog__product-footer-item">
+                          <button class="catalog__product-btn-contact-dealer">Contact Dealer</button>
+                        </div>
+                        <div class="catalog__product-footer-item"><a class="catalog__product-link-carfax" href=""><img src="img/general/icons/carfaxlogo.svg" alt=""></a></div>
+                        <div class="catalog__product-footer-item">
+                          <button class="catalog__product-btn-favorite">
+                            <svg class="icon icon-favorite catalog__product-icon-favorite">
+                              <use xlink:href="img/sprite/symbol/sprite.svg#favorite"></use>
+                            </svg>Favorite
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="catalog__product"> <a class="catalog__product-img" href="">
+                        <picture>
+                          <source srcset="img/content/catalog/2019 RAV4 Adventure AWD.avif" type="image/avif">
+                          <source srcset="img/content/catalog/2019 RAV4 Adventure AWD.webp" type="image/webp"><img src="img/content/catalog/2019 RAV4 Adventure AWD.jpg" alt="2019 RAV4 Adventure AWD">
+                        </picture></a>
+                      <div class="catalog__product-header"> <span class="catalog__product-text">2019 RAV4 Adventure AWD</span>
+                        <h6 class="catalog__product-title"> <span>$31,994</span><span>73,068 mi</span><span>5.49% APR*</span></h6>
+                      </div>
+                      <div class="catalog__product-body"> 
+                        <div class="catalog__product-info"><span>2.5l</span><span>A25A</span></div>
+                        <div class="catalog__product-list"> 
+                          <div class="catalog__product-list-item"><span class="catalog__product-color" style="background: rgb(116, 0, 0)"></span><span class="catalog__product-text">Ext: RUBY FLARE PEARL</span></div>
+                          <div class="catalog__product-list-item"> <span class="catalog__product-color" style="background: rgb(0, 0, 0)"></span><span class="catalog__product-text">Int: BLACK</span></div>
+                          <div class="catalog__product-list-item"> 
+                            <svg class="icon icon-location catalog__product-icon-location">
+                              <use xlink:href="img/sprite/symbol/sprite.svg#location"></use>
+                            </svg><span class="catalog__product-text">Schaumburg Toyota</span>
+                          </div>
+                        </div><a class="btn" href="">View Details</a>
+                      </div>
+                      <div class="catalog__product-footer">
+                        <div class="catalog__product-footer-item">
+                          <button class="catalog__product-btn-contact-dealer">Contact Dealer</button>
+                        </div>
+                        <div class="catalog__product-footer-item"><a class="catalog__product-link-carfax" href=""><img src="img/general/icons/carfaxlogo.svg" alt=""></a></div>
+                        <div class="catalog__product-footer-item">
+                          <button class="catalog__product-btn-favorite">
+                            <svg class="icon icon-favorite catalog__product-icon-favorite">
+                              <use xlink:href="img/sprite/symbol/sprite.svg#favorite"></use>
+                            </svg>Favorite
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__container container">
+          <div class="footer__item">
+            <div class="logo site-select"><a class="logo__img" href="index.html" style="background-image: url(img/general/logos/land-rover.svg)"></a>
+              <div class="site-select-current js-site-select"><span class="logo__text">Landrover</span>
+                <svg class="icon icon-caret-down footer__title-icon visible">
+                  <use xlink:href="img/sprite/symbol/sprite.svg#caret-down"></use>
+                </svg>
+              </div>
+              <div class="site-select-dropdown">
+                <div class="site-select-dropdown__content" data-simplebar data-simplebar-auto-hide="false">
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Acura</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">BMW</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Cadillac</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Chevrolet</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Chrysler</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Dodge</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Ford</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">GMC</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Honda</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Hyundai</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Infinity</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Jeep</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">KIA</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Mazda</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Mercedes-benz</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Nissan</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">RAM</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Toyota</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Volkswagen</a></div>
+                        <div class="site-select-dropdown__item"><a class="site-select-dropdown__link" href="">Volvo</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__item">
+            <h6 class="footer__title"><span class="footer__title-text">Vehicles</span>
+              <svg class="icon icon-caret-down footer__title-icon">
+                <use xlink:href="img/sprite/symbol/sprite.svg#caret-down"></use>
+              </svg>
+            </h6>
+            <div class="footer__links"><a class="footer__link" href="#">Suvs</a><a class="footer__link" href="#">Sedans</a><a class="footer__link" href="#">Electric</a><a class="footer__link" href="#">Certified pre-owned</a><a class="footer__link" href="#">Future vehicle</a><a class="footer__link" href="#">Concept vehicles</a><a class="footer__link" href="#">Legacy vehicles</a><a class="footer__link" href="#">Brochures</a></div>
+          </div>
+          <div class="footer__item">
+            <h6 class="footer__title"><span class="footer__title-text">Discover cadillac</span>
+              <svg class="icon icon-caret-down footer__title-icon">
+                <use xlink:href="img/sprite/symbol/sprite.svg#caret-down"></use>
+              </svg>
+            </h6>
+            <div class="footer__links"><a class="footer__link" href="#">Innovation</a><a class="footer__link" href="#">Performance</a><a class="footer__link" href="#">Craftsmanship</a><a class="footer__link" href="#">Super cruise</a><a class="footer__link" href="#">Racing</a><a class="footer__link" href="#">Benefits of cadillac</a><a class="footer__link" href="#">Awards &amp; recognition</a><a class="footer__link" href="#">Equity &amp; justice</a></div>
+          </div>
+          <div class="footer__item">
+            <h6 class="footer__title"><span class="footer__title-text">Assistance</span>
+              <svg class="icon icon-caret-down footer__title-icon">
+                <use xlink:href="img/sprite/symbol/sprite.svg#caret-down"></use>
+              </svg>
+            </h6>
+            <div class="footer__links"><a class="footer__link" href="#">Contact us</a><a class="footer__link" href="#">Recalls</a><a class="footer__link" href="#">My account</a><a class="footer__link" href="#">Support</a><a class="footer__link" href="#">Tutorials</a><a class="footer__link" href="#">Learn about ev life</a></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/libs/libs.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
