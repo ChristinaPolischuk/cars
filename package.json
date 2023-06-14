@@ -69,6 +69,7 @@
     "npm": "^9.6.2",
     "require-dir": "^1.2.0",
     "sass": "^1.43.4",
+    "select2": "^4.1.0-rc.0",
     "simplebar": "^5.3.6",
     "slick-carousel": "^1.8.1",
     "slim-select": "^2.4.5",

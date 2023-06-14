@@ -1,0 +1,120 @@
+.catalog {
+  &__body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+  }
+  &__product {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 4);
+    box-shadow: 0 0 4px rgba(0,0,0,.25);
+    transition: transform .3s, box-shadow .3s;
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 2px rgba(0,0,0,.25);
+    }
+    &-img {
+      img {
+        width: 100%;
+        aspect-ratio: 355/256;
+      }
+    }
+    &-header {
+      margin: 0 10px;
+      padding: 10px 0;
+      border-bottom: 1px solid $grey_color_medium;
+    }
+    &-text {
+      font-size: .75rem;
+      line-height: 1.75;
+    }
+    &-title {
+      font-size: .9375rem;
+      span:not(:last-child)::after {
+        content: '';
+        display: inline-flex;
+        position: relative;
+        top: 4px;
+        margin: 0 5px;
+        width: 0.5px;
+        height: 18px;
+        background-color: $grey_color_medium;
+      }
+    }
+    &-body {
+      padding: 10px;
+    }
+    &-info {
+      font-size: .75rem;
+      span:not(:last-child)::after {
+        content: '';
+        display: inline-flex;
+        position: relative;
+        top: 1px;
+        margin: 0 5px;
+        width: 0.5px;
+        height: 10px;
+        background-color: $grey_color_medium;
+      }
+    }
+    &-list {
+      margin: 10px 0;
+    }
+    &-color {
+      display: inline-flex;
+      margin-right: 10px;
+      width: 16px;
+      height: 16px;
+      border-radius: 16px;
+      border: 1px solid $color-black;
+    }
+    &-icon-location {
+      margin-right: 10px;
+      width: 14px;
+      height: 22px;
+      fill: $color-accent;
+    }
+    &-icon-favorite {
+      margin-right: 5px;
+      width: 16px;
+      height: 16px;
+      transition: fill .3s, transform .3s;
+    }
+    &-btn-contact-dealer, &-btn-favorite {
+      padding: 0;
+      background: none;
+      font-size: .5625rem;
+      font-weight: 700;
+      transition: color .3s;
+      &:hover {
+        color: $color-accent;
+      }
+    }
+    &-btn-favorite:hover .catalog__product-icon-favorite,
+    &-btn-favorite.active .catalog__product-icon-favorite {
+      transform: scale(1.1);
+      fill: $color-accent;
+    }
+    &-footer {
+      display: flex;
+      margin-top: 10px;
+      border-top: 1px solid $grey_color_medium;
+      &-item {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        &:not(:last-child) {
+          border-right: 1px solid $grey_color_medium;
+        }
+      }
+    }
+    &-link-carfax img {
+      max-width: 73px;
+      width: 100%;
+      aspect-ratio: 73/25;
+    }
+  }
+}

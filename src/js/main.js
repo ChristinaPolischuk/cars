@@ -21,7 +21,7 @@ import addAnswer from "./module/addAnswer";
 import slimselect from "./module/slimselect";
 import modal from "./module/modal";
 import charts from "./module/charts";
-// import select2 from "./module/select2"
+import select2 from "./module/select2"
 
 $(window).on("load",function(){
     svg4everybody({});
@@ -48,6 +48,6 @@ $(window).on("load",function(){
     slimselect();
     modal();
     charts();
-    // select2();
+    select2();
 });
 

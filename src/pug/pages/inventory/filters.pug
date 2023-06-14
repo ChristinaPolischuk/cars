@@ -1,0 +1,26 @@
+section.section-middle
+  .container
+    .filters
+      .filters-header
+        h1.car-model__title Search RAV4 Inventory
+        .filters-box
+          .filters-box__group
+            label.filters-box__label Search Radius
+            .select__wrap
+              +icon("location", "select-icon-location")
+              +icon("caret-down", "select-icon-caret-down")
+              select.select.select2
+                option Any
+                option 10 Miles
+                option 25 Miles
+                option 50 Miles
+                option 75 Miles
+                option 100 Miles
+                option 150 Miles
+                option 250 Miles
+                option 500 Miles
+          .filters-box__group
+            label.filters-box__label Zip Code
+            input.field(type="number")
+      .filters-nav 
+      .filters-content

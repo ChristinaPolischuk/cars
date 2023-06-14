@@ -1,0 +1,23 @@
+.select {
+  &__wrap {
+    position: relative;
+  }
+  &-icon-location {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 22px;
+    height: 22px;
+    fill: $color-accent;
+  }
+  &-icon-caret-down {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 14px;
+    height: 7px;
+    fill: none;
+    stroke: $color-accent;
+    stroke-width: 2;
+  }
+}

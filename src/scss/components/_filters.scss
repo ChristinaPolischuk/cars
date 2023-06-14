@@ -1,0 +1,17 @@
+.filters {
+  &-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-nav {
+
+  }
+  &-box {
+    display: flex;
+    &__group {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
