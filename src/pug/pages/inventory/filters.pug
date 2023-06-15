@@ -22,8 +22,21 @@ section.section-middle
           .filters-box__group
             label.filters-box__label Zip Code:
             input.field(type="number")
-      .filters-nav 
-        button.btn.btn__dropdown
-          span.btn__text Vehicles
-          +icon("caret-down", "btn__icon-caret-down")
+      .tabs 
+        .tabs-nav 
+          button.tab-nav__btn.btn.btn--dropdown(data-tab="#vehicles") Vehicles
+          button.tab-nav__btn.btn.btn--dropdown(data-tab="#price") Price
+          button.tab-nav__btn.btn.btn--dropdown(data-tab="#year") Year
+          button.tab-nav__btn.btn.btn--dropdown(data-tab="#mileage") Mileage
+          button.tab-nav__btn.btn.btn--dropdown(data-tab="#color") Color
+          button.tab-nav__btn.btn.btn--dropdown(data-tab="#drivetrain") Drivetrain
+          button.tab-nav__btn.btn.btn--dropdown(data-tab="#dealer") Dealer
+        .tabs-content
+          .tab-content#vehicles 777
+          .tab-content#price 1111
+          .tab-content#year 222
+          .tab-content#mileage 333
+          .tab-content#color 444
+          .tab-content#drivetrain 555
+          .tab-content#dealer 6666
       .filters-content

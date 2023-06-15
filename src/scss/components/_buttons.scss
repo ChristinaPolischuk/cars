@@ -32,14 +32,34 @@
     width: 100%;
     margin: 0;
   }
+  &--dropdown {
+    display: inline-flex;
+    justify-content: flex-start;
+    padding: 0 15px;
+    position: relative;
+    &::after {
+      content: '';
+      display: inline-flex;
+      position: absolute;
+      top: 50%;
+      margin-top: -7px;
+      right: 15px;
+      width: 8px;
+      height: 8px;
+      border-bottom: 2px solid #fff;
+      border-right: 2px solid #fff;
+      border-radius: 2px;
+      transform: rotate(45deg);
+      transition: transform .3s;
+    }
+    &.active::after {
+      transform: rotate(225deg);
+    }
+  }
   img {
     margin-left: 5px;
     position: relative;
     top: 4px;
-  }
-  &__icon-caret-down {
-    width: 14px;
-    height: 7px;
   }
 }
 

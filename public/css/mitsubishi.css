@@ -3852,15 +3852,51 @@ table th {
   margin: 0;
 }
 
+.btn--dropdown {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  padding: 0 15px;
+  position: relative;
+}
+
+.btn--dropdown::after {
+  content: "";
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: absolute;
+  top: 50%;
+  margin-top: -7px;
+  right: 15px;
+  width: 8px;
+  height: 8px;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-radius: 2px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  -o-transition: transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.btn--dropdown.active::after {
+  -webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg);
+}
+
 .btn img {
   margin-left: 5px;
   position: relative;
   top: 4px;
-}
-
-.btn__icon-caret-down {
-  width: 14px;
-  height: 7px;
 }
 
 .car-features {
@@ -7016,6 +7052,7 @@ table th {
   justify-content: space-between;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  padding-bottom: 30px;
 }
 
 .filters-box {
@@ -7275,6 +7312,19 @@ table th {
   max-width: 73px;
   width: 100%;
   aspect-ratio: 73/25;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tabs-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
 .footer {
