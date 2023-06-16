@@ -266,7 +266,7 @@ eval("module.exports = () => {\r\n    $('a[href*=\"#\"]')\r\n        .not('[href
   \*******************************/
 /***/ (function(module) {
 
-eval("module.exports = () => {\r\n  $(\".tab-nav__btn\").on(\"click\", function() {\r\n\t\tvar $this = $(this);\r\n\t\tlet activeTab = $(this).attr('data-tab');\r\n\t\tif (!$this.hasClass(\"active\")) {\r\n\t\t\t$('.tab-nav__btn').removeClass('active');\r\n\t\t\t$('.tab-content').slideUp();\r\n\t\t}\r\n\t\t$this.toggleClass(\"active\");\r\n\t\t$(activeTab).slideToggle();\r\n    return false;\r\n\t});\r\n}\n\n//# sourceURL=webpack://gulp-2021/./src/js/module/tabs.js?");
+eval("module.exports = () => {\r\n  $(\".js-tab-nav\").on(\"click\", function() {\r\n\t\tvar $this = $(this);\r\n\t\tlet activeTab = $(this).attr('data-tab');\r\n\t\tif (!$this.hasClass(\"active\")) {\r\n\t\t\t$('.js-tab-nav').removeClass('active');\r\n\t\t\t$('.js-tab-content').slideUp();\r\n\t\t}\r\n\t\t$this.toggleClass(\"active\");\r\n\t\t$(activeTab).slideToggle();\r\n    return false;\r\n\t});\r\n  $(\".js-subtab-nav\").on(\"click\", function() {\r\n\t\tvar $this = $(this);\r\n\t\tlet activeTab = $(this).attr('data-tab');\r\n\t\tif (!$this.hasClass(\"active\")) {\r\n\t\t\t$('.js-subtab-nav').removeClass('active');\r\n\t\t\t$('.js-subtab-content').slideUp();\r\n\t\t}\r\n\t\t$this.toggleClass(\"active\");\r\n\t\t$(activeTab).slideToggle();\r\n    return false;\r\n\t});\r\n}\n\n//# sourceURL=webpack://gulp-2021/./src/js/module/tabs.js?");
 
 /***/ })
 
