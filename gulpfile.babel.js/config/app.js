@@ -18,6 +18,9 @@ export default {
     webpack: {
         mode: isProd ? "production" : "development"
     },
+    avif: {
+      quality: 50
+    },
     imagemin: {
         verbose: true
     },

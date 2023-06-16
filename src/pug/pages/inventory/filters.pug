@@ -1,3 +1,15 @@
+mixin carsFiltersItem(folder, src, text)
+  .cars-filters__item 
+    label.checkbox
+      input(type="checkbox")
+      span.checkbox__box 
+        i
+      span.checkbox__text=text
+    picture
+      source(srcset=`img/content/${folder}/${src}.avif`, type="image/avif")
+      source(srcset=`img/content/${folder}/${src}.webp`, type="image/webp")
+      img.cars-filters__img(src=`img/content/${folder}/${src}.png`, alt=text)
+
 section.section-middle
   .container
     .filters
@@ -24,19 +36,81 @@ section.section-middle
             input.field(type="number")
       .tabs 
         .tabs-nav 
-          button.tab-nav__btn.btn.btn--dropdown(data-tab="#vehicles") Vehicles
-          button.tab-nav__btn.btn.btn--dropdown(data-tab="#price") Price
-          button.tab-nav__btn.btn.btn--dropdown(data-tab="#year") Year
-          button.tab-nav__btn.btn.btn--dropdown(data-tab="#mileage") Mileage
-          button.tab-nav__btn.btn.btn--dropdown(data-tab="#color") Color
-          button.tab-nav__btn.btn.btn--dropdown(data-tab="#drivetrain") Drivetrain
-          button.tab-nav__btn.btn.btn--dropdown(data-tab="#dealer") Dealer
+          button.tab-nav__btn.btn-dropdown.js-tab-nav(data-tab="#vehicles") Vehicles
+          button.tab-nav__btn.btn-dropdown.js-tab-nav(data-tab="#price") Price
+          button.tab-nav__btn.btn-dropdown.js-tab-nav(data-tab="#year") Year
+          button.tab-nav__btn.btn-dropdown.js-tab-nav(data-tab="#mileage") Mileage
+          button.tab-nav__btn.btn-dropdown.js-tab-nav(data-tab="#color") Color
+          button.tab-nav__btn.btn-dropdown.js-tab-nav(data-tab="#drivetrain") Drivetrain
+          button.tab-nav__btn.btn-dropdown.js-tab-nav(data-tab="#dealer") Dealer
         .tabs-content
-          .tab-content#vehicles 777
-          .tab-content#price 1111
-          .tab-content#year 222
-          .tab-content#mileage 333
-          .tab-content#color 444
-          .tab-content#drivetrain 555
-          .tab-content#dealer 6666
+          .tab-content.js-tab-content#vehicles
+            .subtabs
+              .subtabs-nav 
+                button.subtab-nav__btn.active.js-subtab-nav(data-tab="#cars-and-minivan") Cars &amp; Minivan
+                button.subtab-nav__btn.js-subtab-nav(data-tab="#trucks") Trucks
+                button.subtab-nav__btn.js-subtab-nav(data-tab="#crossovers-and-suvs") Crossovers &amp; SUVs
+                button.subtab-nav__btn.js-subtab-nav(data-tab="#electrified") Electrified
+                button.subtab-nav__btn.js-subtab-nav(data-tab="#scion-by-toyota") Scion by Toyota
+              .subtabs-content
+                .subtab-content.active.js-subtab-content#cars-and-minivan
+                  .cars-filters 
+                    +carsFiltersItem("cars-and-minivan", "86", "86")
+                    +carsFiltersItem("cars-and-minivan", "avalon", "Avalon")
+                    +carsFiltersItem("cars-and-minivan", "camry", "Camry")
+                    +carsFiltersItem("cars-and-minivan", "corolla", "Corolla")
+                    +carsFiltersItem("cars-and-minivan", "corollahatchback", "Corolla Hatchback")
+                    +carsFiltersItem("cars-and-minivan", "corollaim", "Corolla iM")
+                    +carsFiltersItem("cars-and-minivan", "grcorolla", "GR Corolla")
+                    +carsFiltersItem("cars-and-minivan", "grsupra", "GR Supra")
+                    +carsFiltersItem("cars-and-minivan", "sienna", "Sienna")
+                    +carsFiltersItem("cars-and-minivan", "toyotacrown", "Toyota Crown")
+                    +carsFiltersItem("cars-and-minivan", "yaris", "Yaris")
+                    +carsFiltersItem("cars-and-minivan", "yarishatchback", "Yaris Hatchback")
+                    +carsFiltersItem("cars-and-minivan", "yarisia", "Yaris iA")
+                .tab-content.js-subtab-content#trucks
+                  .cars-filters 
+                    +carsFiltersItem("trucks", "tacoma", "Tacoma")
+                    +carsFiltersItem("trucks", "tundra", "Tundra")
+                .tab-content.js-subtab-content#crossovers-and-suvs
+                  .cars-filters 
+                    +carsFiltersItem("crossovers-and-suvs", "4runner", "4Runner")
+                    +carsFiltersItem("crossovers-and-suvs", "chr", "C-HR")
+                    +carsFiltersItem("crossovers-and-suvs", "corollacross", "Corolla Cross")
+                    +carsFiltersItem("crossovers-and-suvs", "fjcruiser", "FJ Cruiser")
+                    +carsFiltersItem("crossovers-and-suvs", "highlander", "Highlander")
+                    +carsFiltersItem("crossovers-and-suvs", "landcruiser", "Land Cruiser")
+                    +carsFiltersItem("crossovers-and-suvs", "rav4", "RAV4")
+                    +carsFiltersItem("crossovers-and-suvs", "sequoia", "Sequoia")
+                    +carsFiltersItem("crossovers-and-suvs", "venza", "Venza")
+                .tab-content.js-subtab-content#electrified
+                  .cars-filters 
+                    +carsFiltersItem("electrified", "avalonhybrid", "Avalon Hybrid")
+                    +carsFiltersItem("electrified", "camryhybrid", "Camry Hybrid")
+                    +carsFiltersItem("electrified", "corollahybrid", "Corolla Hybrid")
+                    +carsFiltersItem("electrified", "highlanderhybrid", "Highlander Hybrid")
+                    +carsFiltersItem("electrified", "mirai", "Mirai")
+                    +carsFiltersItem("electrified", "prius", "Prius")
+                    +carsFiltersItem("electrified", "priusplugin", "Prius Plug-In")
+                    +carsFiltersItem("electrified", "priusprime", "Prius Prime")
+                    +carsFiltersItem("electrified", "priusc", "Prius c")
+                    +carsFiltersItem("electrified", "priusv", "Prius v")
+                    +carsFiltersItem("electrified", "rav4hybrid", "RAV4 Hybrid")
+                    +carsFiltersItem("electrified", "rav4prime", "RAV4 Prime")
+                    +carsFiltersItem("electrified", "bz4x", "bZ4X")
+                .tab-content.js-subtab-content#scion-by-toyota
+                  .cars-filters 
+                    +carsFiltersItem("scion-by-toyota", "frs", "FR-S")
+                    +carsFiltersItem("scion-by-toyota", "ia", "iA")
+                    +carsFiltersItem("scion-by-toyota", "im", "iM")
+                    +carsFiltersItem("scion-by-toyota", "iq", "iQ")
+                    +carsFiltersItem("scion-by-toyota", "tc", "tC")
+                    +carsFiltersItem("scion-by-toyota", "xb", "xB")
+                    +carsFiltersItem("scion-by-toyota", "xd", "xD")
+          .tab-content.js-tab-content#price 1111
+          .tab-content.js-tab-content#year 222
+          .tab-content.js-tab-content#mileage 333
+          .tab-content.js-tab-content#color 444
+          .tab-content.js-tab-content#drivetrain 555
+          .tab-content.js-tab-content#dealer 6666
       .filters-content

@@ -1,10 +1,21 @@
 module.exports = () => {
-  $(".tab-nav__btn").on("click", function() {
+  $(".js-tab-nav").on("click", function() {
 		var $this = $(this);
 		let activeTab = $(this).attr('data-tab');
 		if (!$this.hasClass("active")) {
-			$('.tab-nav__btn').removeClass('active');
-			$('.tab-content').slideUp();
+			$('.js-tab-nav').removeClass('active');
+			$('.js-tab-content').slideUp();
+		}
+		$this.toggleClass("active");
+		$(activeTab).slideToggle();
+    return false;
+	});
+  $(".js-subtab-nav").on("click", function() {
+		var $this = $(this);
+		let activeTab = $(this).attr('data-tab');
+		if (!$this.hasClass("active")) {
+			$('.js-subtab-nav').removeClass('active');
+			$('.js-subtab-content').slideUp();
 		}
 		$this.toggleClass("active");
 		$(activeTab).slideToggle();

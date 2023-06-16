@@ -241,22 +241,450 @@
             </div>
             <div class="tabs"> 
               <div class="tabs-nav"> 
-                <button class="tab-nav__btn btn btn--dropdown" data-tab="#vehicles">Vehicles</button>
-                <button class="tab-nav__btn btn btn--dropdown" data-tab="#price">Price</button>
-                <button class="tab-nav__btn btn btn--dropdown" data-tab="#year">Year</button>
-                <button class="tab-nav__btn btn btn--dropdown" data-tab="#mileage">Mileage</button>
-                <button class="tab-nav__btn btn btn--dropdown" data-tab="#color">Color</button>
-                <button class="tab-nav__btn btn btn--dropdown" data-tab="#drivetrain">Drivetrain</button>
-                <button class="tab-nav__btn btn btn--dropdown" data-tab="#dealer">Dealer</button>
+                <button class="tab-nav__btn btn-dropdown js-tab-nav" data-tab="#vehicles">Vehicles</button>
+                <button class="tab-nav__btn btn-dropdown js-tab-nav" data-tab="#price">Price</button>
+                <button class="tab-nav__btn btn-dropdown js-tab-nav" data-tab="#year">Year</button>
+                <button class="tab-nav__btn btn-dropdown js-tab-nav" data-tab="#mileage">Mileage</button>
+                <button class="tab-nav__btn btn-dropdown js-tab-nav" data-tab="#color">Color</button>
+                <button class="tab-nav__btn btn-dropdown js-tab-nav" data-tab="#drivetrain">Drivetrain</button>
+                <button class="tab-nav__btn btn-dropdown js-tab-nav" data-tab="#dealer">Dealer</button>
               </div>
               <div class="tabs-content">
-                <div class="tab-content" id="vehicles">777</div>
-                <div class="tab-content" id="price">1111</div>
-                <div class="tab-content" id="year">222</div>
-                <div class="tab-content" id="mileage">333</div>
-                <div class="tab-content" id="color">444</div>
-                <div class="tab-content" id="drivetrain">555</div>
-                <div class="tab-content" id="dealer">6666</div>
+                <div class="tab-content js-tab-content" id="vehicles">
+                  <div class="subtabs">
+                    <div class="subtabs-nav"> 
+                      <button class="subtab-nav__btn active js-subtab-nav" data-tab="#cars-and-minivan">Cars &amp; Minivan</button>
+                      <button class="subtab-nav__btn js-subtab-nav" data-tab="#trucks">Trucks</button>
+                      <button class="subtab-nav__btn js-subtab-nav" data-tab="#crossovers-and-suvs">Crossovers &amp; SUVs</button>
+                      <button class="subtab-nav__btn js-subtab-nav" data-tab="#electrified">Electrified</button>
+                      <button class="subtab-nav__btn js-subtab-nav" data-tab="#scion-by-toyota">Scion by Toyota</button>
+                    </div>
+                    <div class="subtabs-content">
+                      <div class="subtab-content active js-subtab-content" id="cars-and-minivan">
+                        <div class="cars-filters"> 
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">86</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/cars-and-minivan/86.avif" type="image/avif">
+                                    <source srcset="img/content/cars-and-minivan/86.webp" type="image/webp"><img class="cars-filters__img" src="img/content/cars-and-minivan/86.png" alt="86">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">Avalon</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/cars-and-minivan/avalon.avif" type="image/avif">
+                                    <source srcset="img/content/cars-and-minivan/avalon.webp" type="image/webp"><img class="cars-filters__img" src="img/content/cars-and-minivan/avalon.png" alt="Avalon">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">Camry</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/cars-and-minivan/camry.avif" type="image/avif">
+                                    <source srcset="img/content/cars-and-minivan/camry.webp" type="image/webp"><img class="cars-filters__img" src="img/content/cars-and-minivan/camry.png" alt="Camry">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">Corolla</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/cars-and-minivan/corolla.avif" type="image/avif">
+                                    <source srcset="img/content/cars-and-minivan/corolla.webp" type="image/webp"><img class="cars-filters__img" src="img/content/cars-and-minivan/corolla.png" alt="Corolla">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">Corolla Hatchback</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/cars-and-minivan/corollahatchback.avif" type="image/avif">
+                                    <source srcset="img/content/cars-and-minivan/corollahatchback.webp" type="image/webp"><img class="cars-filters__img" src="img/content/cars-and-minivan/corollahatchback.png" alt="Corolla Hatchback">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">Corolla iM</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/cars-and-minivan/corollaim.avif" type="image/avif">
+                                    <source srcset="img/content/cars-and-minivan/corollaim.webp" type="image/webp"><img class="cars-filters__img" src="img/content/cars-and-minivan/corollaim.png" alt="Corolla iM">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">GR Corolla</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/cars-and-minivan/grcorolla.avif" type="image/avif">
+                                    <source srcset="img/content/cars-and-minivan/grcorolla.webp" type="image/webp"><img class="cars-filters__img" src="img/content/cars-and-minivan/grcorolla.png" alt="GR Corolla">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">GR Supra</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/cars-and-minivan/grsupra.avif" type="image/avif">
+                                    <source srcset="img/content/cars-and-minivan/grsupra.webp" type="image/webp"><img class="cars-filters__img" src="img/content/cars-and-minivan/grsupra.png" alt="GR Supra">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">Sienna</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/cars-and-minivan/sienna.avif" type="image/avif">
+                                    <source srcset="img/content/cars-and-minivan/sienna.webp" type="image/webp"><img class="cars-filters__img" src="img/content/cars-and-minivan/sienna.png" alt="Sienna">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">Toyota Crown</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/cars-and-minivan/toyotacrown.avif" type="image/avif">
+                                    <source srcset="img/content/cars-and-minivan/toyotacrown.webp" type="image/webp"><img class="cars-filters__img" src="img/content/cars-and-minivan/toyotacrown.png" alt="Toyota Crown">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">Yaris</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/cars-and-minivan/yaris.avif" type="image/avif">
+                                    <source srcset="img/content/cars-and-minivan/yaris.webp" type="image/webp"><img class="cars-filters__img" src="img/content/cars-and-minivan/yaris.png" alt="Yaris">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">Yaris Hatchback</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/cars-and-minivan/yarishatchback.avif" type="image/avif">
+                                    <source srcset="img/content/cars-and-minivan/yarishatchback.webp" type="image/webp"><img class="cars-filters__img" src="img/content/cars-and-minivan/yarishatchback.png" alt="Yaris Hatchback">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">Yaris iA</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/cars-and-minivan/yarisia.avif" type="image/avif">
+                                    <source srcset="img/content/cars-and-minivan/yarisia.webp" type="image/webp"><img class="cars-filters__img" src="img/content/cars-and-minivan/yarisia.png" alt="Yaris iA">
+                                  </picture>
+                                </div>
+                        </div>
+                      </div>
+                      <div class="tab-content js-subtab-content" id="trucks">
+                        <div class="cars-filters"> 
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">Tacoma</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/trucks/tacoma.avif" type="image/avif">
+                                    <source srcset="img/content/trucks/tacoma.webp" type="image/webp"><img class="cars-filters__img" src="img/content/trucks/tacoma.png" alt="Tacoma">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">Tundra</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/trucks/tundra.avif" type="image/avif">
+                                    <source srcset="img/content/trucks/tundra.webp" type="image/webp"><img class="cars-filters__img" src="img/content/trucks/tundra.png" alt="Tundra">
+                                  </picture>
+                                </div>
+                        </div>
+                      </div>
+                      <div class="tab-content js-subtab-content" id="crossovers-and-suvs">
+                        <div class="cars-filters"> 
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">4Runner</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/crossovers-and-suvs/4runner.avif" type="image/avif">
+                                    <source srcset="img/content/crossovers-and-suvs/4runner.webp" type="image/webp"><img class="cars-filters__img" src="img/content/crossovers-and-suvs/4runner.png" alt="4Runner">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">C-HR</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/crossovers-and-suvs/chr.avif" type="image/avif">
+                                    <source srcset="img/content/crossovers-and-suvs/chr.webp" type="image/webp"><img class="cars-filters__img" src="img/content/crossovers-and-suvs/chr.png" alt="C-HR">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">Corolla Cross</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/crossovers-and-suvs/corollacross.avif" type="image/avif">
+                                    <source srcset="img/content/crossovers-and-suvs/corollacross.webp" type="image/webp"><img class="cars-filters__img" src="img/content/crossovers-and-suvs/corollacross.png" alt="Corolla Cross">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">FJ Cruiser</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/crossovers-and-suvs/fjcruiser.avif" type="image/avif">
+                                    <source srcset="img/content/crossovers-and-suvs/fjcruiser.webp" type="image/webp"><img class="cars-filters__img" src="img/content/crossovers-and-suvs/fjcruiser.png" alt="FJ Cruiser">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">Highlander</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/crossovers-and-suvs/highlander.avif" type="image/avif">
+                                    <source srcset="img/content/crossovers-and-suvs/highlander.webp" type="image/webp"><img class="cars-filters__img" src="img/content/crossovers-and-suvs/highlander.png" alt="Highlander">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">Land Cruiser</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/crossovers-and-suvs/landcruiser.avif" type="image/avif">
+                                    <source srcset="img/content/crossovers-and-suvs/landcruiser.webp" type="image/webp"><img class="cars-filters__img" src="img/content/crossovers-and-suvs/landcruiser.png" alt="Land Cruiser">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">RAV4</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/crossovers-and-suvs/rav4.avif" type="image/avif">
+                                    <source srcset="img/content/crossovers-and-suvs/rav4.webp" type="image/webp"><img class="cars-filters__img" src="img/content/crossovers-and-suvs/rav4.png" alt="RAV4">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">Sequoia</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/crossovers-and-suvs/sequoia.avif" type="image/avif">
+                                    <source srcset="img/content/crossovers-and-suvs/sequoia.webp" type="image/webp"><img class="cars-filters__img" src="img/content/crossovers-and-suvs/sequoia.png" alt="Sequoia">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">Venza</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/crossovers-and-suvs/venza.avif" type="image/avif">
+                                    <source srcset="img/content/crossovers-and-suvs/venza.webp" type="image/webp"><img class="cars-filters__img" src="img/content/crossovers-and-suvs/venza.png" alt="Venza">
+                                  </picture>
+                                </div>
+                        </div>
+                      </div>
+                      <div class="tab-content js-subtab-content" id="electrified">
+                        <div class="cars-filters"> 
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">Avalon Hybrid</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/electrified/avalonhybrid.avif" type="image/avif">
+                                    <source srcset="img/content/electrified/avalonhybrid.webp" type="image/webp"><img class="cars-filters__img" src="img/content/electrified/avalonhybrid.png" alt="Avalon Hybrid">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">Camry Hybrid</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/electrified/camryhybrid.avif" type="image/avif">
+                                    <source srcset="img/content/electrified/camryhybrid.webp" type="image/webp"><img class="cars-filters__img" src="img/content/electrified/camryhybrid.png" alt="Camry Hybrid">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">Corolla Hybrid</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/electrified/corollahybrid.avif" type="image/avif">
+                                    <source srcset="img/content/electrified/corollahybrid.webp" type="image/webp"><img class="cars-filters__img" src="img/content/electrified/corollahybrid.png" alt="Corolla Hybrid">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">Highlander Hybrid</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/electrified/highlanderhybrid.avif" type="image/avif">
+                                    <source srcset="img/content/electrified/highlanderhybrid.webp" type="image/webp"><img class="cars-filters__img" src="img/content/electrified/highlanderhybrid.png" alt="Highlander Hybrid">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">Mirai</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/electrified/mirai.avif" type="image/avif">
+                                    <source srcset="img/content/electrified/mirai.webp" type="image/webp"><img class="cars-filters__img" src="img/content/electrified/mirai.png" alt="Mirai">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">Prius</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/electrified/prius.avif" type="image/avif">
+                                    <source srcset="img/content/electrified/prius.webp" type="image/webp"><img class="cars-filters__img" src="img/content/electrified/prius.png" alt="Prius">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">Prius Plug-In</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/electrified/priusplugin.avif" type="image/avif">
+                                    <source srcset="img/content/electrified/priusplugin.webp" type="image/webp"><img class="cars-filters__img" src="img/content/electrified/priusplugin.png" alt="Prius Plug-In">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">Prius Prime</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/electrified/priusprime.avif" type="image/avif">
+                                    <source srcset="img/content/electrified/priusprime.webp" type="image/webp"><img class="cars-filters__img" src="img/content/electrified/priusprime.png" alt="Prius Prime">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">Prius c</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/electrified/priusc.avif" type="image/avif">
+                                    <source srcset="img/content/electrified/priusc.webp" type="image/webp"><img class="cars-filters__img" src="img/content/electrified/priusc.png" alt="Prius c">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">Prius v</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/electrified/priusv.avif" type="image/avif">
+                                    <source srcset="img/content/electrified/priusv.webp" type="image/webp"><img class="cars-filters__img" src="img/content/electrified/priusv.png" alt="Prius v">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">RAV4 Hybrid</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/electrified/rav4hybrid.avif" type="image/avif">
+                                    <source srcset="img/content/electrified/rav4hybrid.webp" type="image/webp"><img class="cars-filters__img" src="img/content/electrified/rav4hybrid.png" alt="RAV4 Hybrid">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">RAV4 Prime</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/electrified/rav4prime.avif" type="image/avif">
+                                    <source srcset="img/content/electrified/rav4prime.webp" type="image/webp"><img class="cars-filters__img" src="img/content/electrified/rav4prime.png" alt="RAV4 Prime">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">bZ4X</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/electrified/bz4x.avif" type="image/avif">
+                                    <source srcset="img/content/electrified/bz4x.webp" type="image/webp"><img class="cars-filters__img" src="img/content/electrified/bz4x.png" alt="bZ4X">
+                                  </picture>
+                                </div>
+                        </div>
+                      </div>
+                      <div class="tab-content js-subtab-content" id="scion-by-toyota">
+                        <div class="cars-filters"> 
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">FR-S</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/scion-by-toyota/frs.avif" type="image/avif">
+                                    <source srcset="img/content/scion-by-toyota/frs.webp" type="image/webp"><img class="cars-filters__img" src="img/content/scion-by-toyota/frs.png" alt="FR-S">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">iA</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/scion-by-toyota/ia.avif" type="image/avif">
+                                    <source srcset="img/content/scion-by-toyota/ia.webp" type="image/webp"><img class="cars-filters__img" src="img/content/scion-by-toyota/ia.png" alt="iA">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">iM</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/scion-by-toyota/im.avif" type="image/avif">
+                                    <source srcset="img/content/scion-by-toyota/im.webp" type="image/webp"><img class="cars-filters__img" src="img/content/scion-by-toyota/im.png" alt="iM">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">iQ</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/scion-by-toyota/iq.avif" type="image/avif">
+                                    <source srcset="img/content/scion-by-toyota/iq.webp" type="image/webp"><img class="cars-filters__img" src="img/content/scion-by-toyota/iq.png" alt="iQ">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">tC</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/scion-by-toyota/tc.avif" type="image/avif">
+                                    <source srcset="img/content/scion-by-toyota/tc.webp" type="image/webp"><img class="cars-filters__img" src="img/content/scion-by-toyota/tc.png" alt="tC">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">xB</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/scion-by-toyota/xb.avif" type="image/avif">
+                                    <source srcset="img/content/scion-by-toyota/xb.webp" type="image/webp"><img class="cars-filters__img" src="img/content/scion-by-toyota/xb.png" alt="xB">
+                                  </picture>
+                                </div>
+                                <div class="cars-filters__item"> 
+                                  <label class="checkbox">
+                                    <input type="checkbox"><span class="checkbox__box"> <i></i></span><span class="checkbox__text">xD</span>
+                                  </label>
+                                  <picture>
+                                    <source srcset="img/content/scion-by-toyota/xd.avif" type="image/avif">
+                                    <source srcset="img/content/scion-by-toyota/xd.webp" type="image/webp"><img class="cars-filters__img" src="img/content/scion-by-toyota/xd.png" alt="xD">
+                                  </picture>
+                                </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-content js-tab-content" id="price">1111</div>
+                <div class="tab-content js-tab-content" id="year">222</div>
+                <div class="tab-content js-tab-content" id="mileage">333</div>
+                <div class="tab-content js-tab-content" id="color">444</div>
+                <div class="tab-content js-tab-content" id="drivetrain">555</div>
+                <div class="tab-content js-tab-content" id="dealer">6666</div>
               </div>
             </div>
             <div class="filters-content"></div>

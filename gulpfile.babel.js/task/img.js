@@ -2,7 +2,7 @@ import gulp from "gulp";
 
 //config
 import path from "../config/path.js";
-import app from "../config/app.js";;
+import app from "../config/app.js";
 
 //plugins
 import loadPlugins from "gulp-load-plugins";
@@ -17,8 +17,14 @@ export default () => {
             }))
         }))
         .pipe(gp.newer(path.img.dest))
+        .pipe(gp.avif(app.avif))
+        .pipe(gulp.dest(path.img.dest))
+
+        .pipe(gulp.src(path.img.src))
+        .pipe(gp.newer(path.img.dest))
         .pipe(gp.webp())
         .pipe(gulp.dest(path.img.dest))
+
         .pipe(gulp.src(path.img.src))
         .pipe(gp.newer(path.img.dest))
         .pipe(gp.if(app.isProd, gp.imagemin(app.imagemin)))

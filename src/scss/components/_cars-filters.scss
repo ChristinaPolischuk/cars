@@ -1,0 +1,8 @@
+.cars-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  &__img {
+    width: 125px;
+  }
+}
