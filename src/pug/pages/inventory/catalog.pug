@@ -42,6 +42,24 @@ section.section-middle
   .container
     .catalog 
       .catalog__header 
+        p.results
+          span.results-count 850
+          | Matching Vehicles
+        .filters-box__group 
+          label.filters-box__label Sort by:
+          select.select2
+            option Distance - Nearest
+            option Distance - Farthest
+            option Price - Lowest
+            option Price - Highest
+            option Mileage - Lowest
+            option Mileage - Highest
+            option Model - A to Z
+            option Model - Z to A
+            option Year - Highest
+            option Year - Lowest
+            option Listing Date - Newest
+            option Listing Date - Oldest
       .catalog__body 
         +catalogProduct("img/content/catalog/2017 RAV4 LE AWD", "2017 RAV4 LE AWD", "2017 RAV4 LE AWD", "$32,598", "25,285 mi", "5.49% APR*", "2.5l", "A25A", "rgb(0, 0, 0)", "Ext: BLACK", "rgb(0, 0, 0)", "Ext: BLACK", "Schaumburg Toyota")
         +catalogProduct("img/content/catalog/2020 RAV4 XLE AWD", "2017 RAV4 LE AWD", "2020 RAV4 XLE AWD", "$32,598", "25,285 mi", "5.49% APR*", "2.5l", "2AR", "rgb(38, 160, 222)", "Ext: CYAN METALLIC", "rgb(114, 114, 108)", "Int: MOONSTONE", "Schaumburg Toyota")

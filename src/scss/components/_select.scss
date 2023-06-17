@@ -1,20 +1,12 @@
 .select {
-  &__wrap {
+  &-wrap {
     position: relative;
     .select2-container .select2-selection--single .select2-selection__rendered  {
       padding-left: 30px;
-      line-height: 36px;
     }
-    .select2-container--default .select2-selection--single {
-      border-color: $grey_color_medium;
-      border-radius: 5px;
-    }
-    .select2-dropdown, 
-    .select2-container--default .select2-search--dropdown .select2-search__field {
-      border-color: $grey_color_medium;
-    }
+    
   }
-  &-icon-location, &-icon-caret-down {
+  &-icon-location {
     position: absolute;
     z-index: 1;
     pointer-events: none;
@@ -25,16 +17,6 @@
     width: 22px;
     height: 22px;
     fill: $color-accent;
-  }
-  &-icon-caret-down {
-    position: absolute;
-    top: 16px;
-    right: 5px;
-    width: 14px;
-    height: 7px;
-    fill: none;
-    stroke: $color-accent;
-    stroke-width: 2;
   }
 }
 

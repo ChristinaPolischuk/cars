@@ -6,15 +6,15 @@
     flex-wrap: wrap;
     padding-bottom: 30px;
   }
-  &-nav {
-    
-  }
   &-box {
-    display: flex;
+    display: inline-flex;
     &__group {
       display: flex;
       flex-direction: column;
-      width: 150px;
+      max-width: 250px;
+      min-width: 150px;
+      width: 100%;
+      text-align: left;
       &:not(:last-child) {
         margin-right: 15px;
       }

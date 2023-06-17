@@ -102,6 +102,47 @@ button, input[type=button] {
   margin-top: 50px;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.row-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  & + & {
+    margin-top: 30px;
+  }
+  & ~ * {
+    margin-top: 30px;
+  }
+}
+
+.columns-4 {
+  columns: 4;
+  @include media-lg {
+    columns: 3;
+  }
+  @include media-md {
+    columns: 2;
+  }
+  @include media-sm {
+    columns: 1;
+    .radio {
+      display: flex;
+    }
+  }
+}
+
+.results {
+  margin: 0;
+  &-count {
+    margin-right: 5px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+
 ul, li {
   margin: 0;
   padding: 0;

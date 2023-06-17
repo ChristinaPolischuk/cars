@@ -1,4 +1,13 @@
 .catalog {
+  &__header {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    & > *:last-child {
+      margin-left: auto;
+    }
+  }
   &__body {
     display: flex;
     flex-wrap: wrap;

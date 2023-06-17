@@ -2,13 +2,28 @@ mixin carsFiltersItem(folder, src, text)
   .cars-filters__item 
     label.checkbox
       input(type="checkbox")
-      span.checkbox__box 
+      span.checkbox__box.checkbox__box--large 
         i
       span.checkbox__text=text
     picture
       source(srcset=`img/content/${folder}/${src}.avif`, type="image/avif")
       source(srcset=`img/content/${folder}/${src}.webp`, type="image/webp")
       img.cars-filters__img(src=`img/content/${folder}/${src}.png`, alt=text)
+
+mixin checkbox(bgExt, text)
+  label.checkbox
+    input(type="checkbox")
+    span.checkbox__box.checkbox__box--large 
+      i
+    span.product-color(style=`background: ${bgExt}`)
+    span.checkbox__text=text
+    
+mixin radio(text, name)
+  label.radio
+    input(type="radio", name=name)
+    span.radio__circle.radio__circle--large 
+    span.radio__text=text
+
 
 section.section-middle
   .container
@@ -18,10 +33,9 @@ section.section-middle
         .filters-box
           .filters-box__group
             label.filters-box__label Search Radius:
-            .select__wrap
+            .select-wrap
               +icon("location", "select-icon-location")
-              +icon("caret-down", "select-icon-caret-down")
-              select.select.select2
+              select.select2
                 option Any
                 option 10 Miles
                 option 25 Miles
@@ -107,10 +121,125 @@ section.section-middle
                     +carsFiltersItem("scion-by-toyota", "tc", "tC")
                     +carsFiltersItem("scion-by-toyota", "xb", "xB")
                     +carsFiltersItem("scion-by-toyota", "xd", "xD")
-          .tab-content.js-tab-content#price 1111
-          .tab-content.js-tab-content#year 222
-          .tab-content.js-tab-content#mileage 333
-          .tab-content.js-tab-content#color 444
-          .tab-content.js-tab-content#drivetrain 555
-          .tab-content.js-tab-content#dealer 6666
-      .filters-content
+          .tab-content.text-center.js-tab-content#price
+            .filters-box 
+              .filters-box__group 
+                label.filters-box__label Minimum Price
+                select.select2
+                  option $5000 
+                  option $10000 
+                  option $15000 
+                  option $20000 
+                  option $25000 
+                  option $30000 
+                  option $35000 
+                  option $40000 
+              .filters-box__group 
+                label.filters-box__label Maximum Price
+                select.select2
+                  option $10000 
+                  option $15000 
+                  option $20000 
+                  option $25000 
+                  option $30000 
+                  option $35000 
+                  option $40000 
+                  option $50000
+          .tab-content.text-center.js-tab-content#year
+            .filters-box 
+              .filters-box__group 
+                label.filters-box__label Minimum Year
+                select.select2
+                  option 2017
+                  option 2018
+                  option 2019
+                  option 2020
+                  option 2021
+                  option 2022
+                  option 2023
+              .filters-box__group 
+                label.filters-box__label Maximum Year
+                select.select2
+                  option 2017
+                  option 2018
+                  option 2019
+                  option 2020
+                  option 2021
+                  option 2022
+                  option 2023
+          .tab-content.text-center.js-tab-content#mileage
+            .filters-box 
+              .filters-box__group 
+                label.filters-box__label Minimum Mileage
+                select.select2
+                  option 0 miles
+                  option 5000 miles
+                  option 10000 miles
+                  option 15000 miles
+                  option 20000 miles
+                  option 25000 miles
+                  option 30000 miles
+                  option 35000 miles
+                  option 40000 miles
+              .filters-box__group 
+                label.filters-box__label Maximum Mileage
+                select.select2
+                  option 5000 miles
+                  option 10000 miles
+                  option 15000 miles
+                  option 20000 miles
+                  option 25000 miles
+                  option 30000 miles
+                  option 35000 miles
+                  option 40000 miles
+                  option 45000 miles
+          .tab-content.js-tab-content#color
+            h2.page-title Exterior Colors
+            .row-wrap 
+              +checkbox("rgb(0, 0, 0)", "Black")
+              +checkbox("rgb(45, 99, 231)", "Blue")
+              +checkbox("rgb(156, 85, 23)", "Brown")
+              +checkbox("rgb(104, 226, 47)", "Green")
+              +checkbox("rgb(192, 192, 192)", "Gray")
+              +checkbox("rgb(235, 10, 30)", "Red")
+              +checkbox("rgb(223, 223, 223)", "Silver")
+              +checkbox("rgb(255, 255, 255)", "White")
+              +checkbox("repeating-linear-gradient(45deg, #d6d6d6, #d6d6d6 1px, #fff, #fff 1px, #fff 4px)", "Other")
+            h2.page-title Interior Colors
+            .row-wrap 
+              +checkbox("rgb(0, 0, 0)", "Black")
+              +checkbox("rgb(45, 99, 231)", "Blue")
+              +checkbox("rgb(156, 85, 23)", "Brown")
+              +checkbox("rgb(104, 226, 47)", "Green")
+              +checkbox("rgb(192, 192, 192)", "Gray")
+              +checkbox("rgb(235, 10, 30)", "Red")
+              +checkbox("rgb(223, 223, 223)", "Silver")
+              +checkbox("rgb(255, 255, 255)", "White")
+              +checkbox("repeating-linear-gradient(45deg, #d6d6d6, #d6d6d6 1px, #fff, #fff 1px, #fff 4px)", "Other")
+          
+          .tab-content.text-center.js-tab-content#drivetrain
+            +radio("4X2", "drivetrain")
+            +radio("4X4", "drivetrain")
+            +radio("AWD", "drivetrain")
+            +radio("FWD", "drivetrain")
+            +radio("RWD", "drivetrain")
+          .tab-content.js-tab-content#dealer
+            .columns-4
+              +radio("Schaumburg Toyota", "mileage")
+              +radio("McGrath Elmhurst Toyota", "mileage")
+              +radio("Bredemann Toyota", "mileage")
+              +radio("Lombard Toyota", "mileage")
+              +radio("Elgin Toyota", "mileage")
+              +radio("Toyota of Lincolnwood", "mileage")
+              +radio("Toyota on Edens", "mileage")
+              +radio("Oakbrook Toyota in Westmont", "mileage")
+              +radio("Victory Toyota of Midtown", "mileage")
+              +radio("St. Charles Toyota", "mileage")
+              +radio("Chicago Northside Toyota", "mileage")
+              +radio("AutoNation Toyota Libertyville", "mileage")
+              +radio("Continental Toyota", "mileage")
+              +radio("Toyota of Naperville", "mileage")
+              +radio("Toyota of Lincoln Park", "mileage")
+              +radio("Pauly Toyota", "mileage")
+              +radio("Toyota On Western", "mileage")
+              +radio("Oak Lawn Toyota", "mileage")
