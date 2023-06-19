@@ -7479,6 +7479,55 @@ table th {
   font-weight: 600;
 }
 
+.filters-selected-list {
+  margin: 20px 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.filter-selected {
+  background: #fff;
+  position: relative;
+  padding: 5px 30px 5px 10px;
+  border: 1px solid #D6D6D6;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.filter-selected::before,
+.filter-selected::after {
+  background: #002E63;
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  margin-top: -5px;
+  width: 2px;
+  height: 10px;
+}
+
+.filter-selected::before {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.filter-selected::after {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.filters-clear {
+  font-size: 12px;
+  font-weight: 700;
+  color: #002E63;
+}
+
 .select-wrap {
   position: relative;
 }
