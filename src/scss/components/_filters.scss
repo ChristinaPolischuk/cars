@@ -25,3 +25,41 @@
     }
   }
 }
+
+.filters-selected-list {
+  margin: 20px 0 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.filter-selected {
+  position: relative;
+  padding: 5px 30px 5px 10px;
+  background-color: #fff;
+  border: 1px solid $grey_color_medium;
+  border-radius: 5px;
+  font-size: 12px;
+  &::before, &::after {
+    content: '';
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -5px;
+    width: 2px;
+    height: 10px;
+    background-color: $color-accent;
+  }
+  &::before {
+    transform: rotate(45deg);
+  }
+  &::after {
+    transform: rotate(-45deg);
+  }
+}
+
+.filters-clear {
+  font-size: 12px;
+  font-weight: 700;
+  color: $color-accent;
+}
