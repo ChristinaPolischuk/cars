@@ -15,7 +15,8 @@ export default () => {
         "node_modules/slick-carousel/slick/slick.js",
         "node_modules/simplebar/dist/simplebar.js",
         "node_modules/slim-select/dist/slimselect.js",
-        "node_modules/select2/dist/js/select2.full.js"
+        "node_modules/select2/dist/js/select2.full.js",
+        "node_modules/magnific-popup/dist/jquery.magnific-popup.js"
     ])
         .pipe(gp.concat("libs.min.js"))
         .pipe(gp.terser())

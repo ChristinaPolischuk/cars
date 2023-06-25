@@ -50,6 +50,7 @@
   }
   &__btn {
     @include position(absolute, $top: 50%);
+    z-index: 1;
     padding: 0;
     background: transparent;
     transform: translateY(-50%);
@@ -62,6 +63,10 @@
       .preview-slider__arrow {
         transform: scale(.9);
       }
+    }
+    &.slick-disabled {
+      pointer-events: none;
+      opacity: 0.5;
     }
     &--prev {
       left: 0

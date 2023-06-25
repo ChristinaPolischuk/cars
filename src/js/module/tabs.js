@@ -1,6 +1,6 @@
 module.exports = () => {
   $(".js-tab-nav").on("click", function() {
-		var $this = $(this);
+		let $this = $(this);
 		let activeTab = $(this).attr('data-tab');
 		if (!$this.hasClass("active")) {
 			$('.js-tab-nav').removeClass('active');
@@ -11,7 +11,7 @@ module.exports = () => {
     return false;
 	});
   $(".js-subtab-nav").on("click", function() {
-		var $this = $(this);
+		let $this = $(this);
 		let activeTab = $(this).attr('data-tab');
 		if (!$this.hasClass("active")) {
 			$('.js-subtab-nav').removeClass('active');

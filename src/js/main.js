@@ -23,6 +23,8 @@ import modal from "./module/modal";
 import charts from "./module/charts";
 import select2 from "./module/select2";
 import tabs from "./module/tabs";
+import modelSlider from "./module/modelSlider";
+import popupGallery from "./module/popupGallery";
 
 $(window).on("load",function(){
     svg4everybody({});
@@ -51,5 +53,7 @@ $(window).on("load",function(){
     charts();
     select2();
     tabs();
+    modelSlider();
+    popupGallery();
 });
 

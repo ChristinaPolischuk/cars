@@ -10,3 +10,42 @@
     display: flex;
     align-items: center;
   }
+
+.model-slider {
+  width: 100%;
+  position: relative;
+  .slick-track {
+    align-items: flex-start;
+  }
+  .preview-slider__navigation {
+    @include media-mds {
+      display: block;
+    }
+  }
+  .slick-dots {
+    text-align: center;
+    font-size: 0;
+    li{
+      display: inline-block;
+      &::before {
+        background-color: $grey_color_medium;
+        cursor: pointer;
+      }
+      &.slick-active::before {
+        background-color: $color-accent;
+      }
+      button {
+        padding: 0;
+        background-color: transparent;
+      }
+    }
+  }
+  
+  &__slide {
+    padding: 5px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
