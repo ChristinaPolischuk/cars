@@ -1,0 +1,18 @@
+.vehicle {
+  &-info {
+    display: flex;
+    align-items: center;
+  }
+  &-miles {
+    display: inline-flex;
+    align-items: center;
+    &::after {
+      content: '';
+      display: inline-flex;
+      margin: 0 10px;
+      width: 2px;
+      height: 15px;
+      background-color: $grey_color_medium;
+    }
+  }
+}

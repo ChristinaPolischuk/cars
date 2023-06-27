@@ -1,13 +1,18 @@
 extends ../layout/app
 
 block page
-    .wrapper
-        include ../chunk/header
-        include vdp/model-slider
-        include ../chunk/search-services
-        include ../chunk/footer
+  .wrapper
+    include ../chunk/header
+    include vdp/model-slider
+    include vdp/vdp
+    include vdp/specification
+    include vdp/adress
+    include ../chunk/search-services
+    include ../chunk/footer
+    include vdp/modal-special-offer
 
 block script
     script(src="js/libs/jquery.min.js")
     script(src="js/libs/libs.min.js")
+    script(type="text/javascript", async, defer, src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAI9KZNEkKKX0emQcurInTXP1Bne-s3Bik")
     script(src="js/main.js")

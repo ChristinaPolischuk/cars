@@ -87,5 +87,29 @@
     position: relative;
     top: 4px;
   }
+  &-favorite {
+    margin-left: 20px;
+    padding: 0;
+    background-color: transparent;
+    transition: transform .3s;
+    @include media-xs {
+      margin-left: 10px;
+    }
+    &__icon {
+      width: 23px;
+      height: 23px;
+      color: $color-black;
+      transition: fill .3s;
+    }
+    &:hover, &.active {
+      transform: scale(1.2);
+      .btn-favorite__icon {
+        fill: $color-accent;
+      }
+    }
+    &:active {
+      transform: scale(.9);
+    }
+  }
 }
 

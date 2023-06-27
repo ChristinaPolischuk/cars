@@ -25,6 +25,7 @@ import select2 from "./module/select2";
 import tabs from "./module/tabs";
 import modelSlider from "./module/modelSlider";
 import popupGallery from "./module/popupGallery";
+import adressMap from "./module/adressMap";
 
 $(window).on("load",function(){
     svg4everybody({});
@@ -55,5 +56,6 @@ $(window).on("load",function(){
     tabs();
     modelSlider();
     popupGallery();
+    adressMap();
 });
 

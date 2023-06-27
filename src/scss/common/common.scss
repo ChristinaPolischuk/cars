@@ -210,6 +210,10 @@ table {
     padding: 50px 0 100px;
   }
 
+  &-bg {
+    background-color: $color-grey-light;
+  }
+
   &-top-25 {
     padding-top: 25px;
   }
@@ -253,6 +257,112 @@ table {
   transition: border-bottom-color .3s;
   &:hover {
     border-bottom-color: transparent;
+  }
+}
+
+.backlink {
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: $color-accent;
+  &::before {
+    content: '';
+    display: inline-flex;
+    margin-right: 5px;
+    width: 8px;
+    height: 8px;
+    border: solid $color-accent;
+    border-width: 0 2px 2px 0;
+    transform: rotate(135deg);
+  }
+}
+
+.dealer {
+  &-name {
+    display: inline-flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: $color-accent;
+    &:hover {
+      .dealer-name__icon-location {
+        transform: scale(1.2);
+      }
+    }
+    &:active {
+      .dealer-name__icon-location {
+        transform: scale(.9);
+      }
+    }
+    &__icon-location {
+      margin-right: 5px;
+      width: 10px;
+      height: 17px;
+      fill: $color-accent;
+      transition: transform .3s;
+    }
+  }
+}
+
+.price {
+  font-size: 36px;
+  font-weight: 700;
+  @include media-xs {
+    font-size: 28px;
+  }
+}
+
+.apr {
+  display: inline-flex;
+  align-items: last baseline;
+  &-percent {
+    margin-right: 5px;
+    font-size: 22px;
+    font-weight: 700;
+    @include media-xs {
+      font-size: 18px;
+    }
+  }
+  &-text {
+    white-space: nowrap;
+    sup {
+      color: $color-accent;
+    }
+  }
+}
+
+.swatch {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  border: 1px solid $grey_color_medium;
+}
+
+// icons
+
+.icon {
+  &-engine {
+    fill: none;
+    stroke: $color-black;
+    width: 45px;
+    height: 30px;
+  }
+  &-transmission {
+    fill: none;
+    stroke: $color-black;
+    width: 30px;
+    height: 30px;
+  }
+  &-fuel-type {
+    fill: none;
+    stroke: $color-black;
+    width: 24px;
+    height: 30px;
+  }
+  &-carfax {
+    width: 89px;
+    height: 30px;
   }
 }
 

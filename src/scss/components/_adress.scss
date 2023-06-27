@@ -1,0 +1,40 @@
+.adress {
+  display: flex;
+  gap: 30px;
+  &-info, &-map {
+    flex: 1;
+  }
+  &-row + &-row {
+    margin-top: 10px;
+  }
+  &-title {
+    font-size: 18px;
+  }
+  &-text {
+    margin: 0 0 5px;
+    font-size: 13px;
+  }
+  &-footer {
+    margin-top: 15px;
+    padding: 10px 0;
+    border-top: 1px solid $grey_color_medium;
+  }
+  &-link {
+    display: inline-flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 700;
+    &:not(:last-child)::after {
+      content: '';
+      display: inline-flex;
+      margin: 0 10px;
+      width: 2px;
+      height: 10px;
+      background-color: $grey_color_medium;
+    }
+  }
+  &-map {
+    width: 100%;
+    height: 350px;
+  }
+}
