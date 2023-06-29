@@ -1,0 +1,24 @@
+mixin benefitItem(title, text, sup)
+  - sup = sup || ''
+  .benefit-item 
+    img.benefit-icon-check(src="img/general/icons/check-circle.svg", alt="")
+    .benefit-content
+      h6.benefit-title=title
+      span.benefit-text=text
+        sup=sup
+
+section.section-middle 
+  .overview-container.container 
+    .overview-content 
+      h2.page-title Toyota Certified Benefits
+      p Every Toyota Certified Used vehicle comes with our exceptional coverage policy. Each Vehicle undergoes a rigorous 160-point inspection to ensure only the best vehicles receive the certified seal of approval.
+      a.btn.btn--small(href="") Learn more
+    .benefit-container
+      .benefit
+        +benefitItem("160 Point", "Quality Assurance Inspection")
+        +benefitItem("12 Month / 12k Mile", "Limited Comprehensive Warranty", "1")
+        +benefitItem("7 Year / 100k Mile", "Roadside Assistance", "2")
+        +benefitItem("7 Year / 100k Mile", "Limited Powertrain Warranty", "3")
+        +benefitItem("Financing", "New Car Financing Rates", "4")
+        +benefitItem("CarFax", "Vehicle History Report", "5")
+      a.btn.btn--small(href="") Learn more

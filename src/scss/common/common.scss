@@ -415,4 +415,28 @@ table {
   aspect-ratio: 1;
 }
 
+.overview {
+  &-container {
+    display: flex;
+    gap: 50px;
+    @include media-md {
+      flex-direction: column;
+      gap: 0;
+      .btn {
+        display: none;
+      }
+    }
+    & > * {
+      flex: 1;
+    }
+  }
+  &-content {
+    @include media-md {
+      margin-left: 15px;
+      padding-left: 35px;
+      border-left: 1px solid $grey_color_medium;
+    }
+  }
+}
+
 @import "pagination";
