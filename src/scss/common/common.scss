@@ -106,6 +106,10 @@ button, input[type=button] {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .row-wrap {
   display: flex;
   flex-wrap: wrap;
@@ -436,6 +440,72 @@ table {
       padding-left: 35px;
       border-left: 1px solid $grey_color_medium;
     }
+  }
+}
+
+.financial-params {
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 20px;
+    @include media-lg {
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+    }
+  }
+  &__form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex: 1;
+    @include media-lg {
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 25px 15px;
+    }
+    @include media-sm {
+      gap: 25px 0;
+    }
+  }
+  &__group {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    @include media-lg {
+      width: 48%;
+    }
+    @include media-sm {
+      width: 100%;
+    }
+  }
+  &__label {
+    margin-bottom: 5px;
+    font-size: 13px;
+    sup {
+      font-weight: 700;
+      color: $color-accent;
+    }
+  }
+}
+
+.btn-switcher {
+  width: 75px;
+  height: 40px;
+  font-size: 13px;
+  background-color: $grey_color_medium;
+  transition: background-color .3s, color .3s;
+  &.active {
+    color: #fff;
+    background-color: $color-accent;
+  }
+  &-container {
+    display: flex;
+    flex: none;
+    border-radius: 20px;
+    overflow: hidden;
   }
 }
 

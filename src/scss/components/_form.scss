@@ -100,7 +100,16 @@
         }
     }
 }
-
+.field {
+  padding: 0 10px;
+  height: 36px;
+  border-radius: 5px;
+  border: 1px solid $grey_color_medium;
+  transition: border-color .3s;
+  &:focus {
+    border-color: $color-accent;
+  }
+}
 .checkbox {
   cursor: pointer;
   display: flex;
@@ -175,7 +184,6 @@
     font-weight: 600;
   }
 }
-
 .radio {
   cursor: pointer;
   display: inline-flex;

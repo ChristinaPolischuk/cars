@@ -138,3 +138,10 @@
     }
   }
 }
+
+.catalog-line-slider {
+  position: relative;
+  .slick-track {
+    gap: 15px;
+  }
+}
