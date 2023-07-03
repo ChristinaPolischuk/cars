@@ -17,13 +17,12 @@ module.exports = () => {
 		if (!$this.hasClass("active")) {
 			$('.js-subtab-nav').removeClass('active');
 			// $('.js-subtab-content').slideUp();
-			$('.js-subtab-content').hide();
+			$('.js-subtab-content').fadeOut();
 		}
 		$this.toggleClass("active");
 		// $(activeTab).slideToggle();
-		$(activeTab).toggle();
+		$(activeTab).fadeToggle();
     if($(".js-catalog-line-slider").length > 0) {
-      console.log($(".js-catalog-line-slider").length);
       $(".js-catalog-line-slider").each(function() {
         $(this).slick("refresh");
       });
