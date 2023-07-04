@@ -8728,6 +8728,67 @@ table th {
   color: #000000;
 }
 
+.payment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.payment ~ * {
+  margin-top: 40px;
+}
+
+.payment__img {
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+  margin-right: 25px;
+  width: 215px;
+}
+
+.payment__img img {
+  width: 100%;
+}
+
+.payment__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.payment__detail {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.payment__detail:not(:last-child) {
+  border-right: 1px solid #D6D6D6;
+}
+
+.payment__number {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.payment__text {
+  font-size: 12px;
+}
+
+.payment__info {
+  margin-top: 5px;
+  font-size: 10px;
+}
+
 .footer {
   background: #000000;
   padding: 25px 0;
@@ -9075,6 +9136,14 @@ table th {
 
   .catalog__product {
     width: 32%;
+  }
+
+  .payment__img {
+    margin-right: 10px;
+  }
+
+  .payment__number {
+    font-size: 28px;
   }
 
 @supports (-webkit-appearance:none) {
