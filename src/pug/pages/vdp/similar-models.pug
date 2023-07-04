@@ -1,0 +1,61 @@
+mixin catalogProductSlide(src, alt, text, price, miles, percent, l, ar, bgExt, bgExtText, bgInt, bgIntText, locationText)
+  .catalog__product 
+    a.catalog__product-img(href="")
+      picture
+        source(srcset=`${src}.avif`, type="image/avif")
+        source(srcset=`${src}.webp`, type="image/webp")
+        img(src=`${src}.jpg`, alt=alt)
+    .catalog__product-header 
+      span.catalog__product-text=text
+      h6.catalog__product-title 
+        span=price
+        span=miles
+        span=percent
+    .catalog__product-body 
+      .catalog__product-info
+        span=l
+        span=ar
+      .catalog__product-list 
+        .catalog__product-list-item
+          span.catalog__product-color(style=`background: ${bgExt}`)
+          span.catalog__product-text=bgExtText
+        .catalog__product-list-item 
+          span.catalog__product-color(style=`background: ${bgInt}`)
+          span.catalog__product-text=bgIntText
+        .catalog__product-list-item 
+          +icon("location", "catalog__product-icon-location")
+          span.catalog__product-text=locationText
+      a.btn(href="") View Details
+    .catalog__product-footer
+      .catalog__product-footer-item
+        button.catalog__product-btn-contact-dealer Contact Dealer
+      .catalog__product-footer-item
+        a.catalog__product-link-carfax(href="")
+          img(src="img/general/icons/carfaxlogo.svg" alt="")
+      .catalog__product-footer-item
+        button.catalog__product-btn-favorite
+          +icon("favorite", "catalog__product-icon-favorite")
+          | Favorite
+
+section.section-middle 
+  .container 
+    h2.page-title Similar models
+    .catalog-line-slider
+      .preview-slider__navigation
+        button.preview-slider__btn.preview-slider__btn--prev
+          +icon("arrow-left", "preview-slider__arrow")
+        button.preview-slider__btn.preview-slider__btn--next
+          +icon("arrow-right", "preview-slider__arrow")
+      .js-catalog-line-slider 
+        +catalogProductSlide("img/content/catalog/2017 RAV4 LE AWD", "2017 RAV4 LE AWD", "2017 RAV4 LE AWD", "$32,598", "25,285 mi", "5.49% APR*", "2.5l", "A25A", "rgb(0, 0, 0)", "Ext: BLACK", "rgb(0, 0, 0)", "Ext: BLACK", "Schaumburg Toyota")
+        +catalogProductSlide("img/content/catalog/2020 RAV4 XLE AWD", "2017 RAV4 LE AWD", "2020 RAV4 XLE AWD", "$32,598", "25,285 mi", "5.49% APR*", "2.5l", "2AR", "rgb(38, 160, 222)", "Ext: CYAN METALLIC", "rgb(114, 114, 108)", "Int: MOONSTONE", "Schaumburg Toyota")
+        +catalogProductSlide("img/content/catalog/2021 RAV4 Adventure AWD", "2021 RAV4 Adventure AWD", "2021 RAV4 Adventure AWD", "$33,588", "60,131 mi", "5.49% APR*", "2.5l", "A25A", "rgb(38, 160, 222)", "Ext: BLUE FLAME", "rgb(0, 0, 0)", "Int: BLACK", "Schaumburg Toyota")
+        +catalogProductSlide("img/content/catalog/2019 RAV4 Adventure AWD", "2019 RAV4 Adventure AWD", "2019 RAV4 Adventure AWD", "$31,994", "73,068 mi", "5.49% APR*", "2.5l", "A25A", "rgb(116, 0, 0)", "Ext: RUBY FLARE PEARL", "rgb(0, 0, 0)", "Int: BLACK", "Schaumburg Toyota")
+        +catalogProductSlide("img/content/catalog/2021 RAV4 XLE AWD", "2021 RAV4 XLE AWD", "2021 RAV4 XLE AWD", "$32,774", "60,328 mi", "5.49% APR*", "2.5l", "A25A", "rgb(17, 17, 17)", "Ext: MIDNIGHT BLACK METALLIC", "rgb(0, 0, 0)", "Int: BLACK", "Schaumburg Toyota")
+        +catalogProductSlide("img/content/catalog/2019 RAV4 XLE", "2019 RAV4 XLE", "2019 RAV4 XLE", "$30,459", "62,501 mi", "5.49% APR*", "2.5l", "A25A", "rgb(17, 17, 17)", "Ext: MIDNIGHT BLACK METAL", "rgb(0, 0, 0)", "Int: BLACK", "Schaumburg Toyota")
+        +catalogProductSlide("img/content/catalog/2020 RAV4 XLE AWD1", "2020 RAV4 XLE AWD", "2020 RAV4 XLE AWD", "$31,259", "52,783 mi", "5.49% APR*", "2.5l", "A25A", "rgb(190, 205, 188)", "Ext: LUNAR ROCK", "rgb(114, 114, 108)", "Int: GRAY", "Schaumburg Toyota")
+        +catalogProductSlide("img/content/catalog/2021 RAV4 TRD Off-Road AWD", "2021 RAV4 TRD Off-Road AWD", "2021 RAV4 TRD Off-Road AWD", "$42,500", "25,162 mi", "5.49% APR*", "2.5l", "A25A", "rgb(255, 255, 255)", "Ext: SUPER WHITE (Fleet Only E)", "rgb(0, 0, 0)", "Int: BLACK", "Schaumburg Toyota")
+        +catalogProductSlide("img/content/catalog/2019 RAV4 XLE Premium", "2019 RAV4 XLE Premium", "2019 RAV4 XLE Premium", "$33,258", "60,925 mi", "5.49% APR*", "2.5l", "A25A", "rgb(89, 88, 93)", "Ext: GRAY ME.", "rgb(17, 17, 17)", "Int: BLACK", "Schaumburg Toyota")
+        +catalogProductSlide("img/content/catalog/2021 RAV4 XLE AWD2", "2021 RAV4 XLE AWD", "2021 RAV4 XLE AWD", "$26,988", "66,589 mi", "5.49% APR*", "2.5l", "A25A", "rgb(38, 160, 222)", "Ext: BLUE FLAME", "rgb(17, 17, 17)", "Int: BLACK", "McGrath Elmhurst Toyota")
+        +catalogProductSlide("img/content/catalog/2020 RAV4 XLE AWD2", "2020 RAV4 XLE AWD", "2020 RAV4 XLE AWD", "$33,988", "27,615 mi", "5.49% APR*", "2.5l", "A25A", "rgb(89, 88, 93)", "Ext: MAGNETIC GRAY MET.", "rgb(17, 17, 17)", "Int: S/D BLACK", "McGrath Elmhurst Toyota")
+        +catalogProductSlide("img/content/catalog/2019 RAV4 Adventure AWD", "2019 RAV4 Adventure AWD", "2019 RAV4 Adventure AWD", "$31,994", "73,068 mi", "5.49% APR*", "2.5l", "A25A", "rgb(116, 0, 0)", "Ext: RUBY FLARE PEARL", "rgb(0, 0, 0)", "Int: BLACK", "Schaumburg Toyota")
