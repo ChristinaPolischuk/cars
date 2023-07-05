@@ -8193,9 +8193,9 @@ table th {
 }
 
 .catalog__product {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -8252,7 +8252,32 @@ table th {
 }
 
 .catalog__product-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-bottom: 10px;
   padding: 10px;
+}
+
+.catalog__product-price {
+  margin-top: auto;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.catalog__product-price span {
+  font-size: 13px;
+}
+
+.catalog__product-price span sup {
+  color: #B62B3A;
 }
 
 .catalog__product-info {
@@ -8328,10 +8353,10 @@ table th {
 }
 
 .catalog__product-footer {
+  margin-top: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 10px;
   border-top: 1px solid #D6D6D6;
 }
 
@@ -8366,7 +8391,16 @@ table th {
 }
 
 .catalog-line-slider .slick-track {
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
   gap: 15px;
+  padding: 15px 5px;
+}
+
+.catalog-line-slider .slick-slide > div,
+.catalog-line-slider .slick-slide > div > .catalog__product {
+  height: 100%;
 }
 
 .tabs-nav {
@@ -9138,8 +9172,19 @@ table th {
     width: 32%;
   }
 
+  .payment {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
   .payment__img {
     margin-right: 10px;
+  }
+
+  .payment__img {
+    margin: 0 auto 30px;
   }
 
   .payment__number {
@@ -9594,6 +9639,29 @@ table th {
     left: 0;
     width: 100%;
     height: 0.5px;
+  }
+
+  .payment__content {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .payment__detail {
+    width: 48%;
+    -webkit-box-flex: 1;
+    -ms-flex: auto;
+    flex: auto;
+    padding: 10px;
+  }
+
+  .payment__detail:not(:last-child) {
+    border-right: none;
+  }
+
+  .payment__detail:nth-child(1),
+  .payment__detail:nth-child(2) {
+    border-bottom: 1px solid #D6D6D6;
   }
 
   .shop-cars {
