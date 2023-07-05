@@ -1,9 +1,12 @@
 .payment {
   display: flex;
+  @include media-lg {
+    flex-direction: column;
+  }
   & ~ * {
     margin-top: 40px;
   }
-  
+
   &__img {
     flex: none;
     margin-right: 25px;
@@ -11,12 +14,19 @@
     @include media-lg {
       margin-right: 10px;
     }
+    @include media-lg {
+      margin: 0 auto 30px;      
+    }
     img {
       width: 100%;
     }
   }
   &__content {
     display: flex;
+    @include media-mds {
+      flex-wrap: wrap;
+      gap: 15px;
+    }
   }
   &__detail {
     flex: 1;
@@ -24,8 +34,22 @@
     flex-direction: column;
     padding: 0 10px;
     text-align: center;
+    @include media-mds {
+      width: 48%;
+      flex: auto;
+      padding: 10px;
+    }
     &:not(:last-child) {
       border-right: 1px solid $grey_color_medium;
+      @include media-mds {
+        border-right: none;
+      }
+    }
+    &:nth-child(1),
+    &:nth-child(2) {
+      @include media-mds {
+        border-bottom: 1px solid $grey_color_medium;
+      }
     }
   }
   &__number {

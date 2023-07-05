@@ -1,3 +1,18 @@
+mixin acessoriesSlide (src, title, price)
+  .catalog__product 
+    a.catalog__product-img(href="")
+      picture
+        source(srcset=`${src}.avif`, type="image/avif")
+        source(srcset=`${src}.webp`, type="image/webp")
+        img(src=`${src}.jpg`, alt=title)
+    .catalog__product-body
+      h6.catalog__product-title=title 
+      span.catalog__product-price=price
+        span msrp <sup>*</sup>
+    .catalog__product-footer 
+      .catalog__product-footer-item
+        a.catalog__product-link-details(href="") View Details
+
 mixin catalogProductSlide(src, alt, text, price, miles, percent, l, ar, bgExt, bgExtText, bgInt, bgIntText, locationText)
   .catalog__product 
     a.catalog__product-img(href="")
@@ -54,18 +69,16 @@ section.section-middle
               button.preview-slider__btn.preview-slider__btn--next
                 +icon("arrow-right", "preview-slider__arrow")
             .js-catalog-line-slider 
-              +catalogProductSlide("img/content/catalog/2017 RAV4 LE AWD", "2017 RAV4 LE AWD", "2017 RAV4 LE AWD", "$32,598", "25,285 mi", "5.49% APR*", "2.5l", "A25A", "rgb(0, 0, 0)", "Ext: BLACK", "rgb(0, 0, 0)", "Ext: BLACK", "Schaumburg Toyota")
-              +catalogProductSlide("img/content/catalog/2020 RAV4 XLE AWD", "2017 RAV4 LE AWD", "2020 RAV4 XLE AWD", "$32,598", "25,285 mi", "5.49% APR*", "2.5l", "2AR", "rgb(38, 160, 222)", "Ext: CYAN METALLIC", "rgb(114, 114, 108)", "Int: MOONSTONE", "Schaumburg Toyota")
-              +catalogProductSlide("img/content/catalog/2021 RAV4 Adventure AWD", "2021 RAV4 Adventure AWD", "2021 RAV4 Adventure AWD", "$33,588", "60,131 mi", "5.49% APR*", "2.5l", "A25A", "rgb(38, 160, 222)", "Ext: BLUE FLAME", "rgb(0, 0, 0)", "Int: BLACK", "Schaumburg Toyota")
-              +catalogProductSlide("img/content/catalog/2019 RAV4 Adventure AWD", "2019 RAV4 Adventure AWD", "2019 RAV4 Adventure AWD", "$31,994", "73,068 mi", "5.49% APR*", "2.5l", "A25A", "rgb(116, 0, 0)", "Ext: RUBY FLARE PEARL", "rgb(0, 0, 0)", "Int: BLACK", "Schaumburg Toyota")
-              +catalogProductSlide("img/content/catalog/2021 RAV4 XLE AWD", "2021 RAV4 XLE AWD", "2021 RAV4 XLE AWD", "$32,774", "60,328 mi", "5.49% APR*", "2.5l", "A25A", "rgb(17, 17, 17)", "Ext: MIDNIGHT BLACK METALLIC", "rgb(0, 0, 0)", "Int: BLACK", "Schaumburg Toyota")
-              +catalogProductSlide("img/content/catalog/2019 RAV4 XLE", "2019 RAV4 XLE", "2019 RAV4 XLE", "$30,459", "62,501 mi", "5.49% APR*", "2.5l", "A25A", "rgb(17, 17, 17)", "Ext: MIDNIGHT BLACK METAL", "rgb(0, 0, 0)", "Int: BLACK", "Schaumburg Toyota")
-              +catalogProductSlide("img/content/catalog/2020 RAV4 XLE AWD1", "2020 RAV4 XLE AWD", "2020 RAV4 XLE AWD", "$31,259", "52,783 mi", "5.49% APR*", "2.5l", "A25A", "rgb(190, 205, 188)", "Ext: LUNAR ROCK", "rgb(114, 114, 108)", "Int: GRAY", "Schaumburg Toyota")
-              +catalogProductSlide("img/content/catalog/2021 RAV4 TRD Off-Road AWD", "2021 RAV4 TRD Off-Road AWD", "2021 RAV4 TRD Off-Road AWD", "$42,500", "25,162 mi", "5.49% APR*", "2.5l", "A25A", "rgb(255, 255, 255)", "Ext: SUPER WHITE (Fleet Only E)", "rgb(0, 0, 0)", "Int: BLACK", "Schaumburg Toyota")
-              +catalogProductSlide("img/content/catalog/2019 RAV4 XLE Premium", "2019 RAV4 XLE Premium", "2019 RAV4 XLE Premium", "$33,258", "60,925 mi", "5.49% APR*", "2.5l", "A25A", "rgb(89, 88, 93)", "Ext: GRAY ME.", "rgb(17, 17, 17)", "Int: BLACK", "Schaumburg Toyota")
-              +catalogProductSlide("img/content/catalog/2021 RAV4 XLE AWD2", "2021 RAV4 XLE AWD", "2021 RAV4 XLE AWD", "$26,988", "66,589 mi", "5.49% APR*", "2.5l", "A25A", "rgb(38, 160, 222)", "Ext: BLUE FLAME", "rgb(17, 17, 17)", "Int: BLACK", "McGrath Elmhurst Toyota")
-              +catalogProductSlide("img/content/catalog/2020 RAV4 XLE AWD2", "2020 RAV4 XLE AWD", "2020 RAV4 XLE AWD", "$33,988", "27,615 mi", "5.49% APR*", "2.5l", "A25A", "rgb(89, 88, 93)", "Ext: MAGNETIC GRAY MET.", "rgb(17, 17, 17)", "Int: S/D BLACK", "McGrath Elmhurst Toyota")
-              +catalogProductSlide("img/content/catalog/2019 RAV4 Adventure AWD", "2019 RAV4 Adventure AWD", "2019 RAV4 Adventure AWD", "$31,994", "73,068 mi", "5.49% APR*", "2.5l", "A25A", "rgb(116, 0, 0)", "Ext: RUBY FLARE PEARL", "rgb(0, 0, 0)", "Int: BLACK", "Schaumburg Toyota")
+              +acessoriesSlide("img/content/accessories/exterior/PT226-42210-12", "Blackout Emblem Overlay - TRD Off Road & Adventure", "$45")
+              +acessoriesSlide("img/content/accessories/exterior/PT278-42191", "Blackout Emblem Overlay", "$45")
+              +acessoriesSlide("img/content/accessories/exterior/PT278-42192", "Blackout Emblem Overlays - XLE", "$110")
+              +acessoriesSlide("img/content/accessories/exterior/PT413-42191", "Blackout Emblem Overlays - XLE AWD", "$110")
+              +acessoriesSlide("img/content/accessories/exterior/PT413-42200-02", "Blackout Emblem Overlays - LE", "$110")
+              +acessoriesSlide("img/content/accessories/exterior/PT747-42210-02", "Blackout Emblem Overlays - Limited Model", "$110")
+              +acessoriesSlide("img/content/accessories/exterior/PT747-42211-02", "Black Lower Body Graphics", "$140")
+              +acessoriesSlide("img/content/accessories/exterior/PT938-42210", "Front Headlight Graphic - Black", "$140")
+              +acessoriesSlide("img/content/accessories/exterior/PTN59-00225", "Yakima SlimShady 6.5' Lightweight Roof M", "$389")
+              
         .subtab-content.js-subtab-content#interior
           .catalog-line-slider
             .preview-slider__navigation
@@ -74,18 +87,15 @@ section.section-middle
               button.preview-slider__btn.preview-slider__btn--next
                 +icon("arrow-right", "preview-slider__arrow")
             .js-catalog-line-slider 
-              +catalogProductSlide("img/content/catalog/2019 RAV4 Adventure AWD", "2019 RAV4 Adventure AWD", "2019 RAV4 Adventure AWD", "$31,994", "73,068 mi", "5.49% APR*", "2.5l", "A25A", "rgb(116, 0, 0)", "Ext: RUBY FLARE PEARL", "rgb(0, 0, 0)", "Int: BLACK", "Schaumburg Toyota")
-              +catalogProductSlide("img/content/catalog/2020 RAV4 XLE AWD", "2017 RAV4 LE AWD", "2020 RAV4 XLE AWD", "$32,598", "25,285 mi", "5.49% APR*", "2.5l", "2AR", "rgb(38, 160, 222)", "Ext: CYAN METALLIC", "rgb(114, 114, 108)", "Int: MOONSTONE", "Schaumburg Toyota")
-              +catalogProductSlide("img/content/catalog/2017 RAV4 LE AWD", "2017 RAV4 LE AWD", "2017 RAV4 LE AWD", "$32,598", "25,285 mi", "5.49% APR*", "2.5l", "A25A", "rgb(0, 0, 0)", "Ext: BLACK", "rgb(0, 0, 0)", "Ext: BLACK", "Schaumburg Toyota")
-              +catalogProductSlide("img/content/catalog/2021 RAV4 Adventure AWD", "2021 RAV4 Adventure AWD", "2021 RAV4 Adventure AWD", "$33,588", "60,131 mi", "5.49% APR*", "2.5l", "A25A", "rgb(38, 160, 222)", "Ext: BLUE FLAME", "rgb(0, 0, 0)", "Int: BLACK", "Schaumburg Toyota")
-              +catalogProductSlide("img/content/catalog/2019 RAV4 Adventure AWD", "2019 RAV4 Adventure AWD", "2019 RAV4 Adventure AWD", "$31,994", "73,068 mi", "5.49% APR*", "2.5l", "A25A", "rgb(116, 0, 0)", "Ext: RUBY FLARE PEARL", "rgb(0, 0, 0)", "Int: BLACK", "Schaumburg Toyota")
-              +catalogProductSlide("img/content/catalog/2021 RAV4 XLE AWD", "2021 RAV4 XLE AWD", "2021 RAV4 XLE AWD", "$32,774", "60,328 mi", "5.49% APR*", "2.5l", "A25A", "rgb(17, 17, 17)", "Ext: MIDNIGHT BLACK METALLIC", "rgb(0, 0, 0)", "Int: BLACK", "Schaumburg Toyota")
-              +catalogProductSlide("img/content/catalog/2019 RAV4 XLE", "2019 RAV4 XLE", "2019 RAV4 XLE", "$30,459", "62,501 mi", "5.49% APR*", "2.5l", "A25A", "rgb(17, 17, 17)", "Ext: MIDNIGHT BLACK METAL", "rgb(0, 0, 0)", "Int: BLACK", "Schaumburg Toyota")
-              +catalogProductSlide("img/content/catalog/2020 RAV4 XLE AWD1", "2020 RAV4 XLE AWD", "2020 RAV4 XLE AWD", "$31,259", "52,783 mi", "5.49% APR*", "2.5l", "A25A", "rgb(190, 205, 188)", "Ext: LUNAR ROCK", "rgb(114, 114, 108)", "Int: GRAY", "Schaumburg Toyota")
-              +catalogProductSlide("img/content/catalog/2021 RAV4 TRD Off-Road AWD", "2021 RAV4 TRD Off-Road AWD", "2021 RAV4 TRD Off-Road AWD", "$42,500", "25,162 mi", "5.49% APR*", "2.5l", "A25A", "rgb(255, 255, 255)", "Ext: SUPER WHITE (Fleet Only E)", "rgb(0, 0, 0)", "Int: BLACK", "Schaumburg Toyota")
-              +catalogProductSlide("img/content/catalog/2019 RAV4 XLE Premium", "2019 RAV4 XLE Premium", "2019 RAV4 XLE Premium", "$33,258", "60,925 mi", "5.49% APR*", "2.5l", "A25A", "rgb(89, 88, 93)", "Ext: GRAY ME.", "rgb(17, 17, 17)", "Int: BLACK", "Schaumburg Toyota")
-              +catalogProductSlide("img/content/catalog/2021 RAV4 XLE AWD2", "2021 RAV4 XLE AWD", "2021 RAV4 XLE AWD", "$26,988", "66,589 mi", "5.49% APR*", "2.5l", "A25A", "rgb(38, 160, 222)", "Ext: BLUE FLAME", "rgb(17, 17, 17)", "Int: BLACK", "McGrath Elmhurst Toyota")
-              +catalogProductSlide("img/content/catalog/2020 RAV4 XLE AWD2", "2020 RAV4 XLE AWD", "2020 RAV4 XLE AWD", "$33,988", "27,615 mi", "5.49% APR*", "2.5l", "A25A", "rgb(89, 88, 93)", "Ext: MAGNETIC GRAY MET.", "rgb(17, 17, 17)", "Int: S/D BLACK", "McGrath Elmhurst Toyota")
+              +acessoriesSlide("img/content/accessories/interior/PT908-42200-20", "All-Weather Floor Liners for TRD Off-Road RAV4 Models", "$179")
+              +acessoriesSlide("img/content/accessories/interior/PT908-42215-20", "All-Weather Floor Liners", "$179")
+              +acessoriesSlide("img/content/accessories/interior/missing-part-img", "Brochure for Alloy Wheel Locks", "$0.99")
+              +acessoriesSlide("img/content/accessories/interior/PT347-42190", "Cargo Net - Spider", "$45")
+              +acessoriesSlide("img/content/accessories/interior/missing-part-img", "Go Rhino Xventure Gear - Recovery Bag : Associated Accessory Products (AAP)", "$145.13")
+              +acessoriesSlide("img/content/accessories/interior/missing-part-img", "Go Rhino Xventure Gear - Recovery Bag - Large : Associated Accessory Products (AAP)", "$280.31")
+              +acessoriesSlide("img/content/accessories/interior/PT427-00120", "Cargo Tote - Black", "$60")
+              +acessoriesSlide("img/content/accessories/interior/PT908-42203-02", "Cargo Liner for TRD Off-Road RAV4", "$130")
+              +acessoriesSlide("img/content/accessories/interior/PT908-42210-02", "Cargo Liner - Bl", "$130")
         .subtab-content.js-subtab-content#how-to-buy
           p Your Toyota dealer is the best place to buy accessories to help make sure that you are getting the right equipment for your specific vehicle. And with many parts in inventory, the dealership can help make your buying process quick and easy.
           a.btn(href="") Find a Dealer
