@@ -1,8 +1,14 @@
 .adress {
   display: flex;
   gap: 30px;
+  @include media-md {
+    flex-direction: column;
+  }
   &-info, &-map {
     flex: 1;
+    @include media-md {
+      flex: auto;
+    }
   }
   &-row + &-row {
     margin-top: 10px;
@@ -36,6 +42,8 @@
   &-map {
     width: 100%;
     height: 200px;
-    border: 1px solid #000;
+    background-image: url("../img/general/map.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }

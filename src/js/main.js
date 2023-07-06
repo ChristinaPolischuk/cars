@@ -25,7 +25,6 @@ import select2 from "./module/select2";
 import tabs from "./module/tabs";
 import modelSlider from "./module/modelSlider";
 import popupGallery from "./module/popupGallery";
-import adressMap from "./module/adressMap";
 import catalogLineSlider from "./module/catalogLineSlider";
 
 $(window).on("load",function(){
@@ -57,7 +56,6 @@ $(window).on("load",function(){
     tabs();
     modelSlider();
     popupGallery();
-    adressMap();
     catalogLineSlider();
 });
 
